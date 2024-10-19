@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="e416dfa1-aae0-439f-8eb3-37f3e8afbf95">
+		<Name>ВнутренняяЛогистика</Name>
+		<Code/>
+		<Description>Внутренняя логистика</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="1656905d-7d79-4131-b7a4-2001fc00438b">
+				<Name>ЗоныДоставки</Name>
+				<Code/>
+				<Description>Зоны доставки</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="e570881e-10bd-48a0-8c70-f94a36cac9cf">
+						<Name>ЗоныДоставкиМаркетплейсы</Name>
+						<Code/>
+						<Description>Зоны доставки маркетплейсы</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="f05e0921-f3f4-4959-86d5-6f7365d5b25a">
+						<Name>ЗоныДоставкиРегионы</Name>
+						<Code/>
+						<Description>Зоны доставки регионы</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="18494ac5-6fd2-4e7d-b2f6-4540f0ea208a">
+						<Name>ЗоныДоставкиСегменты</Name>
+						<Code/>
+						<Description>Зоны доставки сегменты</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="3b10d00c-bdc9-4938-ba42-e42666c0a5ce">
+				<Name>ПолучателиПисем</Name>
+				<Code/>
+				<Description>Получатели писем</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="9ca0ee4f-eb10-4c50-b160-d4eb114c0b48">
+						<Name>ПолучателиИзмененнойКонтактнойИнформацииМагазина</Name>
+						<Code/>
+						<Description>Получатели измененной контактной информации магазина</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="d7c76fdf-15d2-408f-8959-12d503c8c7c1">
+				<Name>ТранспортнаяНакладная</Name>
+				<Code/>
+				<Description>Транспортная накладная</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="44986db8-0803-420c-a1c2-be70d69426dd">
+						<Name>КоэффициентВесаКороба</Name>
+						<Code/>
+						<Description>Коэффициент веса короба</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="d33ce4a9-a614-40df-b9c6-7e0a840d1577">
+						<Name>КоэффициентОбъемаКороба</Name>
+						<Code/>
+						<Description>Коэффициент объема короба</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="7049dabd-dd9d-4f6f-b91b-1f0adbacc499">
+				<Name>БизнесРегионКалининград</Name>
+				<Code/>
+				<Description>Бизнес-регион Калининград</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="d29e9974-a5e1-4b27-81d8-d8c2a4bc92c1">
+				<Name>БизнесРегионыПеремещенийТоваровЧерезЦС</Name>
+				<Code/>
+				<Description>Бизнес-регионы перемещений товаров через ЦС</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="b4cd075d-28a2-423c-bfc4-2dc25ddeac24">
+		<Name>Закупки</Name>
+		<Code/>
+		<Description>Закупки</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="83d4c4bd-3518-4e96-91f6-f05ee195d33d">
+				<Name>ФормированиеПоступлений</Name>
+				<Code/>
+				<Description>Формирование поступлений</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="75f0896d-5a5d-42e5-aae4-b3f1fd60392b">
+						<Name>СкладПоступления</Name>
+						<Code/>
+						<Description>Склад поступления</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="fb0581a3-ef9b-42a4-b7af-591300c20e2e">
+				<Name>ФормированиеТаможеннойДекларации</Name>
+				<Code/>
+				<Description>Формирование таможенной декларации</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="2585bbd3-4690-4b80-a0d5-aeaeeb7cca7e">
+						<Name>СтатьяРасходовСборГТД</Name>
+						<Code/>
+						<Description>Статья расходов сбор ГТД</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="0d2cba3e-ba4a-45a5-bcd5-7d075abdb8a0">
+						<Name>СтатьяРасходовШтрафГТД</Name>
+						<Code/>
+						<Description>Статья расходов штраф ГТД</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="85db9b7c-4447-468a-b85b-af370852aba8">
+		<Name>Инвентаризация</Name>
+		<Code/>
+		<Description>Инвентаризация</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="0c3f6ad5-1162-4383-9b25-fa89e1ad00ed">
+				<Name>СтатьяДоходовДляОприходованияИзлишковТоваров</Name>
+				<Code/>
+				<Description>Статья доходов для оприходования излишков товаров</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="822abe07-435c-4d49-92c5-581cac62368e">
+				<Name>СтатьяРасходовДляСписанияНедостачТоваров</Name>
+				<Code/>
+				<Description>Статья расходов для списания недостач товаров</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="777a1068-e540-40f7-96a1-a1bd74f2dd72">
+		<Name>Кассы</Name>
+		<Code/>
+		<Description>Кассы</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="fc51d60b-7bbb-4189-805a-05e1c4e141bd">
+				<Name>АнализируемыйПериодДляРасчетаКассовыхЛимитов</Name>
+				<Code/>
+				<Description>Анализируемый период для расчета кассовых лимитов</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c96e169a-b200-4d55-9d55-2b0c347f359b">
+				<Name>МагазиныДляАвтоматическогоРасчетаКассовыхЛимитов</Name>
+				<Code/>
+				<Description>Магазины для автоматического расчета кассовых лимитов</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="5a6feedc-3a11-4f31-a87e-0a8d097515ae">
+		<Name>Нси</Name>
+		<Code/>
+		<Description>НСИ</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="bc0486a3-1274-4e5d-8ddf-494a6bb4f137">
+				<Name>ВидыЦен</Name>
+				<Code/>
+				<Description>Виды цен</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="57dbd7a3-7b46-43d8-9d0f-55ad06502b8b">
+						<Name>ВидЦеныСебестоимостьДляВнутреннегоПотребления</Name>
+						<Code/>
+						<Description>Вид цены "себестоимость" для внутреннего потребления</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="6afcb3e1-0ba7-4d8c-9cc3-fe4aad890eae">
+						<Name>ВидЦеныДляЦеныНаЦеннике</Name>
+						<Code/>
+						<Description>Вид цены для цены на ценнике</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="76ae3470-4777-4867-9c1d-3905544c8f08">
+						<Name>ВидЦеныПервоначальныйРозничный</Name>
+						<Code/>
+						<Description>Вид цены первоначальный розничный</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="11d93ca1-83c0-4611-bd2a-5358798d653d">
+						<Name>ВидЦеныПлановаяСебестоимостьТоваров</Name>
+						<Code/>
+						<Description>Вид цены плановая себестоимость товаров</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="41437be8-75c5-48bf-848b-78830627212e">
+						<Name>ВидЦеныРозничный</Name>
+						<Code/>
+						<Description>Розничный</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="bb88984f-bd0b-4fc3-8c40-2914e3eaafcc">
+				<Name>БлокирующаяЦена</Name>
+				<Code/>
+				<Description>Блокирующая цена</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="31a17c65-9c1e-4bcd-8284-d7311d40c008">
+				<Name>ВидНоменклатурыСОбщимиКатегориямиТоваров</Name>
+				<Code/>
+				<Description>Вид номенклатуры с общими категориями товаров</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1f2d6cec-7afd-4af8-802d-5ec33445a746">
+				<Name>ТестовыеДанныеТСД</Name>
+				<Code/>
+				<Description>Тестовые данные ТСД</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="39231009-4de0-4d06-bbf0-f89cf3378823">
+				<Name>ТомХраненияИзображенийНоменклатуры</Name>
+				<Code/>
+				<Description>Том хранения изображений номенклатуры</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1743b5a7-7a7f-41c8-bb60-cdea6c244ab9">
+				<Name>ШаблонЦенника</Name>
+				<Code/>
+				<Description>Шаблон ценника</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="5568f5f5-517c-4352-bd00-906f378687a6">
+		<Name>Продажи</Name>
+		<Code/>
+		<Description>Продажи</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="b0249a50-7b38-42b0-b583-6cb5f3e310de">
+				<Name>ИнтернетМагазин</Name>
+				<Code/>
+				<Description>Интернет магазин</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="a6331b76-ce09-4ad8-8914-7de966b1a0bb">
+						<Name>Подели</Name>
+						<Code/>
+						<Description>Подели</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="be6dff8c-4cb5-4e8c-8b2b-580a393fcef4">
+						<Name>ПодразделениеИм</Name>
+						<Code/>
+						<Description>Подразделение ИМ</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="746a89e4-dd36-4ff5-8582-69a3e50c49d5">
+						<Name>СбпОплата</Name>
+						<Code/>
+						<Description>Сбп оплата</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="9da239be-75ed-4871-8cf7-1aaf74bf8a23">
+						<Name>СервисПодели</Name>
+						<Code/>
+						<Description>Сервис "Подели"</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="11171abc-5118-4892-ae70-2fe46fc37642">
+						<Name>ТиповоеСоглашениеДляРозничногоПокупателяИм</Name>
+						<Code/>
+						<Description>Типовое соглашение для розничного покупателя ИМ</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="b3757995-3b27-47bc-b7ba-25550281ad00">
+						<Name>ЦеныИМ</Name>
+						<Code/>
+						<Description>Цены ИМ</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="c48de20d-5d72-4bcc-a520-0a6eef2e4ba4">
+						<Name>ЭквайрингОплата</Name>
+						<Code/>
+						<Description>Эквайринг оплата</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="082f7ed0-f25c-49c4-8ac1-6078d2da38d7">
+				<Name>Маркетплейсы</Name>
+				<Code/>
+				<Description>Маркетплейсы</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="7659356c-66ef-4e84-b461-c99dfbed658b">
+						<Name>Lamoda</Name>
+						<Code/>
+						<Description>Lamoda</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="7c131f8d-d992-4e5e-9f77-8d1c835bfb4f">
+						<Name>Ozon</Name>
+						<Code/>
+						<Description>Ozon</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="cd8b5963-fee9-4789-8c42-f6a04912f261">
+						<Name>WB</Name>
+						<Code/>
+						<Description>WB</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="a3e4cd3b-c452-4322-8f48-1a21ed8a2aaf">
+				<Name>ФулфилментАутсорс</Name>
+				<Code/>
+				<Description>Фулфилмент аутсорс</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="33b692c5-2802-44d9-b1d2-e264962cc184">
+						<Name>ВидЦеныДляАнонсаПоставкиНаПФС</Name>
+						<Code/>
+						<Description>Вид цены для анонса поставки на ПФС</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="22c08a0e-60f0-482a-97cd-fee66f0e12b9">
+						<Name>ГрузополучательДляАППНаПФС</Name>
+						<Code/>
+						<Description>Грузополучатель для АПП на ПФС</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="0efd374e-7fe0-4f9b-ae9c-36a1cbd33f27">
+						<Name>ДоговорКонтрагентаДляУПДНаПФС</Name>
+						<Code/>
+						<Description>Договор контрагента для УПД на ПФС</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="c3e2c7df-9e28-4aee-8f62-11974b888b0c">
+		<Name>Расходы</Name>
+		<Code/>
+		<Description>Расходы</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="12941798-506b-4f36-a28e-26a4e0bf345f">
+				<Name>КатегорияЭксплуатацииФорменнойОдежды</Name>
+				<Code/>
+				<Description>Категория эксплуатации форменной одежды</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="63338f6e-38c0-4545-b97a-998cec8746eb">
+		<Name>РегламентированныйУчет</Name>
+		<Code/>
+		<Description>Регламентированный учет</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="4f2fbe8c-da10-4574-afe1-b24bad545c95">
+				<Name>ВалютаРасчетаАрендыПоУмолчанию</Name>
+				<Code/>
+				<Description>Валюта расчета аренды по умолчанию</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="e3c2217a-320f-4378-a8e5-bb24858410cf">
+		<Name>СБИС</Name>
+		<Code/>
+		<Description>СБИС</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="01be9093-7363-4b29-a0a1-df9bcbf8cb3b">
+				<Name>ВнешняяОбработкаСБИС</Name>
+				<Code/>
+				<Description>Внешняя обработка СБИС</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="ab310b7c-3d6d-43d6-930a-a105b53fc180">
+				<Name>ЛогинСервисаСБИС</Name>
+				<Code/>
+				<Description>Логин сервиса СБИС</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0e57cb48-9162-47d8-9a58-e1b42d87a83c">
+				<Name>МетрикиОбменаСервисаСБИС</Name>
+				<Code/>
+				<Description>Метрики обмена сервиса СБИС</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0fcbf7f3-db82-48b5-b279-7cd9085268cd">
+				<Name>ОтправкаВСБИСБезПрисоединенныхФайлов</Name>
+				<Code/>
+				<Description>Отправка в СБИС (без присоединенных файлов)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="b69fa659-1db9-48ea-930a-9b898586bdc6">
+				<Name>ПарольСервисаСБИС</Name>
+				<Code/>
+				<Description>Пароль сервиса СБИС</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3fc8e221-842d-4456-ae6f-88aab0ec4fbe">
+				<Name>ПутьКСервисуСБИС</Name>
+				<Code/>
+				<Description>Путь к сервису СБИС</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="e388ad92-4657-4dd7-b90d-1990303b317d">
+		<Name>СкладскойУчет</Name>
+		<Code/>
+		<Description>Складской учет</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="1c2c75e6-e60b-42d6-9f15-52b21f05749a">
+				<Name>Склады</Name>
+				<Code/>
+				<Description>Склады</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="7455805a-e31f-4d98-af61-bb62b1c224a0">
+						<Name>Магазины</Name>
+						<Code/>
+						<Description>Магазины</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="cabb8b7f-4838-4902-83dd-07522cc78bdf">
+						<Name>СкладEsolutions</Name>
+						<Code/>
+						<Description>Склад eSolutions</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="27cb999b-39f4-4475-948b-f8ba5155191f">
+						<Name>СкладБрака</Name>
+						<Code/>
+						<Description>Склад брака</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="15aa8e4d-f042-4765-8fbe-4d378e91bd14">
+						<Name>СкладОнлайнКороба</Name>
+						<Code/>
+						<Description>Склад онлайн-короба</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="70e8b135-5e56-443c-9b2c-bef99591c642">
+						<Name>СкладОнлайнПикинг</Name>
+						<Code/>
+						<Description>Склад онлайн-пикинг</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="a8f07fc3-d177-41bc-a2bb-36d7b02ef7b5">
+						<Name>СкладОтгрузкиКалининград</Name>
+						<Code/>
+						<Description>Склад отгрузки Калининград</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="c6a36dfb-bfc0-4bac-a754-3cf17e978232">
+						<Name>СкладОтгрузкиЦентральногоСкладаДляЛогистики</Name>
+						<Code/>
+						<Description>Склад отгрузки центрального склада для логистики</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="36e3043e-d269-4e02-8805-ce20f2148e6a">
+						<Name>СкладыECom</Name>
+						<Code/>
+						<Description>Склады E-com</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="8ff73c0c-7291-468f-8870-be82d10ed31a">
+						<Name>СкладыОтгрузкиЦентральногоСклада</Name>
+						<Code/>
+						<Description>Склады отгрузки центрального склада</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="e304e67f-f592-4295-9c49-97bc7e5efd51">
+						<Name>СкладыТекущейБазыДанных</Name>
+						<Code/>
+						<Description>Склады текущей базы данных</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="6f887b9c-1812-4342-b404-9f3ec17b9834">
+						<Name>ЦентральныеСклады</Name>
+						<Code/>
+						<Description>Центральные склады</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="c5f9bb61-eda3-4c19-b5c9-a2be37561967">
+				<Name>ВнешняяОбработкаESolutionsSecureFTP</Name>
+				<Code/>
+				<Description>Внешняя обработка eSolutions SFTP</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f29c6798-2542-4aa2-907d-18a00fc93d32">
+				<Name>ГруппаВидовНоменклатурыАксессуаров</Name>
+				<Code/>
+				<Description>Группа видов номенклатуры аксессуаров</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="ff0e8136-4f80-41bd-990f-0645c73c5157">
+				<Name>ДатаНачалаДвиженияКоробовПоДокументамУТ11</Name>
+				<Code/>
+				<Description>Дата начала движения коробов по документам у т11</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="dad165af-8011-4a6c-a9a4-57c63c42448e">
+				<Name>НормативСборкиТовараДляМежскладскогоПеремещенияВДень</Name>
+				<Code/>
+				<Description>Норматив сборки товара для межскладского перемещения (в день)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="b1ea9b01-f33e-4e11-9f25-117f45bb9b00">
+				<Name>ОсновнойГрафикСборкиОтгрузкиИзМагазинов</Name>
+				<Code/>
+				<Description>Основной график сборки отгрузки из магазинов</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="836c90c3-1ded-46d1-8d75-785bb2b7e099">
+				<Name>СкладскиеГруппыНоменклатурыБезУпаковок</Name>
+				<Code/>
+				<Description>Складские группы номенклатуры без упаковок</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a79d8fc7-672c-4467-b720-055834e5f13f">
+				<Name>СтатьяРасходовСписаниеБрак</Name>
+				<Code/>
+				<Description>Статья расходов списание брак</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="5eb97f26-93dc-4a0e-9d63-db3795459c40">
+				<Name>СтатьяРасходовСписаниеПрочее</Name>
+				<Code/>
+				<Description>Статья расходов списание прочее</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="be99b746-569a-49d8-8426-95d42e6f55b0">
+				<Name>ТипоразмерБезразмернаяЯчейка</Name>
+				<Code/>
+				<Description>Типоразмер безразмерная ячейка</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="8aa0e913-e27f-4d02-8ce6-b190df491626">
+				<Name>ФизлицоДляОтраженияВыдачиСпецодежды</Name>
+				<Code/>
+				<Description>Физлицо для отражения выдачи спецодежды</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="e6237f26-872f-441d-ac6e-c0a3ae6312d8">
+		<Name>Технические</Name>
+		<Code/>
+		<Description>Технические</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="dacf51e1-d4f3-4d78-bf81-fa396740f9d9">
+				<Name>ГруппаПользователейАдминистраторовМагазинов</Name>
+				<Code/>
+				<Description>Группа пользователей администраторов магазинов</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="16b7824b-3be3-40f0-b804-4d57cc9a3bd9">
+				<Name>ГруппаПользователейПродавцовМагазинов</Name>
+				<Code/>
+				<Description>Группа пользователей продавцов магазинов</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="20cc208c-9ba4-4e9e-ad1a-f198b22c8e04">
+				<Name>НастройкиРазвертыванияНовойБазыМагазина</Name>
+				<Code/>
+				<Description>Настройки развертывания новой базы магазина</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="58a03901-3f4d-47f2-a189-4b8b5d8e8701">
+				<Name>ОтветственныйПодсортировки</Name>
+				<Code/>
+				<Description>Ответственный подсортировки</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="f82fd216-9b6a-43ce-8708-78fc64904d16">
+		<Name>УправлениеАссортиментом</Name>
+		<Code/>
+		<Description>Управление ассортиментом</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="90d32f19-c6bb-4cee-b2d9-e882a6214ae8">
+				<Name>ЗапретВыгрузкиИзмененийАссортимента</Name>
+				<Code/>
+				<Description>Запрет выгрузки изменений ассортимента</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="23de6c76-74da-41d3-a761-355e34f3a258">
+				<Name>МестоРазмещенияПоУмолчанию</Name>
+				<Code/>
+				<Description>Место размещения по умолчанию</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="ad1b4984-8c1e-4fe9-86a1-a42d8bd7e89c">
+				<Name>ФорматыМагазиновOutlet</Name>
+				<Code/>
+				<Description>Форматы магазинов Outlet</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<CheckBoxField name="ВыключенаЗаписьГрафика" id="90">
+			<DataPath>Запись.ВыключенаЗаписьГрафика</DataPath>
+			<CheckBoxType>Tumbler</CheckBoxType>
+			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+			<EditFormat>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>БЛ=Нет; БИ=Да</v8:content>
+				</v8:item>
+			</EditFormat>
+			<ContextMenu name="ВыключенаЗаписьГрафикаКонтекстноеМеню" id="91"/>
+			<ExtendedTooltip name="ВыключенаЗаписьГрафикаРасширеннаяПодсказка" id="92"/>
+		</CheckBoxField>
+		<UsualGroup name="ГруппаПериодВнутреннаяЛогистика" id="72">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПериодВнутреннаяЛогистикаРасширеннаяПодсказка" id="73"/>
+			<ChildItems>
+				<InputField name="Период" id="1">
+					<DataPath>Запись.Period</DataPath>
+					<ContextMenu name="ПериодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<CheckBoxField name="ВнутренняяЛогистика" id="10">
+					<DataPath>Запись.ВнутренняяЛогистика</DataPath>
+					<TitleLocation>Right</TitleLocation>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ВнутренняяЛогистикаКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ВнутренняяЛогистикаРасширеннаяПодсказка" id="12"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаДеньВремяОтгрузки" id="70">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаДеньВремяОтгрузкиРасширеннаяПодсказка" id="71"/>
+			<ChildItems>
+				<InputField name="ДеньОтгрузки" id="7">
+					<DataPath>Запись.ДеньОтгрузки</DataPath>
+					<ListChoiceMode>true</ListChoiceMode>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Понедельник</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">1</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Вторник</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">2</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Среда</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">3</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Четверг</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">4</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Пятница</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">5</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Суббота</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">6</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Воскресенье</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">7</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ДеньОтгрузкиКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ДеньОтгрузкиРасширеннаяПодсказка" id="9"/>
+					<Events>
+						<Event name="OnChange">ДеньОтгрузкиПриИзменении</Event>
+						<Event name="Clearing">ДеньОтгрузкиОчистка</Event>
+					</Events>
+				</InputField>
+				<InputField name="ВремяОтгрузки" id="13">
+					<DataPath>Запись.ВремяОтгрузки</DataPath>
+					<ContextMenu name="ВремяОтгрузкиКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="ВремяОтгрузкиРасширеннаяПодсказка" id="15"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаСкладГород" id="81">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа склад город</v8:content>
+				</v8:item>
+			</Title>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаСкладГородРасширеннаяПодсказка" id="82"/>
+			<ChildItems>
+				<InputField name="Склад" id="4">
+					<DataPath>Запись.Склад</DataPath>
+					<ContextMenu name="СкладКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<LabelField name="СкладБизнесРегион" id="83">
+					<DataPath>Запись.Склад.БизнесРегион</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Город</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СкладБизнесРегионКонтекстноеМеню" id="84"/>
+					<ExtendedTooltip name="СкладБизнесРегионРасширеннаяПодсказка" id="85"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаМаршрутЗонаДоставки" id="74">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа маршрут зона доставки</v8:content>
+				</v8:item>
+			</Title>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаМаршрутЗонаДоставкиРасширеннаяПодсказка" id="75"/>
+			<ChildItems>
+				<InputField name="Маршрут" id="19">
+					<DataPath>Запись.Маршрут</DataPath>
+					<ContextMenu name="МаршрутКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="МаршрутРасширеннаяПодсказка" id="21"/>
+				</InputField>
+				<LabelField name="МаршрутЗонаДоставки" id="76">
+					<DataPath>Запись.Маршрут.ЗонаДоставки</DataPath>
+					<ContextMenu name="МаршрутЗонаДоставкиКонтекстноеМеню" id="77"/>
+					<ExtendedTooltip name="МаршрутЗонаДоставкиРасширеннаяПодсказка" id="78"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаРежимРазгрузки" id="79">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа режим разгрузки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа режим разгрузки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаРежимРазгрузкиРасширеннаяПодсказка" id="80"/>
+			<ChildItems>
+				<InputField name="ДеньРазгрузки" id="28">
+					<DataPath>Запись.ДеньРазгрузки</DataPath>
+					<ListChoiceMode>true</ListChoiceMode>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Понедельник</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">1</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Вторник</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">2</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Среда</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">3</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Четверг</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">4</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Пятница</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">5</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Суббота</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">6</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Воскресенье</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">7</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ДеньРазгрузкиКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ДеньРазгрузкиРасширеннаяПодсказка" id="30"/>
+					<Events>
+						<Event name="OnChange">ДеньРазгрузкиПриИзменении</Event>
+						<Event name="Clearing">ДеньРазгрузкиОчистка</Event>
+					</Events>
+				</InputField>
+				<InputField name="РежимРазгрузкиНачало" id="22">
+					<DataPath>Запись.РежимРазгрузкиНачало</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Режим разгрузки с</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="РежимРазгрузкиНачалоКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="РежимРазгрузкиНачалоРасширеннаяПодсказка" id="24"/>
+				</InputField>
+				<InputField name="РежимРазгрузкиОкончание" id="25">
+					<DataPath>Запись.РежимРазгрузкиОкончание</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>по</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="РежимРазгрузкиОкончаниеКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="РежимРазгрузкиОкончаниеРасширеннаяПодсказка" id="27"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Грузоперевозчик" id="16">
+			<DataPath>Запись.Грузоперевозчик</DataPath>
+			<ContextMenu name="ГрузоперевозчикКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ГрузоперевозчикРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ДнейВПути" id="31">
+			<DataPath>Запись.ДнейВПути</DataPath>
+			<ContextMenu name="ДнейВПутиКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ДнейВПутиРасширеннаяПодсказка" id="33"/>
+			<Events>
+				<Event name="OnChange">ДнейВПутиПриИзменении</Event>
+			</Events>
+		</InputField>
+		<CheckBoxField name="ПРР" id="34">
+			<DataPath>Запись.ПРР</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ПРРКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="ПРРРасширеннаяПодсказка" id="36"/>
+		</CheckBoxField>
+		<UsualGroup name="ГруппаМестоДоставки" id="88">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа место доставки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа место доставки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаМестоДоставкиРасширеннаяПодсказка" id="89"/>
+			<ChildItems>
+				<InputField name="Этаж" id="37">
+					<DataPath>Запись.Этаж</DataPath>
+					<ContextMenu name="ЭтажКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="ЭтажРасширеннаяПодсказка" id="39"/>
+				</InputField>
+				<InputField name="ГрафикРаботыЛифтов" id="40">
+					<DataPath>Запись.ГрафикРаботыЛифтов</DataPath>
+					<ContextMenu name="ГрафикРаботыЛифтовКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ГрафикРаботыЛифтовРасширеннаяПодсказка" id="42"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="МаршрутОбратно" id="43">
+			<DataPath>Запись.МаршрутОбратно</DataPath>
+			<ContextMenu name="МаршрутОбратноКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="МаршрутОбратноРасширеннаяПодсказка" id="45"/>
+		</InputField>
+		<UsualGroup name="ГруппаВозвратНаСклад" id="86">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа возврат на склад</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа возврат на склад</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаВозвратНаСкладРасширеннаяПодсказка" id="87"/>
+			<ChildItems>
+				<InputField name="КоличествоДнейВозвратаНаСклад" id="49">
+					<DataPath>Запись.КоличествоДнейВозвратаНаСклад</DataPath>
+					<ContextMenu name="КоличествоДнейВозвратаНаСкладКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="КоличествоДнейВозвратаНаСкладРасширеннаяПодсказка" id="51"/>
+					<Events>
+						<Event name="OnChange">КоличествоДнейВозвратаНаСкладПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ДеньВозвратаНаСклад" id="46">
+					<DataPath>Запись.ДеньВозвратаНаСклад</DataPath>
+					<ListChoiceMode>true</ListChoiceMode>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Понедельник</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">1</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Вторник</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">2</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Среда</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">3</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Четверг</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">4</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Пятница</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">5</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Суббота</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">6</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Воскресенье</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">7</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ДеньВозвратаНаСкладКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ДеньВозвратаНаСкладРасширеннаяПодсказка" id="48"/>
+					<Events>
+						<Event name="OnChange">ДеньВозвратаНаСкладПриИзменении</Event>
+						<Event name="Clearing">ДеньВозвратаНаСкладОчистка</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ВидПеревозки" id="52">
+			<DataPath>Запись.ВидПеревозки</DataPath>
+			<ContextMenu name="ВидПеревозкиКонтекстноеМеню" id="53"/>
+			<ExtendedTooltip name="ВидПеревозкиРасширеннаяПодсказка" id="54"/>
+		</InputField>
+		<InputField name="ЧастотаОтгрузки" id="55">
+			<DataPath>Запись.ЧастотаОтгрузки</DataPath>
+			<ContextMenu name="ЧастотаОтгрузкиКонтекстноеМеню" id="56"/>
+			<ExtendedTooltip name="ЧастотаОтгрузкиРасширеннаяПодсказка" id="57"/>
+		</InputField>
+		<InputField name="ДатаПервойОтгрузки" id="58">
+			<DataPath>Запись.ДатаПервойОтгрузки</DataPath>
+			<ContextMenu name="ДатаПервойОтгрузкиКонтекстноеМеню" id="59"/>
+			<ExtendedTooltip name="ДатаПервойОтгрузкиРасширеннаяПодсказка" id="60"/>
+		</InputField>
+		<CheckBoxField name="ПереброскаНаОбратномМаршруте" id="61">
+			<DataPath>Запись.ПереброскаНаОбратномМаршруте</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ПереброскаНаОбратномМаршрутеКонтекстноеМеню" id="62"/>
+			<ExtendedTooltip name="ПереброскаНаОбратномМаршрутеРасширеннаяПодсказка" id="63"/>
+		</CheckBoxField>
+		<InputField name="ПорядокПоПутиСледования" id="64">
+			<DataPath>Запись.ПорядокПоПутиСледования</DataPath>
+			<ContextMenu name="ПорядокПоПутиСледованияКонтекстноеМеню" id="65"/>
+			<ExtendedTooltip name="ПорядокПоПутиСледованияРасширеннаяПодсказка" id="66"/>
+		</InputField>
+		<InputField name="ДополнительнаяИнформация" id="67">
+			<DataPath>Запись.ДополнительнаяИнформация</DataPath>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="ДополнительнаяИнформацияКонтекстноеМеню" id="68"/>
+			<ExtendedTooltip name="ДополнительнаяИнформацияРасширеннаяПодсказка" id="69"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.КР_ГрафикОтгрузкиИПриемкиТМЦ</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

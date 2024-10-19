@@ -159,6 +159,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ДиспетчированиеСборкаИДоставка</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.РамкаНетРамки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПанельАдминистрированияУчетПрослеживаемыхТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КР_ОприходованиеМежскладскихПеремещенийТоваровСТСД</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

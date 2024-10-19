@@ -3177,6 +3177,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
+						<v8:Type>cfg:DocumentRef.АктОРасхожденияхПослеОтгрузки</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПриобретениеТоваровУслуг</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПоступлениеТоваровОтХранителя</v8:Type>
 					</Type>

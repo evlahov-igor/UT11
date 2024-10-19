@@ -142,6 +142,42 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="74d564f6-48ca-479c-af2d-9c9a9a00412e">
+				<Properties>
+					<Name>КР_ПринятКороб</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Принят короб</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>JIRA№ A2105505-751</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7a8da35a-8bcb-42b9-ad60-656081d0f311">
+				<Properties>
+					<Name>КР_ПринятТовар</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Принят товар</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>JIRA№ A2105505-751</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="31fd65ea-ab4f-42ec-a215-86fc709a7e99">
+				<Properties>
+					<Name>КР_ТоварРазмещен</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товар размещен</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>JIRA№ A2105505-751</Comment>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

@@ -9,7 +9,7 @@
 					<v8:content>Основная схема компоновки данных</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>#4501</Comment>
 			<TemplateType>DataCompositionSchema</TemplateType>
 		</Properties>
 	</Template>

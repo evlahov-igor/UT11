@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Width>70</Width>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаЗаписатьИЗакрыть" id="4">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.ЗаписатьИЗакрыть</CommandName>
+				<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="5"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="КаталогВыгрузки" id="1">
+			<DataPath>КаталогОбменаТовары</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<ChoiceButton>true</ChoiceButton>
+			<ContextMenu name="КаталогВыгрузкиКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КаталогВыгрузкиРасширеннаяПодсказка" id="3"/>
+			<Events>
+				<Event name="StartChoice">КаталогВыгрузкиНачалоВыбора</Event>
+			</Events>
+		</InputField>
+		<InputField name="КаталогОбменаКассиры" id="6">
+			<DataPath>КаталогОбменаКассиры</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<ChoiceButton>true</ChoiceButton>
+			<ContextMenu name="КаталогОбменаКассирыКонтекстноеМеню" id="7"/>
+			<ExtendedTooltip name="КаталогОбменаКассирыРасширеннаяПодсказка" id="8"/>
+			<Events>
+				<Event name="StartChoice">КаталогОбменаКассирыНачалоВыбора</Event>
+			</Events>
+		</InputField>
+		<InputField name="КаталогОбменаОперПродажи" id="9">
+			<DataPath>КаталогОбменаОперПродажи</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<ChoiceButton>true</ChoiceButton>
+			<ContextMenu name="КаталогОбменаОперПродажиКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="КаталогОбменаОперПродажиРасширеннаяПодсказка" id="11"/>
+			<Events>
+				<Event name="StartChoice">КаталогОбменаОперПродажиНачалоВыбора</Event>
+			</Events>
+		</InputField>
+		<InputField name="КаталогОбменаПродажиЗаСмену" id="12">
+			<DataPath>КаталогОбменаПродажиЗаСмену</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<ChoiceButton>true</ChoiceButton>
+			<ContextMenu name="КаталогОбменаПродажиЗаСменуКонтекстноеМеню" id="13"/>
+			<ExtendedTooltip name="КаталогОбменаПродажиЗаСменуРасширеннаяПодсказка" id="14"/>
+			<Events>
+				<Event name="StartChoice">КаталогОбменаПродажиЗаСменуНачалоВыбора</Event>
+			</Events>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="КаталогОбменаТовары" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Каталог обмена (товары)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Идентификатор" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ПодключаемоеОборудование</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="КаталогОбменаКассиры" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Каталог обмена (кассиры)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КаталогОбменаОперПродажи" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Каталог обмена (опер. продажи)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КаталогОбменаПродажиЗаСмену" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Каталог обмена (продажи за смену)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаписатьИЗакрыть" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать и закрыть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать и закрыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаписатьИЗакрыть</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>

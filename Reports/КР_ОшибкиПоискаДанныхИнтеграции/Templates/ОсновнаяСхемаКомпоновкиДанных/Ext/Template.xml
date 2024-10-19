@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отправитель</dataPath>
+			<field>Отправитель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектМетаданных</dataPath>
+			<field>ОбъектМетаданных</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ХэшИдентификаторЗаписи</dataPath>
+			<field>ХэшИдентификаторЗаписи</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТекстСообщения</dataPath>
+			<field>ТекстСообщения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодЗаписи</dataPath>
+			<field>ПериодЗаписи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипСообщения</dataPath>
+			<field>ТипСообщения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип сообщения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Состояние</dataPath>
+			<field>Состояние</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КлючСообщения</dataPath>
+			<field>КлючСообщения</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Т.ХэшИдентификаторЗаписи КАК ХэшИдентификаторЗаписи,
+	Т.Отправитель КАК Отправитель,
+	Т.ОбъектМетаданных КАК ОбъектМетаданных,
+	Т.ТекстСообщения КАК ТекстСообщения,
+	Т.ПериодЗаписи КАК ПериодЗаписи,
+	ВЫБОР
+		КОГДА НЕ КР_АрхивСообщений.КлючСообщения ЕСТЬ NULL
+			ТОГДА "Архив"
+		КОГДА НЕ КР_ВходящиеСообщения.КлючСообщения ЕСТЬ NULL
+			ТОГДА "Вхоядщие"
+		ИНАЧЕ "Нет сообщения"
+	КОНЕЦ КАК ТипСообщения,
+	ЕСТЬNULL(КР_АрхивСообщений.Состояние, ЕСТЬNULL(КР_ВходящиеСообщения.Состояние, ЗНАЧЕНИЕ(Перечисление.КР_СостоянияСообщенийОбмена.ПустаяСсылка))) КАК Состояние,
+	Т.КлючСообщения КАК КлючСообщения
+ИЗ
+	РегистрСведений.КР_ОшибкиПоискаДанныхИнтеграции КАК Т
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.КР_ВходящиеСообщения КАК КР_ВходящиеСообщения
+		ПО Т.КлючСообщения = КР_ВходящиеСообщения.КлючСообщения
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.КР_АрхивСообщений КАК КР_АрхивСообщений
+		ПО Т.КлючСообщения = КР_АрхивСообщений.КлючСообщения</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Ошибки поиска данных интеграции</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОбъектМетаданных</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТекстСообщения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Отправитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПериодЗаписи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Состояние</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипСообщения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КлючСообщения</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Отправитель</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>693450b0-8930-47dd-a70c-7ec2a7c0143d</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОбъектМетаданных</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

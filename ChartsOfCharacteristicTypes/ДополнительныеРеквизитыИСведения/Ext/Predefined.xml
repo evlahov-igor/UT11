@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.18">
+	<Item id="200ca24e-4338-46d1-9f93-abfcd7150951">
+		<Name>КР_ГруппаМагазинов</Name>
+		<Code/>
+		<Description>Группа магазинов</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ЗначенияСвойствОбъектов</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d8d96564-c93a-49e5-b0de-1c72ba5a1356">
+		<Name>КР_ДатаДоставкиФакт</Name>
+		<Code/>
+		<Description>Дата доставки (факт)</Description>
+		<Type>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3a16ba67-7cb9-4dcc-a81c-cf454574cc87">
+		<Name>КР_ДатаЗакрытия</Name>
+		<Code/>
+		<Description>Дата закрытия</Description>
+		<Type>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d7957f4b-5b51-4249-b98c-baa2447fc523">
+		<Name>КР_ДатаОткрытия</Name>
+		<Code/>
+		<Description>Дата открытия</Description>
+		<Type>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="68be7179-4ecc-4861-abfd-786b8763d0ca">
+		<Name>КР_ИнвентаризацияПроверена</Name>
+		<Code/>
+		<Description>Инвентаризация проверена</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ЗначенияСвойствОбъектов</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a1e0058d-32e4-4cbe-8751-826cc8962981">
+		<Name>КР_ЛиквидностьНоменклатуры</Name>
+		<Code/>
+		<Description>Ликвидность номенклатуры</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ЗначенияСвойствОбъектов</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="498f8f47-2cdf-4fc9-b92f-9305d0d43aa6">
+		<Name>КР_МенеджерСнабженияМагазина</Name>
+		<Code/>
+		<Description>Менеджер снабжения магазина</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ЗначенияСвойствОбъектов</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="23aeef3f-047b-41c7-87f5-452d82781f2e">
+		<Name>КР_НормаВместимостиЦВМЗалОдеждаВеснаЖ</Name>
+		<Code/>
+		<Description>Норма вместимости ЦВМ зал одежда весна Ж</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ba9473ca-84f1-4b49-b55b-57c00aa51f35">
+		<Name>КР_НормаВместимостиЦВМЗалОдеждаВеснаМ</Name>
+		<Code/>
+		<Description>Норма вместимости ЦВМ зал одежда весна М</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f275ba1d-483b-40a5-bf51-ad35bbea459e">
+		<Name>КР_НормаВместимостиЦВМЗалОдеждаЗимаЖ</Name>
+		<Code/>
+		<Description>Норма вместимости ЦВМ зал одежда зима Ж</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ec404b3a-330b-484d-8b74-b65b012518ed">
+		<Name>КР_НормаВместимостиЦВМЗалОдеждаЗимаМ</Name>
+		<Code/>
+		<Description>Норма вместимости ЦВМ зал одежда зима М</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="065c62e3-c883-4b26-b736-99af7a4585f0">
+		<Name>КР_НормаВместимостиЦВМЗалОдеждаЛетоЖ</Name>
+		<Code/>
+		<Description>Норма вместимости ЦВМ зал одежда лето Ж</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4a4ef26f-a191-4662-aa64-f8767de27c33">
+		<Name>КР_НормаВместимостиЦВМЗалОдеждаЛетоМ</Name>
+		<Code/>
+		<Description>Норма вместимости ЦВМ зал одежда лето М</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="64d68320-d7c9-4dca-a5bd-7df7ba94d262">
+		<Name>КР_НормаВместимостиШтДополнительныйСклад</Name>
+		<Code/>
+		<Description>Норма вместимости Шт дополнительный склад</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ЗначенияСвойствОбъектов</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0673c68a-0dab-4d8c-8629-2af79107f285">
+		<Name>КР_НормаВместимостиШтЗалSaleЖ</Name>
+		<Code/>
+		<Description>Норма вместимости шт. зал sale Ж</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4db3c46e-da1b-4c3f-b73c-50516f79e0b4">
+		<Name>КР_НормаВместимостиШтЗалSaleМ</Name>
+		<Code/>
+		<Description>Норма вместимости шт. зал sale М</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8b4617bf-edf8-4d06-81a4-f5f1c8240d9d">
+		<Name>КР_НормаВместимостиШтЗалАксессуарыЖ</Name>
+		<Code/>
+		<Description>Норма вместимости шт. зал аксессуары Ж</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7c664c89-694e-4e01-a9e9-02002a994598">
+		<Name>КР_НормаВместимостиШтЗалАксессуарыМ</Name>
+		<Code/>
+		<Description>Норма вместимости шт. зал аксессуары М</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eeb04c0e-38ab-4455-aac7-a64cbe631d8d">
+		<Name>КР_НормаВместимостиШтЗалОдеждаВеснаЖ</Name>
+		<Code/>
+		<Description>Норма вместимости шт. зал одежда весна Ж</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="59587b1f-8b3c-4368-8001-22243510750e">
+		<Name>КР_НормаВместимостиШтЗалОдеждаВеснаМ</Name>
+		<Code/>
+		<Description>Норма вместимости шт. зал одежда весна М</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0a640178-fb49-43e6-8837-f7d393c265fd">
+		<Name>КР_НормаВместимостиШтЗалОдеждаЗимаЖ</Name>
+		<Code/>
+		<Description>Норма вместимости шт. зал одежда зима Ж</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9f5a2a07-1409-492d-b6ef-6fb3ee80074f">
+		<Name>КР_НормаВместимостиШтЗалОдеждаЗимаМ</Name>
+		<Code/>
+		<Description>Норма вместимости шт. зал одежда зима М</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="368896d5-0f6a-4e86-9dc2-ab03b56b40d4">
+		<Name>КР_НормаВместимостиШтЗалОдеждаЛетоЖ</Name>
+		<Code/>
+		<Description>Норма вместимости шт. зал одежда лето Ж</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bc1dff36-b375-41b5-9e22-2ac440ac1dfc">
+		<Name>КР_НормаВместимостиШтЗалОдеждаЛетоМ</Name>
+		<Code/>
+		<Description>Норма вместимости шт. зал одежда лето М</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="164aa041-60df-48f9-a434-b0911fc11d0b">
+		<Name>КР_НормаВместимостиШтСкладЗима</Name>
+		<Code/>
+		<Description>Норма вместимости шт. склад зима</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c88e2d26-e2b7-408d-adbf-97dc5d22dca9">
+		<Name>КР_НормаВместимостиШтСкладЛето</Name>
+		<Code/>
+		<Description>Норма вместимости шт. склад лето</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ddbf8356-a909-4fa4-852f-b07d69eb2511">
+		<Name>КР_ОграничениеСкладаПоКоробам</Name>
+		<Code/>
+		<Description>Ограничение склада по коробам</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ЗначенияСвойствОбъектов</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0be93b76-4452-4916-ad72-057b69dc1e14">
+		<Name>КР_ПлановаяДатаСбораТовара</Name>
+		<Code/>
+		<Description>Плановая дата сбора товара</Description>
+		<Type>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9896a8fe-5fe2-4a5b-86c9-e7a680facd1d">
+		<Name>КР_ПлощадьОбщая</Name>
+		<Code/>
+		<Description>Площадь (общая)</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>8</v8:Digits>
+				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="184e85df-ec9a-49c4-b56f-bb2302d572fa">
+		<Name>КР_ПлощадьТорговая</Name>
+		<Code/>
+		<Description>Площадь (торговая)</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>8</v8:Digits>
+				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f2c2855a-e579-4a13-9b4a-15066a6daa92">
+		<Name>КР_ПоправочныйКоэффициентПродажАксессуаров</Name>
+		<Code/>
+		<Description>Поправочный k продаж аксессуаров</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ЗначенияСвойствОбъектов</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ebfaf771-4768-4598-9a26-a29fafe82771">
+		<Name>КР_ПоправочныйКоэффициентПродажОдежды</Name>
+		<Code/>
+		<Description>Поправочный k продаж одежды</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ЗначенияСвойствОбъектов</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e8900b05-446b-4dbc-80d6-b6fd8cb23ac4">
+		<Name>КР_РасклипсовыватьТовар</Name>
+		<Code/>
+		<Description>Расклипсовывать товар</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b9b8f37a-0c06-448b-9099-353a79324c17">
+		<Name>КР_ТОПМагазин</Name>
+		<Code/>
+		<Description>ТОП-магазин</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0705cd78-f031-44aa-aae8-e30b206e115a">
+		<Name>КР_ХодовойРазмер</Name>
+		<Code/>
+		<Description>Ходовой размер</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

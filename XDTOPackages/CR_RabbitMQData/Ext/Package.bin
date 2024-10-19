@@ -1,0 +1,14 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.zolla.rabbitmq.data.org">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<objectType name="Message">
+		<property name="Sender" type="xs:string"/>
+		<property name="SendTime" type="xs:dateTime"/>
+		<property name="ID" type="xs:string"/>
+		<property name="Time" type="xs:dateTime"/>
+		<property name="TimeID" type="xs:integer"/>
+		<property name="DataType" type="xs:string"/>
+		<property name="Data" type="xs:string"/>
+		<property name="Log" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="DataPacked" type="d3p1:ValueStorage" lowerBound="0" nillable="true"/>
+	</objectType>
+</package>

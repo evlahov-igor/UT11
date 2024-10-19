@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КлючСообщения</dataPath>
+			<field>КлючСообщения</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Состояние</dataPath>
+			<field>Состояние</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаРегистрации</dataPath>
+			<field>ДатаРегистрации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отправитель</dataPath>
+			<field>Отправитель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипДанных</dataPath>
+			<field>ТипДанных</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Логирование</dataPath>
+			<field>Логирование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОбработки</dataPath>
+			<field>ДатаОбработки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипИсточника</dataPath>
+			<field>ТипИсточника</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип источника</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+			<availableValue>
+				<value xsi:type="xs:decimal">1</value>
+				<presentation xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Входящее сообщение</v8:content>
+					</v8:item>
+				</presentation>
+			</availableValue>
+			<availableValue>
+				<value xsi:type="xs:decimal">-1</value>
+				<presentation xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Исходящее сообщение</v8:content>
+					</v8:item>
+				</presentation>
+			</availableValue>
+			<availableValue>
+				<value xsi:nil="true"/>
+				<presentation xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Архив</v8:content>
+					</v8:item>
+				</presentation>
+			</availableValue>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СсылкаНаОбъект</dataPath>
+			<field>СсылкаНаОбъект</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка на объект</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:DocumentRef</v8:TypeSet>
+				<v8:TypeSet xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef</v8:TypeSet>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТелоСообщения</dataPath>
+			<field>ТелоСообщения</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	1 КАК ТипИсточника,
+	Т.КлючСообщения КАК КлючСообщения,
+	Т.Состояние КАК Состояние,
+	Т.Отправитель КАК Отправитель,
+	Т.ТипДанных КАК ТипДанных,
+	Т.ТелоСообщения КАК ТелоСообщения,
+	Т.Логирование КАК Логирование,
+	Т.ДатаРегистрации КАК ДатаРегистрации,
+	Т.ДатаОбработки КАК ДатаОбработки,
+	СсылкиНаОбъекты.Ссылка КАК СсылкаНаОбъект
+ИЗ
+	РегистрСведений.КР_ВходящиеСообщения КАК Т
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ СсылкиНаОбъекты КАК СсылкиНаОбъекты
+		ПО Т.КлючСообщения = СсылкиНаОбъекты.КлючСообщения
+			И (СсылкиНаОбъекты.ТипИсточника = 1)
+{ГДЕ
+	(1 В (&amp;ТипИсточника)),
+	(СсылкиНаОбъекты.Ссылка = &amp;СсылкаНаОбъект)}
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	-1,
+	Т.КлючСообщения,
+	Т.Состояние,
+	НЕОПРЕДЕЛЕНО,
+	Т.ТипДанных,
+	Т.ТелоСообщения,
+	Т.Логирование,
+	Т.ДатаРегистрации,
+	НЕОПРЕДЕЛЕНО,
+	СсылкиНаОбъекты.Ссылка
+ИЗ
+	РегистрСведений.КР_ИсходящиеСообщения КАК Т
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ СсылкиНаОбъекты КАК СсылкиНаОбъекты
+		ПО Т.КлючСообщения = СсылкиНаОбъекты.КлючСообщения
+			И (СсылкиНаОбъекты.ТипИсточника = -1)
+{ГДЕ
+	(-1 В (&amp;ТипИсточника)),
+	(СсылкиНаОбъекты.Ссылка = &amp;СсылкаНаОбъект)}
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	0,
+	Т.КлючСообщения,
+	ВЫБОР
+		КОГДА Т.Состояние = ЗНАЧЕНИЕ(Перечисление.КР_СостоянияСообщенийОбмена.ПустаяСсылка)
+			ТОГДА ЗНАЧЕНИЕ(Перечисление.КР_СостоянияСообщенийОбмена.Обработано)
+		ИНАЧЕ Т.Состояние
+	КОНЕЦ,
+	Т.Отправитель,
+	Т.ТипДанных,
+	Т.ТелоСообщения,
+	Т.Логирование,
+	Т.ДатаРегистрации,
+	Т.ДатаОбработки,
+	СсылкиНаОбъекты.Ссылка
+ИЗ
+	РегистрСведений.КР_АрхивСообщений КАК Т
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ СсылкиНаОбъекты КАК СсылкиНаОбъекты
+		ПО Т.КлючСообщения = СсылкиНаОбъекты.КлючСообщения
+			И (СсылкиНаОбъекты.ТипИсточника = 0)
+{ГДЕ
+	(0 В (&amp;ТипИсточника)),
+	(СсылкиНаОбъекты.Ссылка = &amp;СсылкаНаОбъект)}</query>
+	</dataSet>
+	<parameter>
+		<name>СсылкаНаОбъект</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Ссылка на объект</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:TypeSet xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef</v8:TypeSet>
+			<v8:TypeSet xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef</v8:TypeSet>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ТипИсточника</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Тип источника</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>2</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">1</value>
+		<useRestriction>false</useRestriction>
+		<availableValue>
+			<value xsi:type="xs:decimal">1</value>
+			<presentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Входящее сообщение</v8:content>
+				</v8:item>
+			</presentation>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="xs:decimal">-1</value>
+			<presentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исходящее сообщение</v8:content>
+				</v8:item>
+			</presentation>
+		</availableValue>
+		<availableValue>
+			<value xsi:nil="true"/>
+			<presentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Архив</v8:content>
+				</v8:item>
+			</presentation>
+		</availableValue>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Наличие пакетов интеграции по объекту</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипИсточника</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипДанных</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КлючСообщения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СсылкаНаОбъект</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаРегистрации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаОбработки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Логирование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТелоСообщения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Состояние</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Отправитель</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Состояние</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>6673788d-7395-40b3-8f2d-96022159070d</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>СсылкаНаОбъект</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>0da3da08-b4c6-4925-b858-aee1df8cee80</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ТипИсточника</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>211aeec4-7c70-4c84-ba8f-333ad7fd2dfb</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип источника</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

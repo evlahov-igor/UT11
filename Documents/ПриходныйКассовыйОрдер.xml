@@ -1057,6 +1057,7 @@
 						<v8:Type>cfg:DocumentRef.АвансовыйОтчет</v8:Type>
 						<v8:Type>cfg:DocumentRef.ВыкупВозвратнойТарыКлиентом</v8:Type>
 						<v8:Type>cfg:DocumentRef.АктВыполненныхРабот</v8:Type>
+						<v8:Type>cfg:DocumentRef.ОтчетОРозничныхПродажах</v8:Type>
 						<v8:Type>cfg:DocumentRef.ОжидаемоеПоступлениеДенежныхСредств</v8:Type>
 						<v8:Type>cfg:DocumentRef.СчетНаОплатуКлиенту</v8:Type>
 						<v8:Type>cfg:DocumentRef.ЗаказКлиента</v8:Type>
@@ -2197,6 +2198,45 @@
 					<Comment/>
 					<Type>
 						<v8:Type>cfg:EnumRef.ТипыНалогообложенияНДС</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="04b64de9-52dc-488b-bcad-20e57c262460">
+				<Properties>
+					<Name>КР_ПоступлениеВКассуККМ</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поступление в кассу ККМ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>JIRA№ A2105505-725</Comment>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

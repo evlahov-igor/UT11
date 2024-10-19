@@ -1632,6 +1632,9 @@
 											<Width>20</Width>
 											<ContextMenu name="МаршрутПолучателиОтправителиКонтекстноеМеню" id="1734"/>
 											<ExtendedTooltip name="МаршрутПолучателиОтправителиРасширеннаяПодсказка" id="1735"/>
+											<Events>
+												<Event name="StartChoice">МаршрутПолучателиОтправителиНачалоВыбора</Event>
+											</Events>
 										</InputField>
 									</ChildItems>
 								</ColumnGroup>

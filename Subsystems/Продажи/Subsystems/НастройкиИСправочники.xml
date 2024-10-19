@@ -24,6 +24,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ДоговорыКонтрагентов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Партнеры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СоглашенияСКлиентами</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_ИдентификаторыТоваровНаМаркетплейсах</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

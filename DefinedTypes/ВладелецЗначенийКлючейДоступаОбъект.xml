@@ -157,6 +157,7 @@
 				<v8:Type>cfg:CatalogObject.ЭквайринговыеТерминалы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ОтчетКомитентуПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogObject.КР_ЗоныПересчетаТоваров</v8:Type>
 				<v8:Type>cfg:CatalogObject.ОтчетКомиссионераОСписанииПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ПрочиеДоходыРасходыПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</v8:Type>

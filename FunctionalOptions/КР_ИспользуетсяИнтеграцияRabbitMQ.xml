@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<FunctionalOption uuid="b681f774-afaa-4ac4-b4aa-0a1a8624b687">
+		<Properties>
+			<Name>КР_ИспользуетсяИнтеграцияRabbitMQ</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Используется интеграция rabbit MQ</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<Location>Constant.КР_ИспользуетсяИнтеграцияRabbitMQ</Location>
+			<PrivilegedGetMode>true</PrivilegedGetMode>
+			<Content>
+				<xr:Object>Subsystem.КР_RabbitMQ</xr:Object>
+				<xr:Object>Catalog.КР_ИнформационныеБазы</xr:Object>
+				<xr:Object>Enum.КР_СостоянияСообщенийОбмена</xr:Object>
+				<xr:Object>Enum.КР_СтатусыИнтеграции</xr:Object>
+				<xr:Object>Enum.КР_ТипыСообщенийОбмена</xr:Object>
+				<xr:Object>DataProcessor.КР_МеханизмОбмена</xr:Object>
+				<xr:Object>InformationRegister.КР_ИнтеграционнаяИнформация</xr:Object>
+				<xr:Object>InformationRegister.КР_АрхивСообщений</xr:Object>
+				<xr:Object>InformationRegister.КР_ВходящиеСообщения</xr:Object>
+				<xr:Object>InformationRegister.КР_ИсходящиеСообщения</xr:Object>
+				<xr:Object>InformationRegister.КР_НастройкиОбмена</xr:Object>
+			</Content>
+		</Properties>
+	</FunctionalOption>
+</MetaDataObject>

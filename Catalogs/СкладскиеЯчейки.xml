@@ -49,7 +49,7 @@
 			<CodeSeries>WithinOwnerSubordination</CodeSeries>
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>false</Autonumbering>
-			<DefaultPresentation>AsCode</DefaultPresentation>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<StandardAttributes>
 				<xr:StandardAttribute name="PredefinedDataName">
 					<xr:LinkByType/>
@@ -1211,6 +1211,7 @@
 			<Form>ФормаВыбора</Form>
 			<Form>ФормаВыбораГруппы</Form>
 			<Form>РазблокированиеРеквизитов</Form>
+			<Template>КР_Изменения</Template>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

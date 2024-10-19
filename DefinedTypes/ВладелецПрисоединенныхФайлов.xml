@@ -21,10 +21,12 @@
 				<v8:Type>cfg:DocumentRef.АктОРасхожденияхПослеПеремещения</v8:Type>
 				<v8:Type>cfg:DocumentRef.УведомлениеОбИмпортеМаркированныхТоваровГИСМ</v8:Type>
 				<v8:Type>cfg:BusinessProcessRef.Задание</v8:Type>
+				<v8:Type>cfg:DocumentRef.РасходныйКассовыйОрдер</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПланЗакупок</v8:Type>
 				<v8:Type>cfg:DocumentRef.АктОРасхожденияхПослеОтгрузки</v8:Type>
 				<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>
 				<v8:Type>cfg:DocumentRef.ЭлектронныйДокументВходящийЭДО</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПриходныйКассовыйОрдер</v8:Type>
 				<v8:Type>cfg:DocumentRef.ВозвратТоваровОтКлиента</v8:Type>
 				<v8:Type>cfg:DocumentRef.СообщениеОбменСБанками</v8:Type>
 				<v8:Type>cfg:DocumentRef.ЭлектронныйДокументИсходящийЭДО</v8:Type>
@@ -104,6 +106,7 @@
 				<v8:Type>cfg:DocumentRef.СчетФактураВыданный</v8:Type>
 				<v8:Type>cfg:DocumentRef.ОтгрузкаТоваровИСМП</v8:Type>
 				<v8:Type>cfg:DocumentRef.ОтчетКомитентуОСписании</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПересчетТоваров</v8:Type>
 				<v8:Type>cfg:DocumentRef.ВыкупВозвратнойТарыКлиентом</v8:Type>
 				<v8:Type>cfg:DocumentRef.УведомлениеОВвозеМаркированныхТоваровИзЕАЭСГИСМ</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПриобретениеУслугПрочихАктивов</v8:Type>

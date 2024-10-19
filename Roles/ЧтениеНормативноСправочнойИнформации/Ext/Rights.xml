@@ -317,6 +317,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.КР_ВладениеТранспортнымСредством</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>ChartOfCharacteristicTypes.КаналыРекламныхВоздействий</name>
 		<right>
 			<name>Read</name>

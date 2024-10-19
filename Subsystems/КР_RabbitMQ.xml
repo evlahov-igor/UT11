@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Subsystem uuid="00354a80-10a2-4b2d-9b51-561a98d37419">
+		<Properties>
+			<Name>КР_RabbitMQ</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Rabbit MQ</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture>
+				<xr:Ref>CommonPicture.КР_Rabbit16x16</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_ВходящиеСообщения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_ИсходящиеСообщения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КР_ИнформационныеБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_НастройкиОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КР_Rabbit16x16</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КР_Rabbit32x32</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.КР_СостоянияСообщенийОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_ФункцииРаботыJSON</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_ФункцииРаботыXML</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_ОбменRabbitВзаимодействиеСАдаптером</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonTemplate.КР_КомпонентаОбменаRabbitMQ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КР_МеханизмОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_ИдентификаторыСинхронизируемыхОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_АрхивСообщений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.КР_ИспользуетсяИнтеграцияRabbitMQ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_ОбменRabbitПодготовкаДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_ОбменRabbitОбработкаСообщенийОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_ОбменRabbitОбработчикиИзмененийОбъектовИнтеграции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_ОбменRabbitОбщиеМеханизмыПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.КР_ОбменRabbitСправочникиПередЗаписью</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.КР_ОбменRabbitДокументыПередЗаписью</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.КР_ОбменRabbitРегистрыСведенийПередЗаписью</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.КР_ОбменRabbitСправочникиПриЗаписи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.КР_ОбменRabbitРегистрыСведенийПриЗаписи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.КР_ОбменRabbitСправочникиПередУдалением</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.КР_ИспользуетсяИнтеграцияRabbitMQ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.КР_ТипыСообщенийОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.КР_ОбменRabbitДокументыПриЗаписи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.КР_ОбменRabbitДокументыПередУдалением</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.КР_ОбменRabbitИнтеграция</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.КР_ОбменRabbitРазборСообщений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.КР_ОбменRabbitИнтеграционныеОбъектыСправочники</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.КР_ОбменRabbitИнтеграционныеОбъектыДокументы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.КР_ОбменRabbitИнтеграционныеОбъектыРегистрыСведений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.CR_RabbitMQData</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.КР_СтатусыИнтеграции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_ИнтеграционнаяИнформация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.КР_ОбменRabbitДокументыОбработкаПроведения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.КР_БазаЯвляетсяЦентральной</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_БП_УТ11_ВыгрузкаДанныхСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_БП_УТ11_ЗагрузкаДанныхСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_УТ10_УТ11_ЗагрузкаДанныхСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_УТ10_УТ11_ВыгрузкаДанныхСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_PLM_УТ11_ЗагрузкаДанныхСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_ЗУП_УТ11_ЗагрузкаДанныхСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_УТ11_ЦБ_Магазин_ВыгрузкаДанныхСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_УТ11_ЦБ_Магазин_ЗагрузкаДанныхСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_Демо_УТ11_ЗагрузкаДанныхСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_OMS_УТ11_ЗагрузкаДанныхСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_ОбменRabbitОбщиеМеханизмыКонвертации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.КР_ОбменRabbitРегистрыНакопленияПередЗаписью</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.КР_ОбменRabbitРегистрыНакопленияПриЗаписи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.КР_ОбменRabbitИнтеграционныеОбъектыРегистрыНакопления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КР_ImportDepartment_УТ11_ЗагрузкаДанныхСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.CR_UT10_UT11</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.CR_Zolla_Exchange</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.КР_ОшибкиПоискаДанныхИнтеграции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.КР_НаличиеПакетовИнтеграцииПоОбъекту</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_ОтметкиИнтеграционныхИзменений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_ОшибкиПоискаДанныхИнтеграции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.КР_СостояниеИнтеграции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.КР_ОбменRabbitПовторныйРазборСообщений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.КР_ДинамикаСкоростиРазбораСообщений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.КР_ИспользоватьСжатиеСообщений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.КР_ОбъектыИнтеграцииСИндивидуальнойОчередьюОбработки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.злТочкиОбменаСоСжатиемСообщений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_РегистрируемыеТипыДанных</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

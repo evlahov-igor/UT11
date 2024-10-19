@@ -31,6 +31,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ИнвентаризационнаяОпись</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЖурналСкладскихАктов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ОрдерНаОтражениеПересортицыТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КР_ЗональныйПересчетТоваров</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

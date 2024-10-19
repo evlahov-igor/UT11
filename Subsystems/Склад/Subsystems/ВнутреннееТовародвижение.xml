@@ -41,6 +41,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПрочееОприходованиеТоваровЛокализация</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.СтатусыВнутреннихПотреблений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ИспользоватьСтатусыВнутреннихПотреблений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КР_ДвижениеКоробов</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<DefinedType uuid="0ccb5ef0-087e-4bf5-9d8c-5439f974cdf6">
+		<InternalInfo>
+			<xr:GeneratedType name="DefinedType.КР_ОбменRabbitИнтеграционныеОбъектыСправочники" category="DefinedType">
+				<xr:TypeId>2a1c8c5e-d527-4255-a81f-834d41d2a57e</xr:TypeId>
+				<xr:ValueId>abb4966e-af7a-468c-82dd-c90786aab818</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КР_ОбменRabbitИнтеграционныеОбъектыСправочники</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обмен rabbit интеграционные объекты справочники</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<Type>
+				<v8:Type>cfg:CatalogObject.ТранспортныеСредства</v8:Type>
+				<v8:Type>cfg:CatalogObject.КР_Маршруты</v8:Type>
+				<v8:Type>cfg:CatalogObject.КР_ДополнительныеНастройкиСистемы</v8:Type>
+				<v8:Type>cfg:CatalogObject.ФизическиеЛица</v8:Type>
+				<v8:Type>cfg:CatalogObject.ЗоныДоставки</v8:Type>
+				<v8:Type>cfg:CatalogObject.НастройкиРМК</v8:Type>
+				<v8:Type>cfg:CatalogObject.ДополнительныеОтчетыИОбработки</v8:Type>
+				<v8:Type>cfg:CatalogObject.Партнеры</v8:Type>
+				<v8:Type>cfg:CatalogObject.Контрагенты</v8:Type>
+			</Type>
+		</Properties>
+	</DefinedType>
+</MetaDataObject>

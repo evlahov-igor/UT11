@@ -36,6 +36,7 @@
 				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 				<v8:Type>cfg:DocumentRef.ТаможеннаяДекларацияИмпорт</v8:Type>
 				<v8:Type>cfg:DocumentRef.ЛистКассовойКниги</v8:Type>
+				<v8:Type>cfg:DocumentRef.КР_ДвижениеКоробов</v8:Type>
 				<v8:Type>cfg:DocumentRef.ОтчетКомиссионера</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПланПродажПоКатегориям</v8:Type>
 				<v8:Type>cfg:DocumentRef.ЧекЕГАИСВозврат</v8:Type>
@@ -63,6 +64,7 @@
 				<v8:Type>cfg:DocumentRef.АктПостановкиНаБалансЕГАИС</v8:Type>
 				<v8:Type>cfg:DocumentRef.МаркировкаТоваровГИСМ</v8:Type>
 				<v8:Type>cfg:CatalogRef.СоглашенияСПоставщиками</v8:Type>
+				<v8:Type>cfg:DocumentRef.ТранспортнаяНакладная</v8:Type>
 				<v8:Type>cfg:DocumentRef.ОтчетПоКомиссииМеждуОрганизациями</v8:Type>
 				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
 				<v8:Type>cfg:CatalogRef.СкидкиНаценки</v8:Type>
@@ -128,6 +130,7 @@
 				<v8:Type>cfg:CatalogRef.СделкиСКлиентами</v8:Type>
 				<v8:Type>cfg:CatalogRef.ФорматыМагазинов</v8:Type>
 				<v8:Type>cfg:DocumentRef.ОтчетКомиссионераОСписании</v8:Type>
+				<v8:Type>cfg:DocumentRef.ОтборРазмещениеТоваров</v8:Type>
 				<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиДоходов</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПередачаТоваровМеждуОрганизациями</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПриходныйОрдерНаТовары</v8:Type>

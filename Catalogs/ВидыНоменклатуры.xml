@@ -40,12 +40,12 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
-			<CodeLength>0</CodeLength>
+			<CodeLength>3</CodeLength>
 			<DescriptionLength>50</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Fixed</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
-			<CheckUnique>false</CheckUnique>
+			<CheckUnique>true</CheckUnique>
 			<Autonumbering>false</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<StandardAttributes>
@@ -303,7 +303,7 @@
 					<xr:Comment/>
 					<xr:FullTextSearch>Use</xr:FullTextSearch>
 					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:nil="true"/>
+					<xr:FillValue xsi:type="xs:string">   </xr:FillValue>
 					<xr:Mask/>
 					<xr:ChoiceParameters/>
 				</xr:StandardAttribute>
@@ -332,6 +332,7 @@
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
 				<xr:Field>Catalog.ВидыНоменклатуры.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.ВидыНоменклатуры.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -4815,6 +4816,90 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="34edbc54-7dde-48b6-bd30-40cda1040f06">
+				<Properties>
+					<Name>КР_IDPLM</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ID PLM</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>36</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>DontUse</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="669bc818-2480-4832-a928-e9b2e0ddee28">
+				<Properties>
+					<Name>злНеПечататьEAC</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Не печатать EAC</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="8d332d20-0cd5-4ecc-b0dc-d80920812896">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.ВидыНоменклатуры.РеквизитыДляКонтроляНоменклатуры" category="TabularSection">
@@ -7249,6 +7334,7 @@
 			<Form>ФормаНастройкиУчетаСерий</Form>
 			<Form>ФормаСпискаДляНастройкиЦенообразования</Form>
 			<Form>ФормаНастройкиРазрезовЦенообразования</Form>
+			<Template>КР_ОписаниеИзменений</Template>
 			<Command uuid="97e56aea-0c32-40fa-bbe5-e1d4be9e1199">
 				<Properties>
 					<Name>НастройкиУчетаСерий</Name>

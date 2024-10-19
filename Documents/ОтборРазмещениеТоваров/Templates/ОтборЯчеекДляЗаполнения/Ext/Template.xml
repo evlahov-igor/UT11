@@ -39,31 +39,28 @@
 				</dcscor:item>
 			</inputParameters>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Помещение</dataPath>
+			<field>Помещение</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	СкладскиеЯчейки.Ссылка КАК Ячейка
 ИЗ
 	Справочник.СкладскиеЯчейки КАК СкладскиеЯчейки
 ГДЕ
-	СкладскиеЯчейки.Владелец = &amp;Склад
-	И СкладскиеЯчейки.Помещение = &amp;Помещение
+	СкладскиеЯчейки.Владелец = &amp;Склад    
+	// &lt;&lt; 23.10.2023 Марченко С.Н., КРОК, JIRA№A2105505-2414	
+	//И СкладскиеЯчейки.Помещение = &amp;Помещение                
+	// &gt;&gt; 23.10.2023 Марченко С.Н., КРОК, JIRA№A2105505-2414
 	И НЕ СкладскиеЯчейки.ЭтоГруппа
-	И НЕ СкладскиеЯчейки.ПометкаУдаления</query>
+	И НЕ СкладскиеЯчейки.ПометкаУдаления   
+
+// &lt;&lt; 23.10.2023 Марченко С.Н., КРОК, JIRA№A2105505-2414
+{ГДЕ
+	(СкладскиеЯчейки.Помещение) КАК Помещение}
+// &gt;&gt; 23.10.2023 Марченко С.Н., КРОК, JIRA№A2105505-2414	</query>
 	</dataSet>
-	<parameter>
-		<name>Помещение</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Помещение</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.СкладскиеПомещения</v8:Type>
-		</valueType>
-		<value xsi:nil="true"/>
-		<useRestriction>true</useRestriction>
-	</parameter>
 	<parameter>
 		<name>Склад</name>
 		<title xsi:type="v8:LocalStringType">

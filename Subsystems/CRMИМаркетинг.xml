@@ -48,6 +48,8 @@
 			<Subsystem>Сегментация</Subsystem>
 			<Subsystem>МаркетинговыеМероприятияИПроекты</Subsystem>
 			<Subsystem>Ассортимент</Subsystem>
+			<Subsystem>КР_РазмещениеТовараВМагазине</Subsystem>
+			<Subsystem>КР_НСИАссортимента</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Table name="Маршрут" id="1">
+			<Representation>List</Representation>
+			<ReadOnly>true</ReadOnly>
+			<ChoiceMode>true</ChoiceMode>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Маршрут</DataPath>
+			<CommandSet>
+				<ExcludedCommand>Add</ExcludedCommand>
+				<ExcludedCommand>Change</ExcludedCommand>
+				<ExcludedCommand>Copy</ExcludedCommand>
+				<ExcludedCommand>Delete</ExcludedCommand>
+				<ExcludedCommand>EndEdit</ExcludedCommand>
+				<ExcludedCommand>MoveDown</ExcludedCommand>
+				<ExcludedCommand>MoveUp</ExcludedCommand>
+				<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+			</CommandSet>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="МаршрутКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="МаршрутКоманднаяПанель" id="3">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="МаршрутРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="МаршрутСтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>Маршрут</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="МаршрутСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="МаршрутСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="МаршрутСостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>Маршрут</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="МаршрутСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="МаршрутСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="МаршрутУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>Маршрут</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="МаршрутУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="МаршрутУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">МаршрутВыбор</Event>
+			</Events>
+			<ChildItems>
+				<InputField name="МаршрутКР_ПолучательОтправитель" id="14">
+					<DataPath>Маршрут.КР_ПолучательОтправитель</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МаршрутКР_ПолучательОтправительКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="МаршрутКР_ПолучательОтправительРасширеннаяПодсказка" id="16"/>
+				</InputField>
+				<InputField name="МаршрутВремяС" id="17">
+					<DataPath>Маршрут.ВремяС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МаршрутВремяСКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="МаршрутВремяСРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<InputField name="МаршрутКР_Перевозчик" id="20">
+					<DataPath>Маршрут.КР_Перевозчик</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МаршрутКР_ПеревозчикКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="МаршрутКР_ПеревозчикРасширеннаяПодсказка" id="22"/>
+				</InputField>
+				<InputField name="МаршрутКР_Водитель" id="23">
+					<DataPath>Маршрут.КР_Водитель</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МаршрутКР_ВодительКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="МаршрутКР_ВодительРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="МаршрутКР_ТранспортноеСредство" id="26">
+					<DataPath>Маршрут.КР_ТранспортноеСредство</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МаршрутКР_ТранспортноеСредствоКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="МаршрутКР_ТранспортноеСредствоРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="МаршрутОбъем" id="29">
+					<DataPath>Маршрут.Объем</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МаршрутОбъемКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="МаршрутОбъемРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="МаршрутКлючСвязи" id="32">
+					<DataPath>Маршрут.КлючСвязи</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МаршрутКлючСвязиКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="МаршрутКлючСвязиРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="МаршрутКР_КоличествоПаллет" id="35">
+					<DataPath>Маршрут.КР_КоличествоПаллет</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МаршрутКР_КоличествоПаллетКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="МаршрутКР_КоличествоПаллетРасширеннаяПодсказка" id="37"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Маршрут" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Маршрут</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="КР_ПолучательОтправитель" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получатель (отправитель)</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОтправительПолучательДоставки</v8:TypeSet>
+					</Type>
+				</Column>
+				<Column name="ВремяС" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата и время начала разгрузки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="КР_Перевозчик" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перевозчик</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Column>
+				<Column name="КР_Водитель" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Водитель</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Column>
+				<Column name="КР_ТранспортноеСредство" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Транспортное средство</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ТранспортныеСредства</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Объем" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Объем</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="КлючСвязи" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ключ связи</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>36</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="КР_КоличествоПаллет" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество паллет</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+</Form>

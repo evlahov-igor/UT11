@@ -161,7 +161,7 @@
 					<xr:ChoiceParameters/>
 				</xr:StandardAttribute>
 			</StandardAttributes>
-			<InformationRegisterPeriodicity>Month</InformationRegisterPeriodicity>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
 			<WriteMode>RecorderSubordinate</WriteMode>
 			<MainFilterOnPeriod>false</MainFilterOnPeriod>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
@@ -441,6 +441,7 @@
 				</Properties>
 			</Dimension>
 			<Form>ФормаСписка</Form>
+			<Template>КР_Изменения</Template>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

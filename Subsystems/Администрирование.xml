@@ -114,6 +114,7 @@
 			<Subsystem>Администрирование</Subsystem>
 			<Subsystem>НастройкаРазделов</Subsystem>
 			<Subsystem>НастройкаИнтеграции</Subsystem>
+			<Subsystem>КР_ДополнительныеНастройки</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

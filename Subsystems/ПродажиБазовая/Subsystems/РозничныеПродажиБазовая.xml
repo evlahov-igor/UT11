@@ -25,6 +25,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЧекККМКоррекции</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ПересеченияШтрихкодовНоменклатурыСоСпецКодами</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтчетОРозничныхВозвратах</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КР_РозничныеПродажи</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

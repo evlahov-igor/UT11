@@ -35,7 +35,7 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<Numerator/>
 			<NumberType>String</NumberType>
-			<NumberLength>11</NumberLength>
+			<NumberLength>13</NumberLength>
 			<NumberAllowedLength>Fixed</NumberAllowedLength>
 			<NumberPeriodicity>Year</NumberPeriodicity>
 			<CheckUnique>true</CheckUnique>
@@ -551,6 +551,45 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="81401ab5-e4c9-4a49-8d8b-09d1c47befeb">
+				<Properties>
+					<Name>КР_НеПечататьСтарыеЦены</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Не печатать старые цены</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>A2105505-1028</Comment>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<Form>ФормаСписка</Form>
 			<Form>ФормаВыбораПараметровРасчета</Form>
@@ -561,6 +600,7 @@
 			<Form>ФормаИзмененияЦен</Form>
 			<Form>ФормаВыбораДокументов</Form>
 			<Form>ФормаИзмененияЦенНовыйВариант</Form>
+			<Form>КР_ЗагрузкаЦенИзExcel</Form>
 			<TabularSection uuid="fa358103-b0d9-4936-b18c-99a353b041d9">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.УстановкаЦенНоменклатуры.Товары" category="TabularSection">
@@ -2034,6 +2074,7 @@
 			<Template>ПФ_MXL_ПереоценкаТоваровВРознице</Template>
 			<Template>ПФ_MXL_УстановкаЦенНоменклатуры</Template>
 			<Template>ЗагрузкаЦен</Template>
+			<Template>КР_ЗагрузкаЦен</Template>
 			<Command uuid="a127833e-2754-4cee-bb0a-c98f1a6fa04b">
 				<Properties>
 					<Name>ИсторияИзмененияЦен</Name>
@@ -2070,6 +2111,29 @@
 					<Group>FormCommandBarCreateBasedOn</Group>
 					<CommandParameterType>
 						<v8:Type>cfg:CatalogRef.МаркетинговыеМероприятия</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture/>
+					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
+				</Properties>
+			</Command>
+			<Command uuid="23e783db-3ad9-43a7-b405-6cfa54eee465">
+				<Properties>
+					<Name>КР_УстановкаСпециальнойЦены</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Установка специальной цены</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>FormCommandBarImportant</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:DocumentRef.УстановкаЦенНоменклатуры</v8:Type>
 					</CommandParameterType>
 					<ParameterUseMode>Single</ParameterUseMode>
 					<ModifiesData>false</ModifiesData>

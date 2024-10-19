@@ -190,6 +190,30 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="cbfe4220-ce40-4911-844f-a371f123b181">
+				<Properties>
+					<Name>КР_ПереместитьНаСкладРазбора</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Переместить на склад разбора</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>JIRA№ A2105505-2597</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="05048be7-6733-4532-a579-7fd7acf42950">
+				<Properties>
+					<Name>КР_ПереместитьСоСкладаРазбора</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Переместить со склада разбора</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>JIRA№ A2105505-2597</Comment>
+				</Properties>
+			</EnumValue>
 			<Form>ФормаВыбора</Form>
 		</ChildObjects>
 	</Enum>

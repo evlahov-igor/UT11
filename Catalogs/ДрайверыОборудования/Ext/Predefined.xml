@@ -120,6 +120,12 @@
 		<Description>ars:ККТ с передачей данных в ОФД (54-ФЗ)</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="465befb3-efaf-4e57-a20a-701b2dcb4873">
+		<Name>КР_ДрайверArtix</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>Artix (Offline)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="c9af7655-a1b3-42b7-b4b7-16f018b4bd9e">
 		<Name>ДрайверBizerbaВесыСПечатьюЭтикеток</Name>
 		<Code xsi:type="xs:decimal">0</Code>

@@ -3897,6 +3897,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.КР_УстановкаПриоритетовРазмеров</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ОприходованиеИзлишковТоваровУХранителяПрисоединенныеФайлы</name>
 		<right>
 			<name>InteractiveDelete</name>
@@ -4130,6 +4137,13 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.КР_УстановкаМестРазмещения</name>
+		<right>
+			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -10290,34 +10304,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ОперацииРегламентныхЗаданий.StandardAttribute.Active</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОперацииРегламентныхЗаданий.StandardAttribute.LineNumber</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОперацииРегламентныхЗаданий.StandardAttribute.Recorder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОперацииРегламентныхЗаданий.StandardAttribute.Period</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.ПриоритетОбновленияВОбластяхДанных</name>
 		<right>
 			<name>Update</name>
@@ -11043,34 +11029,6 @@
 			<name>Update</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ВидыПродукцииПоГруппамВЕТИС.StandardAttribute.Active</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ВидыПродукцииПоГруппамВЕТИС.StandardAttribute.LineNumber</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ВидыПродукцииПоГруппамВЕТИС.StandardAttribute.Recorder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ВидыПродукцииПоГруппамВЕТИС.StandardAttribute.Period</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -17072,6 +17030,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.КР_УстановкаМинимальнойПрезентации</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>ExchangePlan.ОбменУправлениеТорговлейБухгалтерияПредприятияКОРП</name>
 		<right>
 			<name>InteractiveDelete</name>
@@ -19118,34 +19083,6 @@
 			<name>Update</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДопустимыеЦелиПоГруппамВЕТИС.StandardAttribute.Active</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДопустимыеЦелиПоГруппамВЕТИС.StandardAttribute.LineNumber</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДопустимыеЦелиПоГруппамВЕТИС.StandardAttribute.Recorder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДопустимыеЦелиПоГруппамВЕТИС.StandardAttribute.Period</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -21326,6 +21263,13 @@
 	</object>
 	<object>
 		<name>Document.ОтражениеРасхожденийПриИнкассацииДенежныхСредств</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.КР_ДвижениеКоробов</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>

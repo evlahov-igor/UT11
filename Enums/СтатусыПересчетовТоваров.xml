@@ -142,6 +142,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="da741614-ba7d-417a-9037-36b76e3095d0">
+				<Properties>
+					<Name>злКПроверке</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>К проверке</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>#4584</Comment>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

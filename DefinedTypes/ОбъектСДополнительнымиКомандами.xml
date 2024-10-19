@@ -18,11 +18,13 @@
 			<Comment/>
 			<Type>
 				<v8:Type>cfg:DocumentRef.ВнутреннееПотреблениеТоваров</v8:Type>
+				<v8:Type>cfg:DocumentRef.АктОРасхожденияхПослеПеремещения</v8:Type>
 				<v8:Type>cfg:DocumentRef.ЗаписьКнигиПокупок</v8:Type>
 				<v8:Type>cfg:CatalogRef.ШтрихкодыУпаковокТоваров</v8:Type>
 				<v8:Type>cfg:DocumentRef.РасходныйОрдерНаТовары</v8:Type>
 				<v8:Type>cfg:DocumentRef.РасходныйКассовыйОрдер</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПланЗакупок</v8:Type>
+				<v8:Type>cfg:DocumentRef.АктОРасхожденияхПослеОтгрузки</v8:Type>
 				<v8:Type>cfg:DocumentRef.ТТНВходящаяЕГАИС</v8:Type>
 				<v8:Type>cfg:DocumentRef.УстановкаКвотАссортимента</v8:Type>
 				<v8:Type>cfg:DocumentRef.СверкаНачальныхОстатковПоСкладу</v8:Type>

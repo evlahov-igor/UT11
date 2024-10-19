@@ -46,6 +46,31 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Catalog.КР_Темы.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.КР_Подвески.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.КР_СведенияНоменклатурыПланирование.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.КР_СведенияНоменклатурыТоварнаяАналитика.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.КР_ИсторияИзмененийСезонаНоменклатуры.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="Catalog.ПроизводственныеКалендари.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
@@ -166,7 +191,37 @@
 		<Command name="Catalog.Партнеры.Command.Конкуренты">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
+		<Command name="Catalog.КР_Темы.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.КР_Подвески.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.КР_СведенияНоменклатурыПланирование.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.КР_СведенияНоменклатурыТоварнаяАналитика.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.КР_ИсторияИзмененийСезонаНоменклатуры.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
 		<Command name="Catalog.ПроизводственныеКалендари.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="Catalog.КР_Темы.Command.Темы">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="Catalog.КР_Подвески.Command.Подвески">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.КР_СведенияНоменклатурыПланирование.Command.СведенияНоменклатурыПланирование">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.КР_СведенияНоменклатурыТоварнаяАналитика.Command.СведенияНоменклатурыТоварнаяАналитика">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.КР_ИсторияИзмененийСезонаНоменклатуры.Command.ИсторияИзмененийСезонаНоменклатуры">
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 		</Command>
 	</CommandsOrder>

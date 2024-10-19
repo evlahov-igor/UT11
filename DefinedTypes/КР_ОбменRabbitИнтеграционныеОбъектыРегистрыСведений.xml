@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<DefinedType uuid="a601a704-18f6-4a7c-9d9c-e235c4c818b8">
+		<InternalInfo>
+			<xr:GeneratedType name="DefinedType.КР_ОбменRabbitИнтеграционныеОбъектыРегистрыСведений" category="DefinedType">
+				<xr:TypeId>6d4e8ad4-bf5e-4fbf-a00a-13a59d22db4c</xr:TypeId>
+				<xr:ValueId>e505afe3-32a6-40d2-a88c-f0c8d387887d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КР_ОбменRabbitИнтеграционныеОбъектыРегистрыСведений</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обмен rabbit интеграционные объекты регистры сведений</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.ИсторияИзмененияФорматовМагазинов</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.КР_СведенияНоменклатурыПланирование</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.КР_ИсторияИзмененийСезонаНоменклатуры</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.КР_СоответствиеСкладовИМаркетплейсов</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.ДополнительныеСведения</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.КР_СведенияНоменклатурыТоварнаяАналитика</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.ДокументыФизическихЛиц</v8:Type>
+			</Type>
+		</Properties>
+	</DefinedType>
+</MetaDataObject>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="cb50c589-1eda-4473-b194-b3e4f98b2242">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.КР_ВременаГода" category="Ref">
+				<xr:TypeId>15347ede-ff0d-46d0-804c-55b10bf501ba</xr:TypeId>
+				<xr:ValueId>48970830-80e3-498a-9e78-d7bb15bb56f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.КР_ВременаГода" category="Manager">
+				<xr:TypeId>2f011829-f627-4748-9f30-19c10ee723c0</xr:TypeId>
+				<xr:ValueId>459e6ed3-f441-4f43-96cb-e0d59e3c92a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.КР_ВременаГода" category="List">
+				<xr:TypeId>a5a1ee2f-84c1-45be-9efa-2c894d15a700</xr:TypeId>
+				<xr:ValueId>fadc8686-9bd6-4434-bd22-967bed23f1f9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КР_ВременаГода</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Времена года</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="b68a5a17-ab47-46af-8ceb-b67ac336aedd">
+				<Properties>
+					<Name>SS</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>SS</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5cdd1d6c-ea6e-4884-9b1e-552a76da1cdb">
+				<Properties>
+					<Name>AW</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>AW</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

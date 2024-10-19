@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Настройка рабочего места</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаКомандаСохранитьИЗакрыть" id="20">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.КомандаСохранитьИЗакрыть</CommandName>
+				<ExtendedTooltip name="ФормаКомандаСохранитьИЗакрытьРасширеннаяПодсказка" id="21"/>
+			</Button>
+			<Button name="ФормаКомандаСохранить" id="4">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.КомандаСохранить</CommandName>
+				<ExtendedTooltip name="ФормаКомандаСохранитьРасширеннаяПодсказка" id="5"/>
+			</Button>
+			<Button name="Закрыть" id="6">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>Form.StandardCommand.Close</CommandName>
+				<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="7"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаОбщая" id="69">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа общая</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа общая</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ToolTipRepresentation>None</ToolTipRepresentation>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОбщаяРасширеннаяПодсказка" id="70"/>
+			<ChildItems>
+				<InputField name="ОтчетКонтрольСтоимостиПеревозки" id="77">
+					<DataPath>ОбработкаИнвентаризации</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОтчетКонтрольСтоимостиПеревозкиКонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="ОтчетКонтрольСтоимостиПеревозкиРасширеннаяПодсказка" id="79"/>
+				</InputField>
+				<InputField name="ОбработкаЗагрузкаГрафикаОтгрузкиИПриемкиТМЦ" id="80">
+					<DataPath>ОбработкаПриемки</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОбработкаЗагрузкаГрафикаОтгрузкиИПриемкиТМЦКонтекстноеМеню" id="81"/>
+					<ExtendedTooltip name="ОбработкаЗагрузкаГрафикаОтгрузкиИПриемкиТМЦРасширеннаяПодсказка" id="82"/>
+				</InputField>
+				<InputField name="ОбработкаЗаполнениеЗаданийТН" id="83">
+					<DataPath>ОбработкаОтгрузки</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОбработкаЗаполнениеЗаданийТНКонтекстноеМеню" id="84"/>
+					<ExtendedTooltip name="ОбработкаЗаполнениеЗаданийТНРасширеннаяПодсказка" id="85"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаНастройкаДоступаКФорме" id="45">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки доступа к форме</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа настройка доступа к форме</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>PopUp</Behavior>
+			<ExtendedTooltip name="ГруппаНастройкаДоступаКФормеРасширеннаяПодсказка" id="46"/>
+			<ChildItems>
+				<LabelDecoration name="ДекорацияОписаниеДоступКФорме" id="50">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;fontsize 12&gt;&lt;color #000080&gt;Если установить пароль, то при нажатии кнопки "Настройки", будет открываться форма аутентификации, с проверкой на соответствие установленному паролю. Если пароль очистить, то аутентификация выполнятся не будет.&lt;/&gt;&lt;/&gt;</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияОписаниеДоступКФормеКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ДекорацияОписаниеДоступКФормеРасширеннаяПодсказка" id="52"/>
+				</LabelDecoration>
+				<InputField name="ПарольДоступа" id="47">
+					<DataPath>ПарольДоступаКФормеНастроек</DataPath>
+					<ClearButton>true</ClearButton>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПарольДоступаКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ПарольДоступаРасширеннаяПодсказка" id="49"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.злРабочееМестоСотрудникаМагазина</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ПарольДоступаКФормеНастроек" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пароль доступа к форме настроек</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОбработкаИнвентаризации" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработка (инвентаризации)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ДополнительныеОтчетыИОбработки</v8:Type>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+		</Attribute>
+		<Attribute name="ОбработкаПриемки" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработка (Приемки)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ДополнительныеОтчетыИОбработки</v8:Type>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+		</Attribute>
+		<Attribute name="ОбработкаОтгрузки" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработка (Отгрузки)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ДополнительныеОтчетыИОбработки</v8:Type>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="КомандаСохранить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Write</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КомандаСохранить</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="КомандаСимволыГенерацииПароляПоУмолчанию" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Символы генерации пароля по умолчанию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Символы генерации пароля по умолчанию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveLeft</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КомандаСимволыГенерацииПароляПоУмолчанию</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="КомандаСохранитьИЗакрыть" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить и закрыть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить и закрыть форму</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.EndEdit</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КомандаСохранитьИЗакрыть</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="КомандаДлинаПароляПоУмолчанию" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Длина пароля по умолчанию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Длина пароля по умолчанию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveLeft</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КомандаДлинаПароляПоУмолчанию</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="КомандаПроверитьСоединение" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить соединение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить соединение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CollaborationSystemIntegrationUser</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КомандаПроверитьСоединение</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="КомандаПолучитьЗначенияВыбора" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить значения выбора</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить значения выбора</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.ChooseValue</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КомандаПолучитьЗначенияВыбора</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="ДополнительнаяОбработкаСсылка">
+			<Type>
+				<v8:Type>cfg:CatalogRef.ДополнительныеОтчетыИОбработки</v8:Type>
+			</Type>
+			<KeyParameter>true</KeyParameter>
+		</Parameter>
+		<Parameter name="ИдентификаторКоманды">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<KeyParameter>true</KeyParameter>
+		</Parameter>
+	</Parameters>
+</Form>

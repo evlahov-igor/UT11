@@ -67,6 +67,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтчетОРозничныхВозвратах</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПечатьКМ6</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.СостояниеКассовыхСмен</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_ПосещаемостьМагазина</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -45,8 +45,8 @@
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Fixed</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
-			<CheckUnique>true</CheckUnique>
-			<Autonumbering>true</Autonumbering>
+			<CheckUnique>false</CheckUnique>
+			<Autonumbering>false</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<StandardAttributes>
 				<xr:StandardAttribute name="PredefinedDataName">
@@ -277,7 +277,7 @@
 				</xr:StandardAttribute>
 				<xr:StandardAttribute name="Code">
 					<xr:LinkByType/>
-					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:FillChecking>ShowError</xr:FillChecking>
 					<xr:MultiLine>false</xr:MultiLine>
 					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
 					<xr:CreateOnInput>Auto</xr:CreateOnInput>
@@ -303,7 +303,7 @@
 					<xr:Comment/>
 					<xr:FullTextSearch>Use</xr:FullTextSearch>
 					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:type="xs:string"/>
+					<xr:FillValue xsi:type="xs:string">         </xr:FillValue>
 					<xr:Mask/>
 					<xr:ChoiceParameters/>
 				</xr:StandardAttribute>
@@ -2139,6 +2139,90 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="da6944a6-66d3-48c7-837e-b3290e311c59">
+				<Properties>
+					<Name>КР_Склад</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>JIRA№ A2105505-1150</Comment>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="38c26e80-4096-41db-8d90-a962a58a564e">
+				<Properties>
+					<Name>КР_КодПоОКПО</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код по ОКПО</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>14</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="cd13f585-5905-4d0b-89db-dbbc8c1ab9e0">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.СтруктураПредприятия.ГрафикиРаботы" category="TabularSection">
@@ -2432,6 +2516,7 @@
 			<Form>РазблокированиеПараметровПроизводства</Form>
 			<Form>НастройкаПриоритетовПроизводственныхПодразделений</Form>
 			<Form>ФормаНастройкиУчетаСерий</Form>
+			<Template>КР_Изменения</Template>
 			<Command uuid="95de5680-9065-4b0a-b98e-701cfd447afd">
 				<Properties>
 					<Name>НастройкиУчетаСерий</Name>

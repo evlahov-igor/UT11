@@ -2342,6 +2342,11 @@
 			<Template>ПоляШаблонаАкцизныеМарки</Template>
 			<Template>ПоляШаблонаШтрихкодыУпаковок</Template>
 			<Template>ПоляШаблонаИСМП</Template>
+			<Template>КР_ПоляШаблонаТовары</Template>
+			<Template>КР_ПоляШаблонаПечатьТовары</Template>
+			<Template>КР_ПоляШаблонаБДТовары</Template>
+			<Template>КР_ПоляШаблонаБДТоварыАссортимент</Template>
+			<Template>КР_ПоляШаблонаУпаковочныеЛисты</Template>
 			<Command uuid="a8a6ef2e-22e7-4e47-933d-d30ce5f05701">
 				<Properties>
 					<Name>ПечатьЭтикетокПоУпаковочнымЛистам</Name>

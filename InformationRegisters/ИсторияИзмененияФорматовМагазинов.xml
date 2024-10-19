@@ -316,6 +316,45 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
+			<Resource uuid="cd2fe135-763e-4866-9873-1f26682fb632">
+				<Properties>
+					<Name>КР_ФорматМагазинаАксессуары</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Формат магазина (аксессуары)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>A2105505-775</Comment>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФорматыМагазинов</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Resource>
 			<Attribute uuid="3b5ef8a4-9345-4e9b-9ac3-1f04cdfd18b8">
 				<Properties>
 					<Name>Автор</Name>

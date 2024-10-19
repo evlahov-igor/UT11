@@ -222,10 +222,34 @@
 				<Description>Адрес склада</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
+			<Item id="84f30a7f-a331-4b0d-b942-726af39ff7e5">
+				<Name>КР_ТелефонАдминистратора</Name>
+				<Code/>
+				<Description>Телефон администратора</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
 			<Item id="1ca4c63a-0fc1-4291-9bce-0f5b6e04bd64">
 				<Name>ТелефонСклада</Name>
 				<Code/>
 				<Description>Телефон склада</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a6436df3-36bc-496d-b410-6a6c3b90ddfa">
+				<Name>КР_ТелефонУправляющего</Name>
+				<Code/>
+				<Description>Телефон управляющего</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2a0aa0f1-63da-4ac7-8ba7-1a05d5b352fe">
+				<Name>злФактАдресСклада</Name>
+				<Code/>
+				<Description>Фактический адрес склада</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="cfcaefe4-f6ad-4d02-9daa-dd31aa1b26e5">
+				<Name>КР_ЭлектроннаяПочтаСклада</Name>
+				<Code/>
+				<Description>Электронная почта склада</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
 		</ChildItems>

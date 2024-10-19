@@ -333,6 +333,8 @@
 					<Comment/>
 					<Type>
 						<v8:Type>cfg:DocumentRef.РасходныйОрдерНаТовары</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЗаказНаПеремещение</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЗаказНаВнутреннееПотребление</v8:Type>
 						<v8:Type>cfg:DocumentRef.ОрдерНаПеремещениеТоваров</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
@@ -590,6 +592,7 @@
 					<UseInTotals>true</UseInTotals>
 				</Properties>
 			</Dimension>
+			<Template>КР_Изменения</Template>
 		</ChildObjects>
 	</AccumulationRegister>
 </MetaDataObject>

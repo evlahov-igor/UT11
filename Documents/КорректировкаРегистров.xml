@@ -225,6 +225,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.НормативыРаспределенияПлановПродажПоКатегориям</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РасчетыСКлиентамиПланОплат</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЗаявкиНаВозвратТоваровОтКлиентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КР_КоробаНаСкладах</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ДвиженияСерийТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РезервыТоваровОрганизаций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РасчетыСПоставщикамиПланПоставок</xr:Item>
@@ -232,8 +233,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ДвиженияДенежныхСредств</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПартииТоваровОрганизаций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияПодарочныхСертификатов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_ВладениеТранспортнымСредством</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПрочиеРасходы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПрослеживаемыеТоварыОтгруженныеВЕАЭС</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПрослеживаемыеТоварыОтгруженныеВЕАЭС</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ТоварыКОформлениюИзлишковНедостач</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СуммыДокументовВВалютахУчета</xr:Item>
@@ -245,6 +246,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПартииТоваровПереданныеНаКомиссию</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПартииПрочихРасходов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ТоварыУслугиКОформлениюОтчетовКомитентуОЗакупках</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КР_КоробаКПоступлению</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПрочиеАктивыПассивы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ДвиженияПоПрочимАктивамПассивам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ДенежныеСредстваБезналичные</xr:Item>
@@ -260,17 +262,20 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РасчетыСПоставщикамиПланОплат</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.НДСАвансыВыданные</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ТоварыКОформлениюОтчетовКомитенту</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_КонтейнерАссортимента</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ДенежныеСредстваНаличные</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПланыЗакупок</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЦеныНоменклатуры25</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.НДСАвансыПолученные</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ДвиженияДенежныеСредстваКонтрагент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_ВесНеттоТовара</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПереданнаяВозвратнаяТара</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПодарочныеСертификаты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПартииРасходовНаСебестоимостьТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ДенежныеСредстваВПути</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПрочаяВыручка</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ТоварыКОтбору</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КР_РасходыНаПеревозку</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЛимитыРасходаДенежныхСредств</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ДенежныеСредстваВКассахККМ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЗаказыНаПеремещение</xr:Item>
@@ -286,7 +291,11 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ДетализацияПартийТоваровДляНДСиУСН2_4</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РаспределениеЗапасовДвижения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ДенежныеСредстваКВыплате</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КР_ТоварыКОформлениюОптовыхПродаж</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КР_РозничныеПродажи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_РасширенныйАссортимент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Закупки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КР_РозничныеОплатыБезналичные</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.НДСЗаписиКнигиПродаж</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПланыПродажПоКатегориям</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КвотыАссортимента</xr:Item>
@@ -320,6 +329,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЗаказыПоставщикам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПартииПроизводственныхЗатрат</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РасчетыПоЭквайрингу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_МинимальнаяПрезентация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.КР_ЗаданияНаПеревозку</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ТоварыКПоступлению</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЗаказыНаВнутреннееПотребление</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.УслугиКОформлениюОтчетовПринципалу</xr:Item>
@@ -626,6 +637,7 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<Template>КР_Изменения</Template>
 			<Command uuid="dd9b1a7c-3cd1-4e56-83b5-53bddd126e57">
 				<Properties>
 					<Name>КорректировкаРегистров</Name>

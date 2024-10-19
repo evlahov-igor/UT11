@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="7a67eefc-66e4-4ca3-87d6-d18034064115">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.КР_ВременаГодаКалендарные" category="Ref">
+				<xr:TypeId>5312dbb2-6e0c-4f3b-909a-1115df3911eb</xr:TypeId>
+				<xr:ValueId>770ac8de-7cdd-4980-bf4c-5d00c023fda6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.КР_ВременаГодаКалендарные" category="Manager">
+				<xr:TypeId>aedf1897-9c20-475c-bb4f-fe1c2d52c180</xr:TypeId>
+				<xr:ValueId>4e119e6f-90dc-41d4-b745-752bd138b5dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.КР_ВременаГодаКалендарные" category="List">
+				<xr:TypeId>48e170cb-c3e0-4506-8cb0-2196c1c53bf7</xr:TypeId>
+				<xr:ValueId>7318b26a-164a-4d5e-b1c0-edc96eeb779a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КР_ВременаГодаКалендарные</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Времена года календарные</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="50447d2f-0f04-44cb-a287-80fb6bed922b">
+				<Properties>
+					<Name>Весна</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Весна</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="64890aaf-ab29-4017-8b57-b40b4375dfd6">
+				<Properties>
+					<Name>Лето</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Лето</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cde2a15b-f7e9-4516-b523-53a7cf824137">
+				<Properties>
+					<Name>Осень</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Осень</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4f410137-50d3-4385-b097-d38a66bf52fd">
+				<Properties>
+					<Name>Зима</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Зима</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,1058 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.zollaintegration.croc.cr_zolla_exchange.org" elementFormQualified="true" attributeFormQualified="false">
+	<objectType name="AcquisitionOfServicesAndOtherAssetsExpensesAndOtherAssetsRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Row" type="d3p1:ExpensesAndOtherAssetsSingleRowObject" upperBound="-1"/>
+	</objectType>
+	<objectType name="AcquisitionOfServicesAndOtherAssetsObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Counterparty" type="d3p1:СounterpartyRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Contract" type="d3p1:ContractRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Currency" type="d3p1:CurrencyRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CurrencySettlements" type="d3p1:CurrencyRef" lowerBound="0" nillable="true"/>
+		<property name="CourseNumerator" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="CourseDenominator" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="PriceIncludesVAT" type="xs:boolean"/>
+		<property name="InvoiceNum" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="InvoiceDate" type="xs:dateTime" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="ExpensesAndOtherAssets" type="d3p1:AcquisitionOfServicesAndOtherAssetsExpensesAndOtherAssetsRowsObject" lowerBound="0" nillable="true"/>
+		<property name="AmountTotal" type="xs:decimal"/>
+	</objectType>
+	<objectType name="BusinessTransactionsRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Row" type="d3p1:BusinessTransactionsSingleRowObject" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="BusinessTransactionsSingleRowObject">
+		<property name="BusinessTransaction" type="xs:string"/>
+	</objectType>
+	<objectType name="CashFlowItemObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Code" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Parent" type="d3p1:CashFlowItemRef" lowerBound="0" nillable="true"/>
+		<property name="ItsAGroup" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property name="CorrespondingAccount" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="Description" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="BusinessTransactions" type="d3p1:BusinessTransactionsRowsObject" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="CashFlowItemRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Code" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="CashierKKMRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="CashierRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="CashierSenderRecieverRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="Type" type="xs:string"/>
+	</objectType>
+	<objectType name="CertificateObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="StartDate" type="xs:date"/>
+		<property name="EndDate" type="xs:date"/>
+		<property name="IssuingAuthority" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="CertificateType" type="xs:string"/>
+		<property name="Scheme" type="xs:string"/>
+		<property name="Article" type="xs:string"/>
+	</objectType>
+	<objectType name="CollectionObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="CollectionId" type="xs:string"/>
+		<property name="CollectionTimeOfYear" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Season" type="d3p1:SeasonRef"/>
+	</objectType>
+	<objectType name="CollectionRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="CollectionId" type="xs:string"/>
+	</objectType>
+	<objectType name="ColourObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="ColourId" type="xs:string"/>
+		<property name="ColourName" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="ColourRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="ColourId" type="xs:string"/>
+	</objectType>
+	<objectType name="CommissionerSalesReportObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CommissionAgent" type="d3p1:СounterpartyRef"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="AmountSales" type="xs:decimal"/>
+		<property name="AmountCost" type="xs:decimal"/>
+		<property name="QuantitySales" type="xs:decimal"/>
+		<property name="AmountCommission" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Goods" type="d3p1:GoodsRowsObject"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Contract" type="d3p1:ContractRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property name="PriceIncludesVAT" type="xs:boolean"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Client" type="d3p1:СounterpartyRef"/>
+	</objectType>
+	<objectType name="ContactRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="ContactSingleRow" type="d3p1:ContactSingleRowObject" upperBound="-1"/>
+	</objectType>
+	<objectType name="ContactSingleRowObject">
+		<property name="Representation" type="xs:string"/>
+		<property name="Type" type="xs:string"/>
+	</objectType>
+	<objectType name="ContractObject">
+		<property name="Ref" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Counterparty" type="d3p1:СounterpartyRef"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Code" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Currency" type="d3p1:CurrencyRef"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property name="Number" type="xs:string"/>
+		<property name="AccountingAgencyVAT" type="xs:boolean"/>
+		<property name="PaymentDeadline" type="xs:boolean"/>
+		<property name="PaymentCurrency" type="xs:boolean"/>
+		<property name="EndDate" type="xs:date" lowerBound="0" nillable="true"/>
+		<property name="Date" type="xs:date" lowerBound="0" nillable="true"/>
+		<property name="Type" type="xs:string"/>
+	</objectType>
+	<objectType name="ContractRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="Date" type="xs:date" lowerBound="0" nillable="true"/>
+		<property name="CodeDEMO" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="CounterpartyObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Code" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Parent" type="d3p1:СounterpartyRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="HeadCounterparty" type="d3p1:СounterpartyRef" lowerBound="0" nillable="true"/>
+		<property name="INN" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="OKPO" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="KPP" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="FullName" type="xs:string"/>
+		<property name="RegistrationNumber" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="OGRNIP" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Country" type="d3p1:CountryRef" lowerBound="0" nillable="true"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Client" type="xs:boolean"/>
+		<property name="Provider" type="xs:boolean"/>
+		<property name="Carrier" type="xs:boolean"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Contact" type="d3p1:ContactRowsObject" lowerBound="0" nillable="true"/>
+		<property name="SeparateDivision" type="xs:boolean"/>
+		<property name="UrFisLitso" type="xs:string"/>
+		<property name="DateRegistration" type="xs:date"/>
+		<property name="ProviderId" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="Resident" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="KppHistory" type="d3p1:KppHistoryRowsObject" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="NamingHistory" type="d3p1:NamingHistoryRowsObject" lowerBound="0" nillable="true"/>
+		<property name="VatRate" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="AdditionalInfo" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="CountryRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Code" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="CurrencyRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="NameFull" type="xs:string"/>
+		<property name="Code" type="xs:string"/>
+	</objectType>
+	<objectType name="DepartmentRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Code" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="Name" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Parent" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+		<property name="DepartmentCodeDemo" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="DocumentTypeRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Type" type="xs:string"/>
+		<property name="BusinessTransaction" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="DomesticConsumptionGoodsObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="KindOperations" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Warehouse" type="d3p1:WarehouseRef"/>
+		<property name="Quantity" type="xs:decimal"/>
+		<property name="Price" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="Amount" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="ExpenditureItem" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="ExpensesAndOtherAssetsSingleRowObject">
+		<property name="Content" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Collection" type="d3p1:CollectionRef"/>
+		<property name="Quantity" type="xs:decimal"/>
+		<property name="Cost" type="xs:decimal"/>
+		<property name="Amount" type="xs:decimal"/>
+		<property name="VatRate" type="xs:string"/>
+		<property name="AmountVat" type="xs:decimal"/>
+		<property name="DocumentFoundingDate" type="xs:dateTime" lowerBound="0" nillable="true"/>
+		<property name="DocumentFoundingNumber" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="FIOHistoryRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="FIOHistorySingleRow" type="d3p1:FIOHistorySingleRowObject" upperBound="-1"/>
+	</objectType>
+	<objectType name="FIOHistorySingleRowObject">
+		<property name="Period" type="xs:date"/>
+		<property name="Surname" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="Patronymic" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="FullfilmendRef">
+		<property name="ID" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="GoodsRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Row" type="d3p1:GoodsSingleRowObject" upperBound="-1"/>
+	</objectType>
+	<objectType name="GoodsSingleRowObject">
+		<property name="Quantity" type="xs:decimal"/>
+		<property name="Amount" type="xs:decimal"/>
+		<property name="VatRate" type="xs:string"/>
+		<property name="AmountVat" type="xs:decimal"/>
+		<property name="AmountCost" type="xs:decimal" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="IdentityPapersInfoInfoRegRecordObject">
+		<property name="Period" type="xs:dateTime"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Individual" type="d3p1:IndividualRef"/>
+		<property name="DocType" type="xs:string"/>
+		<property name="DocSeries" type="xs:string"/>
+		<property name="DocNumber" type="xs:string"/>
+		<property name="IssueDate" type="xs:dateTime" lowerBound="0" nillable="true"/>
+		<property name="ExpDate" type="xs:dateTime" lowerBound="0" nillable="true"/>
+		<property name="IssueDept" type="xs:string"/>
+		<property name="IssueDeptID" type="xs:string"/>
+	</objectType>
+	<objectType name="IdentityPapersInfoRegObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="IdentityPapersInfoRegSelection" type="d3p1:IdentityPapersInfoRegSelectionObject"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="IdentityPapersInfoInfoRegRecordSet" type="d3p1:IdentityPapersInfoRegRecordSetObject"/>
+	</objectType>
+	<objectType name="IdentityPapersInfoRegRecordSetObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="IdentityPapersInfoInfoRegRecord" type="d3p1:IdentityPapersInfoInfoRegRecordObject" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="IdentityPapersInfoRegSelectionObject">
+		<property name="Period" type="xs:dateTime" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Individual" type="d3p1:IndividualRef"/>
+		<property name="DocType" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="ImageOfGoods">
+		<property name="FileName" type="xs:string"/>
+		<property name="Image" type="xs:base64Binary"/>
+		<property name="NeedReport" type="xs:boolean" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="ImageOfGoodsImportReport">
+		<property name="MessageID" type="xs:string"/>
+		<property name="FileName" type="xs:string"/>
+		<property name="Log" type="xs:string"/>
+		<property name="Error" type="xs:boolean"/>
+	</objectType>
+	<objectType name="ImportCustomsDeclarationObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="DeclarationNumber" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Customs" type="d3p1:СounterpartyRef"/>
+		<property name="CustomsDuty" type="xs:decimal"/>
+		<property name="CustomsFine" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Currency" type="d3p1:CurrencyRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CurrencySettlements" type="d3p1:CurrencyRef" lowerBound="0" nillable="true"/>
+		<property name="CourseNumerator" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="CourseDenominator" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="ProductsByCategory" type="d3p1:ImportCustomsDeclarationProductsByCategoryRowsObject" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Sections" type="d3p1:ImportCustomsDeclarationSectionsRowsObject" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="ImportCustomsDeclarationProductsByCategoryRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Row" type="d3p1:ImportCustomsDeclarationProductsByCategorySingleRowObject" upperBound="-1"/>
+	</objectType>
+	<objectType name="ImportCustomsDeclarationProductsByCategorySingleRowObject">
+		<property name="SectionsNumber" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Collection" type="d3p1:CollectionRef"/>
+		<property name="Quantity" type="xs:decimal"/>
+		<property name="Cost" type="xs:decimal"/>
+		<property name="VatRate" type="xs:string"/>
+		<property name="AmountVat" type="xs:decimal"/>
+		<property name="TaxAmount" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="ReceiptDocumentNumber" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="ReceiptDocumentDate" type="xs:dateTime" lowerBound="0" nillable="true"/>
+		<property name="CountryOriginCode" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="ImportCustomsDeclarationSectionsRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Row" type="d3p1:ImportCustomsDeclarationSectionsSingleRowObject" upperBound="-1"/>
+	</objectType>
+	<objectType name="ImportCustomsDeclarationSectionsSingleRowObject">
+		<property name="SectionsNumber" type="xs:string"/>
+		<property name="Cost" type="xs:decimal"/>
+		<property name="TaxAmount" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="AmountVat" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="DutyRate" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="VatRate" type="xs:string"/>
+		<property name="CountryOriginCode" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="IncomingCashOrderObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Counterparty" type="d3p1:СounterpartyRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+		<property name="SumDoc" type="xs:decimal"/>
+		<property name="AmountConverted" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Contract" type="d3p1:ContractRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property name="VATIncluded" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Cashier" type="d3p1:CashierRef"/>
+		<property name="BusinessTransaction" type="xs:string"/>
+		<property name="RecievedFrom" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="Basis" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="Enclosure" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="AccountablePerson" type="d3p1:PersonRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="BankAccount" type="d3p1:OrganizationsBankAccountRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Currency" type="d3p1:CurrencyRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="User" type="d3p1:UserRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CashFlowItem" type="d3p1:CashFlowItemRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="BasisDocument" type="d3p1:DocumentTypeRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CashierKKM" type="d3p1:CashierKKMRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CashierSender" type="d3p1:CashierSenderRecieverRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="ConvertationCurrency" type="d3p1:CurrencyRef" lowerBound="0" nillable="true"/>
+		<property name="ConversionRate" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="PowerOfAttorneyIssued" type="d3p1:DocumentTypeRef" lowerBound="0" nillable="true"/>
+		<property name="ConversionRateMultiplicity" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="SettlementObject" type="d3p1:DocumentTypeRef" lowerBound="0" nillable="true"/>
+		<property name="DocumentID" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="Correction" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="СanceledDocument" type="d3p1:DocumentTypeRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CorrectedDocument" type="d3p1:DocumentTypeRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Paymaster" type="d3p1:PersonRef" lowerBound="0" nillable="true"/>
+		<property name="RecieverIsCashierKKM" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="PaymentDecryption" type="d3p1:PaymentDecryptionRowsObject" lowerBound="0" nillable="true"/>
+		<property name="SumInternetSales" type="xs:decimal" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="IndividualObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Parent" type="d3p1:IndividualRef" lowerBound="0" nillable="true"/>
+		<property name="Group" type="xs:boolean"/>
+		<property name="Driver" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property name="DriverForRetail" type="xs:boolean" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="IndividualRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="InvoiceObject">
+		<property name="Ref" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="RefDocBase" type="d3p1:DocumentTypeRef"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property name="PrintNumber" type="xs:string"/>
+		<property name="TransactionTypeCode" type="xs:string"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="ItemOfExpenditureObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Code" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Parent" type="d3p1:ItemOfExpenditureRef" lowerBound="0" nillable="true"/>
+		<property name="ItsAGroup" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property name="Description" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="ItemOfExpenditureRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Code" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="ItemOfIncomeObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Code" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Parent" type="d3p1:ItemOfIncomeRef" lowerBound="0" nillable="true"/>
+		<property name="ItsAGroup" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property name="Description" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="ItemOfIncomeRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Code" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="KppHistoryRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="KppHistorySingleRow" type="d3p1:KppHistorySingleRowObject" upperBound="-1"/>
+	</objectType>
+	<objectType name="KppHistorySingleRowObject">
+		<property name="Period" type="xs:date" lowerBound="0" nillable="true"/>
+		<property name="KPP" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="LineObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="LineId" type="xs:string"/>
+		<property name="LineName" type="xs:string"/>
+		<property name="LineGender" type="xs:string"/>
+	</objectType>
+	<objectType name="LineRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="LineId" type="xs:string"/>
+	</objectType>
+	<objectType name="ManufacturerObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="Address" type="xs:string" nillable="true"/>
+		<property name="IDPLM" type="xs:string"/>
+	</objectType>
+	<objectType name="ManufacturerRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="MoneyExpenditureRequest">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Counterparty" type="d3p1:СounterpartyRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Applicant" type="d3p1:UserRef"/>
+		<property name="Status" type="xs:string"/>
+		<property name="SumDoc" type="xs:decimal"/>
+		<property name="AmountConverted" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Contract" type="d3p1:ContractRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Cashier" type="d3p1:CashierRef" lowerBound="0" nillable="true"/>
+		<property name="PurposeOfPayment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="PreferredDateOfPayment" type="xs:date"/>
+		<property name="BusinessTransaction" type="xs:string"/>
+		<property name="SalaryBusinessTransaction" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="AccountablePerson" type="d3p1:PersonRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="BankAccount" type="d3p1:OrganizationsBankAccountRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Currency" type="d3p1:CurrencyRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="User" type="d3p1:UserRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CashFlowItem" type="d3p1:CashFlowItemRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="BasisDocument" type="d3p1:DocumentTypeRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CashierReciever" type="d3p1:CashierKKMRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="ConvertationCurrency" type="d3p1:CurrencyRef" lowerBound="0" nillable="true"/>
+		<property name="ConversionRate" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="PayrollNumber" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="PayrollDate" type="xs:date" lowerBound="0" nillable="true"/>
+		<property name="AdvanceReportDate" type="xs:date" lowerBound="0" nillable="true"/>
+		<property name="ConversionRateMultiplicity" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="PaymentPriority" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="PaymentDecryption" type="d3p1:PaymentDecryptionRowsObject" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="NamingHistoryRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="NamingHistorySingleRow" type="d3p1:NamingHistorySingleRowObject" upperBound="-1"/>
+	</objectType>
+	<objectType name="NamingHistorySingleRowObject">
+		<property name="Period" type="xs:date" lowerBound="0" nillable="true"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="NomenclatureObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Article" type="xs:string"/>
+		<property name="WorkingName" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Provider" type="d3p1:СounterpartyRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Colour" type="d3p1:ColourRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Collection" type="d3p1:CollectionRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Line" type="d3p1:LineRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="ProductGroup" type="d3p1:ProductGroupRef"/>
+		<property name="NameCert" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="LousyLabel" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property name="EAC" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property name="PCT" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property name="Fur" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="FurEng" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="LiningСomposition" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="LiningСompositionEng" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="FabriсСomposition" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="FabriсСompositionEng" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="Insulation" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="InsulationEng" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="AverageWeight" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="AverageVolume" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Size" type="d3p1:SizeRowsObject"/>
+		<property name="OrderDate" type="xs:date" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="ProductCategory" type="d3p1:ProductCategoryRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="ProductType" type="d3p1:ProductTypeRef" lowerBound="0" nillable="true"/>
+		<property name="NamePriceTag" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Manufacturer" type="d3p1:ManufacturerRef"/>
+		<property name="ManufacturerPriceTag" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="ManufacturerAddressPriceTag" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="CertificationCenterPriceTag" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="CertificateNumberPriceTag" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="DateCertificatePriceTag" type="xs:date" lowerBound="0" nillable="true"/>
+		<property name="SchemePriceTag" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="SizeForAccessories" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="OrderItemStateRef">
+		<property name="ID" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="OrderItemsRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Row" type="d3p1:OrderItemsSingleRowObject" upperBound="-1"/>
+	</objectType>
+	<objectType name="OrderItemsSingleRowObject">
+		<property name="Barcode" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="OrderItemState" type="d3p1:OrderItemStateRef"/>
+		<property name="Price" type="xs:decimal"/>
+		<property name="ItemPrice" type="xs:decimal"/>
+	</objectType>
+	<objectType name="OrderObject">
+		<property name="OrderId" type="xs:string"/>
+		<property name="DateCreate" type="xs:dateTime"/>
+		<property name="DateOrderState" type="xs:dateTime"/>
+		<property name="LastChangeDate" type="xs:dateTime"/>
+		<property name="LastChangeDateMS" type="xs:int"/>
+		<property name="OrderNumber" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="OrderStateid" type="d3p1:OrderStateidRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Fullfilmend" type="d3p1:FullfilmendRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Storage" type="d3p1:WarehouseRef" nillable="true"/>
+		<property name="Price" type="xs:decimal"/>
+		<property name="DeliveryPrice" type="xs:decimal" nillable="true"/>
+		<property name="СlientMemo" type="xs:string" nillable="true"/>
+		<property name="SignUnredeemed" type="xs:boolean"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Signreturnid" type="d3p1:SignreturnidRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Items" type="d3p1:OrderItemsRowsObject"/>
+	</objectType>
+	<objectType name="OrderStateidRef">
+		<property name="ID" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="Description" type="xs:string"/>
+	</objectType>
+	<objectType name="OrganizationRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="NameFull" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="INN" type="xs:string"/>
+		<property name="KPP" type="xs:string"/>
+	</objectType>
+	<objectType name="OrganizationsBankAccountRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="AccountNumber" type="xs:string"/>
+		<property name="BanksBIK" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="BanksName" type="xs:string"/>
+	</objectType>
+	<objectType name="OutgoingCashOrderObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Counterparty" type="d3p1:СounterpartyRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+		<property name="DontControlMoneyExpenditureRequest" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property name="SumDoc" type="xs:decimal"/>
+		<property name="AmountConverted" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Contract" type="d3p1:ContractRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Cashier" type="d3p1:CashierRef"/>
+		<property name="BusinessTransaction" type="xs:string"/>
+		<property name="HandOverTo" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="Basis" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="Enclosure" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="BasedOnTheDocument" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="AccountablePerson" type="d3p1:PersonRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="MoneyExpenditureRequest" type="d3p1:DocumentTypeRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="BankAccount" type="d3p1:OrganizationsBankAccountRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Currency" type="d3p1:CurrencyRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="User" type="d3p1:UserRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CashFlowItem" type="d3p1:CashFlowItemRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="BasisDocument" type="d3p1:DocumentTypeRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CashierKKM" type="d3p1:CashierKKMRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CashierReciever" type="d3p1:CashierSenderRecieverRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="ConvertationCurrency" type="d3p1:CurrencyRef" lowerBound="0" nillable="true"/>
+		<property name="ConversionRate" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="Payroll" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="PayrollNumber" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="PayrollDate" type="xs:date" lowerBound="0" nillable="true"/>
+		<property name="BasedOnMoneyExpenditureRequest" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property name="AdvanceReportDate" type="xs:date" lowerBound="0" nillable="true"/>
+		<property name="ConversionRateMultiplicity" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="SettlementObject" type="d3p1:DocumentTypeRef" lowerBound="0" nillable="true"/>
+		<property name="DocumentID" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="Correction" type="xs:boolean" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="СanceledDocument" type="d3p1:DocumentTypeRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CorrectedDocument" type="d3p1:DocumentTypeRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Paymaster" type="d3p1:PersonRef" lowerBound="0" nillable="true"/>
+		<property name="RegistrationPeriod" type="xs:date" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="PaymentDecryption" type="d3p1:PaymentDecryptionRowsObject" lowerBound="0" nillable="true"/>
+		<property name="SumInternetReturns" type="xs:decimal" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="OutgoingPaymentDetailsObject">
+		<property name="DocDate" type="xs:date" lowerBound="0" nillable="true"/>
+		<property name="DocNumber" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="OutgoingPaymentDetailsRows" type="d3p1:OutgoingPaymentDetailsRowsObject"/>
+	</objectType>
+	<objectType name="OutgoingPaymentDetailsRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="OutgoingPaymentDetailsSingleRow" type="d3p1:OutgoingPaymentDetailsSingleRowObject" upperBound="-1"/>
+	</objectType>
+	<objectType name="OutgoingPaymentDetailsSingleRowObject">
+		<property name="PurchaseOrderLot" type="xs:string"/>
+		<property name="Amount" type="xs:decimal"/>
+	</objectType>
+	<objectType name="OutgoingPaymentObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="DocDate" type="xs:dateTime"/>
+		<property name="DocNumber" type="xs:string"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Сounterparty" type="d3p1:СounterpartyRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Contract" type="d3p1:ContractRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Currency" type="d3p1:CurrencyRef"/>
+		<property name="Amount" type="xs:decimal"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Author" type="d3p1:UserRef"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="Purpose" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="VATRate" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="PayDate" type="xs:date"/>
+	</objectType>
+	<objectType name="PaymentCardObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="BusinessTransaction" type="xs:string"/>
+		<property name="PaymentType" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Сounterparty" type="d3p1:СounterpartyRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+		<property name="SumDoc" type="xs:decimal"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="PaymentDecryption" type="d3p1:PaymentDecryptionRowsObject"/>
+	</objectType>
+	<objectType name="PaymentCashObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="BusinessTransaction" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CashierKKM" type="d3p1:CashierKKMRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Сounterparty" type="d3p1:СounterpartyRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+		<property name="SumDoc" type="xs:decimal"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="PaymentDecryption" type="d3p1:PaymentDecryptionRowsObject"/>
+	</objectType>
+	<objectType name="PaymentDecryptionRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Row" type="d3p1:PaymentDecryptionSingleRowObject" upperBound="-1"/>
+	</objectType>
+	<objectType name="PaymentDecryptionSingleRowObject">
+		<property name="VatRate" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="AmountVat" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Document" type="d3p1:DocumentTypeRef" lowerBound="0" nillable="true"/>
+		<property name="Sum" type="xs:decimal"/>
+		<property name="SettlementSum" type="xs:decimal"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Currency" type="d3p1:CurrencyRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CashFlowItem" type="d3p1:CashFlowItemRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="ItemOfIncome" type="d3p1:ItemOfIncomeRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="ItemOfExpenditure" type="d3p1:ItemOfExpenditureRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="MoneyExpenditureRequest" type="d3p1:DocumentTypeRef" lowerBound="0" nillable="true"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="PaymentsAndReturnsRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Row" type="d3p1:PaymentsAndReturnsSingleRowObject" upperBound="-1"/>
+	</objectType>
+	<objectType name="PaymentsAndReturnsSingleRowObject">
+		<property name="ECommerce" type="xs:boolean"/>
+		<property name="Payments" type="xs:boolean"/>
+		<property name="TypePayments" type="xs:string"/>
+		<property name="Amount" type="xs:decimal"/>
+	</objectType>
+	<objectType name="PersonObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="Birthday" type="xs:date" lowerBound="0" nillable="true"/>
+		<property name="Gender" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Parent" type="d3p1:PersonRef" lowerBound="0" nillable="true"/>
+		<property name="Group" type="xs:boolean"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Department" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+		<property name="Position" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="Event" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="INN" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="PersonalAccounts" type="d3p1:PersonalAccountsRowsObject" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="FIOHistory" type="d3p1:FIOHistoryRowsObject" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="PersonRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="Birthday" type="xs:date" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="PersonalAccountsRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="PersonalAccountsSingleRow" type="d3p1:PersonalAccountsSingleRowObject" upperBound="-1"/>
+	</objectType>
+	<objectType name="PersonalAccountsSingleRowObject">
+		<property name="Period" type="xs:date" lowerBound="0" nillable="true"/>
+		<property name="NumberPersonalAccounts" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property name="SalaryProjectNumber" type="xs:string"/>
+		<property name="BanksBIK" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="PostingGoodsObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property name="KindOperations" type="xs:string"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+		<property name="Quantity" type="xs:decimal"/>
+		<property name="Price" type="xs:decimal"/>
+		<property name="Amount" type="xs:decimal"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Warehouse" type="d3p1:WarehouseRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+	</objectType>
+	<objectType name="ProductCategoryObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="ProductCategoryRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="ProductGroupObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="ProductGroupId" type="xs:string"/>
+		<property name="ProductGroupName" type="xs:string"/>
+		<property name="VAT" type="xs:string"/>
+	</objectType>
+	<objectType name="ProductGroupRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="ProductGroupId" type="xs:string"/>
+	</objectType>
+	<objectType name="ProductTypeObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="ProductTypeRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="PurchaseGoodsAndServicesAdvancesRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Row" type="d3p1:PurchaseGoodsAndServicesAdvancesSingleRowObject" upperBound="-1"/>
+	</objectType>
+	<objectType name="PurchaseGoodsAndServicesAdvancesSingleRowObject">
+		<property name="LotCollection" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="AdvanceNumber" type="xs:string"/>
+		<property name="AdvanceDate" type="xs:date"/>
+		<property name="AdvanceAmount" type="xs:decimal"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="AdvanceCurrency" type="d3p1:CurrencyRef"/>
+	</objectType>
+	<objectType name="PurchaseGoodsAndServicesGoodsRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Row" type="d3p1:PurchaseGoodsAndServicesGoodsSingleRowObject" upperBound="-1"/>
+	</objectType>
+	<objectType name="PurchaseGoodsAndServicesGoodsSingleRowObject">
+		<property name="LotCollection" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="Quantity" type="xs:decimal"/>
+		<property name="Cost" type="xs:decimal"/>
+		<property name="AmountСost" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="Amount" type="xs:decimal"/>
+		<property name="VatRate" type="xs:string"/>
+		<property name="AmountVat" type="xs:decimal"/>
+		<property name="GTDNumber" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="QuantityAccordingRNPT" type="xs:decimal" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="PurchaseOfGoodsAndServicesObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Counterparty" type="d3p1:СounterpartyRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Contract" type="d3p1:ContractRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Currency" type="d3p1:CurrencyRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CurrencySettlements" type="d3p1:CurrencyRef" lowerBound="0" nillable="true"/>
+		<property name="CourseNumerator" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="CourseDenominator" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="PriceIncludesVAT" type="xs:boolean"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Goods" type="d3p1:PurchaseGoodsAndServicesGoodsRowsObject" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Advances" type="d3p1:PurchaseGoodsAndServicesAdvancesRowsObject" lowerBound="0" nillable="true"/>
+		<property name="AmountTotal" type="xs:decimal"/>
+	</objectType>
+	<objectType name="RealizationAdjustmentObject">
+		<property name="Ref" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="RefDocumentSale" type="d3p1:DocumentTypeRef"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Client" type="d3p1:СounterpartyRef"/>
+		<property name="TypeAdjustment" type="xs:string"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="AmountAdjustments" type="xs:decimal"/>
+		<property name="QuantityAdjustments" type="xs:decimal"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Goods" type="d3p1:GoodsRowsObject" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Contract" type="d3p1:ContractRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property name="PriceIncludesVAT" type="xs:boolean"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="RealizationObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Client" type="d3p1:СounterpartyRef"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Workshop" type="d3p1:WarehouseRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+		<property name="AmountSales" type="xs:decimal"/>
+		<property name="AmountCost" type="xs:decimal"/>
+		<property name="QuantitySales" type="xs:decimal"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Goods" type="d3p1:GoodsRowsObject" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Contract" type="d3p1:ContractRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property name="PriceIncludesVAT" type="xs:boolean"/>
+	</objectType>
+	<objectType name="ReceiptGoodsWarehouseGoodsRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Row" type="d3p1:ReceiptGoodsWarehouseGoodsSingleRowObject" upperBound="-1"/>
+	</objectType>
+	<objectType name="ReceiptGoodsWarehouseGoodsSingleRowObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Collection" type="d3p1:CollectionRef"/>
+		<property name="Quantity" type="xs:decimal"/>
+		<property name="Cost" type="xs:decimal"/>
+		<property name="AmountСost" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="Amount" type="xs:decimal"/>
+		<property name="VatRate" type="xs:string"/>
+		<property name="AmountVat" type="xs:decimal"/>
+	</objectType>
+	<objectType name="ReceiptGoodsWarehouseObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="DocBase" type="d3p1:PurchaseOfGoodsAndServicesObject" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Counterparty" type="d3p1:СounterpartyRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Contract" type="d3p1:ContractRef"/>
+		<property name="AmountTotal" type="xs:decimal"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Goods" type="d3p1:ReceiptGoodsWarehouseGoodsRowsObject"/>
+	</objectType>
+	<objectType name="RetailSalesReportObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Shop" type="d3p1:WarehouseRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CashierKKM" type="d3p1:CashierKKMRef"/>
+		<property name="AmountSales" type="xs:decimal"/>
+		<property name="AmountCost" type="xs:decimal"/>
+		<property name="QuantitySales" type="xs:decimal"/>
+		<property name="PriceIncludesVAT" type="xs:boolean"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Goods" type="d3p1:GoodsRowsObject" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="ReturnsGoods" type="d3p1:GoodsRowsObject" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="ECommerceGoods" type="d3p1:GoodsRowsObject" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="ECommerceReturnGoods" type="d3p1:GoodsRowsObject" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="PaymentsAndReturns" type="d3p1:PaymentsAndReturnsRowsObject" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="ReturnGoodsFromCustomerObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Сounterparty" type="d3p1:СounterpartyRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="AmountReturn" type="xs:decimal"/>
+		<property name="AmountCost" type="xs:decimal"/>
+		<property name="QuantityReturn" type="xs:decimal"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Contract" type="d3p1:ContractRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property name="PriceIncludesVAT" type="xs:boolean"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="RefDocumentSale" type="d3p1:DocumentTypeRef" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="ReturnGoodsFromTheCommissionerObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CommissionAgent" type="d3p1:СounterpartyRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="AmountReturn" type="xs:decimal"/>
+		<property name="AmountCost" type="xs:decimal"/>
+		<property name="QuantityReturn" type="xs:decimal"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Contract" type="d3p1:ContractRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+	</objectType>
+	<objectType name="RouteListObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="RouteListRow" type="d3p1:RouteListRowObject" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="RouteListRowObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Driver" type="d3p1:IndividualRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Vehicle" type="d3p1:VehicleRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Warehouse" type="d3p1:WarehouseRef"/>
+		<property name="Address" type="xs:string"/>
+	</objectType>
+	<objectType name="SeasonObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="SeasonNumber" type="xs:decimal"/>
+		<property name="SeasonName" type="xs:string"/>
+		<property name="TypeOfSeason" type="xs:string"/>
+	</objectType>
+	<objectType name="SeasonRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="SeasonName" type="xs:string"/>
+	</objectType>
+	<objectType name="ShipmentOrderObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property name="Number" type="xs:string"/>
+		<property name="Expeditor" type="xs:string"/>
+		<property name="PlannedDepartureDate" type="xs:dateTime"/>
+		<property name="Region" type="xs:string"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="RouteList" type="d3p1:RouteListObject"/>
+	</objectType>
+	<objectType name="SignreturnidRef">
+		<property name="ID" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="SizeRowsObject">
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="SizeSingleRow" type="d3p1:SizeSingleRowObject" upperBound="-1"/>
+	</objectType>
+	<objectType name="SizeSingleRowObject">
+		<property name="SizeName" type="xs:string"/>
+		<property name="TNVED" type="xs:string"/>
+		<property name="Barcode" type="xs:string"/>
+		<property name="Gender" type="xs:string"/>
+		<property name="GTIN" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="TransferOnCommissionObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CommissionAgent" type="d3p1:СounterpartyRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Warehouse" type="d3p1:WarehouseRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+		<property name="AmountSales" type="xs:decimal"/>
+		<property name="AmountCost" type="xs:decimal"/>
+		<property name="QuantityTransferOnCommission" type="xs:decimal"/>
+	</objectType>
+	<objectType name="UserRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="VehicleObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="LicPlate" type="xs:string"/>
+		<property name="Manufacturer" type="xs:string"/>
+		<property name="CapacityTons" type="xs:decimal"/>
+		<property name="CapacitySqMtrs" type="xs:decimal"/>
+		<property name="TrailerManufacturer" type="xs:string"/>
+		<property name="TrailerLicPlate" type="xs:string"/>
+	</objectType>
+	<objectType name="VehicleRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="WarehouseRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="TorgCode" type="xs:string" nillable="true"/>
+		<property name="WarehouseType" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Parent" type="d3p1:WarehouseRef" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="WriteOffArticleRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="WriteOffGoodsCommissionAgentObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="CommissionAgent" type="d3p1:СounterpartyRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Contract" type="d3p1:ContractRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="WriteOffArticle" type="d3p1:WriteOffArticleRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+		<property name="Quantity" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property name="Amount" type="xs:decimal" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+	</objectType>
+	<objectType name="WriteOffGoodsObject">
+		<property name="Ref" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="DeletionMark" type="xs:boolean"/>
+		<property name="Posted" type="xs:boolean"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property name="KindOperations" type="xs:string"/>
+		<property name="Comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Subdivision" type="d3p1:DepartmentRef" lowerBound="0" nillable="true"/>
+		<property name="Quantity" type="xs:decimal"/>
+		<property name="Price" type="xs:decimal"/>
+		<property name="Amount" type="xs:decimal"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Warehouse" type="d3p1:WarehouseRef"/>
+		<property xmlns:d3p1="http://www.zollaintegration.croc.cr_zolla_exchange.org" name="Organization" type="d3p1:OrganizationRef"/>
+	</objectType>
+	<objectType name="СounterpartyRef">
+		<property name="Ref" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="INN" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="KPP" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="ProviderId" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="RegistrationNumber" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="Resident" type="xs:boolean" lowerBound="0" nillable="true"/>
+	</objectType>
+</package>

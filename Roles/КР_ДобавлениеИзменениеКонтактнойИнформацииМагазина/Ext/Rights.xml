@@ -1,0 +1,1637 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights" version="2.18">
+	<setForNewObjects>false</setForNewObjects>
+	<setForAttributesByDefault>true</setForAttributesByDefault>
+	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
+	<object>
+		<name>Catalog.Склады.TabularSection.КонтактнаяИнформация.Attribute.Вид</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ОтветственноеХранениеДоВостребования</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиСкрытыхКопий.Attribute.Адрес</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.УдалитьИдентификаторСообщенияОтправкаIMAP</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Command.Склады</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.ДатаОтправления</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+#ДляОбъекта("")
+#Иначе
+Склады ГДЕ (Склады.ТипСклада = ЗНАЧЕНИЕ(Перечисление.ТипыСкладов.РозничныйМагазин))
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.PredefinedDataName</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.Predefined</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.Ref</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.IsFolder</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.Owner</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.Parent</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.Description</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.Code</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПисьмаВложения.Attribute.ПорядковыйНомерВоВложениях</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.НаборыЗначенийДоступа.Attribute.ЗначениеДоступа</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.СборщикиМогутНазначатьСебеЗаказы</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.УведомитьОДоставке</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.СписокПолучателейКопий</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.TabularSection.КонтактнаяИнформация.Attribute.Город</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.ТекстHTML</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.Подразделение</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ДополнительныеРеквизиты</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ДатаНачалаИспользованияСкладскихПомещений</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ДатаНачалаОрдернойСхемыПриПоступлении</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.УчетнаяЗапись</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ДатаНачалаОрдернойСхемыПриОтгрузке</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.КурьерыИспользуютАвтономныеККТ</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.TabularSection.КонтактнаяИнформация.Attribute.НомерТелефонаБезКодов</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.ИдентификаторСообщенияОтправкаIMAP</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ИндивидуальныйВидЦены</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.Автор</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиОтвета</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ТекущийОтветственный</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.КР_КонтролироватьОстаткиКоробов</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.НаборыЗначенийДоступа.Attribute.Чтение</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.Ответственный</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.РозничныйВидЦены</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.КонтролироватьОперативныеОстатки</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.ВключатьТелоИсходногоПисьма</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ВыборГруппы</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.СписокПолучателейПисьма</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиПисьма.Attribute.Контакт</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиПисьма.Attribute.Представление</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.КР_НомерМагазина</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ОсобыеОтметки</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.КурьерыМогутНазначатьСебеЗаказы</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.СкладОтветственногоХранения</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.УдалятьПослеОтправки</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.НаборыЗначенийДоступа.Attribute.Изменение</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.КР_УчетОстатковКоробов</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.ХешСумма</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ГруппировкаТоваров</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.СпособФискализацииПриДоставке</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ИспользоватьОрдернуюСхемуПриОтгрузке</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.КонтролироватьСвободныеОстатки</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.НаборыЗначенийДоступа.Attribute.НомерНабора</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.УсловияХраненияТоваров</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.ТипТекста</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.Календарь</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиСкрытыхКопий.Attribute.Представление</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.КР_АдресныйСкладБезордернойОтгрузки</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.TabularSection.КонтактнаяИнформация.Attribute.ВидДляСписка</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.ИдентификаторСообщения</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.TabularSection.КонтактнаяИнформация.Attribute.АдресЭП</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.КР_УчаствуетВПервоначальномРаспределении</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ИспользоватьСтатусыПриходныхОрдеров</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиПисьма</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиКопий.Attribute.Адрес</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.Тема</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.НаборыЗначенийДоступа</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.ОтображатьТелоИсходногоПисьма</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиОтвета.Attribute.Представление</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ИспользоватьОрдернуюСхемуПриПоступлении</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.ИдентификаторыОснований</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.УчетныйВидЦены</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.ИдентификаторОснования</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиОтвета.Attribute.Контакт</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.НепринятыеВложения.Attribute.ИмяВложение</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиКопий.Attribute.Представление</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.ИдентификаторНаСервере</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ИспользоватьСкладскиеПомещения</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.ВнутреннийЗаголовок</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиКопий</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.StandardAttribute.Posted</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.StandardAttribute.Ref</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.StandardAttribute.Date</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.StandardAttribute.Number</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ДатаНачалаДоставкиСвоимиКурьерами</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ТекущаяДолжностьОтветственного</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ЦеховаяКладовая</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.TabularSection.КонтактнаяИнформация.Attribute.Регион</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиСкрытыхКопий</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.ДатаКогдаОтправить</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.КР_ИспользоватьРазмещениеКакПриходныйОрдер</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.УведомитьОПрочтении</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.НачинатьОтгрузкуПослеФормированияЗаданияНаПеревозку</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиСкрытыхКопий.Attribute.Контакт</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.НормативныйСрокДоставкиЗаказов</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ВМагазинеПоддерживаетсяДоставкаСвоимиКурьерами</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ДатаНачалаАдресногоХраненияОстатков</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиОтвета.Attribute.Адрес</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.КР_ВидСклада</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.ОтправительПредставление</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.Поклажедержатель</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ТипСклада</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.СтатусПисьма</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПисьмаВложения</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиКопий.Attribute.Контакт</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.TabularSection.КонтактнаяИнформация.Attribute.Тип</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.Размер</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ИсточникИнформацииОЦенахДляПечати</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиПисьма.Attribute.Адрес</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПисьмаВложения.Attribute.Письмо</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ДополнительныеРеквизиты.Attribute.ТекстоваяСтрока</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.КР_Закрыт</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.СрокОтветственногоХранения</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.УровеньОбслуживания</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.TabularSection.КонтактнаяИнформация.Attribute.Страна</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.КурьерыИспользуютЭквайринговыеТерминалы</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.БизнесРегион</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.СпособСозданияРеализацииПриСборкеЗаказов</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.TabularSection.КонтактнаяИнформация.Attribute.Представление</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ИспользованиеРабочихУчастков</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.Кодировка</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.TabularSection.КонтактнаяИнформация.Attribute.Значение</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ИспользоватьСтатусыРасходныхОрдеров</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.КР_СкладСПомещениямиБезордернойОтгрузки</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.Важность</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ИспользоватьСерииНоменклатуры</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.Комментарий</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.TabularSection.КонтактнаяИнформация.Attribute.НомерТелефона</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.Текст</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.ВзаимодействиеОснование</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.ЕстьВложения</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.УчитыватьСебестоимостьПоСериям</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.НастройкаАдресногоХранения</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.TabularSection.КонтактнаяИнформация</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ВидПоклажедержателя</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.НаборыЗначенийДоступа.Attribute.Уточнение</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.ДатаАктуальностиОтправки</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.TabularSection.КонтактнаяИнформация.Attribute.ДоменноеИмяСервера</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.СборкаИДоставкаВыполняетсяОднимСотрудником</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ИспользоватьСтатусыПересчетовТоваров</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ИспользоватьОрдернуюСхемуПриОтраженииИзлишковНедостач</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ВМагазинеПоддерживаетсяСборкаЗаказов</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ДатаНачалаОрдернойСхемыПриОтраженииИзлишковНедостач</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.Attribute.СписокПолучателейСкрытыхКопий</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ДатаНачалаСборкиЗаказов</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.TabularSection.КонтактнаяИнформация.Attribute.ЗначенияПолей</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.НепринятыеВложения</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ИспользоватьАдресноеХранениеСправочно</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.Attribute.ИспользоватьАдресноеХранение</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<restrictionTemplate>
+		<name>ДляОбъекта(ПолеОбъекта)</name>
+		<condition>// ДляОбъекта(ПолеОбъекта = "")
+// Шаблон используется для ограничения элементов справочников, документов и
+// других списков объектов по полю Ссылка, а также элементов зависимых списков
+// объектов и записей регистров через поле объекта-владельца.
+//
+// Параметры:
+//  ПолеОбъекта - имя поля, содержащего ссылку на объект, от которого зависит элемент списка.
+//                Значение "" (по умолчанию) то же, что имя поля "Ссылка".
+//
+
+#Если &amp;СпискиСОтключеннымОграничениемЧтения = "Неопределено" #Тогда
+  // Информационная база заблокирована для обновления.
+  ГДЕ ЛОЖЬ
+
+#ИначеЕсли Не СтрСодержит(&amp;ВерсииШаблоновОграниченияДоступа, ",ДляОбъекта9,") #Тогда
+  Ошибка: Требуется обновить шаблон на актуальную версию, поставляемую в роли ИзменениеУчастниковГруппДоступа по причине: Используется устаревшая версия 9 шаблона ограничения доступа ДляОбъекта. Объект: #ИмяТекущейТаблицы, Право: #ИмяТекущегоПраваДоступа.
+
+#ИначеЕсли &amp;СпискиСОтключеннымОграничениемЧтения = "Все" #Тогда
+  // У пользователя отключены все виды доступа или
+  // ограничение на уровне записей не используется.
+  ГДЕ ИСТИНА
+
+#ИначеЕсли СтрСодержит(&amp;СпискиСОтключеннымОграничениемЧтения, #ИмяТекущейТаблицы + ";") #Тогда
+  // У пользователя отключено ограничение для текущей таблицы.
+  ГДЕ ИСТИНА
+
+#ИначеЕсли СтрСодержит(&amp;ВерсииШаблоновОграниченияДоступа, ",ТребуетсяПерезапуститьСеанс,") #Тогда
+  Ошибка: Версия программы обновлена, требуется перезапустить сеанс. Объект: #ИмяТекущейТаблицы, Право: #ИмяТекущегоПраваДоступа.
+
+#ИначеЕсли #ИмяТекущегоПраваДоступа &lt;&gt; "Чтение" #Тогда
+  // Проверка прав Добавление, Изменение, Удаление выполняется ПередЗаписью / ПриЗаписи.
+  ГДЕ ИСТИНА
+
+#ИначеЕсли СтрСодержит(&amp;СпискиСОграничениемЧерезКлючиДоступаГруппДоступа, #ИмяТекущейТаблицы + ";0") #Тогда
+  ГДЕ ЛОЖЬ
+
+#ИначеЕсли СтрСодержит(&amp;СпискиСОграничениемЧерезКлючиДоступаГруппДоступа, #ИмяТекущейТаблицы + ";1") #Тогда
+  Ошибка: Внешние пользователи отключены.
+
+#ИначеЕсли Не СтрСодержит(&amp;СпискиСОграничениемЧерезКлючиДоступаГруппДоступа,  #ИмяТекущейТаблицы + ":#ПолеОбъекта;")
+         И Не СтрСодержит(&amp;СпискиСОграничениемЧерезКлючиДоступаПользователей, #ИмяТекущейТаблицы + ":#ПолеОбъекта;") #Тогда
+
+  Ошибка: Требуется актуализировать ограничение доступа по причине: Не удалось определить вариант ограничения доступа в параметрах сеанса для шаблона ДляОбъекта со значением параметра "#ПолеОбъекта". Объект: #ИмяТекущейТаблицы, Право: #ИмяТекущегоПраваДоступа.
+#Иначе
+
+ТекущаяТаблица ГДЕ ИСТИНА В
+ (
+  ВЫБРАТЬ ПЕРВЫЕ 1 ИСТИНА
+  ИЗ РегистрСведений.КлючиДоступаКОбъектам КАК КлючиДоступаКОбъектам
+  #Если СтрСодержит(&amp;СпискиСОграничениемЧерезКлючиДоступаГруппДоступа, #ИмяТекущейТаблицы + ":#ПолеОбъекта;") #Тогда
+      ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.КлючиДоступаНаборовГруппДоступа КАК КлючиДоступаНаборовГруппДоступа
+      ПО
+      #Если &amp;ТекущийВнешнийПользователь = Значение(Справочник.ВнешниеПользователи.ПустаяСсылка) #Тогда
+          КлючиДоступаНаборовГруппДоступа.КлючДоступа = КлючиДоступаКОбъектам.КлючДоступаПользователей
+      #Иначе
+          КлючиДоступаНаборовГруппДоступа.КлючДоступа = КлючиДоступаКОбъектам.КлючДоступаВнешнихПользователей
+      #КонецЕсли
+        И КлючиДоступаНаборовГруппДоступа.НаборГруппДоступа = &amp;РазрешенныйНаборГруппДоступа
+  #КонецЕсли
+  #Если СтрСодержит(&amp;СпискиСОграничениемЧерезКлючиДоступаГруппДоступа, #ИмяТекущейТаблицы + ":#ПолеОбъекта;*") #Тогда
+      
+      ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.КлючиДоступаНаборовГруппДоступа КАК КлючиДоступаРазрешенногоНабораГруппДоступа
+      ПО
+      #Если &amp;ТекущийВнешнийПользователь = Значение(Справочник.ВнешниеПользователи.ПустаяСсылка) #Тогда
+          КлючиДоступаРазрешенногоНабораГруппДоступа.КлючДоступа = КлючиДоступаКОбъектам.КлючДоступаПользователей
+      #Иначе
+          КлючиДоступаРазрешенногоНабораГруппДоступа.КлючДоступа = КлючиДоступаКОбъектам.КлючДоступаВнешнихПользователей
+      #КонецЕсли
+        И КлючиДоступаРазрешенногоНабораГруппДоступа.НаборГруппДоступа = &amp;РазрешенныйПустойНаборГруппДоступа
+  #КонецЕсли
+  #Если СтрСодержит(&amp;СпискиСОграничениемЧерезКлючиДоступаПользователей, #ИмяТекущейТаблицы + ":#ПолеОбъекта;") #Тогда
+      
+    #Если &amp;ТекущийВнешнийПользователь = Значение(Справочник.ВнешниеПользователи.ПустаяСсылка) #Тогда
+      ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.КлючиДоступаПользователей КАК КлючиДоступаПользователей
+      ПО
+          КлючиДоступаПользователей.КлючДоступа = КлючиДоступаКОбъектам.КлючДоступаПользователей
+        И КлючиДоступаПользователей.Пользователь = &amp;РазрешенныйПользователь
+    #Иначе
+      ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.КлючиДоступаВнешнихПользователей КАК КлючиДоступаПользователей
+      ПО
+          КлючиДоступаПользователей.КлючДоступа = КлючиДоступаКОбъектам.КлючДоступаВнешнихПользователей
+        И КлючиДоступаПользователей.ВнешнийПользователь = &amp;РазрешенныйПользователь
+    #КонецЕсли
+  #КонецЕсли
+  #Если СтрСодержит(&amp;СпискиСОграничениемЧерезКлючиДоступаПользователей, #ИмяТекущейТаблицы + ":#ПолеОбъекта;+") #Тогда
+      
+    #Если &amp;ТекущийВнешнийПользователь = Значение(Справочник.ВнешниеПользователи.ПустаяСсылка) #Тогда
+      ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.КлючиДоступаПользователей КАК КлючиДоступаНаборовГруппПользователей
+      ПО
+          КлючиДоступаНаборовГруппПользователей.КлючДоступа = КлючиДоступаКОбъектам.КлючДоступаПользователей
+        И КлючиДоступаНаборовГруппПользователей.Пользователь = &amp;РазрешенныйНаборГруппПользователей
+    #Иначе
+      ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.КлючиДоступаВнешнихПользователей КАК КлючиДоступаНаборовГруппПользователей
+      ПО
+          КлючиДоступаНаборовГруппПользователей.КлючДоступа = КлючиДоступаКОбъектам.КлючДоступаВнешнихПользователей
+        И КлючиДоступаНаборовГруппПользователей.ВнешнийПользователь = &amp;РазрешенныйНаборГруппПользователей
+    #КонецЕсли
+  #КонецЕсли
+  ГДЕ
+  #Если "#ПолеОбъекта"  = ""
+    Или СтрСодержит(&amp;СпискиСОграничениемЧерезКлючиДоступаГруппДоступа,  #ИмяТекущейТаблицы + ":#ПолеОбъекта;;-")
+    Или СтрСодержит(&amp;СпискиСОграничениемЧерезКлючиДоступаГруппДоступа,  #ИмяТекущейТаблицы + ":#ПолеОбъекта;*;-")
+    Или СтрСодержит(&amp;СпискиСОграничениемЧерезКлючиДоступаПользователей, #ИмяТекущейТаблицы + ":#ПолеОбъекта;;-")
+    Или СтрСодержит(&amp;СпискиСОграничениемЧерезКлючиДоступаПользователей, #ИмяТекущейТаблицы + ":#ПолеОбъекта;+;-") #Тогда
+      КлючиДоступаКОбъектам.Объект = ТекущаяТаблица.Ссылка
+  #Иначе
+      КлючиДоступаКОбъектам.Объект = ТекущаяТаблица.#ПолеОбъекта
+  #КонецЕсли
+    И (
+  #Если СтрСодержит(&amp;СпискиСОграничениемЧерезКлючиДоступаГруппДоступа, #ИмяТекущейТаблицы + ":#ПолеОбъекта;") #Тогда
+          НЕ КлючиДоступаНаборовГруппДоступа.КлючДоступа ЕСТЬ NULL
+  #Иначе
+          ЛОЖЬ
+  #КонецЕсли
+  #Если СтрСодержит(&amp;СпискиСОграничениемЧерезКлючиДоступаГруппДоступа, #ИмяТекущейТаблицы + ":#ПолеОбъекта;*") #Тогда
+      ИЛИ НЕ КлючиДоступаРазрешенногоНабораГруппДоступа.КлючДоступа ЕСТЬ NULL
+  #КонецЕсли
+  #Если СтрСодержит(&amp;СпискиСОграничениемЧерезКлючиДоступаПользователей, #ИмяТекущейТаблицы + ":#ПолеОбъекта;") #Тогда
+      ИЛИ НЕ КлючиДоступаПользователей.КлючДоступа ЕСТЬ NULL
+  #КонецЕсли
+  #Если СтрСодержит(&amp;СпискиСОграничениемЧерезКлючиДоступаПользователей, #ИмяТекущейТаблицы + ":#ПолеОбъекта;+") #Тогда
+      ИЛИ НЕ КлючиДоступаНаборовГруппПользователей.КлючДоступа ЕСТЬ NULL
+  #КонецЕсли
+      )
+ )
+
+ #Если Не СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, #ИмяТекущейТаблицы + ":Пропустить;")
+   И (    СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";УточнитьДляВсех;")
+      Или СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, #ИмяТекущейТаблицы + ":Уточнить;") ) #Тогда
+  
+  #Если Не СтрСодержит(&amp;СпискиСОграничениемЧерезКлючиДоступаПользователей, #ИмяТекущейТаблицы + ":#ПолеОбъекта;") #Тогда
+  И ИСТИНА В (ИСТИНА
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";31;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";30;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";29;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";28;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";27;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";26;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";25;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";24;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";23;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";22;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";21;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";20;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";19;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";18;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";17;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";16;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";15;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";14;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";13;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";12;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";11;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";10;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";09;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";08;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";07;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";06;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";05;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";04;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";03;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";02;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";01;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";00;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    )
+  #Иначе
+  И ИСТИНА В (ИСТИНА
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";31^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";30^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";29^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";28^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";27^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";26^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";25^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";24^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";23^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";22^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";21^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";20^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";19^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";18^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";17^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";16^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";15^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";14^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";13^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";12^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";11^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";10^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";09^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";08^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";07^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";06^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";05^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";04^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";03^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";02^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";01^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    #Если СтрСодержит(&amp;ОбщиеПараметрыШаблоновОграниченияДоступа, ";00^;") #Тогда ,ИСТИНА #Иначе ,ЛОЖЬ #КонецЕсли
+    )
+  #КонецЕсли
+ #КонецЕсли
+
+#КонецЕсли</condition>
+	</restrictionTemplate>
+</Rights>

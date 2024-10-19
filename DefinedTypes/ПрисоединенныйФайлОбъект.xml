@@ -61,6 +61,7 @@
 				<v8:Type>cfg:CatalogObject.НоменклатураКонтрагентовПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ПоступлениеТоваровНаСкладПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.РеализацияТоваровУслугПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogObject.КР_ПриходныйКассовыйОрдерПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ОтчетКомитентуОЗакупкахПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.СделкиСКлиентамиПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ИСМППрисоединенныеФайлы</v8:Type>
@@ -90,6 +91,7 @@
 				<v8:Type>cfg:CatalogObject.ПересортицаТоваровУХранителяПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ЗаявкаНаКомандировкуПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.СписаниеБезналичныхДенежныхСредствПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogObject.КР_РасходныйКассовыйОрдерПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.СторноПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.СчетФактураВыданныйПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.АктОРасхожденияхПослеПриемкиПрисоединенныеФайлы</v8:Type>
@@ -106,6 +108,7 @@
 				<v8:Type>cfg:CatalogObject.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ОтчетКомитентуПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ОтчетКомиссионераОСписанииПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogObject.КР_ПересчетТоваровПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ПрочиеДоходыРасходыПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ПакетОбменСБанкамиПрисоединенныеФайлы</v8:Type>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<Pages name="ГруппаСтраницы" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="23"/>
+			<ChildItems>
+				<Page name="ГруппаОсновное" id="24">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основное</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа основное</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаОсновноеРасширеннаяПодсказка" id="25"/>
+					<ChildItems>
+						<UsualGroup name="Группа1" id="28">
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="29"/>
+							<ChildItems>
+								<InputField name="КлючСообщения" id="16">
+									<DataPath>Запись.КлючСообщения</DataPath>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>32</MaxWidth>
+									<ContextMenu name="КлючСообщенияКонтекстноеМеню" id="17"/>
+									<ExtendedTooltip name="КлючСообщенияРасширеннаяПодсказка" id="18"/>
+								</InputField>
+								<InputField name="ПериодЗаписи" id="13">
+									<DataPath>Запись.ПериодЗаписи</DataPath>
+									<ContextMenu name="ПериодЗаписиКонтекстноеМеню" id="14"/>
+									<ExtendedTooltip name="ПериодЗаписиРасширеннаяПодсказка" id="15"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="Отправитель" id="4">
+							<DataPath>Запись.Отправитель</DataPath>
+							<ContextMenu name="ОтправительКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="ОтправительРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<InputField name="ОбъектМетаданных" id="7">
+							<DataPath>Запись.ОбъектМетаданных</DataPath>
+							<ContextMenu name="ОбъектМетаданныхКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ОбъектМетаданныхРасширеннаяПодсказка" id="9"/>
+						</InputField>
+						<TextDocumentField name="ТекстСообщения" id="10">
+							<DataPath>Запись.ТекстСообщения</DataPath>
+							<ContextMenu name="ТекстСообщенияКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="ТекстСообщенияРасширеннаяПодсказка" id="12"/>
+						</TextDocumentField>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаДополнительно" id="26">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительно</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа дополнительно</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаДополнительноРасширеннаяПодсказка" id="27"/>
+					<ChildItems>
+						<InputField name="ХэшИдентификаторЗаписи" id="1">
+							<DataPath>Запись.ХэшИдентификаторЗаписи</DataPath>
+							<ContextMenu name="ХэшИдентификаторЗаписиКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="ХэшИдентификаторЗаписиРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="ИсходныеДанные" id="30">
+							<DataPath>Запись.ИсходныеДанные</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="ИсходныеДанныеКонтекстноеМеню" id="31"/>
+							<ExtendedTooltip name="ИсходныеДанныеРасширеннаяПодсказка" id="32"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.КР_ОшибкиПоискаДанныхИнтеграции</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

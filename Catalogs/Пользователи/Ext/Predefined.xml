@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="ed3f7737-5bae-422c-a5a5-65b5c02c8ad2">
+		<Name>КассирКСО</Name>
+		<Code/>
+		<Description>Кассир КСО</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

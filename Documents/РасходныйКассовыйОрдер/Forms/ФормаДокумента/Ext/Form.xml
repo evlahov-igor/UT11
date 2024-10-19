@@ -778,6 +778,9 @@
 											<Wrap>false</Wrap>
 											<ContextMenu name="БанковскийСчетКонтекстноеМеню" id="30"/>
 											<ExtendedTooltip name="БанковскийСчетExtendedTooltip" id="227"/>
+											<Events>
+												<Event name="OnChange">злБанковскийСчетПриИзменении</Event>
+											</Events>
 										</InputField>
 										<InputField name="КассаККМ" id="160">
 											<DataPath>Объект.КассаККМ</DataPath>
@@ -1058,6 +1061,9 @@
 											<Wrap>false</Wrap>
 											<ContextMenu name="НомерВедомостиНаВыплатуЗарплатыКонтекстноеМеню" id="199"/>
 											<ExtendedTooltip name="НомерВедомостиНаВыплатуЗарплатыExtendedTooltip" id="254"/>
+											<Events>
+												<Event name="OnChange">НомерВедомостиНаВыплатуЗарплатыПриИзменении</Event>
+											</Events>
 										</InputField>
 										<InputField name="ДатаВедомостиНаВыплатуЗарплаты" id="200">
 											<DataPath>Объект.ДатаВедомостиНаВыплатуЗарплаты</DataPath>

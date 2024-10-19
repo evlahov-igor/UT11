@@ -47,6 +47,11 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Партнеры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.НаправленияДеятельности</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СтавкиНДСНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КР_Темы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КР_Подвески</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_СведенияНоменклатурыПланирование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_СведенияНоменклатурыТоварнаяАналитика</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КР_ИсторияИзмененийСезонаНоменклатуры</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

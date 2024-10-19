@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="c5f7e436-8be7-4d04-8614-f3036327e2a9">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.КР_ВидыСкладов" category="Ref">
+				<xr:TypeId>18ab4843-691a-47b2-bba9-9744f2be81ad</xr:TypeId>
+				<xr:ValueId>1f464480-2228-40e1-8df5-0757d0ad9e61</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.КР_ВидыСкладов" category="Manager">
+				<xr:TypeId>12835f78-80d3-4a67-aea1-ee07af8a5d7a</xr:TypeId>
+				<xr:ValueId>457e59be-5962-4d63-abff-0cb955b644c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.КР_ВидыСкладов" category="List">
+				<xr:TypeId>6bc2049a-14d3-43ee-8bfb-6bd84033538d</xr:TypeId>
+				<xr:ValueId>97afc54e-d044-46e5-990d-0d8e0587a70c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КР_ВидыСкладов</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды складов</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>JIRA№ A2105505-751</Comment>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="4b81bae5-019d-48dd-84a7-95fb053d92b3">
+				<Properties>
+					<Name>Магазин</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Магазин</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e572b899-8f62-4041-b6e6-33dba9b5fc04">
+				<Properties>
+					<Name>ЦентральныйСклад</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Центральный склад</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="80998b0a-f09e-44ba-8018-905d53447fe1">
+				<Properties>
+					<Name>СкладРазбораРасхожденийМагазинов</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад разбора расхождений магазинов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="27bd3fe6-518b-451c-8267-db1aa2972775">
+				<Properties>
+					<Name>СкладРазбораРасхожденийЦентральный</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад разбора расхождений центральный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3f77b6bd-ffac-41a6-bd60-2ad51954171b">
+				<Properties>
+					<Name>СкладКонсервации</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад консервации</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>JIRA№ A2105505-1112</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e8f16ea7-dd77-4985-826f-3a09ccf13dd5">
+				<Properties>
+					<Name>СкладВременногоХранения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад временного хранения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>JIRA№ A2105505-1112</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9c692c38-c7db-42d1-9f16-2a28fe509e64">
+				<Properties>
+					<Name>ЗакрытиеОтрицательныхПродаж</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Закрытие отрицательных продаж</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b63501cf-8d96-4a71-8f5d-a40af3d92939">
+				<Properties>
+					<Name>ЕдиничныеОстатки</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Единичные остатки</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8f7cf35a-bf95-4284-a803-f1c1cb379f1f">
+				<Properties>
+					<Name>СкладРазбораРасхожденийФулфилмента</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад разбора расхождений фулфилмента</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="514382da-e686-489e-acad-6e68015713cc">
+				<Properties>
+					<Name>СкладФулфилмента</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад фулфилмента</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f12ca333-2902-44d9-b567-8d9a38e089c3">
+				<Properties>
+					<Name>СкладРазбораРасхожденийМаркетплейса</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад разбора расхождений маркетплейса</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

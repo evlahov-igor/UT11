@@ -154,6 +154,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="dadd80a1-8253-4da9-9f9a-5cfddabb743e">
+				<Properties>
+					<Name>злРабочееМестоСотрудникаМагазина</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рабочее место сотрудника магазина</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="a02c0002-227b-43f9-88ac-4f40e55e5fb3">
+		<Name>АрендаТранспортногоСредства</Name>
+		<Code>3</Code>
+		<Description>Аренда транспортного средства</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="82051913-aaae-41a2-9ca3-d68c0f3093fb">
+		<Name>ТСВЛизинге</Name>
+		<Code>4</Code>
+		<Description>Лизинг транспортного средства</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="84fcd766-b6d4-47d7-a82d-328d34440052">
+		<Name>ТСВБезвозмездномПользовании</Name>
+		<Code>5</Code>
+		<Description>Транспортное средство находится в безвозмездном пользовании у перевозчика</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7d7af671-fb34-4598-83b8-3377da7a8f61">
+		<Name>ТСВСобственности</Name>
+		<Code>1</Code>
+		<Description>Транспортное средство находится в собственности</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cbd2accf-9fd8-45fa-8d4b-a20bffe0966f">
+		<Name>ТСВСовместнойСобственностиСупругов</Name>
+		<Code>2</Code>
+		<Description>Транспортное средство находится в совместной собственности супругов</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

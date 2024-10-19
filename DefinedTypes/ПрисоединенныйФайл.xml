@@ -24,7 +24,9 @@
 				<v8:Type>cfg:CatalogRef.ИСМППрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogRef.ТаможеннаяДекларацияИмпортПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogRef.ЗаказНаПеремещениеПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogRef.КР_ПриходныйКассовыйОрдерПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogRef.СчетФактураКомитентаПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogRef.КР_ПересчетТоваровПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogRef.СделкиСКлиентамиПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogRef.ЗаказКлиентаПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogRef.ПрочиеДоходыРасходыПрисоединенныеФайлы</v8:Type>
@@ -49,6 +51,7 @@
 				<v8:Type>cfg:CatalogRef.ВозвратТоваровМеждуОрганизациямиПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogRef.РеализацияУслугПрочихАктивовПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogRef.ПриобретениеУслугПрочихАктивовПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogRef.КР_РасходныйКассовыйОрдерПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogRef.ПланЗакупокПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogRef.ЗаявкаНаРасходованиеДенежныхСредствПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogRef.ПланПродажПрисоединенныеФайлы</v8:Type>

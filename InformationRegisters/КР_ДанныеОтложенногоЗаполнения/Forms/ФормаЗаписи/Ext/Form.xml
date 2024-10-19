@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="ХэшИдетрификаторОбъекта" id="1">
+			<DataPath>Запись.ХэшИдетрификаторОбъекта</DataPath>
+			<ContextMenu name="ХэшИдетрификаторОбъектаКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ХэшИдетрификаторОбъектаРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="ПорядокОбработки" id="4">
+			<ContextMenu name="ПорядокОбработкиКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ПорядокОбработкиРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ОписаниеДанных" id="7">
+			<ContextMenu name="ОписаниеДанныхКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОписаниеДанныхРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ТипДанных" id="10">
+			<DataPath>Запись.ТипДанных</DataPath>
+			<ContextMenu name="ТипДанныхКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ТипДанныхРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Ссылка" id="25">
+			<DataPath>Ссылка</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="СсылкаКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="Состояние" id="16">
+			<DataPath>Запись.Состояние</DataPath>
+			<ContextMenu name="СостояниеКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="СостояниеРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<TextDocumentField name="Данные" id="13">
+			<DataPath>Запись.Данные</DataPath>
+			<TitleLocation>Top</TitleLocation>
+			<ContextMenu name="ДанныеКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ДанныеРасширеннаяПодсказка" id="15"/>
+		</TextDocumentField>
+		<InputField name="ДополнительныеСвойства" id="28">
+			<ContextMenu name="ДополнительныеСвойстваКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ДополнительныеСвойстваРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="СообщенияПользователю" id="19">
+			<DataPath>Запись.СообщенияПользователю</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="СообщенияПользователюКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="СообщенияПользователюРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="КоличествоПопытокОбработки" id="22">
+			<DataPath>Запись.КоличествоПопытокОбработки</DataPath>
+			<ContextMenu name="КоличествоПопытокОбработкиКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="КоличествоПопытокОбработкиРасширеннаяПодсказка" id="24"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.КР_ДанныеОтложенногоЗаполнения</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="Ссылка" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>

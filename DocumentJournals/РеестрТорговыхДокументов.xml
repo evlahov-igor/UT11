@@ -56,7 +56,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаписьКнигиПродаж</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаявкаНаВозвратТоваровОтКлиента</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаявкаНаРасходованиеДенежныхСредств</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеАссортимента</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЛистКассовойКниги</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.КорректировкаНазначенияТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.КорректировкаНалогообложенияНДСПартийТоваров</xr:Item>
@@ -88,7 +87,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.РасчетКурсовыхРазниц</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПересортицаТоваров</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ПересчетТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПланЗакупок</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПланПродаж</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПланПродажПоКатегориям</xr:Item>
@@ -127,7 +125,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ТранспортнаяНакладная</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаБлокировокЯчеек</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаКвотАссортимента</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаЦенНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЧекККМ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЧекККМВозврат</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтражениеРасхожденийПриИнкассацииДенежныхСредств</xr:Item>
@@ -580,7 +577,6 @@
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПередачаТоваровМеждуОрганизациями.Attribute.Склад</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеТоваров.Attribute.СкладОтправитель</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПересортицаТоваров.Attribute.Склад</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ПересчетТоваров.Attribute.Склад</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПланЗакупок.Attribute.Склад</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПланПродаж.Attribute.Склад</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПланПродажПоКатегориям.Attribute.Склад</xr:Item>
@@ -898,7 +894,6 @@
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаказНаВнутреннееПотребление.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаказНаПеремещение.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаказНаСборку.Attribute.Ответственный</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеАссортимента.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ЛистКассовойКниги.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.КорректировкаРегистров.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ЛимитыРасходаДенежныхСредств.Attribute.Ответственный</xr:Item>
@@ -914,7 +909,6 @@
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ОтчетОРозничныхПродажах.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеТоваров.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПересортицаТоваров.Attribute.Ответственный</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ПересчетТоваров.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПланЗакупок.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПланПродаж.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПланПродажПоКатегориям.Attribute.Ответственный</xr:Item>
@@ -933,7 +927,6 @@
 						<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеНедостачТоваров.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаБлокировокЯчеек.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаКвотАссортимента.Attribute.Ответственный</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаЦенНоменклатуры.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.АвансовыйОтчет.Attribute.Автор</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ВнесениеДенежныхСредствВКассуККМ.Attribute.Касса</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратПодарочныхСертификатов.Attribute.Кассир</xr:Item>
@@ -994,7 +987,6 @@
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаписьКнигиПокупок.Attribute.Комментарий</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаписьКнигиПродаж.Attribute.Комментарий</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаявкаНаВозвратТоваровОтКлиента.Attribute.Комментарий</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеАссортимента.Attribute.Комментарий</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.КорректировкаНазначенияТоваров.Attribute.Комментарий</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.КорректировкаНалогообложенияНДСПартийТоваров.Attribute.Комментарий</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.КорректировкаОбособленногоУчетаЗапасов.Attribute.Комментарий</xr:Item>
@@ -1022,7 +1014,6 @@
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеТоваров.Attribute.Комментарий</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.РасчетКурсовыхРазниц.Attribute.Комментарий</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПересортицаТоваров.Attribute.Комментарий</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ПересчетТоваров.Attribute.Комментарий</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПланЗакупок.Attribute.Комментарий</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПланПродаж.Attribute.Комментарий</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПланПродажПоКатегориям.Attribute.Комментарий</xr:Item>
@@ -1056,7 +1047,6 @@
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ТаможеннаяДекларацияИмпорт.Attribute.Комментарий</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаБлокировокЯчеек.Attribute.Комментарий</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаКвотАссортимента.Attribute.Комментарий</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаЦенНоменклатуры.Attribute.Комментарий</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ЧекККМ.Attribute.Комментарий</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ЧекККМВозврат.Attribute.Комментарий</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаявкаНаРасходованиеДенежныхСредств.Attribute.Комментарий</xr:Item>
@@ -1163,7 +1153,6 @@
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ВнутреннееПотреблениеТоваров.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ДвижениеПрочихАктивовПассивов.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаданиеНаПеревозку.Attribute.Ответственный</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеАссортимента.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.КорректировкаПоОрдеруНаТовары.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.КорректировкаРегистров.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ЛимитыРасходаДенежныхСредств.Attribute.Ответственный</xr:Item>
@@ -1174,7 +1163,6 @@
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ОрдерНаОтражениеПорчиТоваров.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ОтборРазмещениеТоваров.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ОтчетОРозничныхПродажах.Attribute.Ответственный</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ПересчетТоваров.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПланВнутреннихПотреблений.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПланЗакупок.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПланПродажПоКатегориям.Attribute.Ответственный</xr:Item>
@@ -1201,7 +1189,6 @@
 						<xr:Item xsi:type="xr:MDObjectRef">Document.УдалитьКассовыйЧекКоррекции.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаБлокировокЯчеек.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаКвотАссортимента.Attribute.Ответственный</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаЦенНоменклатуры.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ОрдерНаПеремещениеТоваров.Attribute.Автор</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ВнесениеДенежныхСредствВКассуККМ.Attribute.Кассир</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратПодарочныхСертификатов.Attribute.Кассир</xr:Item>
@@ -1256,6 +1243,7 @@
 				</Properties>
 			</Column>
 			<Form>ФормаСписка</Form>
+			<Template>КР_Изменения</Template>
 		</ChildObjects>
 	</DocumentJournal>
 </MetaDataObject>

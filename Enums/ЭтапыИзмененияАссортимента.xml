@@ -154,6 +154,126 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="f9474732-4b3f-45f8-8d76-5c0ac09895a7">
+				<Properties>
+					<Name>КР_Приостановка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приостановка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8a4d8fc6-b8dc-4701-9510-87efb48d19ef">
+				<Properties>
+					<Name>КР_Заморозка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заморозка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ef4d2a2a-9f50-4c96-b338-e4008ef100b2">
+				<Properties>
+					<Name>КР_ЗапретОтгрузок</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Запрет отгрузок</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="28b9091a-2c27-4b57-909d-7c9c8b14dafb">
+				<Properties>
+					<Name>КР_ПереводНаСтрогуюКонсервацию</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перевод на строгую консервацию</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c5e3f143-c9ba-4f03-b2e2-69175599301d">
+				<Properties>
+					<Name>КР_НастройкаСпецраспределения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройка спецраспределения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6f673094-189e-4086-917a-a17400c366a8">
+				<Properties>
+					<Name>КР_РазблокировкаСтрогойКонсервации</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разблокировка строгой консервации</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3980b7ae-da92-420f-85ab-ccd86e9798f4">
+				<Properties>
+					<Name>КР_ПереводНаВременнуюКонсервацию</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перевод на временную консервацию</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>JIRA№ A2105505-1553</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ad5f998a-c461-4f5c-8c52-77ed1024259b">
+				<Properties>
+					<Name>КР_РазблокировкаВременнойКонсервации</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разблокировка временной консервации</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>JIRA№ A2105505-1553</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8f607121-6e46-4d6e-800d-09279d7fc659">
+				<Properties>
+					<Name>КР_ОтменаСтрогойКонсервацииПоФормату</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отмена строгой консервации по формату</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>JIRA№ A2105505-2309</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5acf4650-44b0-4ddc-af02-a9179c978d30">
+				<Properties>
+					<Name>КР_СнятиеЗаморозки</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Снятие заморозки</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

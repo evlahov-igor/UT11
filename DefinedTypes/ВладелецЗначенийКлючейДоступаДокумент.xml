@@ -161,6 +161,7 @@
 				<v8:Type>cfg:DocumentObject.Бронирование</v8:Type>
 				<v8:Type>cfg:DocumentObject.РеализацияТоваровУслуг</v8:Type>
 				<v8:Type>cfg:DocumentObject.ВводОстатковПрочихАктивовПассивов</v8:Type>
+				<v8:Type>cfg:DocumentObject.КР_ЗональныйПересчетТоваров</v8:Type>
 				<v8:Type>cfg:DocumentObject.УдалитьВводОстатковПрослеживаемыхИмпортныхТоваров</v8:Type>
 				<v8:Type>cfg:DocumentObject.КорректировкаПлановыхПотребностей</v8:Type>
 				<v8:Type>cfg:DocumentObject.ЗаказНаЭмиссиюКодовМаркировкиСУЗ</v8:Type>

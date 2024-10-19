@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="e3662679-16b3-4a36-94fe-a7f30f8c511e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.КР_ВидыТарифовПеревозчиков" category="Ref">
+				<xr:TypeId>6bb4d383-e71d-428e-83da-49ddb88fa388</xr:TypeId>
+				<xr:ValueId>5dec3d7a-a9a3-4893-8812-a12855b6a561</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.КР_ВидыТарифовПеревозчиков" category="Manager">
+				<xr:TypeId>a4bdb503-6c03-4ca2-b20f-a4774b67ec8d</xr:TypeId>
+				<xr:ValueId>a54412da-84ad-4745-960f-0d683386b954</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.КР_ВидыТарифовПеревозчиков" category="List">
+				<xr:TypeId>05cd2530-3e12-40ea-8259-0907780b035e</xr:TypeId>
+				<xr:ValueId>b0c9b596-68a3-469c-9dde-a7286ab72d2a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КР_ВидыТарифовПеревозчиков</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды тарифов перевозчиков</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>A2105505-376</Comment>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="c0ceb6ab-402e-44b1-a769-fd29334603c2">
+				<Properties>
+					<Name>ОбъемВМ3</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Объем в м3</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Стоимость перевозки рассчитывается за объем груза по каждому магазину</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e06b8981-63bb-4e7c-af86-84d358d51663">
+				<Properties>
+					<Name>Маршрут</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Маршрут</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Стоимость перевозки рассчитывается за объем груза по каждому городу (маршруту)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b1efefed-40c9-4bea-99fd-2aa82bb5f124">
+				<Properties>
+					<Name>Паллеты</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Паллеты</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Стоимость перевозки рассчитывается за количество паллет, отгруженных на МП</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

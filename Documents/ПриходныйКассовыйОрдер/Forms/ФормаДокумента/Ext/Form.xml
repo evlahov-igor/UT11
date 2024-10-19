@@ -2093,6 +2093,9 @@
 							<MaxWidth>28</MaxWidth>
 							<ContextMenu name="КассирКонтекстноеМеню" id="557"/>
 							<ExtendedTooltip name="КассирРасширеннаяПодсказка" id="558"/>
+							<Events>
+								<Event name="OnChange">КассирПриИзменении</Event>
+							</Events>
 						</InputField>
 						<InputField name="Приложение" id="92">
 							<DataPath>Объект.Приложение</DataPath>

@@ -1,0 +1,1741 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаОтправитьСообщение" id="142">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОбменСообщениями</CommandName>
+				<BackColor>style:ДобавленныйРеквизитФон</BackColor>
+				<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+				<ExtendedTooltip name="ФормаОтправитьСообщениеРасширеннаяПодсказка" id="143"/>
+			</Button>
+			<Button name="ФормаСчитатьСообщение" id="159">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОбработатьСообщения</CommandName>
+				<BackColor>style:ToolTipBackColor</BackColor>
+				<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+				<ExtendedTooltip name="ФормаСчитатьСообщениеРасширеннаяПодсказка" id="160"/>
+			</Button>
+			<Button name="ФормаОбработатьОшибочныеСообщения" id="597">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОбработатьОшибочныеСообщения</CommandName>
+				<BackColor>style:НерабочийПериодПроизводственногоКалендаряФон</BackColor>
+				<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+				<ExtendedTooltip name="ФормаОбработатьОшибочныеСообщенияРасширеннаяПодсказка" id="598"/>
+			</Button>
+			<Button name="ФормаИспользоватьОбработчикОжидания" id="542">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ИспользоватьОбработчикОжидания</CommandName>
+				<BackColor>style:ИтогиФон</BackColor>
+				<ExtendedTooltip name="ФормаИспользоватьОбработчикОжиданияРасширеннаяПодсказка" id="543"/>
+			</Button>
+			<Popup name="ФормаГруппаОтчеты" id="586">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отчеты</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Форма группа отчеты</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.Отчеты</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ФормаГруппаОтчетыРасширеннаяПодсказка" id="587"/>
+				<ChildItems>
+					<Button name="ФормаОтчетСостояниеИнтеграции" id="592">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОтчетСостояниеИнтеграции</CommandName>
+						<ExtendedTooltip name="ФормаОтчетСостояниеИнтеграцииРасширеннаяПодсказка" id="593"/>
+					</Button>
+					<Button name="ФормаОтчетОшибкиПоискаДанныхИнтеграции" id="588">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОтчетОшибкиПоискаДанныхИнтеграции</CommandName>
+						<ExtendedTooltip name="ФормаОтчетОшибкиПоискаДанныхИнтеграцииРасширеннаяПодсказка" id="589"/>
+					</Button>
+					<Button name="ФормаОтчетНаличиеПакетовИнтеграцииПоОбъекту" id="590">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОтчетНаличиеПакетовИнтеграцииПоОбъекту</CommandName>
+						<ExtendedTooltip name="ФормаОтчетНаличиеПакетовИнтеграцииПоОбъектуРасширеннаяПодсказка" id="591"/>
+					</Button>
+					<Button name="ФормаОтчетДинамикаСкоростиРазбораСообщений" id="599">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОтчетДинамикаСкоростиРазбораСообщений</CommandName>
+						<ExtendedTooltip name="ФормаОтчетДинамикаСкоростиРазбораСообщенийРасширеннаяПодсказка" id="600"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="ГруппаСтраницы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="СтраницаИнтеграционнаяИнформация" id="457">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Интеграционная информация</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница интеграционная информация</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаИнтеграционнаяИнформацияРасширеннаяПодсказка" id="458"/>
+					<ChildItems>
+						<Table name="ИнтеграционнаяИнформация" id="459">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ИнтеграционнаяИнформация</DataPath>
+							<RowPictureDataPath>ИнтеграционнаяИнформация.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="ИнтеграционнаяИнформацияКонтекстноеМеню" id="460"/>
+							<AutoCommandBar name="ИнтеграционнаяИнформацияКоманднаяПанель" id="461"/>
+							<ExtendedTooltip name="ИнтеграционнаяИнформацияРасширеннаяПодсказка" id="462"/>
+							<SearchStringAddition name="ИнтеграционнаяИнформацияСтрокаПоиска" id="463">
+								<AdditionSource>
+									<Item>ИнтеграционнаяИнформация</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИнтеграционнаяИнформацияСтрокаПоискаКонтекстноеМеню" id="464"/>
+								<ExtendedTooltip name="ИнтеграционнаяИнформацияСтрокаПоискаРасширеннаяПодсказка" id="465"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ИнтеграционнаяИнформацияСостояниеПросмотра" id="466">
+								<AdditionSource>
+									<Item>ИнтеграционнаяИнформация</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИнтеграционнаяИнформацияСостояниеПросмотраКонтекстноеМеню" id="467"/>
+								<ExtendedTooltip name="ИнтеграционнаяИнформацияСостояниеПросмотраРасширеннаяПодсказка" id="468"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ИнтеграционнаяИнформацияУправлениеПоиском" id="469">
+								<AdditionSource>
+									<Item>ИнтеграционнаяИнформация</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ИнтеграционнаяИнформацияУправлениеПоискомКонтекстноеМеню" id="470"/>
+								<ExtendedTooltip name="ИнтеграционнаяИнформацияУправлениеПоискомРасширеннаяПодсказка" id="471"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ИнтеграционнаяИнформацияКлючИнтеграции" id="472">
+									<DataPath>ИнтеграционнаяИнформация.КлючИнтеграции</DataPath>
+									<ContextMenu name="ИнтеграционнаяИнформацияКлючИнтеграцииКонтекстноеМеню" id="473"/>
+									<ExtendedTooltip name="ИнтеграционнаяИнформацияКлючИнтеграцииРасширеннаяПодсказка" id="474"/>
+								</LabelField>
+								<LabelField name="ИнтеграционнаяИнформацияСтатус" id="475">
+									<DataPath>ИнтеграционнаяИнформация.Статус</DataPath>
+									<ContextMenu name="ИнтеграционнаяИнформацияСтатусКонтекстноеМеню" id="476"/>
+									<ExtendedTooltip name="ИнтеграционнаяИнформацияСтатусРасширеннаяПодсказка" id="477"/>
+								</LabelField>
+								<LabelField name="ИнтеграционнаяИнформацияЛогирование" id="478">
+									<DataPath>ИнтеграционнаяИнформация.Логирование</DataPath>
+									<ContextMenu name="ИнтеграционнаяИнформацияЛогированиеКонтекстноеМеню" id="479"/>
+									<ExtendedTooltip name="ИнтеграционнаяИнформацияЛогированиеРасширеннаяПодсказка" id="480"/>
+								</LabelField>
+								<LabelField name="ИнтеграционнаяИнформацияДатаНачала" id="481">
+									<DataPath>ИнтеграционнаяИнформация.ДатаНачала</DataPath>
+									<ContextMenu name="ИнтеграционнаяИнформацияДатаНачалаКонтекстноеМеню" id="482"/>
+									<ExtendedTooltip name="ИнтеграционнаяИнформацияДатаНачалаРасширеннаяПодсказка" id="483"/>
+								</LabelField>
+								<LabelField name="ИнтеграционнаяИнформацияДатаОкончания" id="484">
+									<DataPath>ИнтеграционнаяИнформация.ДатаОкончания</DataPath>
+									<ContextMenu name="ИнтеграционнаяИнформацияДатаОкончанияКонтекстноеМеню" id="485"/>
+									<ExtendedTooltip name="ИнтеграционнаяИнформацияДатаОкончанияРасширеннаяПодсказка" id="486"/>
+								</LabelField>
+								<LabelField name="ИнтеграционнаяИнформацияДлительность" id="487">
+									<DataPath>ИнтеграционнаяИнформация.Длительность</DataPath>
+									<ContextMenu name="ИнтеграционнаяИнформацияДлительностьКонтекстноеМеню" id="488"/>
+									<ExtendedTooltip name="ИнтеграционнаяИнформацияДлительностьРасширеннаяПодсказка" id="489"/>
+								</LabelField>
+								<LabelField name="ИнтеграционнаяИнформацияПолученоСообщений" id="490">
+									<DataPath>ИнтеграционнаяИнформация.ПолученоСообщений</DataPath>
+									<ContextMenu name="ИнтеграционнаяИнформацияПолученоСообщенийКонтекстноеМеню" id="491"/>
+									<ExtendedTooltip name="ИнтеграционнаяИнформацияПолученоСообщенийРасширеннаяПодсказка" id="492"/>
+								</LabelField>
+								<LabelField name="ИнтеграционнаяИнформацияОтправленоСообщений" id="493">
+									<DataPath>ИнтеграционнаяИнформация.ОтправленоСообщений</DataPath>
+									<ContextMenu name="ИнтеграционнаяИнформацияОтправленоСообщенийКонтекстноеМеню" id="494"/>
+									<ExtendedTooltip name="ИнтеграционнаяИнформацияОтправленоСообщенийРасширеннаяПодсказка" id="495"/>
+								</LabelField>
+								<LabelField name="ИнтеграционнаяИнформацияКоличествоОшибок" id="496">
+									<DataPath>ИнтеграционнаяИнформация.КоличествоОшибок</DataPath>
+									<ContextMenu name="ИнтеграционнаяИнформацияКоличествоОшибокКонтекстноеМеню" id="497"/>
+									<ExtendedTooltip name="ИнтеграционнаяИнформацияКоличествоОшибокРасширеннаяПодсказка" id="498"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаИсходящиеСообщения" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Исходящие сообщения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница исходящие сообщения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаИсходящиеСообщенияРасширеннаяПодсказка" id="6"/>
+					<ChildItems>
+						<Table name="ИсходящиеСообщения" id="325">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ИсходящиеСообщения</DataPath>
+							<RowPictureDataPath>ИсходящиеСообщения.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="ИсходящиеСообщенияКонтекстноеМеню" id="326"/>
+							<AutoCommandBar name="ИсходящиеСообщенияКоманднаяПанель" id="327">
+								<ChildItems>
+									<Button name="ИсходящиеСообщенияПеренестиВАрхив" id="526">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ПеренестиВАрхив</CommandName>
+										<ExtendedTooltip name="ИсходящиеСообщенияПеренестиВАрхивРасширеннаяПодсказка" id="527"/>
+									</Button>
+									<Button name="ИсходящиеСообщенияОтправитьВыделенные" id="536">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ОтправитьВыделенные</CommandName>
+										<ExtendedTooltip name="ИсходящиеСообщенияОтправитьВыделенныеРасширеннаяПодсказка" id="537"/>
+									</Button>
+									<Button name="ИсходящиеСообщенияВЗарегистрированоВыделеные" id="540">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ВЗарегистрированоВыделеные</CommandName>
+										<ExtendedTooltip name="ИсходящиеСообщенияВЗарегистрированоВыделеныеРасширеннаяПодсказка" id="541"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ИсходящиеСообщенияРасширеннаяПодсказка" id="328"/>
+							<SearchStringAddition name="ИсходящиеСообщенияСтрокаПоиска" id="329">
+								<AdditionSource>
+									<Item>ИсходящиеСообщения</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИсходящиеСообщенияСтрокаПоискаКонтекстноеМеню" id="330"/>
+								<ExtendedTooltip name="ИсходящиеСообщенияСтрокаПоискаРасширеннаяПодсказка" id="331"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ИсходящиеСообщенияСостояниеПросмотра" id="332">
+								<AdditionSource>
+									<Item>ИсходящиеСообщения</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИсходящиеСообщенияСостояниеПросмотраКонтекстноеМеню" id="333"/>
+								<ExtendedTooltip name="ИсходящиеСообщенияСостояниеПросмотраРасширеннаяПодсказка" id="334"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ИсходящиеСообщенияУправлениеПоиском" id="335">
+								<AdditionSource>
+									<Item>ИсходящиеСообщения</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ИсходящиеСообщенияУправлениеПоискомКонтекстноеМеню" id="336"/>
+								<ExtendedTooltip name="ИсходящиеСообщенияУправлениеПоискомРасширеннаяПодсказка" id="337"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ИсходящиеСообщенияКлючСообщения" id="338">
+									<DataPath>ИсходящиеСообщения.КлючСообщения</DataPath>
+									<ContextMenu name="ИсходящиеСообщенияКлючСообщенияКонтекстноеМеню" id="339"/>
+									<ExtendedTooltip name="ИсходящиеСообщенияКлючСообщенияРасширеннаяПодсказка" id="340"/>
+								</LabelField>
+								<LabelField name="ИсходящиеСообщенияСостояние" id="341">
+									<DataPath>ИсходящиеСообщения.Состояние</DataPath>
+									<ContextMenu name="ИсходящиеСообщенияСостояниеКонтекстноеМеню" id="342"/>
+									<ExtendedTooltip name="ИсходящиеСообщенияСостояниеРасширеннаяПодсказка" id="343"/>
+								</LabelField>
+								<LabelField name="ИсходящиеСообщенияТочкаОбмена" id="365">
+									<DataPath>ИсходящиеСообщения.ТочкаОбмена</DataPath>
+									<ContextMenu name="ИсходящиеСообщенияТочкаОбменаКонтекстноеМеню" id="366"/>
+									<ExtendedTooltip name="ИсходящиеСообщенияТочкаОбменаРасширеннаяПодсказка" id="367"/>
+								</LabelField>
+								<LabelField name="ИсходящиеСообщенияТипДанных" id="344">
+									<DataPath>ИсходящиеСообщения.ТипДанных</DataPath>
+									<ContextMenu name="ИсходящиеСообщенияТипДанныхКонтекстноеМеню" id="345"/>
+									<ExtendedTooltip name="ИсходящиеСообщенияТипДанныхРасширеннаяПодсказка" id="346"/>
+								</LabelField>
+								<LabelField name="ИсходящиеСообщенияМаршрутизация" id="520">
+									<DataPath>ИсходящиеСообщения.Маршрутизация</DataPath>
+									<ContextMenu name="ИсходящиеСообщенияМаршрутизацияКонтекстноеМеню" id="521"/>
+									<ExtendedTooltip name="ИсходящиеСообщенияМаршрутизацияРасширеннаяПодсказка" id="522"/>
+								</LabelField>
+								<LabelField name="ИсходящиеСообщенияЛогирование" id="353">
+									<DataPath>ИсходящиеСообщения.Логирование</DataPath>
+									<ContextMenu name="ИсходящиеСообщенияЛогированиеКонтекстноеМеню" id="354"/>
+									<ExtendedTooltip name="ИсходящиеСообщенияЛогированиеРасширеннаяПодсказка" id="355"/>
+								</LabelField>
+								<LabelField name="ИсходящиеСообщенияМоментРегистрации" id="356">
+									<DataPath>ИсходящиеСообщения.МоментРегистрации</DataPath>
+									<ContextMenu name="ИсходящиеСообщенияМоментРегистрацииКонтекстноеМеню" id="357"/>
+									<ExtendedTooltip name="ИсходящиеСообщенияМоментРегистрацииРасширеннаяПодсказка" id="358"/>
+								</LabelField>
+								<LabelField name="ИсходящиеСообщенияДатаРегистрации" id="359">
+									<DataPath>ИсходящиеСообщения.ДатаРегистрации</DataPath>
+									<ContextMenu name="ИсходящиеСообщенияДатаРегистрацииКонтекстноеМеню" id="360"/>
+									<ExtendedTooltip name="ИсходящиеСообщенияДатаРегистрацииРасширеннаяПодсказка" id="361"/>
+								</LabelField>
+								<LabelField name="ИсходящиеСообщенияДатаОтправки" id="362">
+									<DataPath>ИсходящиеСообщения.ДатаОтправки</DataPath>
+									<ContextMenu name="ИсходящиеСообщенияДатаОтправкиКонтекстноеМеню" id="363"/>
+									<ExtendedTooltip name="ИсходящиеСообщенияДатаОтправкиРасширеннаяПодсказка" id="364"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаВходящиеСообщения" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Входящие сообщения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница входящие сообщения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаВходящиеСообщенияРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<Table name="ВходящиеСообщения" id="368">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ВходящиеСообщения</DataPath>
+							<RowPictureDataPath>ВходящиеСообщения.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="ВходящиеСообщенияКонтекстноеМеню" id="369"/>
+							<AutoCommandBar name="ВходящиеСообщенияКоманднаяПанель" id="370">
+								<ChildItems>
+									<Button name="ВходящиеСообщенияПеренестиВАрхив" id="532">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ПеренестиВАрхив</CommandName>
+										<ExtendedTooltip name="ВходящиеСообщенияПеренестиВАрхивРасширеннаяПодсказка" id="533"/>
+									</Button>
+									<Button name="ВходящиеСообщенияОбработатьВыделенные" id="534">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ОбработатьВыделенные</CommandName>
+										<ExtendedTooltip name="ВходящиеСообщенияОбработатьВыделенныеРасширеннаяПодсказка" id="535"/>
+									</Button>
+									<Button name="ВходящиеСообщенияВЗарегистрированоВыделеные" id="538">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ВЗарегистрированоВыделеные</CommandName>
+										<ExtendedTooltip name="ВходящиеСообщенияВЗарегистрированоВыделеныеРасширеннаяПодсказка" id="539"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ВходящиеСообщенияРасширеннаяПодсказка" id="371"/>
+							<SearchStringAddition name="ВходящиеСообщенияСтрокаПоиска" id="372">
+								<AdditionSource>
+									<Item>ВходящиеСообщения</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВходящиеСообщенияСтрокаПоискаКонтекстноеМеню" id="373"/>
+								<ExtendedTooltip name="ВходящиеСообщенияСтрокаПоискаРасширеннаяПодсказка" id="374"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ВходящиеСообщенияСостояниеПросмотра" id="375">
+								<AdditionSource>
+									<Item>ВходящиеСообщения</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВходящиеСообщенияСостояниеПросмотраКонтекстноеМеню" id="376"/>
+								<ExtendedTooltip name="ВходящиеСообщенияСостояниеПросмотраРасширеннаяПодсказка" id="377"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ВходящиеСообщенияУправлениеПоиском" id="378">
+								<AdditionSource>
+									<Item>ВходящиеСообщения</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ВходящиеСообщенияУправлениеПоискомКонтекстноеМеню" id="379"/>
+								<ExtendedTooltip name="ВходящиеСообщенияУправлениеПоискомРасширеннаяПодсказка" id="380"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ВходящиеСообщенияКлючСообщения" id="381">
+									<DataPath>ВходящиеСообщения.КлючСообщения</DataPath>
+									<ContextMenu name="ВходящиеСообщенияКлючСообщенияКонтекстноеМеню" id="382"/>
+									<ExtendedTooltip name="ВходящиеСообщенияКлючСообщенияРасширеннаяПодсказка" id="383"/>
+								</LabelField>
+								<LabelField name="ВходящиеСообщенияСостояние" id="384">
+									<DataPath>ВходящиеСообщения.Состояние</DataPath>
+									<ContextMenu name="ВходящиеСообщенияСостояниеКонтекстноеМеню" id="385"/>
+									<ExtendedTooltip name="ВходящиеСообщенияСостояниеРасширеннаяПодсказка" id="386"/>
+								</LabelField>
+								<LabelField name="ВходящиеСообщенияОчередьОбмена" id="502">
+									<DataPath>ВходящиеСообщения.ОчередьОбмена</DataPath>
+									<ContextMenu name="ВходящиеСообщенияОчередьОбменаКонтекстноеМеню" id="503"/>
+									<ExtendedTooltip name="ВходящиеСообщенияОчередьОбменаРасширеннаяПодсказка" id="504"/>
+								</LabelField>
+								<LabelField name="ВходящиеСообщенияОчередь" id="387">
+									<DataPath>~ВходящиеСообщения.Очередь</DataPath>
+									<ContextMenu name="ВходящиеСообщенияОчередьКонтекстноеМеню" id="388"/>
+									<ExtendedTooltip name="ВходящиеСообщенияОчередьРасширеннаяПодсказка" id="389"/>
+								</LabelField>
+								<LabelField name="ВходящиеСообщенияОтправитель" id="390">
+									<DataPath>ВходящиеСообщения.Отправитель</DataPath>
+									<ContextMenu name="ВходящиеСообщенияОтправительКонтекстноеМеню" id="391"/>
+									<ExtendedTooltip name="ВходящиеСообщенияОтправительРасширеннаяПодсказка" id="392"/>
+								</LabelField>
+								<LabelField name="ВходящиеСообщенияТипДанных" id="499">
+									<DataPath>ВходящиеСообщения.ТипДанных</DataPath>
+									<ContextMenu name="ВходящиеСообщенияТипДанныхКонтекстноеМеню" id="500"/>
+									<ExtendedTooltip name="ВходящиеСообщенияТипДанныхРасширеннаяПодсказка" id="501"/>
+								</LabelField>
+								<LabelField name="ВходящиеСообщенияЛогирование" id="396">
+									<DataPath>ВходящиеСообщения.Логирование</DataPath>
+									<ContextMenu name="ВходящиеСообщенияЛогированиеКонтекстноеМеню" id="397"/>
+									<ExtendedTooltip name="ВходящиеСообщенияЛогированиеРасширеннаяПодсказка" id="398"/>
+								</LabelField>
+								<LabelField name="ВходящиеСообщенияМоментРегистрации" id="399">
+									<DataPath>ВходящиеСообщения.МоментРегистрации</DataPath>
+									<ContextMenu name="ВходящиеСообщенияМоментРегистрацииКонтекстноеМеню" id="400"/>
+									<ExtendedTooltip name="ВходящиеСообщенияМоментРегистрацииРасширеннаяПодсказка" id="401"/>
+								</LabelField>
+								<LabelField name="ВходящиеСообщенияДатаРегистрации" id="402">
+									<DataPath>ВходящиеСообщения.ДатаРегистрации</DataPath>
+									<ContextMenu name="ВходящиеСообщенияДатаРегистрацииКонтекстноеМеню" id="403"/>
+									<ExtendedTooltip name="ВходящиеСообщенияДатаРегистрацииРасширеннаяПодсказка" id="404"/>
+								</LabelField>
+								<LabelField name="ВходящиеСообщенияДатаОтправки" id="405">
+									<DataPath>ВходящиеСообщения.ДатаОтправки</DataPath>
+									<ContextMenu name="ВходящиеСообщенияДатаОтправкиКонтекстноеМеню" id="406"/>
+									<ExtendedTooltip name="ВходящиеСообщенияДатаОтправкиРасширеннаяПодсказка" id="407"/>
+								</LabelField>
+								<LabelField name="ВходящиеСообщенияДатаПолучения" id="577">
+									<DataPath>ВходящиеСообщения.ДатаПолучения</DataPath>
+									<ContextMenu name="ВходящиеСообщенияДатаПолученияКонтекстноеМеню" id="578"/>
+									<ExtendedTooltip name="ВходящиеСообщенияДатаПолученияРасширеннаяПодсказка" id="579"/>
+								</LabelField>
+								<LabelField name="ВходящиеСообщенияДатаДоставки" id="408">
+									<DataPath>~ВходящиеСообщения.ДатаДоставки</DataPath>
+									<ContextMenu name="ВходящиеСообщенияДатаДоставкиКонтекстноеМеню" id="409"/>
+									<ExtendedTooltip name="ВходящиеСообщенияДатаДоставкиРасширеннаяПодсказка" id="410"/>
+								</LabelField>
+								<LabelField name="ВходящиеСообщенияДатаОбработки" id="411">
+									<DataPath>ВходящиеСообщения.ДатаОбработки</DataPath>
+									<ContextMenu name="ВходящиеСообщенияДатаОбработкиКонтекстноеМеню" id="412"/>
+									<ExtendedTooltip name="ВходящиеСообщенияДатаОбработкиРасширеннаяПодсказка" id="413"/>
+								</LabelField>
+								<LabelField name="ВходящиеСообщенияИдентификаторГруппировкиДанных" id="580">
+									<DataPath>ВходящиеСообщения.ИдентификаторГруппировкиДанных</DataPath>
+									<ContextMenu name="ВходящиеСообщенияИдентификаторГруппировкиДанныхКонтекстноеМеню" id="581"/>
+									<ExtendedTooltip name="ВходящиеСообщенияИдентификаторГруппировкиДанныхРасширеннаяПодсказка" id="582"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаАрхивСообщений" id="161">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Архив сообщений</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница архив сообщений</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаАрхивСообщенийРасширеннаяПодсказка" id="162"/>
+					<ChildItems>
+						<Table name="АрхивСообщений" id="414">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>АрхивСообщений</DataPath>
+							<RowPictureDataPath>АрхивСообщений.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="АрхивСообщенийКонтекстноеМеню" id="415"/>
+							<AutoCommandBar name="АрхивСообщенийКоманднаяПанель" id="416">
+								<ChildItems>
+									<Button name="АрхивСообщенийВосстановитьИзАрхива" id="530">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ВосстановитьИзАрхива</CommandName>
+										<ExtendedTooltip name="АрхивСообщенийВосстановитьИзАрхиваРасширеннаяПодсказка" id="531"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="АрхивСообщенийРасширеннаяПодсказка" id="417"/>
+							<SearchStringAddition name="АрхивСообщенийСтрокаПоиска" id="418">
+								<AdditionSource>
+									<Item>АрхивСообщений</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АрхивСообщенийСтрокаПоискаКонтекстноеМеню" id="419"/>
+								<ExtendedTooltip name="АрхивСообщенийСтрокаПоискаРасширеннаяПодсказка" id="420"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="АрхивСообщенийСостояниеПросмотра" id="421">
+								<AdditionSource>
+									<Item>АрхивСообщений</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АрхивСообщенийСостояниеПросмотраКонтекстноеМеню" id="422"/>
+								<ExtendedTooltip name="АрхивСообщенийСостояниеПросмотраРасширеннаяПодсказка" id="423"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="АрхивСообщенийУправлениеПоиском" id="424">
+								<AdditionSource>
+									<Item>АрхивСообщений</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="АрхивСообщенийУправлениеПоискомКонтекстноеМеню" id="425"/>
+								<ExtendedTooltip name="АрхивСообщенийУправлениеПоискомРасширеннаяПодсказка" id="426"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="АрхивСообщенийКлючСообщения" id="427">
+									<DataPath>АрхивСообщений.КлючСообщения</DataPath>
+									<ContextMenu name="АрхивСообщенийКлючСообщенияКонтекстноеМеню" id="428"/>
+									<ExtendedTooltip name="АрхивСообщенийКлючСообщенияРасширеннаяПодсказка" id="429"/>
+								</LabelField>
+								<LabelField name="АрхивСообщенийТипСообщения" id="430">
+									<DataPath>АрхивСообщений.ТипСообщения</DataPath>
+									<ContextMenu name="АрхивСообщенийТипСообщенияКонтекстноеМеню" id="431"/>
+									<ExtendedTooltip name="АрхивСообщенийТипСообщенияРасширеннаяПодсказка" id="432"/>
+								</LabelField>
+								<LabelField name="АрхивСообщенийСостояние" id="594">
+									<DataPath>АрхивСообщений.Состояние</DataPath>
+									<ContextMenu name="АрхивСообщенийСостояниеКонтекстноеМеню" id="595"/>
+									<ExtendedTooltip name="АрхивСообщенийСостояниеРасширеннаяПодсказка" id="596"/>
+								</LabelField>
+								<LabelField name="АрхивСообщенийОтправитель" id="505">
+									<DataPath>АрхивСообщений.Отправитель</DataPath>
+									<ContextMenu name="АрхивСообщенийОтправительКонтекстноеМеню" id="506"/>
+									<ExtendedTooltip name="АрхивСообщенийОтправительРасширеннаяПодсказка" id="507"/>
+								</LabelField>
+								<LabelField name="АрхивСообщенийОчередьОбмена" id="508">
+									<DataPath>АрхивСообщений.ОчередьОбмена</DataPath>
+									<ContextMenu name="АрхивСообщенийОчередьОбменаКонтекстноеМеню" id="509"/>
+									<ExtendedTooltip name="АрхивСообщенийОчередьОбменаРасширеннаяПодсказка" id="510"/>
+								</LabelField>
+								<LabelField name="АрхивСообщенийТипДанных" id="511">
+									<DataPath>АрхивСообщений.ТипДанных</DataPath>
+									<ContextMenu name="АрхивСообщенийТипДанныхКонтекстноеМеню" id="512"/>
+									<ExtendedTooltip name="АрхивСообщенийТипДанныхРасширеннаяПодсказка" id="513"/>
+								</LabelField>
+								<LabelField name="АрхивСообщенийТочкаОбмена" id="514">
+									<DataPath>АрхивСообщений.ТочкаОбмена</DataPath>
+									<ContextMenu name="АрхивСообщенийТочкаОбменаКонтекстноеМеню" id="515"/>
+									<ExtendedTooltip name="АрхивСообщенийТочкаОбменаРасширеннаяПодсказка" id="516"/>
+								</LabelField>
+								<LabelField name="АрхивСообщенийМаршрутизация" id="523">
+									<DataPath>АрхивСообщений.Маршрутизация</DataPath>
+									<ContextMenu name="АрхивСообщенийМаршрутизацияКонтекстноеМеню" id="524"/>
+									<ExtendedTooltip name="АрхивСообщенийМаршрутизацияРасширеннаяПодсказка" id="525"/>
+								</LabelField>
+								<LabelField name="АрхивСообщенийЛогирование" id="439">
+									<DataPath>АрхивСообщений.Логирование</DataPath>
+									<ContextMenu name="АрхивСообщенийЛогированиеКонтекстноеМеню" id="440"/>
+									<ExtendedTooltip name="АрхивСообщенийЛогированиеРасширеннаяПодсказка" id="441"/>
+								</LabelField>
+								<LabelField name="АрхивСообщенийМоментРегистрации" id="442">
+									<DataPath>АрхивСообщений.МоментРегистрации</DataPath>
+									<ContextMenu name="АрхивСообщенийМоментРегистрацииКонтекстноеМеню" id="443"/>
+									<ExtendedTooltip name="АрхивСообщенийМоментРегистрацииРасширеннаяПодсказка" id="444"/>
+								</LabelField>
+								<LabelField name="АрхивСообщенийДатаРегистрации" id="445">
+									<DataPath>АрхивСообщений.ДатаРегистрации</DataPath>
+									<ContextMenu name="АрхивСообщенийДатаРегистрацииКонтекстноеМеню" id="446"/>
+									<ExtendedTooltip name="АрхивСообщенийДатаРегистрацииРасширеннаяПодсказка" id="447"/>
+								</LabelField>
+								<LabelField name="АрхивСообщенийДатаОтправки" id="448">
+									<DataPath>АрхивСообщений.ДатаОтправки</DataPath>
+									<ContextMenu name="АрхивСообщенийДатаОтправкиКонтекстноеМеню" id="449"/>
+									<ExtendedTooltip name="АрхивСообщенийДатаОтправкиРасширеннаяПодсказка" id="450"/>
+								</LabelField>
+								<LabelField name="АрхивСообщенийДатаДоставки" id="451">
+									<DataPath>~АрхивСообщений.ДатаДоставки</DataPath>
+									<ContextMenu name="АрхивСообщенийДатаДоставкиКонтекстноеМеню" id="452"/>
+									<ExtendedTooltip name="АрхивСообщенийДатаДоставкиРасширеннаяПодсказка" id="453"/>
+								</LabelField>
+								<LabelField name="АрхивСообщенийДатаПолучения" id="583">
+									<DataPath>АрхивСообщений.ДатаПолучения</DataPath>
+									<ContextMenu name="АрхивСообщенийДатаПолученияКонтекстноеМеню" id="584"/>
+									<ExtendedTooltip name="АрхивСообщенийДатаПолученияРасширеннаяПодсказка" id="585"/>
+								</LabelField>
+								<LabelField name="АрхивСообщенийДатаОбработки" id="454">
+									<DataPath>АрхивСообщений.ДатаОбработки</DataPath>
+									<ContextMenu name="АрхивСообщенийДатаОбработкиКонтекстноеМеню" id="455"/>
+									<ExtendedTooltip name="АрхивСообщенийДатаОбработкиРасширеннаяПодсказка" id="456"/>
+								</LabelField>
+								<LabelField name="АрхивСообщенийДатаАрхивирования" id="517">
+									<DataPath>АрхивСообщений.ДатаАрхивирования</DataPath>
+									<ContextMenu name="АрхивСообщенийДатаАрхивированияКонтекстноеМеню" id="518"/>
+									<ExtendedTooltip name="АрхивСообщенийДатаАрхивированияРасширеннаяПодсказка" id="519"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаРегистрируемыеТипы" id="601">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регистрируемые типы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница регистрируемые типы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаРегистрируемыеТипыРасширеннаяПодсказка" id="602"/>
+					<ChildItems>
+						<Table name="РегистрируемыеТипыДанных" id="603">
+							<Representation>Tree</Representation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<InitialTreeView>ExpandAllLevels</InitialTreeView>
+							<DataPath>РегистрируемыеТипыДанных</DataPath>
+							<RowPictureDataPath>РегистрируемыеТипыДанных.НомерКартинки</RowPictureDataPath>
+							<RowsPicture>
+								<xr:Abs>RowsPicture.png</xr:Abs>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</RowsPicture>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+								<ExcludedCommand>EndEdit</ExcludedCommand>
+								<ExcludedCommand>HierarchicalList</ExcludedCommand>
+								<ExcludedCommand>List</ExcludedCommand>
+								<ExcludedCommand>MoveDown</ExcludedCommand>
+								<ExcludedCommand>MoveUp</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+								<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+								<ExcludedCommand>SortListAsc</ExcludedCommand>
+								<ExcludedCommand>SortListDesc</ExcludedCommand>
+								<ExcludedCommand>Tree</ExcludedCommand>
+							</CommandSet>
+							<ContextMenu name="РегистрируемыеТипыДанныхКонтекстноеМеню" id="604"/>
+							<AutoCommandBar name="РегистрируемыеТипыДанныхКоманднаяПанель" id="605">
+								<ChildItems>
+									<Button name="РегистрируемыеТипыДанныхОбновитьРегистрируемыеТипы" id="622">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ОбновитьРегистрируемыеТипы</CommandName>
+										<ExtendedTooltip name="РегистрируемыеТипыДанныхОбновитьРегистрируемыеТипыРасширеннаяПодсказка" id="623"/>
+									</Button>
+									<Button name="РегистрируемыеТипыДанныхСохранитьРегистрируемыеТипы" id="624">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.СохранитьРегистрируемыеТипы</CommandName>
+										<ExtendedTooltip name="РегистрируемыеТипыДанныхСохранитьРегистрируемыеТипыРасширеннаяПодсказка" id="625"/>
+									</Button>
+									<Button name="РегистрируемыеТипыДанныхУстановитьВсеФлажкиРегистрируемыеТипы" id="628">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.УстановитьВсеФлажкиРегистрируемыеТипы</CommandName>
+										<ExtendedTooltip name="РегистрируемыеТипыДанныхУстановитьВсеФлажкиРегистрируемыеТипыРасширеннаяПодсказка" id="629"/>
+									</Button>
+									<Button name="РегистрируемыеТипыДанныхСнятьВсеФлажкиРегистрируемыеТипы" id="630">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.СнятьВсеФлажкиРегистрируемыеТипы</CommandName>
+										<ExtendedTooltip name="РегистрируемыеТипыДанныхСнятьВсеФлажкиРегистрируемыеТипыРасширеннаяПодсказка" id="631"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="РегистрируемыеТипыДанныхРасширеннаяПодсказка" id="606"/>
+							<SearchStringAddition name="РегистрируемыеТипыДанныхСтрокаПоиска" id="607">
+								<AdditionSource>
+									<Item>РегистрируемыеТипыДанных</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РегистрируемыеТипыДанныхСтрокаПоискаКонтекстноеМеню" id="608"/>
+								<ExtendedTooltip name="РегистрируемыеТипыДанныхСтрокаПоискаРасширеннаяПодсказка" id="609"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РегистрируемыеТипыДанныхСостояниеПросмотра" id="610">
+								<AdditionSource>
+									<Item>РегистрируемыеТипыДанных</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РегистрируемыеТипыДанныхСостояниеПросмотраКонтекстноеМеню" id="611"/>
+								<ExtendedTooltip name="РегистрируемыеТипыДанныхСостояниеПросмотраРасширеннаяПодсказка" id="612"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РегистрируемыеТипыДанныхУправлениеПоиском" id="613">
+								<AdditionSource>
+									<Item>РегистрируемыеТипыДанных</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РегистрируемыеТипыДанныхУправлениеПоискомКонтекстноеМеню" id="614"/>
+								<ExtendedTooltip name="РегистрируемыеТипыДанныхУправлениеПоискомРасширеннаяПодсказка" id="615"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="OnChange">РегистрируемыеТипыДанныхПриИзменении</Event>
+							</Events>
+							<ChildItems>
+								<ColumnGroup name="РегистрируемыеТипыДанныхГруппаВЯчейке" id="626">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Регистрируемые типы данных группа в ячейке</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Регистрируемые типы данных группа в ячейке</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>InCell</Group>
+									<ExtendedTooltip name="РегистрируемыеТипыДанныхГруппаВЯчейкеРасширеннаяПодсказка" id="627"/>
+									<ChildItems>
+										<CheckBoxField name="РегистрируемыеТипыДанныхРегистрировать" id="619">
+											<DataPath>РегистрируемыеТипыДанных.Регистрировать</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="РегистрируемыеТипыДанныхРегистрироватьКонтекстноеМеню" id="620"/>
+											<ExtendedTooltip name="РегистрируемыеТипыДанныхРегистрироватьРасширеннаяПодсказка" id="621"/>
+										</CheckBoxField>
+										<InputField name="РегистрируемыеТипыДанныхТипДанных" id="616">
+											<DataPath>РегистрируемыеТипыДанных.ТипДанных</DataPath>
+											<Visible>false</Visible>
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="РегистрируемыеТипыДанныхТипДанныхКонтекстноеМеню" id="617"/>
+											<ExtendedTooltip name="РегистрируемыеТипыДанныхТипДанныхРасширеннаяПодсказка" id="618"/>
+										</InputField>
+										<InputField name="РегистрируемыеТипыДанныхОписание" id="632">
+											<DataPath>РегистрируемыеТипыДанных.Описание</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Пакет/Свойства</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="РегистрируемыеТипыДанныхОписаниеКонтекстноеМеню" id="633"/>
+											<ExtendedTooltip name="РегистрируемыеТипыДанныхОписаниеРасширеннаяПодсказка" id="634"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаНастройкиОбмена" id="110">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки обмена</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница настройки обмена</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаНастройкиОбменаРасширеннаяПодсказка" id="111"/>
+					<ChildItems>
+						<Table name="НастройкиОбмена" id="112">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>НастройкиОбмена</DataPath>
+							<RowPictureDataPath>НастройкиОбмена.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="НастройкиОбменаКонтекстноеМеню" id="113"/>
+							<AutoCommandBar name="НастройкиОбменаКоманднаяПанель" id="114"/>
+							<ExtendedTooltip name="НастройкиОбменаРасширеннаяПодсказка" id="115"/>
+							<SearchStringAddition name="НастройкиОбменаСтрокаПоиска" id="116">
+								<AdditionSource>
+									<Item>НастройкиОбмена</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НастройкиОбменаСтрокаПоискаКонтекстноеМеню" id="117"/>
+								<ExtendedTooltip name="НастройкиОбменаСтрокаПоискаРасширеннаяПодсказка" id="118"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="НастройкиОбменаСостояниеПросмотра" id="119">
+								<AdditionSource>
+									<Item>НастройкиОбмена</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НастройкиОбменаСостояниеПросмотраКонтекстноеМеню" id="120"/>
+								<ExtendedTooltip name="НастройкиОбменаСостояниеПросмотраРасширеннаяПодсказка" id="121"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="НастройкиОбменаУправлениеПоиском" id="122">
+								<AdditionSource>
+									<Item>НастройкиОбмена</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="НастройкиОбменаУправлениеПоискомКонтекстноеМеню" id="123"/>
+								<ExtendedTooltip name="НастройкиОбменаУправлениеПоискомРасширеннаяПодсказка" id="124"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="НастройкиОбменаИнформационнаяБаза" id="125">
+									<DataPath>НастройкиОбмена.ИнформационнаяБаза</DataPath>
+									<ContextMenu name="НастройкиОбменаИнформационнаяБазаКонтекстноеМеню" id="126"/>
+									<ExtendedTooltip name="НастройкиОбменаИнформационнаяБазаРасширеннаяПодсказка" id="127"/>
+								</LabelField>
+								<LabelField name="НастройкиОбменаАдресСервера" id="144">
+									<DataPath>НастройкиОбмена.АдресСервера</DataPath>
+									<ContextMenu name="НастройкиОбменаАдресСервераКонтекстноеМеню" id="145"/>
+									<ExtendedTooltip name="НастройкиОбменаАдресСервераРасширеннаяПодсказка" id="146"/>
+								</LabelField>
+								<LabelField name="НастройкиОбменаПорт" id="147">
+									<DataPath>НастройкиОбмена.Порт</DataPath>
+									<ContextMenu name="НастройкиОбменаПортКонтекстноеМеню" id="148"/>
+									<ExtendedTooltip name="НастройкиОбменаПортРасширеннаяПодсказка" id="149"/>
+								</LabelField>
+								<LabelField name="НастройкиОбменаХост" id="150">
+									<DataPath>НастройкиОбмена.Хост</DataPath>
+									<ContextMenu name="НастройкиОбменаХостКонтекстноеМеню" id="151"/>
+									<ExtendedTooltip name="НастройкиОбменаХостРасширеннаяПодсказка" id="152"/>
+								</LabelField>
+								<LabelField name="НастройкиОбменаПользователь" id="153">
+									<DataPath>НастройкиОбмена.Пользователь</DataPath>
+									<ContextMenu name="НастройкиОбменаПользовательКонтекстноеМеню" id="154"/>
+									<ExtendedTooltip name="НастройкиОбменаПользовательРасширеннаяПодсказка" id="155"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаИдентификаторыОбъектов" id="283">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Идентификаторы объектов</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница идентификаторы объектов</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаИдентификаторыОбъектовРасширеннаяПодсказка" id="284"/>
+					<ChildItems>
+						<Table name="ИдентификаторыОбъектов" id="285">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ИдентификаторыОбъектов</DataPath>
+							<RowPictureDataPath>ИдентификаторыОбъектов.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="ИдентификаторыОбъектовКонтекстноеМеню" id="286"/>
+							<AutoCommandBar name="ИдентификаторыОбъектовКоманднаяПанель" id="287"/>
+							<ExtendedTooltip name="ИдентификаторыОбъектовРасширеннаяПодсказка" id="288"/>
+							<SearchStringAddition name="ИдентификаторыОбъектовСтрокаПоиска" id="289">
+								<AdditionSource>
+									<Item>ИдентификаторыОбъектов</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИдентификаторыОбъектовСтрокаПоискаКонтекстноеМеню" id="290"/>
+								<ExtendedTooltip name="ИдентификаторыОбъектовСтрокаПоискаРасширеннаяПодсказка" id="291"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ИдентификаторыОбъектовСостояниеПросмотра" id="292">
+								<AdditionSource>
+									<Item>ИдентификаторыОбъектов</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИдентификаторыОбъектовСостояниеПросмотраКонтекстноеМеню" id="293"/>
+								<ExtendedTooltip name="ИдентификаторыОбъектовСостояниеПросмотраРасширеннаяПодсказка" id="294"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ИдентификаторыОбъектовУправлениеПоиском" id="295">
+								<AdditionSource>
+									<Item>ИдентификаторыОбъектов</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ИдентификаторыОбъектовУправлениеПоискомКонтекстноеМеню" id="296"/>
+								<ExtendedTooltip name="ИдентификаторыОбъектовУправлениеПоискомРасширеннаяПодсказка" id="297"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ИдентификаторыОбъектовИдентификатор" id="298">
+									<DataPath>ИдентификаторыОбъектов.Идентификатор</DataPath>
+									<ContextMenu name="ИдентификаторыОбъектовИдентификаторКонтекстноеМеню" id="299"/>
+									<ExtendedTooltip name="ИдентификаторыОбъектовИдентификаторРасширеннаяПодсказка" id="300"/>
+								</LabelField>
+								<LabelField name="ИдентификаторыОбъектовСсылка" id="301">
+									<DataPath>ИдентификаторыОбъектов.Ссылка</DataPath>
+									<ContextMenu name="ИдентификаторыОбъектовСсылкаКонтекстноеМеню" id="302"/>
+									<ExtendedTooltip name="ИдентификаторыОбъектовСсылкаРасширеннаяПодсказка" id="303"/>
+								</LabelField>
+								<LabelField name="ИдентификаторыОбъектовИнформационнаяБаза" id="304">
+									<DataPath>ИдентификаторыОбъектов.ИнформационнаяБаза</DataPath>
+									<ContextMenu name="ИдентификаторыОбъектовИнформационнаяБазаКонтекстноеМеню" id="305"/>
+									<ExtendedTooltip name="ИдентификаторыОбъектовИнформационнаяБазаРасширеннаяПодсказка" id="306"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаОшибкиПоискаДанныхИнтеграции" id="544">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ошибки поиска данных интеграции</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница ошибки поиска данных интеграции</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаОшибкиПоискаДанныхИнтеграцииРасширеннаяПодсказка" id="545"/>
+					<ChildItems>
+						<Table name="ОшибкиПоискаДанныхИнтеграцииит" id="546">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ОшибкиПоискаДанныхИнтеграцииит</DataPath>
+							<RowPictureDataPath>ОшибкиПоискаДанныхИнтеграцииит.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="ОшибкиПоискаДанныхИнтеграцииитКонтекстноеМеню" id="547"/>
+							<AutoCommandBar name="ОшибкиПоискаДанныхИнтеграцииитКоманднаяПанель" id="548"/>
+							<ExtendedTooltip name="ОшибкиПоискаДанныхИнтеграцииитРасширеннаяПодсказка" id="549"/>
+							<SearchStringAddition name="ОшибкиПоискаДанныхИнтеграцииитСтрокаПоиска" id="550">
+								<AdditionSource>
+									<Item>ОшибкиПоискаДанныхИнтеграцииит</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОшибкиПоискаДанныхИнтеграцииитСтрокаПоискаКонтекстноеМеню" id="551"/>
+								<ExtendedTooltip name="ОшибкиПоискаДанныхИнтеграцииитСтрокаПоискаРасширеннаяПодсказка" id="552"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ОшибкиПоискаДанныхИнтеграцииитСостояниеПросмотра" id="553">
+								<AdditionSource>
+									<Item>ОшибкиПоискаДанныхИнтеграцииит</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОшибкиПоискаДанныхИнтеграцииитСостояниеПросмотраКонтекстноеМеню" id="554"/>
+								<ExtendedTooltip name="ОшибкиПоискаДанныхИнтеграцииитСостояниеПросмотраРасширеннаяПодсказка" id="555"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ОшибкиПоискаДанныхИнтеграцииитУправлениеПоиском" id="556">
+								<AdditionSource>
+									<Item>ОшибкиПоискаДанныхИнтеграцииит</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ОшибкиПоискаДанныхИнтеграцииитУправлениеПоискомКонтекстноеМеню" id="557"/>
+								<ExtendedTooltip name="ОшибкиПоискаДанныхИнтеграцииитУправлениеПоискомРасширеннаяПодсказка" id="558"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ОшибкиПоискаДанныхИнтеграцииитХэшИдентификаторЗаписи" id="574">
+									<DataPath>ОшибкиПоискаДанныхИнтеграцииит.ХэшИдентификаторЗаписи</DataPath>
+									<UserVisible>
+										<xr:Common>false</xr:Common>
+									</UserVisible>
+									<ContextMenu name="ОшибкиПоискаДанныхИнтеграцииитХэшИдентификаторЗаписиКонтекстноеМеню" id="575"/>
+									<ExtendedTooltip name="ОшибкиПоискаДанныхИнтеграцииитХэшИдентификаторЗаписиРасширеннаяПодсказка" id="576"/>
+								</LabelField>
+								<LabelField name="ОшибкиПоискаДанныхИнтеграцииитОтправитель" id="562">
+									<DataPath>ОшибкиПоискаДанныхИнтеграцииит.Отправитель</DataPath>
+									<ContextMenu name="ОшибкиПоискаДанныхИнтеграцииитОтправительКонтекстноеМеню" id="563"/>
+									<ExtendedTooltip name="ОшибкиПоискаДанныхИнтеграцииитОтправительРасширеннаяПодсказка" id="564"/>
+								</LabelField>
+								<LabelField name="ОшибкиПоискаДанныхИнтеграцииитОбъектМетаданных" id="565">
+									<DataPath>ОшибкиПоискаДанныхИнтеграцииит.ОбъектМетаданных</DataPath>
+									<ContextMenu name="ОшибкиПоискаДанныхИнтеграцииитОбъектМетаданныхКонтекстноеМеню" id="566"/>
+									<ExtendedTooltip name="ОшибкиПоискаДанныхИнтеграцииитОбъектМетаданныхРасширеннаяПодсказка" id="567"/>
+								</LabelField>
+								<LabelField name="ОшибкиПоискаДанныхИнтеграцииитТекстСообщения" id="568">
+									<DataPath>ОшибкиПоискаДанныхИнтеграцииит.ТекстСообщения</DataPath>
+									<ContextMenu name="ОшибкиПоискаДанныхИнтеграцииитТекстСообщенияКонтекстноеМеню" id="569"/>
+									<ExtendedTooltip name="ОшибкиПоискаДанныхИнтеграцииитТекстСообщенияРасширеннаяПодсказка" id="570"/>
+								</LabelField>
+								<LabelField name="ОшибкиПоискаДанныхИнтеграцииитПериодЗаписи" id="571">
+									<DataPath>ОшибкиПоискаДанныхИнтеграцииит.ПериодЗаписи</DataPath>
+									<ContextMenu name="ОшибкиПоискаДанныхИнтеграцииитПериодЗаписиКонтекстноеМеню" id="572"/>
+									<ExtendedTooltip name="ОшибкиПоискаДанныхИнтеграцииитПериодЗаписиРасширеннаяПодсказка" id="573"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.КР_МеханизмОбмена</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ВходящиеСообщения" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Входящие сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>ВходящиеСообщения.КлючСообщения</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.КР_ВходящиеСообщения</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ИсходящиеСообщения" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исходящие сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>ИсходящиеСообщения.КлючСообщения</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.КР_ИсходящиеСообщения</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="НастройкиОбмена" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки обмена</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.КР_НастройкиОбмена</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="АрхивСообщений" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Архив сообщений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>АрхивСообщений.КлючСообщения</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.КР_АрхивСообщений</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ИдентификаторыОбъектов" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификаторы объектов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.КР_ИдентификаторыСинхронизируемыхОбъектов</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ИнтеграционнаяИнформация" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Интеграционная информация</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.КР_ИнтеграционнаяИнформация</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ОшибкиПоискаДанныхИнтеграцииит" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки поиска данных интеграцииит</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>ОшибкиПоискаДанныхИнтеграцииит.ХэшИдентификаторЗаписи</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.КР_ОшибкиПоискаДанныхИнтеграции</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="РегистрируемыеТипыДанных" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистрируемые типы данных</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ТипДанных" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип данных</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Регистрировать" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регистрировать</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="НомерКартинки" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер картинки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Уровень" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Уровень</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Пакет" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пакет</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Описание" id="6">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>РегистрируемыеТипыДанныхОписание</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">РегистрируемыеТипыДанных.Уровень</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="ОбменСообщениями" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обмен сообщениями</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обмен сообщениями</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.ExchangePlan</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбменСообщениями</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ОбработатьСообщения" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработать сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработать сообщения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.WriteChanges</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбработатьСообщения</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ПеренестиВАрхив" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перенести в архив</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перенести в архив</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.SaveValues</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ПеренестиВАрхив</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ВосстановитьИзАрхива" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Восстановить из архива</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Восстановить из архива</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.RestoreValues</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВосстановитьИзАрхива</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ОтправитьВыделенные" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить выделенные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.AppearanceUpInclineArrowYellow</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОтправитьВыделенные</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ОбработатьВыделенные" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработать выделенные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.AppearanceDownInclineArrowYellow</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбработатьВыделенные</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ВЗарегистрированоВыделеные" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>В зарегистрировано</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>В зарегистрировано выделеные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.ExecuteTask</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВЗарегистрированоВыделеные</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ИспользоватьОбработчикОжидания" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать непрерывную обработку сообщений</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать непрерывную обработку сообщений (Только для тестовых баз). При разборе сообщений будет подключен обработчик ожидания, который будет в цикле запускать обработку сообщений.</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ОжидаемаяДлительнаяОперация16</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ИспользоватьОбработчикОжидания</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ОтчетНаличиеПакетовИнтеграцииПоОбъекту" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наличие пакетов интеграции по объекту</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет наличие пакетов интеграции по объекту</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтчетНаличиеПакетовИнтеграцииПоОбъекту</Action>
+		</Command>
+		<Command name="ОтчетОшибкиПоискаДанныхИнтеграции" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибки поиска данных интеграции</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет ошибки поиска данных интеграции</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтчетОшибкиПоискаДанныхИнтеграции</Action>
+		</Command>
+		<Command name="ОтчетСостояниеИнтеграции" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние интеграции</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет состояние интеграции</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтчетСостояниеИнтеграции</Action>
+		</Command>
+		<Command name="ОбработатьОшибочныеСообщения" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработать ошибочные сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработать ошибочные сообщения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MarkToDelete</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбработатьОшибочныеСообщения</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ОтчетДинамикаСкоростиРазбораСообщений" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Динамика скорости разбора сообщений</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет динамика скорости разбора сообщений</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтчетДинамикаСкоростиРазбораСообщений</Action>
+		</Command>
+		<Command name="ОбновитьРегистрируемыеТипы" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить регистрируемые типы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбновитьРегистрируемыеТипы</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="СохранитьРегистрируемыеТипы" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить регистрируемые типы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Write</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СохранитьРегистрируемыеТипы</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="УстановитьВсеФлажкиРегистрируемыеТипы" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить все флажки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить все флажки регистрируемые типы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УстановитьВсеФлажкиРегистрируемыеТипы</Action>
+		</Command>
+		<Command name="СнятьВсеФлажкиРегистрируемыеТипы" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Снять все флажки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Снять все флажки регистрируемые типы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.UncheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СнятьВсеФлажкиРегистрируемыеТипы</Action>
+		</Command>
+	</Commands>
+</Form>

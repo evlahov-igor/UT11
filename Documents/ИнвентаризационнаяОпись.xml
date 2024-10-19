@@ -28,7 +28,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Инвентаризационная опись</v8:content>
+					<v8:content>Приказ на инвентаризацию товаров</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -240,14 +240,14 @@
 			<ObjectPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Инвентаризационная опись</v8:content>
+					<v8:content>Приказ на инвентаризацию товаров</v8:content>
 				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Инвентаризационные описи</v8:content>
+					<v8:content>Приказы на инвентаризацию товаров</v8:content>
 				</v8:item>
 			</ListPresentation>
 			<ExtendedListPresentation/>
@@ -657,6 +657,7 @@
 			<Form>ФормаПечати</Form>
 			<Form>ФормаФормирование</Form>
 			<Form>ФормаСписка</Form>
+			<Form>КР_ФормаВыбора</Form>
 			<TabularSection uuid="ab15cc27-f43e-455e-ac0f-41fe662162da">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ИнвентаризационнаяОпись.ДополнительныеРеквизиты" category="TabularSection">
@@ -848,6 +849,136 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<TabularSection uuid="95dbe9e2-5917-4438-8e1f-f8417ca16917">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИнвентаризационнаяОпись.КР_ИнвентаризационнаяКомиссия" category="TabularSection">
+						<xr:TypeId>644dc427-e493-434d-ab23-481dcb58f443</xr:TypeId>
+						<xr:ValueId>0f8ce08c-b6f1-4136-a428-39bea3e0474b</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИнвентаризационнаяОпись.КР_ИнвентаризационнаяКомиссия" category="TabularSectionRow">
+						<xr:TypeId>2818882e-6349-4be8-8d38-2cf990bb9c52</xr:TypeId>
+						<xr:ValueId>21ee2bde-6850-4bd4-9eee-6f2650b49fba</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>КР_ИнвентаризационнаяКомиссия</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Инвентаризационная комиссия</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>A2105505-860</Comment>
+					<ToolTip/>
+					<FillChecking>DontCheck</FillChecking>
+					<StandardAttributes>
+						<xr:StandardAttribute name="LineNumber">
+							<xr:LinkByType/>
+							<xr:FillChecking>DontCheck</xr:FillChecking>
+							<xr:MultiLine>false</xr:MultiLine>
+							<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+							<xr:CreateOnInput>Auto</xr:CreateOnInput>
+							<xr:TypeReductionMode>TransformValues</xr:TypeReductionMode>
+							<xr:MaxValue xsi:nil="true"/>
+							<xr:ToolTip/>
+							<xr:ExtendedEdit>false</xr:ExtendedEdit>
+							<xr:Format/>
+							<xr:ChoiceForm/>
+							<xr:QuickChoice>Auto</xr:QuickChoice>
+							<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+							<xr:EditFormat/>
+							<xr:PasswordMode>false</xr:PasswordMode>
+							<xr:DataHistory>Use</xr:DataHistory>
+							<xr:MarkNegatives>false</xr:MarkNegatives>
+							<xr:MinValue xsi:nil="true"/>
+							<xr:Synonym/>
+							<xr:Comment/>
+							<xr:FullTextSearch>Use</xr:FullTextSearch>
+							<xr:ChoiceParameterLinks/>
+							<xr:FillValue xsi:nil="true"/>
+							<xr:Mask/>
+							<xr:ChoiceParameters/>
+						</xr:StandardAttribute>
+					</StandardAttributes>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="49784df5-1d5c-4b4d-acca-9b7fbbefe7f3">
+						<Properties>
+							<Name>Сотрудник</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сотрудник</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>ShowError</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="319f5077-d36e-47ea-bf5b-10e91dae96f7">
+						<Properties>
+							<Name>Председатель</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Председатель</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Template>КР_Изменения</Template>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

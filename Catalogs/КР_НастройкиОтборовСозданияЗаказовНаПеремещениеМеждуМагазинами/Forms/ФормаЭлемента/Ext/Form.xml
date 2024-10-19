@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаКодНаименование" id="13">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКодНаименованиеРасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ПроизвольныеОтборыЭлементы" id="15">
+			<CommandBarLocation>None</CommandBarLocation>
+			<SelectionMode>SingleRow</SelectionMode>
+			<DataPath>КомпоновщикНастроекДляОтборов.UserSettings</DataPath>
+			<CommandSet>
+				<ExcludedCommand>HierarchicalList</ExcludedCommand>
+				<ExcludedCommand>List</ExcludedCommand>
+				<ExcludedCommand>Tree</ExcludedCommand>
+			</CommandSet>
+			<ViewMode>QuickAccess</ViewMode>
+			<ContextMenu name="ПроизвольныеОтборыЭлементыКонтекстноеМеню" id="16"/>
+			<AutoCommandBar name="ПроизвольныеОтборыЭлементыКоманднаяПанель" id="17"/>
+			<ExtendedTooltip name="ПроизвольныеОтборыЭлементыРасширеннаяПодсказка" id="18"/>
+			<SearchStringAddition name="ПроизвольныеОтборыЭлементыСтрокаПоиска" id="19">
+				<AdditionSource>
+					<Item>ПроизвольныеОтборыЭлементы</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПроизвольныеОтборыЭлементыСтрокаПоискаКонтекстноеМеню" id="20"/>
+				<ExtendedTooltip name="ПроизвольныеОтборыЭлементыСтрокаПоискаРасширеннаяПодсказка" id="21"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПроизвольныеОтборыЭлементыСостояниеПросмотра" id="22">
+				<AdditionSource>
+					<Item>ПроизвольныеОтборыЭлементы</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПроизвольныеОтборыЭлементыСостояниеПросмотраКонтекстноеМеню" id="23"/>
+				<ExtendedTooltip name="ПроизвольныеОтборыЭлементыСостояниеПросмотраРасширеннаяПодсказка" id="24"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПроизвольныеОтборыЭлементыУправлениеПоиском" id="25">
+				<AdditionSource>
+					<Item>ПроизвольныеОтборыЭлементы</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ПроизвольныеОтборыЭлементыУправлениеПоискомКонтекстноеМеню" id="26"/>
+				<ExtendedTooltip name="ПроизвольныеОтборыЭлементыУправлениеПоискомРасширеннаяПодсказка" id="27"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<CheckBoxField name="ПроизвольныеОтборыЭлементыИспользование" id="28">
+					<DataPath>КомпоновщикНастроекДляОтборов.UserSettings.Use</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<EditMode>Directly</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ПроизвольныеОтборыЭлементыИспользованиеКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ПроизвольныеОтборыЭлементыИспользованиеРасширеннаяПодсказка" id="30"/>
+				</CheckBoxField>
+				<ColumnGroup name="ПроизвольныеОтборыЭлементыГруппаКолонокНастройки" id="31">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки</v8:content>
+						</v8:item>
+					</Title>
+					<Group>InCell</Group>
+					<ExtendedTooltip name="ПроизвольныеОтборыЭлементыГруппаКолонокНастройкиРасширеннаяПодсказка" id="32"/>
+					<ChildItems>
+						<PictureField name="ПроизвольныеОтборыЭлементыКартинкаНастройки" id="33">
+							<DataPath>КомпоновщикНастроекДляОтборов.UserSettings.SettingPicture</DataPath>
+							<ShowInHeader>false</ShowInHeader>
+							<ShowInFooter>false</ShowInFooter>
+							<ContextMenu name="ПроизвольныеОтборыЭлементыКартинкаНастройкиКонтекстноеМеню" id="34"/>
+							<ExtendedTooltip name="ПроизвольныеОтборыЭлементыКартинкаНастройкиРасширеннаяПодсказка" id="35"/>
+						</PictureField>
+						<InputField name="ПроизвольныеОтборыЭлементыНастройка" id="36">
+							<DataPath>КомпоновщикНастроекДляОтборов.UserSettings.Setting</DataPath>
+							<Width>15</Width>
+							<HorizontalStretch>true</HorizontalStretch>
+							<ContextMenu name="ПроизвольныеОтборыЭлементыНастройкаКонтекстноеМеню" id="37"/>
+							<ExtendedTooltip name="ПроизвольныеОтборыЭлементыНастройкаРасширеннаяПодсказка" id="38"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<InputField name="ПроизвольныеОтборыЭлементыВидСравнения" id="39">
+					<DataPath>КомпоновщикНастроекДляОтборов.UserSettings.ComparisonType</DataPath>
+					<EditMode>Directly</EditMode>
+					<ContextMenu name="ПроизвольныеОтборыЭлементыВидСравненияКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="ПроизвольныеОтборыЭлементыВидСравненияРасширеннаяПодсказка" id="41"/>
+				</InputField>
+				<ColumnGroup name="ПроизвольныеОтборыЭлементыГруппаКолонокЗначения" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значения</v8:content>
+						</v8:item>
+					</Title>
+					<Group>InCell</Group>
+					<ExtendedTooltip name="ПроизвольныеОтборыЭлементыГруппаКолонокЗначенияРасширеннаяПодсказка" id="43"/>
+					<ChildItems>
+						<PictureField name="ПроизвольныеОтборыЭлементыКартинкаЗначения" id="44">
+							<DataPath>КомпоновщикНастроекДляОтборов.UserSettings.ValuePicture</DataPath>
+							<ShowInHeader>false</ShowInHeader>
+							<ShowInFooter>false</ShowInFooter>
+							<ContextMenu name="ПроизвольныеОтборыЭлементыКартинкаЗначенияКонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="ПроизвольныеОтборыЭлементыКартинкаЗначенияРасширеннаяПодсказка" id="46"/>
+						</PictureField>
+						<InputField name="ПроизвольныеОтборыЭлементыЗначение" id="47">
+							<DataPath>КомпоновщикНастроекДляОтборов.UserSettings.Value</DataPath>
+							<DefaultItem>true</DefaultItem>
+							<EditMode>Directly</EditMode>
+							<Width>15</Width>
+							<HorizontalStretch>true</HorizontalStretch>
+							<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
+							<ContextMenu name="ПроизвольныеОтборыЭлементыЗначениеКонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="ПроизвольныеОтборыЭлементыЗначениеРасширеннаяПодсказка" id="49"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+			</ChildItems>
+		</Table>
+		<InputField name="Комментарий" id="10">
+			<DataPath>Объект.Комментарий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ChoiceButton>true</ChoiceButton>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="12"/>
+			<Events>
+				<Event name="StartChoice">КомментарийНачалоВыбора</Event>
+			</Events>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.КР_НастройкиОтборовСозданияЗаказовНаПеремещениеМеждуМагазинами</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="КомпоновщикНастроекДляОтборов" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Компоновщик настроек для отборов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>dcsset:SettingsComposer</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>

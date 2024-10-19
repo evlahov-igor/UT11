@@ -29,6 +29,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОсновнаяСтрана</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.НеИспользоватьМногострановойУчет</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.НеИспользоватьМногострановойУчет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

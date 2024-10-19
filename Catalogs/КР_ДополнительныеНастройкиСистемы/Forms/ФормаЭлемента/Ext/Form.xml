@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Родитель" id="41">
+			<DataPath>Объект.Parent</DataPath>
+			<ContextMenu name="РодительКонтекстноеМеню" id="42"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="43"/>
+		</InputField>
+		<InputField name="Значение" id="7">
+			<DataPath>Объект.Значение</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
+			<ContextMenu name="ЗначениеКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ЗначениеРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<Pages name="ГруппаСтраницы" id="37">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="38"/>
+			<ChildItems>
+				<Page name="ГруппаСписокЗначений" id="39">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список значений</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа список значений</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаСписокЗначенийРасширеннаяПодсказка" id="40"/>
+					<ChildItems>
+						<Table name="СписокЗначений" id="13">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>Объект.СписокЗначений</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СписокЗначенийКонтекстноеМеню" id="14"/>
+							<AutoCommandBar name="СписокЗначенийКоманднаяПанель" id="15"/>
+							<ExtendedTooltip name="СписокЗначенийРасширеннаяПодсказка" id="16"/>
+							<SearchStringAddition name="СписокЗначенийСтрокаПоиска" id="17">
+								<AdditionSource>
+									<Item>СписокЗначений</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокЗначенийСтрокаПоискаКонтекстноеМеню" id="18"/>
+								<ExtendedTooltip name="СписокЗначенийСтрокаПоискаРасширеннаяПодсказка" id="19"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокЗначенийСостояниеПросмотра" id="20">
+								<AdditionSource>
+									<Item>СписокЗначений</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокЗначенийСостояниеПросмотраКонтекстноеМеню" id="21"/>
+								<ExtendedTooltip name="СписокЗначенийСостояниеПросмотраРасширеннаяПодсказка" id="22"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокЗначенийУправлениеПоиском" id="23">
+								<AdditionSource>
+									<Item>СписокЗначений</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокЗначенийУправлениеПоискомКонтекстноеМеню" id="24"/>
+								<ExtendedTooltip name="СписокЗначенийУправлениеПоискомРасширеннаяПодсказка" id="25"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СписокЗначенийНомерСтроки" id="26">
+									<DataPath>Объект.СписокЗначений.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокЗначенийНомерСтрокиКонтекстноеМеню" id="27"/>
+									<ExtendedTooltip name="СписокЗначенийНомерСтрокиРасширеннаяПодсказка" id="28"/>
+								</LabelField>
+								<InputField name="СписокЗначенийЗначение" id="29">
+									<DataPath>Объект.СписокЗначений.Значение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
+									<ContextMenu name="СписокЗначенийЗначениеКонтекстноеМеню" id="30"/>
+									<ExtendedTooltip name="СписокЗначенийЗначениеРасширеннаяПодсказка" id="31"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаКомментарий" id="32">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комментарий</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаКомментарийРасширеннаяПодсказка" id="33"/>
+					<ChildItems>
+						<InputField name="Комментарий" id="34">
+							<DataPath>Объект.Комментарий</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Height>2</Height>
+							<MultiLine>true</MultiLine>
+							<ContextMenu name="КомментарийКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="36"/>
+							<Events>
+								<Event name="StartChoice">КомментарийНачалоВыбора</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.КР_ДополнительныеНастройкиСистемы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

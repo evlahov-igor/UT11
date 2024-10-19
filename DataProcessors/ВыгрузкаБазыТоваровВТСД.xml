@@ -269,6 +269,7 @@
 			</TabularSection>
 			<Form>Форма</Form>
 			<Template>ПоляШаблонаБДТовары</Template>
+			<Template>КР_Изменения</Template>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

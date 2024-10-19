@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="AfterWrite">ПослеЗаписи</Event>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="44">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="45"/>
+			<ChildItems>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Родитель" id="7">
+					<DataPath>Объект.Parent</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаНаименование" id="46">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа наименование</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа наименование</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНаименованиеРасширеннаяПодсказка" id="47"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<Button name="СформироватьНаименование" id="48">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.СформироватьНаименование</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сформировать</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СформироватьНаименованиеРасширеннаяПодсказка" id="49"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ЗонаДоставки" id="10">
+			<DataPath>Объект.ЗонаДоставки</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ЗонаДоставкиКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ЗонаДоставкиРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="ВидТарифа" id="13">
+			<DataPath>Объект.ВидТарифа</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВидТарифаКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ВидТарифаРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<Table name="ПунктыМаршрута" id="16">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ПунктыМаршрута</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ПунктыМаршрутаКонтекстноеМеню" id="17"/>
+			<AutoCommandBar name="ПунктыМаршрутаКоманднаяПанель" id="18"/>
+			<ExtendedTooltip name="ПунктыМаршрутаРасширеннаяПодсказка" id="19"/>
+			<SearchStringAddition name="ПунктыМаршрутаСтрокаПоиска" id="20">
+				<AdditionSource>
+					<Item>ПунктыМаршрута</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПунктыМаршрутаСтрокаПоискаКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ПунктыМаршрутаСтрокаПоискаРасширеннаяПодсказка" id="22"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПунктыМаршрутаСостояниеПросмотра" id="23">
+				<AdditionSource>
+					<Item>ПунктыМаршрута</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПунктыМаршрутаСостояниеПросмотраКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ПунктыМаршрутаСостояниеПросмотраРасширеннаяПодсказка" id="25"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПунктыМаршрутаУправлениеПоиском" id="26">
+				<AdditionSource>
+					<Item>ПунктыМаршрута</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ПунктыМаршрутаУправлениеПоискомКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="ПунктыМаршрутаУправлениеПоискомРасширеннаяПодсказка" id="28"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnChange">ПунктыМаршрутаПриИзменении</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="ПунктыМаршрутаНомерСтроки" id="29">
+					<DataPath>Объект.ПунктыМаршрута.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПунктыМаршрутаНомерСтрокиКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ПунктыМаршрутаНомерСтрокиРасширеннаяПодсказка" id="31"/>
+				</LabelField>
+				<InputField name="ПунктыМаршрутаСкладМагазин" id="32">
+					<DataPath>Объект.ПунктыМаршрута.СкладМагазин</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПунктыМаршрутаСкладМагазинКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ПунктыМаршрутаСкладМагазинРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="OnChange">ПунктыМаршрутаСкладМагазинПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ПунктыМаршрутаАдресМагазина" id="35">
+					<DataPath>Объект.ПунктыМаршрута.АдресМагазина</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПунктыМаршрутаАдресМагазинаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ПунктыМаршрутаАдресМагазинаРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="ПунктыМаршрутаГород" id="38">
+					<DataPath>Объект.ПунктыМаршрута.Город</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПунктыМаршрутаГородКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ПунктыМаршрутаГородРасширеннаяПодсказка" id="40"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.КР_Маршруты</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ИзмененыПунктыМаршрута" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменены пункты маршрута</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СформироватьНаименование" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать наименование</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать наименование</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СформироватьНаименование</Action>
+		</Command>
+	</Commands>
+</Form>

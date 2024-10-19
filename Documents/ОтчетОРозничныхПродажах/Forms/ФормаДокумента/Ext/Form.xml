@@ -795,6 +795,9 @@
 									<Width>9</Width>
 									<ContextMenu name="ТоварыСуммаКонтекстноеМеню" id="33"/>
 									<ExtendedTooltip name="ТоварыСуммаExtendedTooltip" id="282"/>
+									<Events>
+										<Event name="OnChange">ТоварыСуммаПриИзменении</Event>
+									</Events>
 								</InputField>
 								<InputField name="ТоварыСтавкаНДС" id="34">
 									<DataPath>Объект.Товары.СтавкаНДС</DataPath>
@@ -815,6 +818,9 @@
 									<Width>9</Width>
 									<ContextMenu name="ТоварыСуммаНДСКонтекстноеМеню" id="37"/>
 									<ExtendedTooltip name="ТоварыСуммаНДСExtendedTooltip" id="284"/>
+									<Events>
+										<Event name="OnChange">ТоварыСуммаНДСПриИзменении</Event>
+									</Events>
 								</InputField>
 								<InputField name="ТоварыДокументРеализации" id="506">
 									<DataPath>Объект.Товары.ДокументРеализации</DataPath>

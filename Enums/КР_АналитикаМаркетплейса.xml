@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="c803a450-da00-43a8-9125-81e2faea71ab">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.КР_АналитикаМаркетплейса" category="Ref">
+				<xr:TypeId>4eec2e36-7015-4d8c-830a-67881f6b2300</xr:TypeId>
+				<xr:ValueId>fcd6428d-e6d8-4cc8-9b26-812dd6a8a38b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.КР_АналитикаМаркетплейса" category="Manager">
+				<xr:TypeId>107412e2-fc61-4509-bf86-af7d7d4b670d</xr:TypeId>
+				<xr:ValueId>98d8cf18-9355-4939-beff-fbd94065d435</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.КР_АналитикаМаркетплейса" category="List">
+				<xr:TypeId>0e6ae09e-1aaa-4222-890b-f975010a5d23</xr:TypeId>
+				<xr:ValueId>10a0856f-0cf4-4e35-9a38-a46f6180b3b8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КР_АналитикаМаркетплейса</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика маркетплейса</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Jira№ A2105505-384</Comment>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="9f8e07da-d6f8-4440-b161-462591bd69c5">
+				<Properties>
+					<Name>FboOzonSkuId</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>FBO OZON SKU ID</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3982f5f8-8acd-440a-96ba-72938ee32700">
+				<Properties>
+					<Name>Offer_idOzon</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Offer_ID OZON</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="09c7f067-afaf-432e-873d-1d3147b0cb6a">
+				<Properties>
+					<Name>Product_idOzon</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Product_ID OZON</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ce325bf0-42df-4ae5-8451-e8b3b65f328b">
+				<Properties>
+					<Name>Sellersku_lamoda</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>SellerSku_Lamoda</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="936e1215-ae8d-4946-b3e6-304b63fc617c">
+				<Properties>
+					<Name>КатегорияOzon</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Категория OZON</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

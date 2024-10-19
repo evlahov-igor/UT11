@@ -313,6 +313,8 @@
 			<Subsystem>ТехнологияСервиса</Subsystem>
 			<Subsystem>ФинансовыйРезультатИКонтроллинг</Subsystem>
 			<Subsystem>ЭлектронноеВзаимодействие</Subsystem>
+			<Subsystem>КР_RabbitMQ</Subsystem>
+			<Subsystem>ДатаМобайл</Subsystem>
 			<StyleItem>АктуальнаяПодпискаЦвет</StyleItem>
 			<StyleItem>ВажнаяНадписьШрифт</StyleItem>
 			<StyleItem>ВажныеДанныеЦветБЭД</StyleItem>
@@ -1953,6 +1955,13 @@
 			<CommonPicture>ЯндексКассаБЭД</CommonPicture>
 			<CommonPicture>ЯндексКассаЛоготипБЭД</CommonPicture>
 			<CommonPicture>ЯндексКассаЧерныйСборкаИДоставка</CommonPicture>
+			<CommonPicture>КР_Rabbit16x16</CommonPicture>
+			<CommonPicture>КР_Rabbit32x32</CommonPicture>
+			<CommonPicture>КР_EAC</CommonPicture>
+			<CommonPicture>КР_RST</CommonPicture>
+			<CommonPicture>ДатаМобайл_Картинка</CommonPicture>
+			<CommonPicture>ДатаМобайл_СостоянияДокумента</CommonPicture>
+			<CommonPicture>ДатаМобайл_ТребуетсяЛицензияOnline</CommonPicture>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БлокировкаСеансаБТС</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
@@ -2925,6 +2934,95 @@
 			<Role>ЧтениеШаблоновЭтикетокИЦенников</Role>
 			<Role>ЧтениеШтрихкодовУпаковокТоваров</Role>
 			<Role>ЧтениеЭлектронныхДокументов</Role>
+			<Role>КР_БазовыеПраваZolla</Role>
+			<Role>КР_ДобавлениеИзменениеЗаказовКлиентовРасширенный</Role>
+			<Role>КР_СозданиеИзменениеСопутствующихОбъектовНоменклатуры</Role>
+			<Role>КР_ДобавлениеИзменениеМаршрутов</Role>
+			<Role>КР_ДобавлениеИзменениеТарифовПеревозчика</Role>
+			<Role>КР_ДобавлениеИзменениеВодителей</Role>
+			<Role>КР_ДобавлениеИзменениеЗаказовНаПеремещениеРасширенный</Role>
+			<Role>КР_ДобавлениеИзменениеСоответствияСкладовИМаркетплейсов</Role>
+			<Role>КР_ИзменениеСтатусовСкладскихОрдеровВниз</Role>
+			<Role>КР_ДобавлениеИзменениеОбъектаУстановкаПриоритетовРазмеров</Role>
+			<Role>КР_ДобавлениеИзменениеПриоритетыРазмеров</Role>
+			<Role>КР_ДобавлениеИзменениеОбъектаУстановкаМинимальнойПрезентации</Role>
+			<Role>КР_ДобавлениеИзменениеМинимальнаяПрезентация</Role>
+			<Role>КР_ЧтениеОбъектаУстановкаМинимальнойПрезентации</Role>
+			<Role>КР_ДобавлениеИзменениеПриемкиПеремещенийТоваров</Role>
+			<Role>КР_ЧтениеПриемкиПеремещенийТоваров</Role>
+			<Role>КР_ДобавлениеАктовОРасхожденияхПослеПеремещения</Role>
+			<Role>КР_ДобавлениеИзменениеМестаРазмещения</Role>
+			<Role>КР_ДобавлениеИзменениеПриоритетовРазмеровТоварнойГруппы</Role>
+			<Role>КР_ДобавлениеИзменениеГрафикаОтгрузкиИПриемкиТМЦ</Role>
+			<Role>КР_ДобавлениеИзменениеКонтактнойИнформацииМагазина</Role>
+			<Role>КР_ДобавлениеИзменениеТранспортныхСредствРозница</Role>
+			<Role>КР_ДобавлениеИзменениеДвиженийКоробов</Role>
+			<Role>КР_ДобавлениеИзменениеГруппыАналоговТоваров</Role>
+			<Role>КР_ДобавлениеИзменениеСоставаГруппАналоговТоваров</Role>
+			<Role>КР_ДобавлениеИзменениеВидовБрака</Role>
+			<Role>КР_ДобавлениеИзменениеПричинОтсутствияКодаМаркировки</Role>
+			<Role>КР_ДобавлениеИзменениеОбъектаУстановкаМестРазмещения</Role>
+			<Role>КР_ДобавлениеИзменениеРСУстановкаМестРазмещения</Role>
+			<Role>КР_ДобавлениеИзменениеКонтейнерАссортимента</Role>
+			<Role>КР_ДобавлениеИзменениеРасширенныйАссортимент</Role>
+			<Role>КР_ДобавлениеИзменениеКассовыхЛимитов</Role>
+			<Role>КР_ДобавлениеИзменениеГрафиковИнкассации</Role>
+			<Role>КР_ДобавлениеИзменениеВодителейРозницы</Role>
+			<Role>КР_РасширеннаяНастройкаОбработкиПолучениеНовогоQRКодаМаркировкиТовара</Role>
+			<Role>КР_ДобавлениеИзменениеСоставаСета</Role>
+			<Role>КР_ДобавлениеИзменениеСоставаКонтейнера</Role>
+			<Role>КР_ДобавлениеИзменениеКонтейнеров</Role>
+			<Role>КР_УтверждениеЗаказовНаВнутреннееПотреблениеСписаниеНаРасходы</Role>
+			<Role>КР_РасширенноеЗаполнениеСписаниеНаРасходы</Role>
+			<Role>КР_РасширенноеЗаполнениеПередачаВЭксплуатацию</Role>
+			<Role>КР_УтверждениеЗаказовНаВнутреннееПотреблениеПередачаВЭксплуатацию</Role>
+			<Role>КР_ОграниченноеДобавлениеПересчетовТоваров</Role>
+			<Role>КР_ДобавлениеСкладскихАктов</Role>
+			<Role>КР_ДобавлениеПриказовНаИнвентаризациюТоваров</Role>
+			<Role>КР_РасширеннаяПересортицаТоваров</Role>
+			<Role>КР_ОграниченноеДобавлениеОтборовРазмещенийТоваров</Role>
+			<Role>КР_ДобавлениеИзменениеРеквизитовРасчетаАренды</Role>
+			<Role>КР_ВыполнениеРасчетАренды</Role>
+			<Role>КР_ДобавлениеПеремещенийТоваров</Role>
+			<Role>КР_ДобавлениеУпаковочныхЛистов</Role>
+			<Role>КР_РасширенноеЗаполнениеЛистаКассовойКниги</Role>
+			<Role>КР_ДобавлениеПосещаемостиМагазина</Role>
+			<Role>КР_ДобавлениеИзменениеПосещаемостиМагазина</Role>
+			<Role>КР_ВыборДатыКассовыхОрдеров</Role>
+			<Role>КР_ДобавлениеИзменениеКассовыхДокументовЛюбойДатой</Role>
+			<Role>КР_ДобавлениеПриходныхКассовыхОрдеров</Role>
+			<Role>КР_ДобавлениеРасходныхКассовыхОрдеров</Role>
+			<Role>КР_ДобавлениеПриемкиПеремещенийТоваров</Role>
+			<Role>КР_ДобавлениеИзменениеИсторииИзмененийСезона</Role>
+			<Role>КР_ДобавлениеИзменениеСведенйНоменклатурыПланирование</Role>
+			<Role>КР_ДобавлениеИзменениеСведенийНоменклатурыТоварнаяАналитика</Role>
+			<Role>КР_ОтменаПодтвержденияФактаПеревозки</Role>
+			<Role>КР_ДобавлениеИзменениеСостоянияДокументовСБИС</Role>
+			<Role>КР_ДобавлениеИзменениеИсходящихДокументовСБИС</Role>
+			<Role>КР_ДобавлениеИзменениеИсторияИзмененияТоварныхОграничений</Role>
+			<Role>КР_ДобавлениеИзменениеРейтингМагазинов</Role>
+			<Role>КР_ДобавлениеИзменениеКоэффициентКорректировкиПодсортировкиСклада</Role>
+			<Role>КР_ДобавлениеИзменениеЗонПересчетаТоваров</Role>
+			<Role>КР_ДобавлениеИзменениеЗональныхПересчетовТоваров</Role>
+			<Role>КР_ДобавлениеЗональныхПересчетовТоваров</Role>
+			<Role>КР_ИзменениеПризнакаХодовогоРазмера</Role>
+			<Role>КР_РасширенноеИспользованиеОбработкиПечатьЭтикетокИЦенников</Role>
+			<Role>КР_ДобавлениеИзменениеНастроекОтборовСозданияЗаказовНаПеремещениеМеждуМагазинами</Role>
+			<Role>КР_ЧтениеНастроекОтборовСозданияЗаказовНаПеремещениеМеждуМагазинами</Role>
+			<Role>КР_ДобавлениеИзменениеТорговогоОборудованияМагазинов</Role>
+			<Role>КР_РасширеннаяНастройкаРазвертыванияНовойБазыМагазина</Role>
+			<Role>КР_ОграниченноеДобавлениеИзменениеПользователейПродавцов</Role>
+			<Role>КР_ДобавлениеИзменениеПрогнознойПотребностиВПодсортировкеМагазинов</Role>
+			<Role>КР_ОграниченноеДобавлениеДокументаИзмененияАссортимента</Role>
+			<Role>злExternalExchange</Role>
+			<Role>ДатаМобайл_Администратор</Role>
+			<Role>ДатаМобайл_Служебная</Role>
+			<Role>ДатаМобайл_ЧтениеПланаОбмена</Role>
+			<Role>злРасширеннаяРаботаСПересчетом</Role>
+			<Role>злИспользованиеРабочегоМестаСотрудникаМагазина</Role>
+			<Role>злДобавлениеИзменениеПравилаСопоставленияСтатейДвиженияДенежныхСредств</Role>
+			<Role>злЧтениеТипыПоверхностейРасположенияТоваров</Role>
+			<Role>злДобавлениеИзменениеТипыПоверхностейРасположенияТоваров</Role>
 			<CommonTemplate>fresh</CommonTemplate>
 			<CommonTemplate>ДополнительныйЛистКнигиПокупок1137</CommonTemplate>
 			<CommonTemplate>ДополнительныйЛистКнигиПокупок1137_2017</CommonTemplate>
@@ -3082,6 +3180,9 @@
 			<CommonTemplate>УспешнаяАвторизация</CommonTemplate>
 			<CommonTemplate>ШаблоныСообщенийEDI</CommonTemplate>
 			<CommonTemplate>ЭталонИС</CommonTemplate>
+			<CommonTemplate>КР_КомпонентаОбменаRabbitMQ</CommonTemplate>
+			<CommonTemplate>КР_Изменения</CommonTemplate>
+			<CommonTemplate>злРуководствоExternalExchange</CommonTemplate>
 			<FilterCriterion>ВзаимодействияКонтакта</FilterCriterion>
 			<FilterCriterion>ДокументыПоПартнеру</FilterCriterion>
 			<FilterCriterion>ДокументыПоСделке</FilterCriterion>
@@ -5131,6 +5232,52 @@
 			<CommonModule>ЭтапыОплатыКлиентСервер</CommonModule>
 			<CommonModule>ЭтапыОплатыСервер</CommonModule>
 			<CommonModule>ЯндексПереводчик</CommonModule>
+			<CommonModule>КР_ФункцииРаботыJSON</CommonModule>
+			<CommonModule>КР_ФункцииРаботыXML</CommonModule>
+			<CommonModule>КР_ОбменRabbitПодготовкаДанных</CommonModule>
+			<CommonModule>КР_ОбменRabbitОбщиеМеханизмыПовтИсп</CommonModule>
+			<CommonModule>КР_ОбменRabbitВзаимодействиеСАдаптером</CommonModule>
+			<CommonModule>КР_ОбменRabbitОбработчикиИзмененийОбъектовИнтеграции</CommonModule>
+			<CommonModule>КР_ОбменRabbitОбработкаСообщенийОбмена</CommonModule>
+			<CommonModule>КР_ОбменRabbitОбщиеМеханизмыКонвертации</CommonModule>
+			<CommonModule>КР_БП_УТ11_ВыгрузкаДанныхСервер</CommonModule>
+			<CommonModule>КР_БП_УТ11_ЗагрузкаДанныхСервер</CommonModule>
+			<CommonModule>КР_УТ10_УТ11_ЗагрузкаДанныхСервер</CommonModule>
+			<CommonModule>КР_УТ10_УТ11_ВыгрузкаДанныхСервер</CommonModule>
+			<CommonModule>КР_PLM_УТ11_ЗагрузкаДанныхСервер</CommonModule>
+			<CommonModule>КР_ЗУП_УТ11_ЗагрузкаДанныхСервер</CommonModule>
+			<CommonModule>КР_УТ11_ЦБ_Магазин_ВыгрузкаДанныхСервер</CommonModule>
+			<CommonModule>КР_УТ11_ЦБ_Магазин_ЗагрузкаДанныхСервер</CommonModule>
+			<CommonModule>КР_Демо_УТ11_ЗагрузкаДанныхСервер</CommonModule>
+			<CommonModule>КР_OMS_УТ11_ЗагрузкаДанныхСервер</CommonModule>
+			<CommonModule>КР_ImportDepartment_УТ11_ЗагрузкаДанныхСервер</CommonModule>
+			<CommonModule>КР_РаботаСКоробамиКлиент</CommonModule>
+			<CommonModule>КР_РаботаСКоробамиСервер</CommonModule>
+			<CommonModule>КР_ОбщегоНазначениеСервер</CommonModule>
+			<CommonModule>КР_ДополнительныеНастройкиПовтИсп</CommonModule>
+			<CommonModule>КР_МетодыМодификацииФорм</CommonModule>
+			<CommonModule>КР_ПроведениеДокументовПереопределяемый</CommonModule>
+			<CommonModule>КР_МодификацияКонфигурацииПереопределяемый</CommonModule>
+			<CommonModule>КР_УправлениеДоступом</CommonModule>
+			<CommonModule>КР_РегламентныеЗаданияСервер</CommonModule>
+			<CommonModule>КР_ЛокализацияИнформационнойБазы</CommonModule>
+			<CommonModule>КР_ИнтеграцияСВнешнимиСистемами</CommonModule>
+			<CommonModule>КР_АвтоматическоеСозданиеСкладскихАктов</CommonModule>
+			<CommonModule>КР_ЛокализацияИнформационнойБазыКлиент</CommonModule>
+			<CommonModule>КР_ФорматыМагазиновИАналогиНоменклатуры</CommonModule>
+			<CommonModule>КР_РаботаСТСД</CommonModule>
+			<CommonModule>КР_РаботаСТСДКлиент</CommonModule>
+			<CommonModule>КР_ДополнительныеДействияВМагазине</CommonModule>
+			<CommonModule>злОценкаПроизводительностиСобытия</CommonModule>
+			<CommonModule>злСобытияФормОценкаПроизводительностиКлиент</CommonModule>
+			<CommonModule>злСобытияФормОценкаПроизводительности</CommonModule>
+			<CommonModule>ДатаМобайл_HTTP_Логика</CommonModule>
+			<CommonModule>ДатаМобайл_Маркировка</CommonModule>
+			<CommonModule>ДатаМобайл_МДЛП</CommonModule>
+			<CommonModule>ДатаМобайл_ОбщийМодуль</CommonModule>
+			<CommonModule>злОбновлениеКонфигурации</CommonModule>
+			<CommonModule>злОбновлениеКонфигурацииВызовСервера</CommonModule>
+			<CommonModule>злОбновлениеКонфигурацииКлиент</CommonModule>
 			<CommonAttribute>КомментарийЯзык1</CommonAttribute>
 			<CommonAttribute>КомментарийЯзык2</CommonAttribute>
 			<CommonAttribute>НаименованиеЯзык1</CommonAttribute>
@@ -5157,6 +5304,7 @@
 			<ExchangePlan>СинхронизацияДанныхЧерезУниверсальныйФормат</ExchangePlan>
 			<ExchangePlan>СОтборами</ExchangePlan>
 			<ExchangePlan>Удалить_ОбменУправлениеТорговлей_11_0_РозничнаяТорговля_1_0</ExchangePlan>
+			<ExchangePlan>ДатаМобайл_СписокТСД</ExchangePlan>
 			<XDTOPackage>AgentScripts</XDTOPackage>
 			<XDTOPackage>ApdexExport</XDTOPackage>
 			<XDTOPackage>ApdexExport_1_0_0_2</XDTOPackage>
@@ -5433,6 +5581,11 @@
 			<XDTOPackage>УправлениеПриложениями</XDTOPackage>
 			<XDTOPackage>УточнениеПродукцииМОТП</XDTOPackage>
 			<XDTOPackage>УточнениеУчастникаМОТП</XDTOPackage>
+			<XDTOPackage>CR_RabbitMQData</XDTOPackage>
+			<XDTOPackage>CR_UT10_UT11</XDTOPackage>
+			<XDTOPackage>CR_Zolla_Exchange</XDTOPackage>
+			<XDTOPackage>CR_eSolutions</XDTOPackage>
+			<XDTOPackage>DMDateTypes</XDTOPackage>
 			<WebService>CustomerOrdersExchange</WebService>
 			<WebService>EnterpriseDataExchange_1_0_1_1</WebService>
 			<WebService>EnterpriseDataUpload_1_0_1_1</WebService>
@@ -5448,9 +5601,13 @@
 			<WebService>RemoteAdministrationOfExchange_2_4_5_1</WebService>
 			<WebService>RemoteControl</WebService>
 			<WebService>WMSMobileClientExchange</WebService>
+			<WebService>КР_ExternalExchange</WebService>
+			<WebService>DataMobileExch</WebService>
 			<HTTPService>Биллинг</HTTPService>
 			<HTTPService>ПередачаДанных</HTTPService>
 			<HTTPService>ЭДО</HTTPService>
+			<HTTPService>злExternalExchange</HTTPService>
+			<HTTPService>DataMobileExch</HTTPService>
 			<WSReference>UpdateFilesApiImplService</WSReference>
 			<EventSubscription>ВариантОтчетаПередУдалением</EventSubscription>
 			<EventSubscription>ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</EventSubscription>
@@ -5717,6 +5874,32 @@
 			<EventSubscription>УстановитьСтатусИзмененияПометкиУдаленияДокумента</EventSubscription>
 			<EventSubscription>УстановитьСтатусИзмененияПометкиУдаленияОбъекта</EventSubscription>
 			<EventSubscription>УстановитьСтатусИзмененияПометкиУдаленияПользователя</EventSubscription>
+			<EventSubscription>КР_ОбменRabbitКонстантыПередЗаписью</EventSubscription>
+			<EventSubscription>КР_ОбменRabbitСправочникиПередЗаписью</EventSubscription>
+			<EventSubscription>КР_ОбменRabbitДокументыПередЗаписью</EventSubscription>
+			<EventSubscription>КР_ОбменRabbitПланыВидовХарактеристикПередЗаписью</EventSubscription>
+			<EventSubscription>КР_ОбменRabbitРегистрыСведенийПередЗаписью</EventSubscription>
+			<EventSubscription>КР_ОбменRabbitРегистрыНакопленияПередЗаписью</EventSubscription>
+			<EventSubscription>КР_ОбменRabbitКонстантыПриЗаписи</EventSubscription>
+			<EventSubscription>КР_ОбменRabbitСправочникиПриЗаписи</EventSubscription>
+			<EventSubscription>КР_ОбменRabbitДокументыПриЗаписи</EventSubscription>
+			<EventSubscription>КР_ОбменRabbitПланыВидовХарактеристикПриЗаписи</EventSubscription>
+			<EventSubscription>КР_ОбменRabbitДокументыОбработкаПроведения</EventSubscription>
+			<EventSubscription>КР_ОбменRabbitРегистрыСведенийПриЗаписи</EventSubscription>
+			<EventSubscription>КР_ОбменRabbitРегистрыНакопленияПриЗаписи</EventSubscription>
+			<EventSubscription>КР_ОбменRabbitСправочникиПередУдалением</EventSubscription>
+			<EventSubscription>КР_ОбменRabbitДокументыПередУдалением</EventSubscription>
+			<EventSubscription>КР_ПроверитьНомерДокументаПоДате</EventSubscription>
+			<EventSubscription>КР_УстановитьПрефиксИнформационнойБазыНомеруДокумента</EventSubscription>
+			<EventSubscription>КР_УстановитьПрефиксИнформационнойБазыКодуСправочника</EventSubscription>
+			<EventSubscription>КР_ЗаписатьВерсиюДокумента</EventSubscription>
+			<EventSubscription>КР_ПереопределитьПолучаемуюФормуПрисоединенногоФайла</EventSubscription>
+			<EventSubscription>КР_УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</EventSubscription>
+			<EventSubscription>КР_ПередЗаписьюИсходящийДокументСБИС</EventSubscription>
+			<EventSubscription>КР_ПриЗаписиИсходящийДокументСБИС</EventSubscription>
+			<EventSubscription>КР_ПриЗаписиСправочникаСБИС</EventSubscription>
+			<EventSubscription>злЗамерПроизводительностиОткрытияФормы</EventSubscription>
+			<EventSubscription>ДатаМобайл_СозданиеНоменклатуры</EventSubscription>
 			<ScheduledJob>ABCКлассификацияНоменклатуры</ScheduledJob>
 			<ScheduledJob>ABCКлассификацияПартнеров</ScheduledJob>
 			<ScheduledJob>XYZКлассификацияНоменклатуры</ScheduledJob>
@@ -5859,6 +6042,22 @@
 			<ScheduledJob>ФормированиеСообщенийПоРассылкамКлиентам</ScheduledJob>
 			<ScheduledJob>ЧтениеНовостейСлужбыПоддержки</ScheduledJob>
 			<ScheduledJob>ЭкспортОценкиПроизводительности</ScheduledJob>
+			<ScheduledJob>КР_ОбменRabbitИнтеграция</ScheduledJob>
+			<ScheduledJob>КР_ОбменRabbitРазборСообщений</ScheduledJob>
+			<ScheduledJob>КР_ОбменRabbitПовторныйРазборСообщений</ScheduledJob>
+			<ScheduledJob>КР_ОбменRabbitУдалитьОшибкиПоискаДанных</ScheduledJob>
+			<ScheduledJob>КР_ОбработкаПродажИнтернетМагазина</ScheduledJob>
+			<ScheduledJob>КР_ЗаполнитьВесНоменклатуры</ScheduledJob>
+			<ScheduledJob>КР_ВыгрузкаТоваровВКассовоеПО</ScheduledJob>
+			<ScheduledJob>КР_ВыгрузкаПользователейВКассовоеПО</ScheduledJob>
+			<ScheduledJob>КР_ЗагрузкаОперативныхПродажИзКассовогоПО</ScheduledJob>
+			<ScheduledJob>КР_ЗагрузкаПродажЗаСменуИзКассовогоПО</ScheduledJob>
+			<ScheduledJob>КР_ОбеспечениеПотребностей</ScheduledJob>
+			<ScheduledJob>КР_ФормированиеПрогнознойПотребностиВПодсортировке</ScheduledJob>
+			<ScheduledJob>КР_ОтложеннаяОбработкаПриемкиПеремещенийТоваров</ScheduledJob>
+			<ScheduledJob>КР_ОбработкаОтложенныхДействийСистемы</ScheduledJob>
+			<ScheduledJob>ДатаМобайл_Автообработка</ScheduledJob>
+			<ScheduledJob>ДатаМобайл_ЗаполнениеДокументовZolla</ScheduledJob>
 			<SettingsStorage>БуферыОбменаНовостей</SettingsStorage>
 			<SettingsStorage>НастройкиНовостей</SettingsStorage>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
@@ -6354,6 +6553,9 @@
 			<FunctionalOption>ФормироватьУправленческийБаланс</FunctionalOption>
 			<FunctionalOption>ФормироватьФинансовыйРезультат</FunctionalOption>
 			<FunctionalOption>ХранитьФайлыВТомахНаДиске</FunctionalOption>
+			<FunctionalOption>КР_ИспользуетсяИнтеграцияRabbitMQ</FunctionalOption>
+			<FunctionalOption>КР_ИспользоватьРазмещениеКакПриходныйОрдер</FunctionalOption>
+			<FunctionalOption>КР_АдресныйСкладБезордернойОтгрузки</FunctionalOption>
 			<FunctionalOptionsParameter>ДополнительныеОтчетыИОбработкиОбъектНазначения</FunctionalOptionsParameter>
 			<FunctionalOptionsParameter>ДополнительныеОтчетыИОбработкиТипФормы</FunctionalOptionsParameter>
 			<FunctionalOptionsParameter>НастройкаФормы</FunctionalOptionsParameter>
@@ -6666,6 +6868,10 @@
 			<DefinedType>ХарактеристикаРаботаСНоменклатурой</DefinedType>
 			<DefinedType>ШаблонСообщенияБЭД</DefinedType>
 			<DefinedType>ШаблонЭтикеткиИС</DefinedType>
+			<DefinedType>КР_ОбменRabbitИнтеграционныеОбъектыСправочники</DefinedType>
+			<DefinedType>КР_ОбменRabbitИнтеграционныеОбъектыДокументы</DefinedType>
+			<DefinedType>КР_ОбменRabbitИнтеграционныеОбъектыРегистрыСведений</DefinedType>
+			<DefinedType>КР_ОбменRabbitИнтеграционныеОбъектыРегистрыНакопления</DefinedType>
 			<CommonCommand>АвтономнаяРабота</CommonCommand>
 			<CommonCommand>АвтономнаяРаботаВМоделиСервиса</CommonCommand>
 			<CommonCommand>БанковскиеСчетаБазовая</CommonCommand>
@@ -6932,6 +7138,8 @@
 			<CommonCommand>ФормированиеЗаказовНаСборкуРазборкуПоПотребностям</CommonCommand>
 			<CommonCommand>ФормированиеЗаказовПоставщикам</CommonCommand>
 			<CommonCommand>ФормированиеЗаказовПоставщикуПоПлану</CommonCommand>
+			<CommonCommand>КР_ОткрытьСписокВодителей</CommonCommand>
+			<CommonCommand>ДатаМобайл_Маркировка_НастройкаСертификатов</CommonCommand>
 			<CommandGroup>Взаимодействия</CommandGroup>
 			<CommandGroup>Документооборот</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
@@ -7718,6 +7926,16 @@
 			<Constant>ШаблонЭтикеткиДляДоставки</Constant>
 			<Constant>ШаблонЭтикеткиУпаковочногоЛиста</Constant>
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
+			<Constant>КР_ИспользуетсяИнтеграцияRabbitMQ</Constant>
+			<Constant>КР_RabbitMQИспользуетсяОбменСМагазинами</Constant>
+			<Constant>КР_БазаЯвляетсяЦентральной</Constant>
+			<Constant>КР_ВерсияЛокализацииСистемы</Constant>
+			<Constant>злВыполнятьЗамерыПроизводительностиОткрытияФорм</Constant>
+			<Constant>КР_ИспользоватьСжатиеСообщений</Constant>
+			<Constant>КР_ОбъектыИнтеграцииСИндивидуальнойОчередьюОбработки</Constant>
+			<Constant>злТочкиОбменаСоСжатиемСообщений</Constant>
+			<Constant>злПутьХраненияВерсийВнешнихОбработок</Constant>
+			<Constant>ДатаМобайл_Настройки</Constant>
 			<CommonForm>АвтоматическийОбменСПодключаемымОборудованиемOffline</CommonForm>
 			<CommonForm>АвтономнаяРабота</CommonForm>
 			<CommonForm>АвтономнаяРаботаВМоделиСервиса</CommonForm>
@@ -7962,6 +8180,9 @@
 			<CommonForm>ЭтапОплаты</CommonForm>
 			<CommonForm>ЭтапыОплатыКлиентом</CommonForm>
 			<CommonForm>ЭтапыОплатыПоставщику</CommonForm>
+			<CommonForm>КР_ФормаПодбораКоробов</CommonForm>
+			<CommonForm>КР_ФормаНастройкиArtix</CommonForm>
+			<CommonForm>злФормаПутьХраненияВерсийВнешнихОбработок</CommonForm>
 			<Catalog>АвансовыйОтчетПрисоединенныеФайлы</Catalog>
 			<Catalog>АктВыполненныхРаботПрисоединенныеФайлы</Catalog>
 			<Catalog>АктОРасхожденияхПослеОтгрузкиПрисоединенныеФайлы</Catalog>
@@ -8042,6 +8263,7 @@
 			<Catalog>ДоговорыМеждуОрганизациямиПрисоединенныеФайлы</Catalog>
 			<Catalog>ДоговорыЭквайринга</Catalog>
 			<Catalog>ДоговорыЭквайрингаПрисоединенныеФайлы</Catalog>
+			<Catalog>ДатаМобайл_ДокументыТСД</Catalog>
 			<Catalog>ДополнительныеОтчетыИОбработки</Catalog>
 			<Catalog>ДрайверыОборудования</Catalog>
 			<Catalog>ЕГАИСПрисоединенныеФайлы</Catalog>
@@ -8084,10 +8306,12 @@
 			<Catalog>Кассы</Catalog>
 			<Catalog>КассыККМ</Catalog>
 			<Catalog>КатегорииЦелей</Catalog>
+			<Catalog>ДатаМобайл_ДополнительныеФормы</Catalog>
 			<Catalog>КатегорииЭксплуатации</Catalog>
 			<Catalog>КлассификаторАлкогольнойПродукцииЕГАИС</Catalog>
 			<Catalog>КлассификаторБанков</Catalog>
 			<Catalog>КлассификаторВидовЭкономическойДеятельности</Catalog>
+			<Catalog>ДатаМобайл_НовыеТовары</Catalog>
 			<Catalog>КлассификаторОКВЭД2</Catalog>
 			<Catalog>КлассификаторОКПД2</Catalog>
 			<Catalog>КлассификаторОрганизацийЕГАИС</Catalog>
@@ -8101,6 +8325,7 @@
 			<Catalog>КлючиРеестраДокументов</Catalog>
 			<Catalog>КодыВалютныхОпераций</Catalog>
 			<Catalog>КоллекцииНоменклатуры</Catalog>
+			<Catalog>ДатаМобайл_Пользователи</Catalog>
 			<Catalog>КоммерческоеПредложениеКлиентуПрисоединенныеФайлы</Catalog>
 			<Catalog>КоммерческоеПредложениеПоставщикаПрисоединенныеФайлы</Catalog>
 			<Catalog>КонтактныеЛицаПартнеров</Catalog>
@@ -8116,6 +8341,7 @@
 			<Catalog>Марки</Catalog>
 			<Catalog>МаршрутыПодписания</Catalog>
 			<Catalog>МашиночитаемыеДоверенностиКонтрагентов</Catalog>
+			<Catalog>ДатаМобайл_Роли</Catalog>
 			<Catalog>МашиночитаемыеДоверенностиОрганизаций</Catalog>
 			<Catalog>МобильныеКомпьютеры</Catalog>
 			<Catalog>НаборыГруппДоступа</Catalog>
@@ -8125,6 +8351,7 @@
 			<Catalog>НаправленияДеятельности</Catalog>
 			<Catalog>НастройкиОбменСБанками</Catalog>
 			<Catalog>НастройкиПродажДляПользователей</Catalog>
+			<Catalog>ДатаМобайл_ШаблоныДокументов</Catalog>
 			<Catalog>НастройкиРМК</Catalog>
 			<Catalog>НастройкиХозяйственныхОпераций</Catalog>
 			<Catalog>НастройкиЭДО</Catalog>
@@ -8350,7 +8577,31 @@
 			<Catalog>ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЯзыкиПечатныхФорм</Catalog>
+			<Catalog>КР_ИнформационныеБазы</Catalog>
+			<Catalog>КР_ДополнительныеНастройкиСистемы</Catalog>
+			<Catalog>КР_Цвета</Catalog>
+			<Catalog>КР_Линии</Catalog>
+			<Catalog>КР_Сезоны</Catalog>
+			<Catalog>КР_Размеры</Catalog>
+			<Catalog>КР_КлассификацияОбъемовГруза</Catalog>
+			<Catalog>КР_ТипыВладенияТранспортнымиСредствами</Catalog>
+			<Catalog>КР_Маршруты</Catalog>
+			<Catalog>КР_МестаРазмещения</Catalog>
+			<Catalog>КР_ГруппыАналоговТоваров</Catalog>
+			<Catalog>КР_Контейнеры</Catalog>
+			<Catalog>КР_ВидыБрака</Catalog>
+			<Catalog>КР_ПричиныОтсутствияКодаМаркировкиИСМП</Catalog>
+			<Catalog>КР_ТипыТовара</Catalog>
+			<Catalog>КР_ПересчетТоваровПрисоединенныеФайлы</Catalog>
+			<Catalog>КР_ПриходныйКассовыйОрдерПрисоединенныеФайлы</Catalog>
+			<Catalog>КР_РасходныйКассовыйОрдерПрисоединенныеФайлы</Catalog>
+			<Catalog>КР_Темы</Catalog>
+			<Catalog>КР_Подвески</Catalog>
+			<Catalog>КР_ЗоныПересчетаТоваров</Catalog>
+			<Catalog>КР_НастройкиОтборовСозданияЗаказовНаПеремещениеМеждуМагазинами</Catalog>
+			<Catalog>злТипыПоверхностейРасположенияТоваров</Catalog>
 			<Document>АвансовыйОтчет</Document>
+			<Document>ДатаМобайл_УпаковочныйЛист</Document>
 			<Document>АктВыполненныхРабот</Document>
 			<Document>АктОРасхожденияхПослеОтгрузки</Document>
 			<Document>АктОРасхожденияхПослеПеремещения</Document>
@@ -8583,6 +8834,11 @@
 			<Document>ЭлектронноеПисьмоИсходящее</Document>
 			<Document>ЭлектронныйДокументВходящийЭДО</Document>
 			<Document>ЭлектронныйДокументИсходящийЭДО</Document>
+			<Document>КР_УстановкаПриоритетовРазмеров</Document>
+			<Document>КР_УстановкаМинимальнойПрезентации</Document>
+			<Document>КР_УстановкаМестРазмещения</Document>
+			<Document>КР_ДвижениеКоробов</Document>
+			<Document>КР_ЗональныйПересчетТоваров</Document>
 			<DocumentNumerator>ДокументыРеализацииТоваров</DocumentNumerator>
 			<DocumentNumerator>ОтчетыКомиссионеров</DocumentNumerator>
 			<DocumentNumerator>СчетаФактурыВыданные</DocumentNumerator>
@@ -9348,6 +9604,26 @@
 			<Enum>ЭтапыСинхронизацииДокументовEDI</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<Enum>ЮрФизЛицо</Enum>
+			<Enum>КР_СостоянияСообщенийОбмена</Enum>
+			<Enum>КР_СтатусыИнтеграции</Enum>
+			<Enum>КР_ТипыСообщенийОбмена</Enum>
+			<Enum>КР_ТипНаполненияКоробов</Enum>
+			<Enum>КР_АналитикаМаркетплейса</Enum>
+			<Enum>КР_ВременаГода</Enum>
+			<Enum>КР_ВременаГодаКалендарные</Enum>
+			<Enum>КР_ТипЗаданияНаПеревозку</Enum>
+			<Enum>КР_ВидыТарифовПеревозчиков</Enum>
+			<Enum>КР_ТипыПоверхностей</Enum>
+			<Enum>КР_ВидыСкладов</Enum>
+			<Enum>КР_ТипыСкладскихПомещений</Enum>
+			<Enum>КР_СтатусыАнонсаПоставкиДляСистемыEsolutions</Enum>
+			<Enum>КР_ВидыПеревозок</Enum>
+			<Enum>КР_ВидыОперацийПоОтражениюПродажИнтернетМагазина</Enum>
+			<Enum>КР_СостоянияОтраженияПродажИнтернетМагазина</Enum>
+			<Enum>КР_СостоянияОбработкиОтложенногоВыполнения</Enum>
+			<Enum>КР_СостоянияВыполненияОтложенныхДействийСистемы</Enum>
+			<Enum>злСтатусыОбновленияКонфигурации</Enum>
+			<Enum>злСтатусыТранспортныхНакладных</Enum>
 			<Report>ABCXYZАнализНоменклатуры</Report>
 			<Report>ABCXYZРаспределениеКлиентов</Report>
 			<Report>АнализВерсийОбъектов</Report>
@@ -9617,7 +9893,13 @@
 			<Report>УчетныеПолитикиОрганизаций</Report>
 			<Report>ФинансовоеСостояние</Report>
 			<Report>ЭффективностьСделокСКлиентами</Report>
+			<Report>КР_ОшибкиПоискаДанныхИнтеграции</Report>
+			<Report>КР_НаличиеПакетовИнтеграцииПоОбъекту</Report>
+			<Report>КР_СостояниеИнтеграции</Report>
+			<Report>КР_ДинамикаСкоростиРазбораСообщений</Report>
+			<Report>ДатаМобайл_Аналитика</Report>
 			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
+			<DataProcessor>DataMobileLoadUpload</DataProcessor>
 			<DataProcessor>АктивныеЗаказыСУЗ</DataProcessor>
 			<DataProcessor>АктивныеПользователи</DataProcessor>
 			<DataProcessor>АрхивированиеУдалениеЧековККМ</DataProcessor>
@@ -9910,7 +10192,15 @@
 			<DataProcessor>ЭлектронноеАктированиеЕИС</DataProcessor>
 			<DataProcessor>ЭлектронноеВзаимодействие</DataProcessor>
 			<DataProcessor>ЯндексМаркетВитринаФулфилмент</DataProcessor>
+			<DataProcessor>КР_МеханизмОбмена</DataProcessor>
+			<DataProcessor>КР_ОприходованиеМежскладскихПеремещенийТоваровСТСД</DataProcessor>
+			<DataProcessor>DataMobileLoad</DataProcessor>
+			<DataProcessor>DataMobileUpload</DataProcessor>
+			<DataProcessor>КР_МенеджерЗагрузкиДанных</DataProcessor>
+			<DataProcessor>ДатаМобайл_АРМДиспетчера</DataProcessor>
+			<DataProcessor>злРабочееМестоСотрудникаМагазина</DataProcessor>
 			<InformationRegister>ABCXYZКлассификацияКлиентов</InformationRegister>
+			<InformationRegister>ДатаМобайл_ВСДПоТовару</InformationRegister>
 			<InformationRegister>ABCXYZКлассификацияНоменклатуры</InformationRegister>
 			<InformationRegister>АбонентыЭДО</InformationRegister>
 			<InformationRegister>АвторизацияВСервисе1СФреш</InformationRegister>
@@ -10444,6 +10734,7 @@
 			<InformationRegister>УспешныеОбменыССайтом</InformationRegister>
 			<InformationRegister>УстаревшиеВидыЗапасовСОстатками</InformationRegister>
 			<InformationRegister>УчетнаяПолитикаФинансовогоУчета</InformationRegister>
+			<InformationRegister>ДатаМобайл_ДопускиВесовыхТоваров</InformationRegister>
 			<InformationRegister>УчетныеЗаписиЭДО</InformationRegister>
 			<InformationRegister>ФайлыВРабочемКаталоге</InformationRegister>
 			<InformationRegister>ФайлыОбластейДанных</InformationRegister>
@@ -10459,6 +10750,68 @@
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
 			<InformationRegister>ЭлектронныеПодписи</InformationRegister>
 			<InformationRegister>ЭлектронныеПодписиПоМЧД</InformationRegister>
+			<InformationRegister>КР_ИнтеграционнаяИнформация</InformationRegister>
+			<InformationRegister>КР_АрхивСообщений</InformationRegister>
+			<InformationRegister>КР_ВходящиеСообщения</InformationRegister>
+			<InformationRegister>КР_ИсходящиеСообщения</InformationRegister>
+			<InformationRegister>КР_НастройкиОбмена</InformationRegister>
+			<InformationRegister>КР_ИдентификаторыСинхронизируемыхОбъектов</InformationRegister>
+			<InformationRegister>КР_ИдентификаторыТоваровНаМаркетплейсах</InformationRegister>
+			<InformationRegister>КР_ШтрихкодыWb</InformationRegister>
+			<InformationRegister>КР_ТарифыПеревозчиков</InformationRegister>
+			<InformationRegister>КР_СоответствиеСкладовИМаркетплейсов</InformationRegister>
+			<InformationRegister>КР_ПриоритетыРазмеров</InformationRegister>
+			<InformationRegister>КР_ПриемкаПеремещенийТоваров</InformationRegister>
+			<InformationRegister>КР_ВладениеТранспортнымСредством</InformationRegister>
+			<InformationRegister>КР_МинимальнаяПрезентация</InformationRegister>
+			<InformationRegister>КР_РеестрДокументовКОтражениюПродажИнтернетМагазина</InformationRegister>
+			<InformationRegister>КР_СтатусыПоставкиТоваровНаEsolutions</InformationRegister>
+			<InformationRegister>КР_ВесНеттоТовара</InformationRegister>
+			<InformationRegister>КР_ПриоритетыРазмеровТоварнойГруппы</InformationRegister>
+			<InformationRegister>КР_ГрафикОтгрузкиИПриемкиТМЦ</InformationRegister>
+			<InformationRegister>КР_СоставГруппАналоговТоваров</InformationRegister>
+			<InformationRegister>КР_УстановкаМестРазмещения</InformationRegister>
+			<InformationRegister>КР_КонтейнерАссортимента</InformationRegister>
+			<InformationRegister>КР_РасширенныйАссортимент</InformationRegister>
+			<InformationRegister>КР_КассовыеЛимиты</InformationRegister>
+			<InformationRegister>КР_ГрафикиИнкассации</InformationRegister>
+			<InformationRegister>КР_СоставСета</InformationRegister>
+			<InformationRegister>КР_СоставКонтейнера</InformationRegister>
+			<InformationRegister>КР_РеквизитыРасчетаАренды</InformationRegister>
+			<InformationRegister>КР_ПосещаемостьМагазина</InformationRegister>
+			<InformationRegister>КР_ИсторияИзмененийСезонаНоменклатуры</InformationRegister>
+			<InformationRegister>КР_СведенияНоменклатурыПланирование</InformationRegister>
+			<InformationRegister>КР_СведенияНоменклатурыТоварнаяАналитика</InformationRegister>
+			<InformationRegister>КР_ОшибкиПоискаДанныхИнтеграции</InformationRegister>
+			<InformationRegister>КР_ИсходящиеДокументыСБИС</InformationRegister>
+			<InformationRegister>КР_СостоянияДокументовСБИС</InformationRegister>
+			<InformationRegister>КР_ИсторияИзмененияТоварныхОграничений</InformationRegister>
+			<InformationRegister>КР_РейтингМагазина</InformationRegister>
+			<InformationRegister>КР_КоэффициентыКорректировкиПодсортировкиСкладов</InformationRegister>
+			<InformationRegister>КР_ОтметкиИнтеграционныхИзменений</InformationRegister>
+			<InformationRegister>КР_ПрогнозПотребностиВПодсортировкеМагазинов</InformationRegister>
+			<InformationRegister>КР_ДанныеОтложенногоЗаполнения</InformationRegister>
+			<InformationRegister>КР_ТорговоеОборудованиеМагазинов</InformationRegister>
+			<InformationRegister>КР_ПрефиксыИнформационныхБаз</InformationRegister>
+			<InformationRegister>КР_ОтложенныеДействияСистемы</InformationRegister>
+			<InformationRegister>КР_РегистрируемыеТипыДанных</InformationRegister>
+			<InformationRegister>злПланыПродажПоМагазинам</InformationRegister>
+			<InformationRegister>ДатаМобайл_ДопускиОСГ</InformationRegister>
+			<InformationRegister>ДатаМобайл_ЗначенияДополнительныхФорм</InformationRegister>
+			<InformationRegister>ДатаМобайл_ЗначенияУзлаОбменаТСД</InformationRegister>
+			<InformationRegister>ДатаМобайл_Логирование</InformationRegister>
+			<InformationRegister>ДатаМобайл_НовыеШтрихкоды</InformationRegister>
+			<InformationRegister>ДатаМобайл_ПорционнаяВыгрузка</InformationRegister>
+			<InformationRegister>ДатаМобайл_ПроверкаСерий</InformationRegister>
+			<InformationRegister>ДатаМобайл_СвязиДополнительныхФормИШаблонов</InformationRegister>
+			<InformationRegister>ДатаМобайл_СтрокиГрупповыхДокументов</InformationRegister>
+			<InformationRegister>ДатаМобайл_ТСДГрупповыхДокументов</InformationRegister>
+			<InformationRegister>ДатаМобайл_ФлагиДляОбменаТСД</InformationRegister>
+			<InformationRegister>злХранилищеНастроекДанных</InformationRegister>
+			<InformationRegister>злПравилаСопоставленияСтатейДвиженияДенежныхСредств</InformationRegister>
+			<InformationRegister>злСостояниеОбновленияКонфигурации</InformationRegister>
+			<InformationRegister>злСкладыУТ11</InformationRegister>
+			<InformationRegister>злУстановкаОбновленийКонфигурацииВМагазинах</InformationRegister>
 			<AccumulationRegister>БонусныеБаллы</AccumulationRegister>
 			<AccumulationRegister>ВыручкаИСебестоимостьПродаж</AccumulationRegister>
 			<AccumulationRegister>ДвиженияДенежныеСредстваДоходыРасходы</AccumulationRegister>
@@ -10553,6 +10906,15 @@
 			<AccumulationRegister>УдалитьТМЦВЭксплуатации</AccumulationRegister>
 			<AccumulationRegister>УслугиКОформлениюОтчетовПринципалу</AccumulationRegister>
 			<AccumulationRegister>ФинансовыеРезультаты</AccumulationRegister>
+			<AccumulationRegister>КР_РасходыНаПеревозку</AccumulationRegister>
+			<AccumulationRegister>КР_ЗаданияНаПеревозку</AccumulationRegister>
+			<AccumulationRegister>КР_КоробаКПоступлению</AccumulationRegister>
+			<AccumulationRegister>КР_РасхожденияПоКоробам</AccumulationRegister>
+			<AccumulationRegister>КР_КоробаНаСкладах</AccumulationRegister>
+			<AccumulationRegister>КР_РозничныеПродажи</AccumulationRegister>
+			<AccumulationRegister>КР_РозничныеОплатыБезналичные</AccumulationRegister>
+			<AccumulationRegister>КР_ТоварыКОформлениюОптовыхПродаж</AccumulationRegister>
+			<AccumulationRegister>КР_КоробаКОтгрузке</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ВопросыДляАнкетирования</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>КаналыРекламныхВоздействий</ChartOfCharacteristicTypes>

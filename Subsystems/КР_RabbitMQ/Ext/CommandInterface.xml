@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<CommandsVisibility>
+		<Command name="Report.КР_НаличиеПакетовИнтеграцииПоОбъекту.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Report.КР_ОшибкиПоискаДанныхИнтеграции.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsOrder>
+		<Command name="DataProcessor.КР_МеханизмОбмена.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.КР_ИспользуетсяИнтеграцияRabbitMQ.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.КР_БазаЯвляетсяЦентральной.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="100:7ded59ed-b1c3-45b3-ba09-5e072500dc79">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>ActionsPanelTools</Group>
+	</GroupsOrder>
+</CommandInterface>
