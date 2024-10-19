@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Subsystem uuid="8b22149e-ddfb-457a-90ac-fe88991c679c">
+		<Properties>
+			<Name>РаботаСЯндексМаркет</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продажи на Яндекс.Маркет</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ВыгрузкаТоварногоКаталога</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЯндексМаркетВитринаФулфилмент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СтатусыВыгрузкиТоваровЯндексМаркет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СтатусыПубликацииТоваровЯндексМаркет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ПолучениеРекомендацийПоСклейкеТовараЯндексМаркет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.БазовыйПрайсЛистЯндексМаркет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИсточникКатегорииЯндексМаркет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПанельАдминистрированияПродажиЯндексМаркет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ИсточникиКатегорийДляМаркетплейса</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ОтправкаНаМодерациюСвязейТоваровЯндексМаркет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтеграцияСЯндексМаркетСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ПолучениеСтатусовМодерацииТоваровЯндексМаркет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.РедактированиеСтатусовПубликацииТоваровЯндексМаркет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ИспользованиеОбработкиПродажиСФулфилментомЯндекса</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ИспользованиеОбработкиПанельАдминистрированияПродажНаЯндексМаркет</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

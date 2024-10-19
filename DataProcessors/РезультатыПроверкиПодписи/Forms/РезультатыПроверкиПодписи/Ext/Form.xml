@@ -1,0 +1,1647 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Статус подписи</v8:content>
+		</v8:item>
+	</Title>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<AutoURL>false</AutoURL>
+	<AutoFillCheck>false</AutoFillCheck>
+	<CommandBarLocation>Bottom</CommandBarLocation>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="РезультатыПроверки" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результаты проверки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результаты проверки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalStretch>false</HorizontalStretch>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="РезультатыПроверкиРасширеннаяПодсказка" id="16"/>
+			<ChildItems>
+				<LabelDecoration name="ДекорацияПустаяШапка" id="17">
+					<Visible>false</Visible>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>1</MaxWidth>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<ContextMenu name="ДекорацияПустаяШапкаКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ДекорацияПустаяШапкаРасширеннаяПодсказка" id="19"/>
+				</LabelDecoration>
+				<UsualGroup name="ДиагностикаПодписи" id="235" DisplayImportance="Low">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Диагностика подписи</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Диагностика подписи</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ДиагностикаПодписиРасширеннаяПодсказка" id="236"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаПроверкиШапка" id="1268">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа проверки</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа дата проверки МЧД</v8:content>
+								</v8:item>
+							</ToolTip>
+							<GroupVerticalAlign>Top</GroupVerticalAlign>
+							<Group>AlwaysHorizontal</Group>
+							<VerticalAlign>Top</VerticalAlign>
+							<ShowTitle>false</ShowTitle>
+							<BackColor>style:ToolTipBackColor</BackColor>
+							<ExtendedTooltip name="ГруппаПроверкиШапкаРасширеннаяПодсказка" id="1269"/>
+							<ChildItems>
+								<PictureDecoration name="Логотип1С" id="1295">
+									<Picture>
+										<xr:Ref>CommonPicture.Лого1С</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<ContextMenu name="Логотип1СКонтекстноеМеню" id="1296"/>
+									<ExtendedTooltip name="Логотип1СРасширеннаяПодсказка" id="1297"/>
+								</PictureDecoration>
+								<UsualGroup name="ГруппаЗаголовкиОбщие" id="1293">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа заголовки общие</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа заголовки общие</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЗаголовкиОбщиеРасширеннаяПодсказка" id="1294"/>
+									<ChildItems>
+										<LabelDecoration name="ЗаголовокПредставлениеПроверки" id="1344">
+											<TextColor>style:ЦветРазделаПанелиФункций</TextColor>
+											<Font ref="style:УвеличенныйШрифтБЭД" height="12" kind="StyleItem"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Подпись верна</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ЗаголовокПредставлениеПроверкиКонтекстноеМеню" id="1345"/>
+											<ExtendedTooltip name="ЗаголовокПредставлениеПроверкиРасширеннаяПодсказка" id="1346"/>
+										</LabelDecoration>
+										<LabelDecoration name="ЗаголовокДатаПроверки" id="1255">
+											<HorizontalStretch>true</HorizontalStretch>
+											<TextColor>style:ПоясняющийТекст</TextColor>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Проверено 08.12.2012 14:39</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ЗаголовокДатаПроверкиКонтекстноеМеню" id="1256"/>
+											<ExtendedTooltip name="ЗаголовокДатаПроверкиРасширеннаяПодсказка" id="1257"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<LabelDecoration name="ЗаголовокПодпись" id="1341">
+							<Font ref="style:УвеличенныйШрифтБЭД" height="16" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Проверка подписи</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЗаголовокПодписьКонтекстноеМеню" id="1342"/>
+							<ExtendedTooltip name="ЗаголовокПодписьРасширеннаяПодсказка" id="1343"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаРезультатыПроверкаПодписи" id="240">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Статус подписи</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа результаты проверка подписи</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаРезультатыПроверкаПодписиРасширеннаяПодсказка" id="241"/>
+							<ChildItems>
+								<LabelDecoration name="ДекорацияОтступПроверкаПодписи" id="242">
+									<Width>3</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ДекорацияОтступПроверкаПодписиКонтекстноеМеню" id="243"/>
+									<ExtendedTooltip name="ДекорацияОтступПроверкаПодписиРасширеннаяПодсказка" id="244"/>
+								</LabelDecoration>
+								<UsualGroup name="ГруппаПроверкаПодписи" id="245">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа проверка подписи</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа проверка подписи</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПроверкаПодписиРасширеннаяПодсказка" id="246"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаПодписьНеВерна" id="474">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Подпись не верна</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа подпись не верна</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<VerticalSpacing>None</VerticalSpacing>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаПодписьНеВернаРасширеннаяПодсказка" id="475">
+												<Title formatted="true"/>
+											</ExtendedTooltip>
+											<ChildItems>
+												<UsualGroup name="ЗаголовокПодписьНеВерна" id="476">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Подпись не верна</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Заголовок подпись не верна</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>AlwaysHorizontal</Group>
+													<HorizontalSpacing>Half</HorizontalSpacing>
+													<VerticalAlign>Center</VerticalAlign>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ЗаголовокПодписьНеВернаРасширеннаяПодсказка" id="477"/>
+													<ChildItems>
+														<PictureDecoration name="ЗаголовокПодписьНеВернаКартинка" id="478">
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Подпись не верна</v8:content>
+																</v8:item>
+															</Title>
+															<Picture>
+																<xr:Ref>CommonPicture.КрасныйШарБЭД</xr:Ref>
+																<xr:LoadTransparent>false</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ЗаголовокПодписьНеВернаКартинкаКонтекстноеМеню" id="479"/>
+															<ExtendedTooltip name="ЗаголовокПодписьНеВернаКартинкаРасширеннаяПодсказка" id="480"/>
+														</PictureDecoration>
+														<LabelDecoration name="ЗаголовокПодписьНеВернаТекст" id="1347">
+															<TextColor>style:ЦветТекстаНеУдачнаяПроверкаМЧД</TextColor>
+															<Font ref="style:УвеличенныйШрифтБЭД" kind="StyleItem"/>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Документ был изменен после подписания</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="ЗаголовокПодписьНеВернаТекстКонтекстноеМеню" id="1348"/>
+															<ExtendedTooltip name="ЗаголовокПодписьНеВернаТекстРасширеннаяПодсказка" id="1349"/>
+														</LabelDecoration>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="ГруппаПодписьНеВернаПодсказка" id="484">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа подпись не верна подсказка</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа подпись не верна подсказка</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>AlwaysHorizontal</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаПодписьНеВернаПодсказкаРасширеннаяПодсказка" id="485"/>
+													<ChildItems>
+														<LabelDecoration name="ОтступПодписьНеверна" id="486">
+															<Width>1</Width>
+															<ContextMenu name="ОтступПодписьНевернаКонтекстноеМеню" id="487"/>
+															<ExtendedTooltip name="ОтступПодписьНевернаРасширеннаяПодсказка" id="488"/>
+														</LabelDecoration>
+														<InputField name="ПредставлениеПодписьНеВернаПоле" id="1298" DisplayImportance="VeryLow">
+															<DataPath>ПредставлениеПодписьНеВернаПоле</DataPath>
+															<SkipOnInput>true</SkipOnInput>
+															<TitleLocation>None</TitleLocation>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<MaxWidth>32</MaxWidth>
+															<Height>1</Height>
+															<AutoMaxHeight>false</AutoMaxHeight>
+															<MaxHeight>2</MaxHeight>
+															<VerticalStretch>false</VerticalStretch>
+															<MultiLine>true</MultiLine>
+															<ChooseType>false</ChooseType>
+															<TextEdit>false</TextEdit>
+															<BorderColor>style:FormBackColor</BorderColor>
+															<HeightControlVariant>UseHeightInFormRows</HeightControlVariant>
+															<ContextMenu name="ПредставлениеПодписьНеВернаПолеКонтекстноеМеню" id="1299"/>
+															<ExtendedTooltip name="ПредставлениеПодписьНеВернаПолеРасширеннаяПодсказка" id="1300"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаПодписьВерна" id="528">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Подпись верна</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа подпись верна</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>AlwaysHorizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаПодписьВернаРасширеннаяПодсказка" id="529"/>
+											<ChildItems>
+												<UsualGroup name="ЗаголовокПодписьВерна" id="530">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Подпись верна</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Заголовок подпись верна</v8:content>
+														</v8:item>
+													</ToolTip>
+													<HorizontalSpacing>Half</HorizontalSpacing>
+													<VerticalAlign>Center</VerticalAlign>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ЗаголовокПодписьВернаРасширеннаяПодсказка" id="531"/>
+													<ChildItems>
+														<PictureDecoration name="ЗаголовокПодписьВернаКартинка" id="532">
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Подпись верна</v8:content>
+																</v8:item>
+															</Title>
+															<Picture>
+																<xr:Ref>CommonPicture.ЗеленыйШарБЭД</xr:Ref>
+																<xr:LoadTransparent>false</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ЗаголовокПодписьВернаКартинкаКонтекстноеМеню" id="533"/>
+															<ExtendedTooltip name="ЗаголовокПодписьВернаКартинкаРасширеннаяПодсказка" id="534"/>
+														</PictureDecoration>
+														<LabelDecoration name="ЗаголовокПодписьВернаТекст" id="1350">
+															<TextColor>style:ЦветТекстаУспешнаяПроверкаМЧД</TextColor>
+															<Font ref="style:УвеличенныйШрифтБЭД" kind="StyleItem"/>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Документ подписан и не менялся</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="ЗаголовокПодписьВернаТекстКонтекстноеМеню" id="1351"/>
+															<ExtendedTooltip name="ЗаголовокПодписьВернаТекстРасширеннаяПодсказка" id="1352"/>
+														</LabelDecoration>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ДиагностикаМЧД" id="1090">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Диагностика подписи</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Диагностика подписи</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ДиагностикаМЧДРасширеннаяПодсказка" id="1091"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияРазделительПодвалаРазделов" id="1258">
+							<VerticalStretch>true</VerticalStretch>
+							<ContextMenu name="ДекорацияРазделительПодвалаРазделовКонтекстноеМеню" id="1259"/>
+							<ExtendedTooltip name="ДекорацияРазделительПодвалаРазделовРасширеннаяПодсказка" id="1260"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаЗаголовокМЧД" id="1266">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа заголовок МЧД</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа заголовок МЧД</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаЗаголовокМЧДРасширеннаяПодсказка" id="1267"/>
+							<ChildItems>
+								<LabelDecoration name="ЗаголовокМЧД" id="1338">
+									<Font ref="style:УвеличенныйШрифтБЭД" height="16" kind="StyleItem"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Проверка доверенности</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ЗаголовокМЧДКонтекстноеМеню" id="1339"/>
+									<ExtendedTooltip name="ЗаголовокМЧДРасширеннаяПодсказка" id="1340"/>
+								</LabelDecoration>
+								<LabelDecoration name="ОткрытьМЧД" id="1273">
+									<SkipOnInput>false</SkipOnInput>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Открыть</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="ОткрытьМЧДКонтекстноеМеню" id="1274"/>
+									<ExtendedTooltip name="ОткрытьМЧДРасширеннаяПодсказка" id="1275"/>
+									<Events>
+										<Event name="Click">ОткрытьМЧДНажатие</Event>
+									</Events>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаРезультатыПроверкаМЧД" id="841">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Проверка машиночитаемой доверенности</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа результаты проверка МЧД</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаРезультатыПроверкаМЧДРасширеннаяПодсказка" id="842"/>
+							<ChildItems>
+								<LabelDecoration name="ДекорацияОтступПроверкаМЧД" id="843">
+									<Width>3</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ДекорацияОтступПроверкаМЧДКонтекстноеМеню" id="844"/>
+									<ExtendedTooltip name="ДекорацияОтступПроверкаМЧДРасширеннаяПодсказка" id="845"/>
+								</LabelDecoration>
+								<UsualGroup name="ГруппаПроверкаМЧД" id="846">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content> Группа проверка подписей</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа проверка подписей</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПроверкаМЧДРасширеннаяПодсказка" id="847"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаМЧДНеДействительна" id="1147">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Доверенность не действительна</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа успех проверка подписи</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<VerticalSpacing>None</VerticalSpacing>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаМЧДНеДействительнаРасширеннаяПодсказка" id="1148"/>
+											<ChildItems>
+												<UsualGroup name="ЗаголовокМЧДНеДействительна" id="1149">
+													<TitleTextColor>web:DarkOliveGreen</TitleTextColor>
+													<Group>AlwaysHorizontal</Group>
+													<HorizontalSpacing>Half</HorizontalSpacing>
+													<VerticalAlign>Center</VerticalAlign>
+													<Behavior>Collapsible</Behavior>
+													<Collapsed>true</Collapsed>
+													<ControlRepresentation>Picture</ControlRepresentation>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ЗаголовокМЧДНеДействительнаРасширеннаяПодсказка" id="1150"/>
+													<ChildItems>
+														<PictureDecoration name="ЗаголовокМЧДНеДействительнаКартинка" id="1151">
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Доверенность действительна</v8:content>
+																</v8:item>
+															</Title>
+															<Picture>
+																<xr:Ref>CommonPicture.ЖелтыйШарБЭД</xr:Ref>
+																<xr:LoadTransparent>false</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ЗаголовокМЧДНеДействительнаКартинкаКонтекстноеМеню" id="1152"/>
+															<ExtendedTooltip name="ЗаголовокМЧДНеДействительнаКартинкаРасширеннаяПодсказка" id="1153"/>
+														</PictureDecoration>
+														<LabelDecoration name="ЗаголовокМЧДНеДействительнаТекст" id="1359">
+															<TextColor>style:ЦветТекстаУспешнаяПроверкаМЧД</TextColor>
+															<Font ref="style:УвеличенныйШрифтБЭД" kind="StyleItem"/>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Доверенность недействительна (в реестре) </v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="ЗаголовокМЧДНеДействительнаТекстКонтекстноеМеню" id="1360"/>
+															<ExtendedTooltip name="ЗаголовокМЧДНеДействительнаТекстРасширеннаяПодсказка" id="1361"/>
+														</LabelDecoration>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="ГруппаМЧДНеДействительнаПодсказка" id="1310">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа МЧДНе действительна подсказка</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа МЧДНе действительна подсказка</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаМЧДНеДействительнаПодсказкаРасширеннаяПодсказка" id="1311"/>
+													<ChildItems>
+														<LabelDecoration name="ОтступМЧДНеДействительнаПодсказка" id="1307">
+															<Width>1</Width>
+															<ContextMenu name="ОтступМЧДНеДействительнаПодсказкаКонтекстноеМеню" id="1308"/>
+															<ExtendedTooltip name="ОтступМЧДНеДействительнаПодсказкаРасширеннаяПодсказка" id="1309"/>
+														</LabelDecoration>
+														<InputField name="ПредставлениеМЧДНеДействительнаПоле" id="1317" DisplayImportance="VeryLow">
+															<DataPath>ПредставлениеМЧДНеДействительнаПоле</DataPath>
+															<SkipOnInput>true</SkipOnInput>
+															<TitleLocation>None</TitleLocation>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<MaxWidth>32</MaxWidth>
+															<Height>1</Height>
+															<VerticalStretch>false</VerticalStretch>
+															<MultiLine>true</MultiLine>
+															<ChooseType>false</ChooseType>
+															<TextEdit>false</TextEdit>
+															<BorderColor>style:FormBackColor</BorderColor>
+															<ContextMenu name="ПредставлениеМЧДНеДействительнаПолеКонтекстноеМеню" id="1318"/>
+															<ExtendedTooltip name="ПредставлениеМЧДНеДействительнаПолеРасширеннаяПодсказка" id="1319"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаМЧДДействительна" id="884">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Доверенность действительна</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа успех проверка подписи</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаМЧДДействительнаРасширеннаяПодсказка" id="885"/>
+											<ChildItems>
+												<UsualGroup name="ЗаголовокМЧДДействительна" id="886">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Доверенность действительна</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Заголовок успех проверка подписи</v8:content>
+														</v8:item>
+													</ToolTip>
+													<HorizontalSpacing>Half</HorizontalSpacing>
+													<VerticalAlign>Center</VerticalAlign>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ЗаголовокМЧДДействительнаРасширеннаяПодсказка" id="887"/>
+													<ChildItems>
+														<PictureDecoration name="ЗаголовокМЧДДействительнаКартинка" id="888">
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Доверенность действительна</v8:content>
+																</v8:item>
+															</Title>
+															<Picture>
+																<xr:Ref>CommonPicture.ЗеленыйШарБЭД</xr:Ref>
+																<xr:LoadTransparent>false</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ЗаголовокМЧДДействительнаКартинкаКонтекстноеМеню" id="889"/>
+															<ExtendedTooltip name="ЗаголовокМЧДДействительнаКартинкаРасширеннаяПодсказка" id="890"/>
+														</PictureDecoration>
+														<LabelDecoration name="ЗаголовокМЧДДействительнаТекст" id="1362">
+															<TextColor>style:ЦветТекстаУспешнаяПроверкаМЧД</TextColor>
+															<Font ref="style:УвеличенныйШрифтБЭД" kind="StyleItem"/>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Доверенность действительна (в реестре) </v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="ЗаголовокМЧДДействительнаТекстКонтекстноеМеню" id="1363"/>
+															<ExtendedTooltip name="ЗаголовокМЧДДействительнаТекстРасширеннаяПодсказка" id="1364"/>
+														</LabelDecoration>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаМЧДПроверкаСопоставлениеПредставителя" id="1117">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа проверка подписи</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа проверка подписи</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаМЧДПроверкаСопоставлениеПредставителяРасширеннаяПодсказка" id="1118"/>
+											<ChildItems>
+												<UsualGroup name="ГруппаМЧДПредставительНеСопоставлен" id="1119">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Подпись не верна</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа подпись не верна</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Vertical</Group>
+													<VerticalSpacing>None</VerticalSpacing>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаМЧДПредставительНеСопоставленРасширеннаяПодсказка" id="1120">
+														<Title formatted="true"/>
+													</ExtendedTooltip>
+													<ChildItems>
+														<UsualGroup name="ЗаголовокМЧДПредставительНеСопоставлен" id="1121">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Подпись не верна</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Заголовок подпись не верна</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Group>AlwaysHorizontal</Group>
+															<HorizontalSpacing>Half</HorizontalSpacing>
+															<VerticalAlign>Center</VerticalAlign>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ЗаголовокМЧДПредставительНеСопоставленРасширеннаяПодсказка" id="1122"/>
+															<ChildItems>
+																<PictureDecoration name="ЗаголовокМЧДПредставительНеСопоставленКартинка" id="1123">
+																	<Title formatted="false">
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Подпись не верна</v8:content>
+																		</v8:item>
+																	</Title>
+																	<Picture>
+																		<xr:Ref>CommonPicture.КрасныйШарБЭД</xr:Ref>
+																		<xr:LoadTransparent>false</xr:LoadTransparent>
+																	</Picture>
+																	<FileDragMode>AsFile</FileDragMode>
+																	<ContextMenu name="ЗаголовокМЧДПредставительНеСопоставленКартинкаКонтекстноеМеню" id="1124"/>
+																	<ExtendedTooltip name="ЗаголовокМЧДПредставительНеСопоставленКартинкаРасширеннаяПодсказка" id="1125"/>
+																</PictureDecoration>
+																<LabelDecoration name="ЗаголовокМЧДПредставительНеСопоставленТекст" id="1365">
+																	<TextColor>style:ЦветТекстаНеУдачнаяПроверкаМЧД</TextColor>
+																	<Font ref="style:УвеличенныйШрифтБЭД" kind="StyleItem"/>
+																	<Title formatted="false">
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Представитель не соответствует подписывающему</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ContextMenu name="ЗаголовокМЧДПредставительНеСопоставленТекстКонтекстноеМеню" id="1366"/>
+																	<ExtendedTooltip name="ЗаголовокМЧДПредставительНеСопоставленТекстРасширеннаяПодсказка" id="1367"/>
+																</LabelDecoration>
+															</ChildItems>
+														</UsualGroup>
+														<UsualGroup name="ГруппаМЧДПредставительНеСопоставленПодсказка" id="1129">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа подпись не верна подсказка</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа подпись не верна подсказка</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Group>AlwaysHorizontal</Group>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ГруппаМЧДПредставительНеСопоставленПодсказкаРасширеннаяПодсказка" id="1130"/>
+															<ChildItems>
+																<LabelDecoration name="ОтступМЧДПредставительНеСопоставлен" id="1131">
+																	<Width>1</Width>
+																	<ContextMenu name="ОтступМЧДПредставительНеСопоставленКонтекстноеМеню" id="1132"/>
+																	<ExtendedTooltip name="ОтступМЧДПредставительНеСопоставленРасширеннаяПодсказка" id="1133"/>
+																</LabelDecoration>
+																<InputField name="ПредставлениеМЧДПредставительНеСопоставленПоле" id="1320" DisplayImportance="VeryLow">
+																	<DataPath>ПредставлениеМЧДПредставительНеСопоставленПоле</DataPath>
+																	<SkipOnInput>true</SkipOnInput>
+																	<TitleLocation>None</TitleLocation>
+																	<AutoMaxWidth>false</AutoMaxWidth>
+																	<MaxWidth>32</MaxWidth>
+																	<Height>1</Height>
+																	<VerticalStretch>false</VerticalStretch>
+																	<MultiLine>true</MultiLine>
+																	<ChooseType>false</ChooseType>
+																	<TextEdit>false</TextEdit>
+																	<BorderColor>style:FormBackColor</BorderColor>
+																	<ContextMenu name="ПредставлениеМЧДПредставительНеСопоставленПолеКонтекстноеМеню" id="1321"/>
+																	<ExtendedTooltip name="ПредставлениеМЧДПредставительНеСопоставленПолеРасширеннаяПодсказка" id="1322"/>
+																</InputField>
+															</ChildItems>
+														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="ГруппаМЧДПредставительСопоставлен" id="1137">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Подпись верна</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа подпись верна</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>AlwaysHorizontal</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаМЧДПредставительСопоставленРасширеннаяПодсказка" id="1138"/>
+													<ChildItems>
+														<UsualGroup name="ЗаголовокМЧДПодписьПредставителяСопоставлена" id="1139">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Подпись верна</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Заголовок подпись верна</v8:content>
+																</v8:item>
+															</ToolTip>
+															<HorizontalSpacing>Half</HorizontalSpacing>
+															<VerticalAlign>Center</VerticalAlign>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ЗаголовокМЧДПодписьПредставителяСопоставленаРасширеннаяПодсказка" id="1140"/>
+															<ChildItems>
+																<PictureDecoration name="ЗаголовокМЧДПодписьПредставителяСопоставленаКартинка" id="1141">
+																	<Title formatted="false">
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Подпись верна</v8:content>
+																		</v8:item>
+																	</Title>
+																	<Picture>
+																		<xr:Ref>CommonPicture.ЗеленыйШарБЭД</xr:Ref>
+																		<xr:LoadTransparent>false</xr:LoadTransparent>
+																	</Picture>
+																	<FileDragMode>AsFile</FileDragMode>
+																	<ContextMenu name="ЗаголовокМЧДПодписьПредставителяСопоставленаКартинкаКонтекстноеМеню" id="1142"/>
+																	<ExtendedTooltip name="ЗаголовокМЧДПодписьПредставителяСопоставленаКартинкаРасширеннаяПодсказка" id="1143"/>
+																</PictureDecoration>
+																<LabelDecoration name="ЗаголовокМЧДПодписьПредставителяСопоставленаТекст" id="1368">
+																	<TextColor>style:ЦветТекстаУспешнаяПроверкаМЧД</TextColor>
+																	<Font ref="style:УвеличенныйШрифтБЭД" kind="StyleItem"/>
+																	<Title formatted="false">
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Представитель соответствует подписывающему</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ContextMenu name="ЗаголовокМЧДПодписьПредставителяСопоставленаТекстКонтекстноеМеню" id="1369"/>
+																	<ExtendedTooltip name="ЗаголовокМЧДПодписьПредставителяСопоставленаТекстРасширеннаяПодсказка" id="1370"/>
+																</LabelDecoration>
+															</ChildItems>
+														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаМЧДПроверкаСопоставлениеДоверителя" id="1244">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа проверка подписи</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа проверка подписи</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаМЧДПроверкаСопоставлениеДоверителяРасширеннаяПодсказка" id="1245"/>
+											<ChildItems>
+												<UsualGroup name="ГруппаМЧДДоверительНеСопоставлен" id="1094">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Доверенность отозвана</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа подпись не проверена</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Vertical</Group>
+													<VerticalSpacing>None</VerticalSpacing>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаМЧДДоверительНеСопоставленРасширеннаяПодсказка" id="1095">
+														<Title formatted="true"/>
+													</ExtendedTooltip>
+													<ChildItems>
+														<UsualGroup name="ЗаголовокМЧДДоверительНеСопоставлен" id="1096">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Доверенность отозвана</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Заголовок подпись не проверена</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Group>AlwaysHorizontal</Group>
+															<HorizontalSpacing>Half</HorizontalSpacing>
+															<VerticalAlign>Center</VerticalAlign>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ЗаголовокМЧДДоверительНеСопоставленРасширеннаяПодсказка" id="1097"/>
+															<ChildItems>
+																<PictureDecoration name="ЗаголовокМЧДДоверительНеСопоставленКартинка" id="1098">
+																	<Title formatted="false">
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Доверенность отозвана</v8:content>
+																		</v8:item>
+																	</Title>
+																	<Picture>
+																		<xr:Ref>CommonPicture.КрасныйШарБЭД</xr:Ref>
+																		<xr:LoadTransparent>false</xr:LoadTransparent>
+																	</Picture>
+																	<FileDragMode>AsFile</FileDragMode>
+																	<ContextMenu name="ЗаголовокМЧДДоверительНеСопоставленКартинкаКонтекстноеМеню" id="1099"/>
+																	<ExtendedTooltip name="ЗаголовокМЧДДоверительНеСопоставленКартинкаРасширеннаяПодсказка" id="1100"/>
+																</PictureDecoration>
+																<LabelDecoration name="ЗаголовокМЧДДоверительНеСопоставленТекст" id="1371">
+																	<TextColor>style:ЦветТекстаНеУдачнаяПроверкаМЧД</TextColor>
+																	<Font ref="style:УвеличенныйШрифтБЭД" kind="StyleItem"/>
+																	<Title formatted="false">
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Доверитель не соответствует организации в документе</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ContextMenu name="ЗаголовокМЧДДоверительНеСопоставленТекстКонтекстноеМеню" id="1372"/>
+																	<ExtendedTooltip name="ЗаголовокМЧДДоверительНеСопоставленТекстРасширеннаяПодсказка" id="1373"/>
+																</LabelDecoration>
+															</ChildItems>
+														</UsualGroup>
+														<UsualGroup name="ГруппаМЧДДоверительНеСопоставленПодсказка" id="1104">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Доверенность отозвана</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа подпись не проверена подсказка</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Group>AlwaysHorizontal</Group>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ГруппаМЧДДоверительНеСопоставленПодсказкаРасширеннаяПодсказка" id="1105"/>
+															<ChildItems>
+																<LabelDecoration name="ОтступМЧДДоверительНеСопоставлен" id="1106">
+																	<Width>1</Width>
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<ContextMenu name="ОтступМЧДДоверительНеСопоставленКонтекстноеМеню" id="1107"/>
+																	<ExtendedTooltip name="ОтступМЧДДоверительНеСопоставленРасширеннаяПодсказка" id="1108"/>
+																</LabelDecoration>
+																<InputField name="ПредставлениеМЧДДоверительНеСопоставленПоле" id="1323" DisplayImportance="VeryLow">
+																	<DataPath>ПредставлениеМЧДДоверительНеСопоставленПоле</DataPath>
+																	<SkipOnInput>true</SkipOnInput>
+																	<TitleLocation>None</TitleLocation>
+																	<AutoMaxWidth>false</AutoMaxWidth>
+																	<MaxWidth>32</MaxWidth>
+																	<Height>1</Height>
+																	<VerticalStretch>false</VerticalStretch>
+																	<MultiLine>true</MultiLine>
+																	<ChooseType>false</ChooseType>
+																	<TextEdit>false</TextEdit>
+																	<BorderColor>style:FormBackColor</BorderColor>
+																	<ContextMenu name="ПредставлениеМЧДДоверительНеСопоставленПолеКонтекстноеМеню" id="1324"/>
+																	<ExtendedTooltip name="ПредставлениеМЧДДоверительНеСопоставленПолеРасширеннаяПодсказка" id="1325"/>
+																</InputField>
+															</ChildItems>
+														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="ГруппаМЧДДоверительСопоставлен" id="1157">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Доверенность действительна</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа успех проверка подписи</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>AlwaysHorizontal</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаМЧДДоверительСопоставленРасширеннаяПодсказка" id="1158"/>
+													<ChildItems>
+														<UsualGroup name="ЗаголовокМЧДДоверительСопоставлен" id="1159">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Доверенность действительна</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Заголовок успех проверка подписи</v8:content>
+																</v8:item>
+															</ToolTip>
+															<HorizontalSpacing>Half</HorizontalSpacing>
+															<VerticalAlign>Center</VerticalAlign>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ЗаголовокМЧДДоверительСопоставленРасширеннаяПодсказка" id="1160"/>
+															<ChildItems>
+																<PictureDecoration name="ЗаголовокМЧДДоверительСопоставленКартинка" id="1161">
+																	<Title formatted="false">
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Доверенность действительна</v8:content>
+																		</v8:item>
+																	</Title>
+																	<Picture>
+																		<xr:Ref>CommonPicture.ЗеленыйШарБЭД</xr:Ref>
+																		<xr:LoadTransparent>false</xr:LoadTransparent>
+																	</Picture>
+																	<FileDragMode>AsFile</FileDragMode>
+																	<ContextMenu name="ЗаголовокМЧДДоверительСопоставленКартинкаКонтекстноеМеню" id="1162"/>
+																	<ExtendedTooltip name="ЗаголовокМЧДДоверительСопоставленКартинкаРасширеннаяПодсказка" id="1163"/>
+																</PictureDecoration>
+																<LabelDecoration name="ЗаголовокМЧДДоверительСопоставленТекст" id="1374">
+																	<TextColor>style:ЦветТекстаУспешнаяПроверкаМЧД</TextColor>
+																	<Font ref="style:УвеличенныйШрифтБЭД" kind="StyleItem"/>
+																	<Title formatted="false">
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Доверитель соответствует организации в документе </v8:content>
+																		</v8:item>
+																	</Title>
+																	<ContextMenu name="ЗаголовокМЧДДоверительСопоставленТекстКонтекстноеМеню" id="1375"/>
+																	<ExtendedTooltip name="ЗаголовокМЧДДоверительСопоставленТекстРасширеннаяПодсказка" id="1376"/>
+																</LabelDecoration>
+															</ChildItems>
+														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаМЧДПроверкаСрокаДействия" id="1242">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа проверка подписи</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа проверка подписи</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаМЧДПроверкаСрокаДействияРасширеннаяПодсказка" id="1243"/>
+											<ChildItems>
+												<UsualGroup name="ГруппаМЧДСрокДействияНеДействителен" id="1018">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Срок действия доверенности не наступил</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа подпись не проверена</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Vertical</Group>
+													<VerticalSpacing>None</VerticalSpacing>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаМЧДСрокДействияНеДействителенРасширеннаяПодсказка" id="1019">
+														<Title formatted="true"/>
+													</ExtendedTooltip>
+													<ChildItems>
+														<UsualGroup name="ЗаголовокМЧДСрокДействияНеДействителен" id="1020">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Срок действия доверенности не наступил</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Заголовок подпись не проверена</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Group>AlwaysHorizontal</Group>
+															<HorizontalSpacing>Half</HorizontalSpacing>
+															<VerticalAlign>Center</VerticalAlign>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ЗаголовокМЧДСрокДействияНеДействителенРасширеннаяПодсказка" id="1021"/>
+															<ChildItems>
+																<PictureDecoration name="ЗаголовокМЧДСрокДействияНеДействителенКартинка" id="1022">
+																	<Title formatted="false">
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Срок действия доверенности не наступил</v8:content>
+																		</v8:item>
+																	</Title>
+																	<Picture>
+																		<xr:Ref>CommonPicture.КрасныйШарБЭД</xr:Ref>
+																		<xr:LoadTransparent>false</xr:LoadTransparent>
+																	</Picture>
+																	<FileDragMode>AsFile</FileDragMode>
+																	<ContextMenu name="ЗаголовокМЧДСрокДействияНеДействителенКартинкаКонтекстноеМеню" id="1023"/>
+																	<ExtendedTooltip name="ЗаголовокМЧДСрокДействияНеДействителенКартинкаРасширеннаяПодсказка" id="1024"/>
+																</PictureDecoration>
+																<LabelDecoration name="ЗаголовокМЧДСрокДействияНеДействителенТекст" id="1377">
+																	<TextColor>style:ЦветТекстаНеУдачнаяПроверкаМЧД</TextColor>
+																	<Font ref="style:УвеличенныйШрифтБЭД" kind="StyleItem"/>
+																	<Title formatted="false">
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Срок действия не соответствует дате документа </v8:content>
+																		</v8:item>
+																	</Title>
+																	<ContextMenu name="ЗаголовокМЧДСрокДействияНеДействителенТекстКонтекстноеМеню" id="1378"/>
+																	<ExtendedTooltip name="ЗаголовокМЧДСрокДействияНеДействителенТекстРасширеннаяПодсказка" id="1379"/>
+																</LabelDecoration>
+															</ChildItems>
+														</UsualGroup>
+														<UsualGroup name="ГруппаМЧДСрокДействияНеДействителенПодсказка" id="1028">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Срок действия доверенности не наступил</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа подпись не проверена подсказка</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Group>AlwaysHorizontal</Group>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ГруппаМЧДСрокДействияНеДействителенПодсказкаРасширеннаяПодсказка" id="1029"/>
+															<ChildItems>
+																<LabelDecoration name="ОтступМЧДСрокДействияНеДействителен" id="1030">
+																	<Width>1</Width>
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<ContextMenu name="ОтступМЧДСрокДействияНеДействителенКонтекстноеМеню" id="1031"/>
+																	<ExtendedTooltip name="ОтступМЧДСрокДействияНеДействителенРасширеннаяПодсказка" id="1032"/>
+																</LabelDecoration>
+																<InputField name="ПредставлениеМЧДСрокДействияНеДействителенПоле" id="1326" DisplayImportance="VeryLow">
+																	<DataPath>ПредставлениеМЧДСрокДействияНеДействителенПоле</DataPath>
+																	<SkipOnInput>true</SkipOnInput>
+																	<TitleLocation>None</TitleLocation>
+																	<AutoMaxWidth>false</AutoMaxWidth>
+																	<MaxWidth>32</MaxWidth>
+																	<Height>1</Height>
+																	<VerticalStretch>false</VerticalStretch>
+																	<MultiLine>true</MultiLine>
+																	<ChooseType>false</ChooseType>
+																	<TextEdit>false</TextEdit>
+																	<BorderColor>style:FormBackColor</BorderColor>
+																	<ContextMenu name="ПредставлениеМЧДСрокДействияНеДействителенПолеКонтекстноеМеню" id="1327"/>
+																	<ExtendedTooltip name="ПредставлениеМЧДСрокДействияНеДействителенПолеРасширеннаяПодсказка" id="1328"/>
+																</InputField>
+															</ChildItems>
+														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="ГруппаМЧДСрокДействияДействителен" id="1167">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Доверенность действительна</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа успех проверка подписи</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>AlwaysHorizontal</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаМЧДСрокДействияДействителенРасширеннаяПодсказка" id="1168"/>
+													<ChildItems>
+														<UsualGroup name="ЗаголовокМЧДСрокДействияДействителен" id="1169">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Доверенность действительна</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Заголовок успех проверка подписи</v8:content>
+																</v8:item>
+															</ToolTip>
+															<HorizontalSpacing>Half</HorizontalSpacing>
+															<VerticalAlign>Center</VerticalAlign>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ЗаголовокМЧДСрокДействияДействителенРасширеннаяПодсказка" id="1170"/>
+															<ChildItems>
+																<PictureDecoration name="ЗаголовокМЧДСрокДействияДействителенКартинка" id="1171">
+																	<Title formatted="false">
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Доверенность действительна</v8:content>
+																		</v8:item>
+																	</Title>
+																	<Picture>
+																		<xr:Ref>CommonPicture.ЗеленыйШарБЭД</xr:Ref>
+																		<xr:LoadTransparent>false</xr:LoadTransparent>
+																	</Picture>
+																	<FileDragMode>AsFile</FileDragMode>
+																	<ContextMenu name="ЗаголовокМЧДСрокДействияДействителенКартинкаКонтекстноеМеню" id="1172"/>
+																	<ExtendedTooltip name="ЗаголовокМЧДСрокДействияДействителенКартинкаРасширеннаяПодсказка" id="1173"/>
+																</PictureDecoration>
+																<LabelDecoration name="ЗаголовокМЧДСрокДействияДействителенТекст" id="1380">
+																	<TextColor>style:ЦветТекстаУспешнаяПроверкаМЧД</TextColor>
+																	<Font ref="style:УвеличенныйШрифтБЭД" kind="StyleItem"/>
+																	<Title formatted="false">
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Срок действия соответствует дате документа</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ContextMenu name="ЗаголовокМЧДСрокДействияДействителенТекстКонтекстноеМеню" id="1381"/>
+																	<ExtendedTooltip name="ЗаголовокМЧДСрокДействияДействителенТекстРасширеннаяПодсказка" id="1382"/>
+																</LabelDecoration>
+															</ChildItems>
+														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаРезультатыПроверкаМЧДОператоромЭДО" id="947">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Проверка оператором ЭДО</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа результаты проверка МЧДОператором ЭДО</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаРезультатыПроверкаМЧДОператоромЭДОРасширеннаяПодсказка" id="948"/>
+							<ChildItems>
+								<LabelDecoration name="ДекорацияОтступПроверкаМЧДОператоромЭДО" id="949">
+									<Width>3</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ДекорацияОтступПроверкаМЧДОператоромЭДОКонтекстноеМеню" id="950"/>
+									<ExtendedTooltip name="ДекорацияОтступПроверкаМЧДОператоромЭДОРасширеннаяПодсказка" id="951"/>
+								</LabelDecoration>
+								<UsualGroup name="ГруппаПроверкаМЧДОператоромЭДО" id="952">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Проверка оператором ЭДО</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа проверка подписей</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПроверкаМЧДОператоромЭДОРасширеннаяПодсказка" id="953"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаМЧДНеПроверенаОператоромЭДО" id="954">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Доверенность не проверена оператором ЭДО</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа подпись не верна</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<VerticalSpacing>None</VerticalSpacing>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаМЧДНеПроверенаОператоромЭДОРасширеннаяПодсказка" id="955">
+												<Title formatted="true"/>
+											</ExtendedTooltip>
+											<ChildItems>
+												<UsualGroup name="ЗаголовокМЧДНеПроверенаОператоромЭДО" id="956">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Доверенность не проверена оператором ЭДО</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Заголовок подпись не верна</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>AlwaysHorizontal</Group>
+													<HorizontalSpacing>Half</HorizontalSpacing>
+													<VerticalAlign>Center</VerticalAlign>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ЗаголовокМЧДНеПроверенаОператоромЭДОРасширеннаяПодсказка" id="957"/>
+													<ChildItems>
+														<PictureDecoration name="ЗаголовокМЧДНеПроверенаОператоромЭДОКартинка" id="958">
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Доверенность не проверена оператором ЭДО</v8:content>
+																</v8:item>
+															</Title>
+															<Picture>
+																<xr:Ref>CommonPicture.КрасныйШарБЭД</xr:Ref>
+																<xr:LoadTransparent>false</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ЗаголовокМЧДНеПроверенаОператоромЭДОКартинкаКонтекстноеМеню" id="959"/>
+															<ExtendedTooltip name="ЗаголовокМЧДНеПроверенаОператоромЭДОКартинкаРасширеннаяПодсказка" id="960"/>
+														</PictureDecoration>
+														<LabelDecoration name="ЗаголовокМЧДНеПроверенаОператоромЭДОТекст" id="1395">
+															<TextColor>style:ЦветТекстаНеУдачнаяПроверкаМЧД</TextColor>
+															<Font ref="style:УвеличенныйШрифтБЭД" kind="StyleItem"/>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Доверенность не подтверждена оператором ЭДО</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="ЗаголовокМЧДНеПроверенаОператоромЭДОТекстКонтекстноеМеню" id="1396"/>
+															<ExtendedTooltip name="ЗаголовокМЧДНеПроверенаОператоромЭДОТекстРасширеннаяПодсказка" id="1397"/>
+														</LabelDecoration>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="ГруппаМЧДНеПроверенаОператоромЭДОПодсказка" id="964">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Доверенность не проверена оператором ЭДО</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа подпись не верна подсказка</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>AlwaysHorizontal</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаМЧДНеПроверенаОператоромЭДОПодсказкаРасширеннаяПодсказка" id="965"/>
+													<ChildItems>
+														<LabelDecoration name="ОтступМЧДНеПроверенаОператоромЭДО" id="966">
+															<Width>1</Width>
+															<ContextMenu name="ОтступМЧДНеПроверенаОператоромЭДОКонтекстноеМеню" id="967"/>
+															<ExtendedTooltip name="ОтступМЧДНеПроверенаОператоромЭДОРасширеннаяПодсказка" id="968"/>
+														</LabelDecoration>
+														<InputField name="ПредставлениеМЧДНеПроверенаОператоромЭДОПоле" id="1335" DisplayImportance="VeryLow">
+															<DataPath>ПредставлениеМЧДНеПроверенаОператоромЭДОПоле</DataPath>
+															<SkipOnInput>true</SkipOnInput>
+															<TitleLocation>None</TitleLocation>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<MaxWidth>32</MaxWidth>
+															<Height>1</Height>
+															<VerticalStretch>false</VerticalStretch>
+															<MultiLine>true</MultiLine>
+															<ChooseType>false</ChooseType>
+															<TextEdit>false</TextEdit>
+															<BorderColor>style:FormBackColor</BorderColor>
+															<ContextMenu name="ПредставлениеМЧДНеПроверенаОператоромЭДОПолеКонтекстноеМеню" id="1336"/>
+															<ExtendedTooltip name="ПредставлениеМЧДНеПроверенаОператоромЭДОПолеРасширеннаяПодсказка" id="1337"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаМЧДПроверенаОператоромЭДО" id="990">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Доверенность проверена оператором ЭДО</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа успех проверка подписи</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаМЧДПроверенаОператоромЭДОРасширеннаяПодсказка" id="991"/>
+											<ChildItems>
+												<UsualGroup name="ЗаголовокМЧДПроверенаОпреаторомЭДО" id="992">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Доверенность проверена оператором ЭДО</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Заголовок успех проверка подписи</v8:content>
+														</v8:item>
+													</ToolTip>
+													<HorizontalSpacing>Half</HorizontalSpacing>
+													<VerticalAlign>Center</VerticalAlign>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ЗаголовокМЧДПроверенаОпреаторомЭДОРасширеннаяПодсказка" id="993"/>
+													<ChildItems>
+														<PictureDecoration name="ЗаголовокМЧДПроверенаОпреаторомЭДОКартинка" id="994">
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Доверенность проверена оператором ЭДО</v8:content>
+																</v8:item>
+															</Title>
+															<Picture>
+																<xr:Ref>CommonPicture.ЗеленыйШарБЭД</xr:Ref>
+																<xr:LoadTransparent>false</xr:LoadTransparent>
+															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
+															<ContextMenu name="ЗаголовокМЧДПроверенаОпреаторомЭДОКартинкаКонтекстноеМеню" id="995"/>
+															<ExtendedTooltip name="ЗаголовокМЧДПроверенаОпреаторомЭДОКартинкаРасширеннаяПодсказка" id="996"/>
+														</PictureDecoration>
+														<LabelDecoration name="ЗаголовокМЧДПроверенаОпреаторомЭДОТекст" id="1398">
+															<TextColor>style:ЦветТекстаУспешнаяПроверкаМЧД</TextColor>
+															<Font ref="style:УвеличенныйШрифтБЭД" kind="StyleItem"/>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Доверенность подтверждена оператором ЭДО</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="ЗаголовокМЧДПроверенаОпреаторомЭДОТекстКонтекстноеМеню" id="1399"/>
+															<ExtendedTooltip name="ЗаголовокМЧДПроверенаОпреаторомЭДОТекстРасширеннаяПодсказка" id="1400"/>
+														</LabelDecoration>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<LabelDecoration name="ДекорацияРазделительПодвала" id="780">
+					<VerticalStretch>true</VerticalStretch>
+					<ContextMenu name="ДекорацияРазделительПодвалаКонтекстноеМеню" id="781"/>
+					<ExtendedTooltip name="ДекорацияРазделительПодвалаРасширеннаяПодсказка" id="782"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКоманднаяПанель" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Командная панель</v8:content>
+				</v8:item>
+			</Title>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКоманднаяПанельРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Button name="Закрыть" id="1312">
+					<Type>UsualButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<DefaultItem>true</DefaultItem>
+					<CommandName>Form.StandardCommand.Close</CommandName>
+					<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="1313"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.РезультатыПроверкиПодписи</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ПредставлениеПодписьНеВернаПоле" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Представление подпись не верна поле</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>500</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПредставлениеМЧДНеДействительнаПоле" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Представление МЧДНе действительна поле</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПредставлениеМЧДПредставительНеСопоставленПоле" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Представление МЧДПредставитель не сопоставлен поле</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПредставлениеМЧДДоверительНеСопоставленПоле" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Представление МЧДДоверитель не сопоставлен поле</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПредставлениеМЧДСрокДействияНеДействителенПоле" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Представление МЧДСрок действия не действителен поле</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПредставлениеМЧДПодписьНеВернаПоле" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Представление МЧДПодпись не верна поле</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПредставлениеМЧДНеПроверенаОператоромЭДОПоле" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Представление МЧДНе проверена оператором ЭДОПоле</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Доверенность" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доверенность</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+	</Attributes>
+</Form>

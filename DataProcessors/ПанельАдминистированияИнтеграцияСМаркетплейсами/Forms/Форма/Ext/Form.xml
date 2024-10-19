@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаВертикальноеУпорядочивание" id="4">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа вертикальное упорядочивание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаВертикальноеУпорядочиваниеРасширеннаяПодсказка" id="5"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаЯндексМаркет" id="14">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа яндекс маркет</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаЯндексМаркетРасширеннаяПодсказка" id="15"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияОтступ" id="6">
+							<Width>4</Width>
+							<ContextMenu name="ДекорацияОтступКонтекстноеМеню" id="7"/>
+							<ExtendedTooltip name="ДекорацияОтступРасширеннаяПодсказка" id="8"/>
+						</LabelDecoration>
+						<CheckBoxField name="ИспользоватьИнтеграциюСЯндексМаркет" id="9">
+							<DataPath>Константа_ИспользоватьИнтеграциюСЯндексМаркет</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Яндекс.Маркет</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Опция включает возможность продавать товары через Яндекс.Маркет </v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьИнтеграциюСЯндексМаркетКонтекстноеМеню" id="10"/>
+							<ExtendedTooltip name="ИспользоватьИнтеграциюСЯндексМаркетРасширеннаяПодсказка" id="11"/>
+							<Events>
+								<Event name="OnChange">ИспользоватьИнтеграциюСЯндексМаркетПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<LabelDecoration name="ДекорацияОтступ2" id="18">
+							<Width>4</Width>
+							<ContextMenu name="ДекорацияОтступ2КонтекстноеМеню" id="19"/>
+							<ExtendedTooltip name="ДекорацияОтступ2РасширеннаяПодсказка" id="20"/>
+						</LabelDecoration>
+						<Button name="ОткрытьНастройкиПодключенияЯндексМаркет" id="16">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ОткрытьНастройкиПодключенияЯндексМаркет</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройки подключения</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+							<ExtendedTooltip name="ОткрытьНастройкиПодключенияЯндексМаркетРасширеннаяПодсказка" id="17"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПанельАдминистированияИнтеграцияСМаркетплейсами</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Константа_ИспользоватьИнтеграциюСЯндексМаркет" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Константа использовать интеграцию с яндекс маркет</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОткрытьНастройкиПодключенияЯндексМаркет" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки подключения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Определение настроек подключения к Яндекс.Маркет</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьНастройкиПодключенияЯндексМаркет</Action>
+		</Command>
+	</Commands>
+</Form>
