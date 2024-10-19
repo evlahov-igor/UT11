@@ -1,0 +1,1673 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="f72711eb-0a52-4fa3-bde4-f919c9ed5e0f">
+		<Name>УдалитьСправочник_Номенклатура</Name>
+		<Code/>
+		<Description>Справочник "Номенклатура"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="fe9ee393-eb4f-4117-83c5-d1f78d1f244d">
+				<Name>УдалитьСправочник_Номенклатура_Общие</Name>
+				<Code/>
+				<Description>Справочник "Номенклатура" (Общие)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="3b8a1158-1275-498e-bf3a-7f2b6c2f98be">
+		<Name>УдалитьСправочник_Партнеры</Name>
+		<Code/>
+		<Description>Справочник "Партнеры"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="7d9e6f96-7ead-49b0-b818-89a525e07a6b">
+				<Name>УдалитьСправочник_Партнеры_Клиенты</Name>
+				<Code/>
+				<Description>Клиенты</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="ab07d8c5-ec5e-46d9-997f-95560abed6e1">
+				<Name>УдалитьСправочник_Партнеры_Конкуренты</Name>
+				<Code/>
+				<Description>Конкуренты</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="43d0eeba-797a-47c0-b499-9f87c882b905">
+				<Name>УдалитьСправочник_Партнеры_Общие</Name>
+				<Code/>
+				<Description>Общие</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="b002543e-1c46-4730-ae2f-8e69edbce3a1">
+				<Name>УдалитьСправочник_Партнеры_Поставщики</Name>
+				<Code/>
+				<Description>Поставщики</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3e151626-413e-480e-9837-c93e6cbea55c">
+				<Name>УдалитьСправочник_Партнеры_Прочие</Name>
+				<Code/>
+				<Description>Прочие</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="33dd100b-7d54-4c5f-8071-cccc00aaeebc">
+		<Name>УдалитьСправочник_СерииНоменклатуры</Name>
+		<Code/>
+		<Description>Справочник "Серии номенклатуры"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="360aefee-eebd-40e3-a954-4812d5bd66d5">
+				<Name>УдалитьСправочник_СерииНоменклатуры_Общие</Name>
+				<Code/>
+				<Description>Справочник "Серии номенклатуры" (общие)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="91949a85-5342-45ea-850b-f312c23d4c91">
+		<Name>УдалитьСправочник_ХарактеристикиНоменклатуры</Name>
+		<Code/>
+		<Description>Справочник "Характеристики номенклатуры"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="69707fe3-49bb-4c28-b55d-e8d69905a170">
+				<Name>УдалитьСправочник_ХарактеристикиНоменклатуры_Общие</Name>
+				<Code/>
+				<Description>Справочник "Характеристики номенклатуры" (Общие)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="93e248b9-469f-48d6-a5f4-50bf91944f34">
+		<Name>УдалитьДокумент_АвансовыйОтчет</Name>
+		<Code/>
+		<Description>Документ "Авансовый отчет"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c09ceb3b-47cf-468c-a098-7855559e7b69">
+		<Name>УдалитьДокумент_АктВыполненныхВнутреннихРабот</Name>
+		<Code/>
+		<Description>Документ "Акт выполненных внутренних работ"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="edb089f1-c06d-45bd-8f3e-32ef0be95d5c">
+		<Name>УдалитьДокумент_АктВыполненныхРабот</Name>
+		<Code/>
+		<Description>Документ "Акт выполненных работ"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d46fda9c-4867-49e0-a2f3-16742385d67a">
+		<Name>УдалитьДокумент_АктОРасхожденияхПослеОтгрузки</Name>
+		<Code/>
+		<Description>Документ "Акт о расхождениях после отгрузки"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="447614ac-2180-47fd-952b-71597a30328d">
+		<Name>УдалитьДокумент_АктОРасхожденияхПослеПеремещения</Name>
+		<Code/>
+		<Description>Документ "Акт о расхождениях после перемещения"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d28ec41c-e389-49e6-a2b1-b310373e29e8">
+		<Name>УдалитьДокумент_АктОРасхожденияхПослеПриемки</Name>
+		<Code/>
+		<Description>Документ "Акт о расхождениях после приемки"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d395af2b-4cb1-48ba-91f0-b82d8d30bc1e">
+		<Name>УдалитьДокумент_АктПриемкиВыполненныхРаботОказанныхУслуг</Name>
+		<Code/>
+		<Description>Документ "Акт приемки выполненных работ оказанных услуг"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a8df688b-e926-4bf9-a374-9501b1a41bec">
+		<Name>УдалитьДокумент_АннулированиеПодарочныхСертификатов</Name>
+		<Code/>
+		<Description>Документ "Аннулирование подарочных сертификатов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="45faf3e5-d53f-4044-b11c-7f82881b9b68">
+		<Name>УдалитьДокумент_Бронирование</Name>
+		<Code/>
+		<Description>Документ "Бронирование"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1a0231b9-f28e-4733-9bdf-097ee3eb526a">
+		<Name>УдалитьДокумент_ВводОстатковВзаиморасчетов</Name>
+		<Code/>
+		<Description>Документ "Ввод остатков взаиморасчетов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1549cd17-222a-4656-9e04-a3a896dc5117">
+		<Name>УдалитьДокумент_ВводОстатковДенежныхСредств</Name>
+		<Code/>
+		<Description>Документ "Ввод остатков денежных средств"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0d0cd163-ebaf-4535-bab3-3d55b8e5e83f">
+		<Name>УдалитьДокумент_ВводОстатковНДСПредъявленного</Name>
+		<Code/>
+		<Description>Документ "Ввод остатков НДСПредъявленного"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6532aee0-db97-4e1f-8354-916d865f1876">
+		<Name>УдалитьДокумент_ВводОстатковОПродажахЗаПрошлыеПериоды</Name>
+		<Code/>
+		<Description>Документ "Ввод остатков о продажах за прошлые периоды"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="aa1d6204-4b98-4870-bfe0-a1040a9500f8">
+		<Name>УдалитьДокумент_ВводОстатковПоФинансовымИнструментам</Name>
+		<Code/>
+		<Description>Документ "Ввод остатков по финансовым инструментам"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b04c8de2-8f45-4e8d-a616-932bac5891b9">
+		<Name>УдалитьДокумент_ВводОстатковПрочиеРасходы</Name>
+		<Code/>
+		<Description>Документ "Ввод остатков прочие расходы"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="090a7e44-6734-40e7-9132-87c81ce61c67">
+		<Name>УдалитьДокумент_ВводОстатковПрочихАктивовПассивов</Name>
+		<Code/>
+		<Description>Документ "Ввод остатков прочих активов пассивов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="be52fa6c-492a-4744-aaba-f10a77d7d087">
+		<Name>УдалитьДокумент_ВводОстатковРасчетовПоЭквайрингу</Name>
+		<Code/>
+		<Description>Документ "Ввод остатков расчетов по эквайрингу"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="64a56543-9de8-46b7-9132-13e95b21efff">
+		<Name>УдалитьДокумент_ВводОстатковСПодотчетниками</Name>
+		<Code/>
+		<Description>Документ "Ввод остатков с подотчетниками"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5b29c304-f793-49bf-b850-6add338bb6e3">
+		<Name>УдалитьДокумент_ВводОстатковТМЦВЭксплуатации</Name>
+		<Code/>
+		<Description>Документ "Ввод остатков ТМЦВЭксплуатации"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="29f0108e-475b-49c8-8a5d-6b621d7bc328">
+		<Name>УдалитьДокумент_ВводОстатковТоваров</Name>
+		<Code/>
+		<Description>Документ "Ввод остатков товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ddfdc8f6-210e-40e7-bea5-7cf567fbc9ac">
+		<Name>УдалитьДокумент_ВводОстатков</Name>
+		<Code/>
+		<Description>Документ "Ввод остатков"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6dd96637-7c83-4638-8adc-bebbf9e359d0">
+		<Name>УдалитьДокумент_ВзаимозачетЗадолженности</Name>
+		<Code/>
+		<Description>Документ "Взаимозачет задолженности"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="08ec304c-04ca-4fd7-8d5f-ae012ca1307f">
+		<Name>УдалитьДокумент_ВнесениеДенежныхСредствВКассуККМ</Name>
+		<Code/>
+		<Description>Документ "Внесение денежных средств в кассу ККМ"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7a678c4a-98ce-477d-9b76-98a3bf45616c">
+		<Name>УдалитьДокумент_ВнутреннееПотреблениеТоваров</Name>
+		<Code/>
+		<Description>Документ "Внутреннее потребление товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1041fc58-eeb7-4695-b75a-be2f907c758d">
+		<Name>УдалитьДокумент_ВозвратМатериаловИзПроизводства</Name>
+		<Code/>
+		<Description>Документ "Возврат материалов из производства"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="da3d048c-c91d-4a1b-b25e-bf56afe14644">
+		<Name>УдалитьДокумент_ВозвратСырьяДавальцу</Name>
+		<Code/>
+		<Description>Документ "Возврат сырья давальцу"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b78d80d0-7ba8-4250-8a4b-44a3a7fb12c2">
+		<Name>УдалитьДокумент_ВозвратСырьяОтПереработчика</Name>
+		<Code/>
+		<Description>Документ "Возврат сырья от переработчика"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d90563e0-f176-41f6-84d2-8a295a39baa1">
+		<Name>УдалитьДокумент_ВозвратТоваровМеждуОрганизациями</Name>
+		<Code/>
+		<Description>Документ "Возврат товаров между организациями"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b981e1ed-0d73-4e00-9ff8-6e73606fbc82">
+		<Name>УдалитьДокумент_ВозвратТоваровОтКлиента</Name>
+		<Code/>
+		<Description>Документ "Возврат товаров от клиента"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e7c9858f-ac07-4ef3-a8bf-1a85f1160f53">
+		<Name>УдалитьДокумент_ВозвратТоваровПоставщику</Name>
+		<Code/>
+		<Description>Документ "Возврат товаров поставщику"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="93c74404-a77a-4fb0-95de-e40daca7b68f">
+		<Name>УдалитьДокумент_ВосстановлениеНДСПоОбъектамНедвижимости</Name>
+		<Code/>
+		<Description>Документ "Восстановление НДС по объектам недвижимости"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="92ba51cd-a143-4baf-b6ac-f3449c6d1f7a">
+		<Name>УдалитьДокумент_ДоверенностьВыданная</Name>
+		<Code/>
+		<Description>Документ "Выданная доверенность"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f8df872b-f44a-48ad-986b-b3f9f7e9582f">
+		<Name>УдалитьДокумент_ВыемкаДенежныхСредствИзКассыККМ</Name>
+		<Code/>
+		<Description>Документ "Выемка денежных средств из кассы ККМ"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d8d1fd0f-57e6-4250-bf7f-eddf5f59c814">
+		<Name>УдалитьДокумент_ВыкупВозвратнойТарыКлиентом</Name>
+		<Code/>
+		<Description>Документ "Выкуп возвратной тары клиентом"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bd4cbd8d-4064-4289-b0d0-a83d70f19769">
+		<Name>УдалитьДокумент_ВыкупВозвратнойТарыУПоставщика</Name>
+		<Code/>
+		<Description>Документ "Выкуп возвратной тары у поставщика"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8cf55d6a-2b98-4503-a14c-1a5416d47043">
+		<Name>УдалитьДокумент_ВыкупПринятыхНаХранениеТоваров</Name>
+		<Code/>
+		<Description>Документ "Выкуп товаров с хранения"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e616a57b-67c9-44ce-ab94-b1129be72f3a">
+		<Name>УдалитьДокумент_ВыкупТоваровХранителем</Name>
+		<Code/>
+		<Description>Документ "Выкуп товаров хранителем"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c4ceb84a-69b6-4b59-a209-1417acdbe450">
+		<Name>УдалитьДокумент_ДвижениеПрочихАктивовПассивов</Name>
+		<Code/>
+		<Description>Документ "Движение прочих активов и пассивов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fc7c9343-802c-4c1d-8d4f-0947ad234a4d">
+		<Name>УдалитьДокумент_ДоговорАвторскогоЗаказа</Name>
+		<Code/>
+		<Description>Документ "Договор авторского заказа"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="683aa180-9ecc-42ce-a47a-12651847549b">
+		<Name>УдалитьДокумент_ДоговорРаботыУслуги</Name>
+		<Code/>
+		<Description>Документ "Договор работы услуги"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6aca3811-84b8-4451-9976-6bce8c9a95f4">
+		<Name>УдалитьДокумент_ЗаданиеНаПеревозку</Name>
+		<Code/>
+		<Description>Документ "Задание на перевозку"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c45542cd-1da1-456a-ae60-a344e31bb1b1">
+		<Name>УдалитьДокумент_ЗаданиеТорговомуПредставителю</Name>
+		<Code/>
+		<Description>Документ "Задание торговому представителю"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e551fe5e-518f-4139-beea-b93fc9940180">
+		<Name>УдалитьДокумент_ЗаказДавальца</Name>
+		<Code/>
+		<Description>Документ "Заказ давальца"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c1d59cc1-d372-4c83-8195-162740d97b80">
+		<Name>УдалитьДокумент_ЗаказКлиента</Name>
+		<Code/>
+		<Description>Документ "Заказ клиента"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3ca76d60-01e8-45f6-8007-143e55c77bf5">
+		<Name>УдалитьДокумент_ЗаказМатериаловВПроизводство</Name>
+		<Code/>
+		<Description>Документ "Заказ материалов в производство"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e6c52700-653f-4eae-bdfb-4ecc669951ea">
+		<Name>УдалитьДокумент_ЗаказНаВнутреннееПотребление</Name>
+		<Code/>
+		<Description>Документ "Заказ на внутреннее потребление"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="51223482-9e1e-4317-bfed-66e9345ab371">
+		<Name>УдалитьДокумент_ЗаказНаПеремещение</Name>
+		<Code/>
+		<Description>Документ "Заказ на перемещение"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5c1e5e16-22aa-4011-899d-1a8f74ea4264">
+		<Name>УдалитьДокумент_ЗаказНаСборку</Name>
+		<Code/>
+		<Description>Документ "Заказ на сборку"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="97492563-67ff-4ea2-810d-8c67d9214050">
+		<Name>УдалитьДокумент_ЗаказПоставщику</Name>
+		<Code/>
+		<Description>Документ "Заказ поставщику"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="df251764-f3e7-42e5-b23d-4d2110c4be29">
+		<Name>УдалитьДокумент_ЗаявкаНаВозвратТоваровОтКлиента</Name>
+		<Code/>
+		<Description>Документ "Заявка на возврат товаров от клиента"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="98e72ff3-0471-4b83-a438-ae32060f164a">
+		<Name>УдалитьДокумент_ЗаявкаНаКомандировку</Name>
+		<Code/>
+		<Description>Документ "Заявка на командировку"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f98d18a6-c21a-472a-b2cc-8dcc655c6a6b">
+		<Name>УдалитьДокумент_ЗаявкаНаРасходованиеДенежныхСредств</Name>
+		<Code/>
+		<Description>Документ "Заявка на расходование денежных средств"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a97edc01-a68f-4440-83f6-41f0f4ec3912">
+		<Name>УдалитьДокумент_ЗаявлениеОВвозеТоваров</Name>
+		<Code/>
+		<Description>Документ "Заявление о ввозе товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e8c3dfb1-a155-45e5-9ac5-1fe53c501855">
+		<Name>УдалитьДокумент_ИзменениеАссортимента</Name>
+		<Code/>
+		<Description>Документ "Изменение ассортимента"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7d849e72-66d8-45b7-8187-bcb5ae39ce18">
+		<Name>УдалитьДокумент_ИзменениеПараметровНМА</Name>
+		<Code/>
+		<Description>Документ "Изменение параметров НМА"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f2900a7a-76a7-467d-ad7f-7d0b83b1e4f6">
+		<Name>УдалитьДокумент_ИнвентаризационнаяОпись</Name>
+		<Code/>
+		<Description>Документ "Инвентаризационная опись"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="75c0923a-5333-4fa9-a469-ac8383f7fda9">
+		<Name>УдалитьДокумент_ИнвентаризацияНаличныхДенежныхСредств</Name>
+		<Code/>
+		<Description>Документ "Инвентаризация наличных денежных средств"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e8e7c308-fbf3-4391-9ff7-413d250f7ba5">
+		<Name>УдалитьДокумент_ИнвентаризацияОС</Name>
+		<Code/>
+		<Description>Документ "Инвентаризация ОС"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="183e5e9a-4e35-46d9-849f-d179ca4b1a72">
+		<Name>УдалитьДокумент_ИнойДокументПодтвержденияНДС</Name>
+		<Code/>
+		<Description>Документ "Иной документ подтверждения НДС"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4723a656-e93a-4122-ac14-c5fb5b8b85ed">
+		<Name>УдалитьДокумент_ИсполнительныйЛист</Name>
+		<Code/>
+		<Description>Документ "Исполнительный лист"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a975e8df-9b18-48ab-9c26-9a8b594da118">
+		<Name>УдалитьДокумент_КоммерческоеПредложениеКлиенту</Name>
+		<Code/>
+		<Description>Документ "Коммерческое предложение клиенту"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1e6bf6c4-01d7-46b6-8d5f-63e1cb1b89e7">
+		<Name>УдалитьДокумент_КорректировкаОбособленногоУчетаЗапасов</Name>
+		<Code/>
+		<Description>Документ "Корректировка обособленного учета запасов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6ce3ef3f-5e0a-4777-a8b3-53da200bb66c">
+		<Name>УдалитьДокумент_КорректировкаПлановыхПотребностей</Name>
+		<Code/>
+		<Description>Документ "Корректировка плановых потребностей"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c0f1f162-7e61-4804-9e3b-cca140b06126">
+		<Name>УдалитьДокумент_КорректировкаПриобретения</Name>
+		<Code/>
+		<Description>Документ "Корректировка приобретения"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3946dc7e-8108-4778-a4e3-1e8bd0c270c2">
+		<Name>УдалитьДокумент_КорректировкаРеализации</Name>
+		<Code/>
+		<Description>Документ "Корректировка реализации"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e6e738fa-d1b6-42ee-8864-26c35651f974">
+		<Name>УдалитьДокумент_КорректировкаРегистров</Name>
+		<Code/>
+		<Description>Документ "Корректировка регистров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b0fa8b46-06b4-4857-918a-3baf0faa5a25">
+		<Name>УдалитьДокумент_ЛистКассовойКниги</Name>
+		<Code/>
+		<Description>Документ "Лист кассовой книги"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="303ed436-cd9c-4564-a4db-ca50839e8cab">
+		<Name>УдалитьДокумент_НачислениеИСписаниеБонусныхБаллов</Name>
+		<Code/>
+		<Description>Документ "Начисление и списание бонусных баллов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2b781a88-6edd-4d29-9ac0-dabbff3c489f">
+		<Name>УдалитьДокумент_НормативРаспределенияПлановПродажПоКатегориям</Name>
+		<Code/>
+		<Description>Документ "Норматив распределения планов продаж по категориям"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cac8851c-9fb8-448e-8a58-1288681878c2">
+		<Name>УдалитьДокумент_ОжидаемоеПоступлениеДенежныхСредств</Name>
+		<Code/>
+		<Description>Документ "Ожидаемое поступление денежных средств"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1841b54a-5be7-4342-abc8-8deb330f504e">
+		<Name>УдалитьДокумент_ОперацияПоПлатежнойКарте</Name>
+		<Code/>
+		<Description>Документ "Операция по платежной карте"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3525f81b-bed0-4133-8565-2779445f296e">
+		<Name>УдалитьДокумент_ОперацияПоЯндексКассе</Name>
+		<Code/>
+		<Description>Документ "Операция по Яндекс.Кассе"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fb38c2c8-7dc1-40e8-aff2-47794cd1b143">
+		<Name>УдалитьДокумент_ОприходованиеИзлишковТоваров</Name>
+		<Code/>
+		<Description>Документ "Оприходование излишков товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0c48914a-d999-49d5-8133-d1fda80a7f6d">
+		<Name>УдалитьДокумент_ОрдерНаОтражениеИзлишковТоваров</Name>
+		<Code/>
+		<Description>Документ "Ордер на отражение излишков товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="006d5cba-cee1-4986-b760-e93756561488">
+		<Name>УдалитьДокумент_ОрдерНаОтражениеНедостачТоваров</Name>
+		<Code/>
+		<Description>Документ "Ордер на отражение недостач товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5fb53c63-d9c3-4e12-b68d-4a0c1bf58d8a">
+		<Name>УдалитьДокумент_ОрдерНаОтражениеПересортицыТоваров</Name>
+		<Code/>
+		<Description>Документ "Ордер на отражение пересортицы товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="608fc3c4-aef5-4d63-9e7e-85ff9ca3ad59">
+		<Name>УдалитьДокумент_ОрдерНаОтражениеПорчиТоваров</Name>
+		<Code/>
+		<Description>Документ "Ордер на отражение порчи товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="02a44bb3-200b-49e2-83b5-3c9573bc6f07">
+		<Name>УдалитьДокумент_ОрдерНаПеремещениеТоваров</Name>
+		<Code/>
+		<Description>Документ "Ордер на перемещение товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="50980548-8e4f-41a5-a9aa-8323b5d60c29">
+		<Name>УдалитьДокумент_ОтборРазмещениеТоваров</Name>
+		<Code/>
+		<Description>Документ "Ордер на размещение товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c709556e-c20e-4fe7-894a-afb86202d8bf">
+		<Name>УдалитьДокумент_ОтгрузкаТоваровСХранения</Name>
+		<Code/>
+		<Description>Документ "Отгрузка товаров с хранения"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0596d8e5-78ef-4e1f-8144-96cabf2d6cf9">
+		<Name>УдалитьДокумент_ОтражениеРасхожденийПриИнкассацииДенежныхСредств</Name>
+		<Code/>
+		<Description>Документ "Отражение расхождений при инкассации денежных средств"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="31c4d664-28d1-4acd-bfcf-4fbac7ae7c93">
+		<Name>УдалитьДокумент_ОтчетБанкаПоОперациямЭквайринга</Name>
+		<Code/>
+		<Description>Документ "Отчет банка по операция эквайринга"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9ea2ef9d-f770-4f77-9cfa-52f1972ea04c">
+		<Name>УдалитьДокумент_ОтчетДавальцу</Name>
+		<Code/>
+		<Description>Документ "Отчет давальцу"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1c418d9f-4499-4854-897f-d70a5291585d">
+		<Name>УдалитьДокумент_ОтчетКомиссионераОСписании</Name>
+		<Code/>
+		<Description>Документ "Отчет комиссионера о списании"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9988a464-d586-49eb-9115-dc8f278e7151">
+		<Name>УдалитьДокумент_ОтчетКомиссионера</Name>
+		<Code/>
+		<Description>Документ "Отчет комиссионера"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a367edde-9355-4fd3-b84c-8cd819d7e057">
+		<Name>УдалитьДокумент_ОтчетКомитентуОЗакупках</Name>
+		<Code/>
+		<Description>Документ "Отчет комитенту о закупках"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="df6aaedb-7376-40c4-8cce-2527920d16bc">
+		<Name>УдалитьДокумент_ОтчетКомитентуОСписании</Name>
+		<Code/>
+		<Description>Документ "Отчет комитенту о списании"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4a5824d1-ad5c-41a8-b112-1cb454a13dfd">
+		<Name>УдалитьДокумент_ОтчетКомитенту</Name>
+		<Code/>
+		<Description>Документ "Отчет комитенту"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c1e2d5e8-d487-44a2-ab57-095671187361">
+		<Name>УдалитьДокумент_ОтчетОРозничныхПродажах</Name>
+		<Code/>
+		<Description>Документ "Отчет о розничных продажах"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6a4763b8-9a0c-489b-b184-e5d296e094c9">
+		<Name>УдалитьДокумент_ОтчетПереработчика</Name>
+		<Code/>
+		<Description>Документ "Отчет переработчика"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d6ba78aa-1a27-44aa-b1f1-37cadda3138f">
+		<Name>УдалитьДокумент_ОтчетПоКомиссииМеждуОрганизациямиОСписании</Name>
+		<Code/>
+		<Description>Документ "Отчет по комиссии между организациями о списании"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="95c69fd7-022f-4b11-9cc2-990d5dc63b1f">
+		<Name>УдалитьДокумент_ОтчетПоКомиссииМеждуОрганизациями</Name>
+		<Code/>
+		<Description>Документ "Отчет по комиссии между организациями"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="370a8ed0-bd23-4c25-bca5-ad4323f085d7">
+		<Name>УдалитьДокумент_ПередачаДавальцу</Name>
+		<Code/>
+		<Description>Документ "Передача давальцу"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5de99954-a0c6-4cc1-8829-9b26d44caef5">
+		<Name>УдалитьДокумент_ПередачаСырьяПереработчику</Name>
+		<Code/>
+		<Description>Документ "Передача сырья переработчику"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="38bac6af-07b5-4846-a39b-73597bb6e305">
+		<Name>УдалитьДокумент_ПередачаТоваровМеждуОрганизациями</Name>
+		<Code/>
+		<Description>Документ "Передача товаров между организациями"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="60e76e48-33f4-40c8-bccf-fda541ad61b6">
+		<Name>УдалитьДокумент_ПередачаТоваровХранителю</Name>
+		<Code/>
+		<Description>Документ "Передача товаров хранителю"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="21b1d2d3-b8d8-477c-9b5e-25ec46dd6db0">
+		<Name>УдалитьДокумент_ПеремаркировкаТоваровГИСМ</Name>
+		<Code/>
+		<Description>Документ "Перемаркировка товаров ГИСМ"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c281f207-c1b0-4b05-9b2f-9b80e3e433bb">
+		<Name>УдалитьДокумент_ПеремещениеМатериаловВПроизводстве</Name>
+		<Code/>
+		<Description>Документ "Перемещение материалов и работ в производстве"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d6af5f8e-2f0e-40be-9213-9f8e07956cbc">
+		<Name>УдалитьДокумент_ПеремещениеОС</Name>
+		<Code/>
+		<Description>Документ "Перемещение ОС"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9ec706a4-b557-4c02-8ab5-176ea0b20f70">
+		<Name>УдалитьДокумент_ПеремещениеТоваров</Name>
+		<Code/>
+		<Description>Документ "Перемещение товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="197daef5-b473-4438-97cd-1d8920594f84">
+		<Name>УдалитьДокумент_ПересортицаТоваров</Name>
+		<Code/>
+		<Description>Документ "Пересортица товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4f0ca1de-d78f-4a18-bb53-745b5162da4c">
+		<Name>УдалитьДокумент_ПересчетТоваров</Name>
+		<Code/>
+		<Description>Документ "Пересчет товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8fe635e9-4f92-496d-9015-88776896202f">
+		<Name>УдалитьДокумент_ПланВнутреннихПотреблений</Name>
+		<Code/>
+		<Description>Документ "План внутренних потреблений"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2243598e-4734-49cd-951b-6c43bc7a4a56">
+		<Name>УдалитьДокумент_ПланЗакупок</Name>
+		<Code/>
+		<Description>Документ "План закупок"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7129aeab-ce0e-44b2-be1a-2bde8886e756">
+		<Name>УдалитьДокумент_ПланОстатков</Name>
+		<Code/>
+		<Description>Документ "План остатков"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="64370248-1641-4f30-9294-fceb0fe905d4">
+		<Name>УдалитьДокумент_ПланПродажПоКатегориям</Name>
+		<Code/>
+		<Description>Документ "План продаж по категориям"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dcfb8fa1-407d-42f6-9245-da36acfff4a0">
+		<Name>УдалитьДокумент_ПланПродаж</Name>
+		<Code/>
+		<Description>Документ "План продаж"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c46543dc-7a4b-4c96-9395-68b09e7681ed">
+		<Name>УдалитьДокумент_ПланПроизводства</Name>
+		<Code/>
+		<Description>Документ "План производства"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3f4da10b-1fb9-4115-add5-438babca6132">
+		<Name>УдалитьДокумент_ПланСборкиРазборки</Name>
+		<Code/>
+		<Description>Документ "План сборки (разборки)"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a7bb1be4-2c97-495a-9e91-86a92acf93d0">
+		<Name>УдалитьДокумент_ПлановаяКалькуляция</Name>
+		<Code/>
+		<Description>Документ "Плановая калькуляция"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c2d2211c-9e73-4f33-b4a4-ccba50b47270">
+		<Name>УдалитьДокумент_ПодготовкаКПередачеОС</Name>
+		<Code/>
+		<Description>Документ "Подготовка к передаче ОС"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="de311e55-7017-4b22-972c-5730424b82a9">
+		<Name>УдалитьДокумент_ПоручениеЭкспедитору</Name>
+		<Code/>
+		<Description>Документ "Поручение экспедитору"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="204d8e12-1197-4e43-8589-111c018e70fd">
+		<Name>УдалитьДокумент_ПорчаТоваров</Name>
+		<Code/>
+		<Description>Документ "Порча товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="97273f9e-1a44-471a-a2bf-15d93261fab0">
+		<Name>УдалитьДокумент_ПоступлениеБезналичныхДенежныхСредств</Name>
+		<Code/>
+		<Description>Документ "Поступление безналичных денежных средств"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="061601d4-9808-4864-b24c-576f9c9ecfcd">
+		<Name>УдалитьДокумент_ПоступлениеДенежныхДокументов</Name>
+		<Code/>
+		<Description>Документ "Поступление денежных документов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="836b2515-e601-452b-ad65-1bb27b10aa1f">
+		<Name>УдалитьДокумент_ПоступлениеОтПереработчика</Name>
+		<Code/>
+		<Description>Документ "Поступление от переработчика"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dafcf907-a3ed-4bfb-8273-32de500a1fea">
+		<Name>УдалитьДокумент_ПоступлениеСырьяОтДавальца</Name>
+		<Code/>
+		<Description>Документ "Поступление сырья от давальца"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e92ae460-0820-4048-9fc1-4f6d0f4e3674">
+		<Name>УдалитьДокумент_ПоступлениеТоваровНаСклад</Name>
+		<Code/>
+		<Description>Документ "Поступление товаров на склад"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="11b60da6-7afd-422d-8384-ba6abe34ff7e">
+		<Name>УдалитьДокумент_ПоступлениеТоваровОтХранителя</Name>
+		<Code/>
+		<Description>Документ "Поступление товаров от хранителя"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cff0a772-7f54-46b5-916a-31f207b38971">
+		<Name>УдалитьДокумент_ПриемкаТоваровНаХранение</Name>
+		<Code/>
+		<Description>Документ "Приемка товаров на хранение"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8f0167e1-03d4-491f-8a2c-3fa24cc52226">
+		<Name>УдалитьДокумент_ПринятиеКУчетуНМА</Name>
+		<Code/>
+		<Description>Документ "Принятие к учету НМА"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="480b632c-e918-4b83-b8a1-b42688acac48">
+		<Name>УдалитьДокумент_ПринятиеКУчетуОС</Name>
+		<Code/>
+		<Description>Документ "Принятие к учету ОС"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="df5d368c-6390-406d-8e6d-e3a37c233c06">
+		<Name>УдалитьДокумент_ПриобретениеТоваровУслуг</Name>
+		<Code/>
+		<Description>Документ "Приобретение товаров и услуг"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b39f43fb-b208-429a-bf8f-7ea665cc73b1">
+		<Name>УдалитьДокумент_ПриобретениеУслугПрочихАктивов</Name>
+		<Code/>
+		<Description>Документ "Приобретение услуг и прочих активов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a3a7f5d9-f7e5-40df-b4ab-05733593fef9">
+		<Name>УдалитьДокумент_ПриобретениеУслугПоЛизингу</Name>
+		<Code/>
+		<Description>Документ "Приобретение услуг по лизингу"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="308def47-944e-456f-9713-5ffdd5d54bb0">
+		<Name>УдалитьДокумент_ПриходныйКассовыйОрдер</Name>
+		<Code/>
+		<Description>Документ "Приходный кассовый ордер"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4a8c721a-87ff-4c31-be7a-2797e93408ae">
+		<Name>УдалитьДокумент_ПриходныйОрдерНаТовары</Name>
+		<Code/>
+		<Description>Документ "Приходный ордер на товары"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fc63d899-c7cc-4af1-a089-68ee96319d75">
+		<Name>УдалитьДокумент_ПроизводствоБезЗаказа</Name>
+		<Code/>
+		<Description>Документ "Производство без заказа"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="59d33116-6cbb-46fb-a666-69f73bbbeef6">
+		<Name>УдалитьДокумент_УдалитьПроизвольныйЭД</Name>
+		<Code/>
+		<Description>Документ "Произвольный ЭД"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="56a53f12-5033-4aa3-a483-3c15726dc7a5">
+		<Name>УдалитьДокумент_ПрочееОприходованиеТоваров</Name>
+		<Code/>
+		<Description>Документ "Прочее оприходование товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="14e5a655-2bfd-4691-80e9-10e18950a703">
+		<Name>УдалитьДокумент_ПрочиеДоходыРасходы</Name>
+		<Code/>
+		<Description>Документ "Прочие доходы и расходы"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1c0c1fee-dca2-4de3-bb17-6f019ec6f5da">
+		<Name>УдалитьДокумент_РазрешениеНаЗаменуМатериалов</Name>
+		<Code/>
+		<Description>Документ "Разрешение на замену материалов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3c6176bd-2fd3-415b-929a-46f42b7957e6">
+		<Name>УдалитьДокумент_РаспоряжениеНаПеремещениеДенежныхСредств</Name>
+		<Code/>
+		<Description>Документ "Распоряжение на перемещение денежных средств"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ca0cfd0b-f2c0-4340-8fc8-c775c006bccf">
+		<Name>УдалитьДокумент_РаспределениеВозвратныхОтходов</Name>
+		<Code/>
+		<Description>Документ "Распределение возвратных отходов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="95f197cb-11b5-4bf3-82a5-4c8401e86efe">
+		<Name>УдалитьДокумент_РаспределениеДоходовПоНаправлениямДеятельности</Name>
+		<Code/>
+		<Description>Документ "Распределение доходов и расходов по направлениям деятельности"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="510b6cdc-a183-4ed1-82ac-7e8f7b65e942">
+		<Name>УдалитьДокумент_РаспределениеПроизводственныхЗатрат</Name>
+		<Code/>
+		<Description>Документ "Распределение производственных затрат"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="54fb99b5-f090-4d74-89e2-0e30c05581a9">
+		<Name>УдалитьДокумент_РаспределениеРасходовБудущихПериодов</Name>
+		<Code/>
+		<Description>Документ "Распределение расходов будущих периодов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1b96e14e-0dca-48b1-8b9f-f045f07f9947">
+		<Name>УдалитьДокумент_РасходныйКассовыйОрдер</Name>
+		<Code/>
+		<Description>Документ "Расходный кассовый ордер"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="392b93e5-7486-4993-b53f-fe3bf918c44b">
+		<Name>УдалитьДокумент_РасходныйОрдерНаТовары</Name>
+		<Code/>
+		<Description>Документ "Расходный ордер на товары"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8d085c63-92df-4981-9420-df87ce6eccc3">
+		<Name>УдалитьДокумент_РеализацияТоваровУслуг</Name>
+		<Code/>
+		<Description>Документ "Реализация товаров и услуг"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="97fa0379-b4fa-4ab5-8810-9bf65ef4b7af">
+		<Name>УдалитьДокумент_РеализацияУслугПрочихАктивов</Name>
+		<Code/>
+		<Description>Документ "Реализация услуг и прочих активов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="67a91571-96e3-412f-825c-a05141559f1d">
+		<Name>УдалитьДокумент_РегистрацияЦенНоменклатурыПоставщика</Name>
+		<Code/>
+		<Description>Документ "Регистрация цен номенклатуры поставщика"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="233adec3-c2db-4aa2-bbc0-2e47123c520a">
+		<Name>УдалитьДокумент_СборкаТоваров</Name>
+		<Code/>
+		<Description>Документ "Сборка товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="642cd018-33bc-42d2-b132-6dfc48c9affe">
+		<Name>УдалитьДокумент_СверкаВзаиморасчетов</Name>
+		<Code/>
+		<Description>Документ "Сверка взаиморасчетов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bf244622-a76a-4ff4-8bf5-3ea988c91600">
+		<Name>УдалитьДокумент_СверкаНачальныхОстатковПоСкладу</Name>
+		<Code/>
+		<Description>Документ "Сверка начальных остатков по складу"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3d209fe4-bf94-424e-9ff1-d576566b308b">
+		<Name>УдалитьДокумент_Совмещение</Name>
+		<Code/>
+		<Description>Документ "Совмещение должностей"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5f0b7f29-2b66-4937-94b1-374ee0ada280">
+		<Name>УдалитьДокумент_СписаниеБезналичныхДенежныхСредств</Name>
+		<Code/>
+		<Description>Документ "Списание безналичных денежных средств"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a00291bf-9b4e-4445-9e4b-2c97ba1a8971">
+		<Name>УдалитьДокумент_СписаниеЗадолженности</Name>
+		<Code/>
+		<Description>Документ "Списание задолженности"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c0eef3de-1e9f-49e6-a6fa-e72119caed80">
+		<Name>УдалитьДокумент_СписаниеЗатратНаВыпуск</Name>
+		<Code/>
+		<Description>Документ "Списание затрат на выпуск"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bebbdaeb-b3b8-4aa9-b42b-8e74f5c5301c">
+		<Name>УдалитьДокумент_СписаниеНедостачТоваров</Name>
+		<Code/>
+		<Description>Документ "Списание недостач товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8a85ab8e-76f3-4373-a1b2-477f69b156fb">
+		<Name>УдалитьДокумент_СписаниеНМА</Name>
+		<Code/>
+		<Description>Документ "Списание НМА"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0f333bb9-0d6f-4f58-8805-81caa22924b0">
+		<Name>УдалитьДокумент_СписаниеОС</Name>
+		<Code/>
+		<Description>Документ "Списание ОС"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ae830177-8bc9-45b3-99c6-875023cf1b4f">
+		<Name>УдалитьДокумент_СписаниеПринятыхНаХранениеТоваров</Name>
+		<Code/>
+		<Description>Документ "Списание принятых на хранение товаров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b2fefad6-351c-4b6f-8414-c49ac8d88187">
+		<Name>УдалитьДокумент_СписаниеТоваровУХранителя</Name>
+		<Code/>
+		<Description>Документ "Списание товаров у хранителя"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f587262b-2441-444d-9629-a4bcbf7b4cd5">
+		<Name>УдалитьДокумент_СправкаОПодтверждающихДокументах</Name>
+		<Code/>
+		<Description>Документ "Справка о подтверждающих документах"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5395efaa-cc76-41ba-8ab9-2f1034680e32">
+		<Name>УдалитьДокумент_СчетНаОплатуКлиенту</Name>
+		<Code/>
+		<Description>Документ "Счет на оплату клиенту"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="188adc83-e248-4a62-b111-b44e30f765de">
+		<Name>УдалитьДокумент_СчетФактураВыданный</Name>
+		<Code/>
+		<Description>Документ "Счет фактура (выданный)"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="64204b2c-ed2f-467c-8cb7-c3babfe860e7">
+		<Name>УдалитьДокумент_СчетФактураКомиссионеру</Name>
+		<Code/>
+		<Description>Документ "Счет-фактура комиссионеру"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d6b59b56-65c5-49f0-ac70-703d7aad1e70">
+		<Name>УдалитьДокумент_СчетФактураКомитента</Name>
+		<Code/>
+		<Description>Документ "Счет-фактура комитента"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1da0c2d7-38b4-4c1f-bf89-4bdc602beaf2">
+		<Name>УдалитьДокумент_СчетФактураНаНеподтвержденнуюРеализацию0</Name>
+		<Code/>
+		<Description>Документ "Счет-фактура на неподтвержденную реализацию 0%"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="270e1870-8239-4c57-b8a2-6cd011b3c58a">
+		<Name>УдалитьДокумент_СчетФактураНалоговыйАгент</Name>
+		<Code/>
+		<Description>Документ "Счет-фактура налогового агента"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ac2212d1-6208-46f7-b3d1-fab9f15c61e4">
+		<Name>УдалитьДокумент_СчетФактураПолученныйНалоговыйАгент</Name>
+		<Code/>
+		<Description>Документ "Счет-фактура полученный (налоговый агент)"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="be30eb6f-46b8-4768-9c7f-2bf984104672">
+		<Name>УдалитьДокумент_СчетФактураПолученный</Name>
+		<Code/>
+		<Description>Документ "Счет-фактура полученный"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2fdf78cf-54fb-4a09-96fb-6e35e4a3b3f4">
+		<Name>УдалитьДокумент_ТаможеннаяДекларацияИмпорт</Name>
+		<Code/>
+		<Description>Документ "Таможенная декларация на импорт"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="36cace07-76e1-4946-abc6-26fa5b5c80ea">
+		<Name>УдалитьДокумент_ТаможеннаяДекларацияЭкспорт</Name>
+		<Code/>
+		<Description>Документ "Таможенная декларация на экспорт"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="728404e3-59b1-4bd2-bc29-c196a8278816">
+		<Name>УдалитьДокумент_УпаковочныйЛист</Name>
+		<Code/>
+		<Description>Документ "Упаковочный лист"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e913894f-8a7a-4cb6-8540-721b1a60a160">
+		<Name>УдалитьДокумент_УстановкаБлокировокЯчеек</Name>
+		<Code/>
+		<Description>Документ "Установка блокировок ячеек"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="14e1100c-c88f-4170-9118-b330d575540f">
+		<Name>УдалитьДокумент_УстановкаКвотАссортимента</Name>
+		<Code/>
+		<Description>Документ "Установка квот ассортимента"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e468a4b4-4dba-4cf8-b98a-01b3dc318d56">
+		<Name>УдалитьДокумент_УстановкаЦенНоменклатуры</Name>
+		<Code/>
+		<Description>Документ "Установка цен номенклатуры"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d27f27cd-2162-457b-ba82-9c55c29fe652">
+		<Name>УдалитьДокумент_РаспределениеПрочихЗатрат</Name>
+		<Code/>
+		<Description>Документ Распределение прочих затрат</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0e369da2-9b38-461b-b42a-b129f0dda4f5">
+		<Name>УдалитьДокумент_ИнвентаризацияРасчетов</Name>
+		<Code/>
+		<Description>Доп. свойства документа "Акты инвентаризации расчетов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0d611245-7ac5-4bf9-9fd9-c0763751db48">
+		<Name>УдалитьДокумент_Встреча</Name>
+		<Code/>
+		<Description>Доп. свойства документа "Встреча"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b18ce23f-0407-411a-b0f9-5d106b5657f0">
+		<Name>УдалитьДокумент_ЗапланированноеВзаимодействие</Name>
+		<Code/>
+		<Description>Доп. свойства документа "Запланированное взаимодействие"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f750a0ec-6c81-4ee7-84fb-ba8b63a05854">
+		<Name>УдалитьДокумент_ТелефонныйЗвонок</Name>
+		<Code/>
+		<Description>Доп. свойства документа "Телефонный звонок"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="060ff3d3-b0c9-4dfa-94a3-12ea4286b6ea">
+		<Name>УдалитьДокумент_ЭкземплярБюджета</Name>
+		<Code/>
+		<Description>Доп. свойства документа "Экземпляр бюджета"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c967b0e7-2311-4b97-9db3-aae68714e918">
+		<Name>УдалитьДокумент_ЭлектронноеПисьмоВходящее</Name>
+		<Code/>
+		<Description>Доп. свойства документа "Электронное письмо входящее"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a421c10c-7f00-4b30-a722-cebdaac650b3">
+		<Name>УдалитьДокумент_ЭлектронноеПисьмоИсходящее</Name>
+		<Code/>
+		<Description>Доп. свойства документа "Электронное письмо исходящее"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4bbe68f3-ea00-4918-884b-4feb25b62617">
+		<Name>УдалитьДокумент_СообщениеSMS</Name>
+		<Code/>
+		<Description>Доп. свойства документа" Сообщение SMS"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a5c783b5-59c1-4610-b15e-3f6efd1da7ec">
+		<Name>УдалитьСправочник_ВидыДокументовФизическихЛиц</Name>
+		<Code/>
+		<Description>Доп. свойства справочника "Виды документов физических лиц"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4b1f6bdf-16e9-480e-8012-6474f53e56ac">
+		<Name>УдалитьСправочник_Должности</Name>
+		<Code/>
+		<Description>Доп. свойства справочника "Должности"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="49f8b7b1-30fc-45d9-98f4-1d0106875445">
+		<Name>УдалитьСправочник_ПапкиФайлов</Name>
+		<Code/>
+		<Description>Доп. свойства справочника "Папки файлов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bcd3e21b-a730-421e-850d-ed756ecbf9ef">
+		<Name>УдалитьСправочник_Сотрудники</Name>
+		<Code/>
+		<Description>Доп. свойства справочника "Сотрудники"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="59b118ca-81c4-4657-b00a-dff528f23726">
+		<Name>УдалитьСправочник_Файлы</Name>
+		<Code/>
+		<Description>Доп. свойства справочника "Файлы"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="48ff26af-7a34-40b0-b8fd-a5db815af74a">
+		<Name>УдалитьДокумент_ЗапросКоммерческихПредложенийПоставщиков</Name>
+		<Code/>
+		<Description>Запрос коммерческих предложений поставщиков</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="08d383bc-4c87-4ce1-b788-b9cc4ec820ef">
+		<Name>УдалитьДокумент_ЗапросКоммерческогоПредложенияОтКлиента</Name>
+		<Code/>
+		<Description>Запрос коммерческого предложения от клиента</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e82c96f4-5515-48ca-8aab-1a0ffdf22804">
+		<Name>УдалитьДокумент_КоммерческоеПредложениеПоставщика</Name>
+		<Code/>
+		<Description>Коммерческое предложение поставщика</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d7dc0f9a-8bcc-4cc6-9360-2e234532ffc6">
+		<Name>УдалитьДокумент_МаркировкаТоваровГИСМ</Name>
+		<Code/>
+		<Description>Маркировки товаров ГИСМ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6c1f5347-4ab9-457e-97db-053f4666399d">
+		<Name>УдалитьПланВидовХарактеристик_КаналыРекламныхВоздействий</Name>
+		<Code/>
+		<Description>План видов характеристик "Каналы рекламных воздействий"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="33e84e51-dee9-49ba-8a7e-d6958d9c7c2e">
+		<Name>УдалитьПланВидовХарактеристик_СтатьиАктивовПассивов</Name>
+		<Code/>
+		<Description>План видов характеристик "Статьи активов и пассивов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0b1ab9a5-7343-4d1e-b5f0-834970a871ab">
+		<Name>УдалитьПланВидовХарактеристик_СтатьиДоходов</Name>
+		<Code/>
+		<Description>План видов характеристик "Статьи доходов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7feb659e-da62-4b7d-9154-fbf229960bd6">
+		<Name>УдалитьПланВидовХарактеристик_СтатьиРасходов</Name>
+		<Code/>
+		<Description>План видов характеристик "Статьи расходов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="06b51717-d4af-4b25-977e-47f34d98bda4">
+		<Name>УдалитьСправочник_БанковскиеСчетаКонтрагентов</Name>
+		<Code/>
+		<Description>Справочник "Банковские счета контрагентов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b0d5d08c-9966-4e93-a3c1-fa407b3b8629">
+		<Name>УдалитьСправочник_БанковскиеСчетаОрганизаций</Name>
+		<Code/>
+		<Description>Справочник "Банковские счета организаций"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dca22a16-887d-4cb4-9e20-6e75682af4a8">
+		<Name>УдалитьСправочник_БизнесРегионы</Name>
+		<Code/>
+		<Description>Справочник "Бизнес регионы"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b239fa72-cf5e-42ee-a235-a683494f2ff5">
+		<Name>УдалитьСправочник_БонусныеПрограммыЛояльности</Name>
+		<Code/>
+		<Description>Справочник "Бонусные программы лояльности"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c04922f9-ffae-49e5-8dba-952ca2a3724d">
+		<Name>УдалитьСправочник_Бригады</Name>
+		<Code/>
+		<Description>Справочник "Бригады"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6e96bbd7-1d8c-4b7e-abc2-2655a9756213">
+		<Name>УдалитьСправочник_ВариантыКомплектацииНоменклатуры</Name>
+		<Code/>
+		<Description>Справочник "Варианты комплектации номенклатуры"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5a4ace7f-6e0e-4b01-9c8c-bff2c7d1e0ee">
+		<Name>УдалитьСправочник_ВидыКартЛояльности</Name>
+		<Code/>
+		<Description>Справочник "Виды карт лояльности"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8581c253-94e5-46d7-8f81-bc824357e07a">
+		<Name>УдалитьСправочник_ВидыНоменклатуры</Name>
+		<Code/>
+		<Description>Справочник "Виды номенклатуры"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ebfe1d5d-b06e-4c91-b7ee-e60397406418">
+		<Name>УдалитьСправочник_ВидыПодарочныхСертификатов</Name>
+		<Code/>
+		<Description>Справочник "Виды подарочных сертификатов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="08c43391-6e51-4d13-ba1d-cbca3510e9c8">
+		<Name>УдалитьСправочник_ВидыРаботСотрудников</Name>
+		<Code/>
+		<Description>Справочник "Виды работ сотрудников"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="276585c6-e0c2-4b6c-ac54-5fd3b5fcdc32">
+		<Name>УдалитьСправочник_ВидыРабочихЦентров</Name>
+		<Code/>
+		<Description>Справочник "Виды рабочих центров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e6d79c3f-0531-4006-982c-0aabc81a6ec9">
+		<Name>УдалитьСправочник_ВидыЦенПоставщиков</Name>
+		<Code/>
+		<Description>Справочник "Виды цен поставщиков"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="231935d5-6547-45df-8451-9f7f82a69743">
+		<Name>УдалитьСправочник_ВидыЦен</Name>
+		<Code/>
+		<Description>Справочник "Виды цен"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eeaea31c-d100-438b-8315-bd801571fb84">
+		<Name>УдалитьСправочник_ВнешниеПользователи</Name>
+		<Code/>
+		<Description>Справочник "Внешние пользователи"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ebf54117-3b16-4d3d-a399-c6b4bd7230fd">
+		<Name>УдалитьСправочник_ГосударственныеКонтракты</Name>
+		<Code/>
+		<Description>Справочник "Государственные контракты"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5eddfff2-3490-40bb-89a0-56d5b1359aac">
+		<Name>УдалитьСправочник_ГруппыФинансовогоУчетаНоменклатуры</Name>
+		<Code/>
+		<Description>Справочник "Группы финансового учета номенклатуры"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2422b95b-81fe-4e92-aef1-1e1579f451f9">
+		<Name>УдалитьСправочник_ДоговорыКредитовИДепозитов</Name>
+		<Code/>
+		<Description>Справочник "Договоры кредитов и депозитов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b5935d8f-ec43-45c9-9796-6ef781cfe397">
+		<Name>УдалитьСправочник_ДоговорыЛизинга</Name>
+		<Code/>
+		<Description>Справочник "Договоры лизинга"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d31d0ee1-10b5-46f4-afa1-cd5e93252cb3">
+		<Name>УдалитьСправочник_ДоговорыМеждуОрганизациями</Name>
+		<Code/>
+		<Description>Справочник "Договоры между организациями"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d60a3868-c372-405c-94ca-52e3a67a3f6b">
+		<Name>УдалитьСправочник_ДоговорыКонтрагентов</Name>
+		<Code/>
+		<Description>Справочник "Договоры с контрагентами"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4b7e091d-f0e8-45ce-94c8-eb06887b0d84">
+		<Name>УдалитьСправочник_ДоговорыЭквайринга</Name>
+		<Code/>
+		<Description>Справочник "Договоры эквайринга"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5af958b3-10bf-43ad-9872-38fbe4881491">
+		<Name>УдалитьСправочник_ДополнительныеОтчетыИОбработки</Name>
+		<Code/>
+		<Description>Справочник "Дополнительные отчеты и обработки"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4cfbb23e-45d0-41e0-8086-e1527462fe38">
+		<Name>УдалитьСправочник_ЗадачиПроектов</Name>
+		<Code/>
+		<Description>Справочник "Задачи проектов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c35cd6fd-5606-44d4-830c-ae11889c3a6c">
+		<Name>УдалитьСправочник_ЗарплатныеПроекты</Name>
+		<Code/>
+		<Description>Справочник "Зарплатные проекты"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="91a0ef3b-b2b8-4da5-a3e5-7ef95282fbfc">
+		<Name>УдалитьСправочник_ИсточникиДанныхПланирования</Name>
+		<Code/>
+		<Description>Справочник "Источники данных планирования"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8d35710f-4ef9-4697-a6b8-9c5456c28c4a">
+		<Name>УдалитьСправочник_КартыЛояльности</Name>
+		<Code/>
+		<Description>Справочник "Карты лояльности"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9292a45b-8c81-4b7d-a4f2-b96d29df6092">
+		<Name>УдалитьСправочник_КассыККМ</Name>
+		<Code/>
+		<Description>Справочник "Кассы ККМ"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1765e914-1cb0-4b95-b651-90a22c108cb1">
+		<Name>УдалитьСправочник_Кассы</Name>
+		<Code/>
+		<Description>Справочник "Кассы"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5595cd89-a55c-43f1-999e-23defa9329f9">
+		<Name>УдалитьСправочник_КоллекцииНоменклатуры</Name>
+		<Code/>
+		<Description>Справочник "Коллекции (сезоны)"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e25a5f86-334e-442b-bfa8-0592219cb454">
+		<Name>УдалитьСправочник_КонтактныеЛицаПартнеров</Name>
+		<Code/>
+		<Description>Справочник "Контактные лица"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e19bb17f-4fc8-4e09-acbf-40a6cfe2bad6">
+		<Name>УдалитьСправочник_Контрагенты</Name>
+		<Code/>
+		<Description>Справочник "Контрагенты"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f0f6c817-0dac-435a-8a79-431554e17b66">
+		<Name>УдалитьСправочник_МаркетинговыеМероприятия</Name>
+		<Code/>
+		<Description>Справочник "Маркетинговые мероприятия"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="44135842-2189-471d-8cc8-684aa4f6f68f">
+		<Name>УдалитьСправочник_МаршрутныеКарты</Name>
+		<Code/>
+		<Description>Справочник "Маршрутные карты"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="923d5f22-f577-4d25-9e50-944fc75fb325">
+		<Name>УдалитьСправочник_НаправленияДеятельности</Name>
+		<Code/>
+		<Description>Справочник "Направления деятельности"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cfa84a2e-94a0-498d-bb0b-a5256a15229a">
+		<Name>УдалитьСправочник_НематериальныеАктивы</Name>
+		<Code/>
+		<Description>Справочник "Нематериальные активы"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a5763daa-fae5-4909-ae5c-d1793f7fb1c6">
+		<Name>УдалитьСправочник_ОбластиХранения</Name>
+		<Code/>
+		<Description>Справочник "Области хранения"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="08fbd2de-f713-4c40-a5f7-438e979c8f0b">
+		<Name>УдалитьСправочник_ОбъектыСтроительства</Name>
+		<Code/>
+		<Description>Справочник "Объекты строительства"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4b5ae34d-c466-4ee1-a188-c70094bec5f7">
+		<Name>УдалитьСправочник_Организации</Name>
+		<Code/>
+		<Description>Справочник "Организации"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e584d5e0-5dd0-43b9-8f48-a1d12db87dee">
+		<Name>УдалитьСправочник_Патенты</Name>
+		<Code/>
+		<Description>Справочник "Патенты"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8bf1e864-e4d7-4169-b313-d8bcf4e0b943">
+		<Name>УдалитьСправочник_ПодарочныеСертификаты</Name>
+		<Code/>
+		<Description>Справочник "Подарочные сертификаты"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ca6377b5-286e-4ac2-977d-42e3781f5176">
+		<Name>УдалитьСправочник_ПодключаемоеОборудование</Name>
+		<Code/>
+		<Description>Справочник "Подключаемое оборудование"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eaec5c51-c18e-4d01-942d-68c9cf55d4de">
+		<Name>УдалитьСправочник_ПодразделенияОрганизаций</Name>
+		<Code/>
+		<Description>Справочник "Подразделения организаций"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="09343521-4f35-4e03-97e0-96ee8bf911c6">
+		<Name>УдалитьСправочник_Пользователи</Name>
+		<Code/>
+		<Description>Справочник "Пользователи"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cdba4ac1-1e24-4052-8fae-4afef397334a">
+		<Name>УдалитьСправочник_ПравилаНачисленияИСписанияБонусныхБаллов</Name>
+		<Code/>
+		<Description>Справочник "Правила начисления и списания бонусных баллов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="068ec950-c887-4846-84fe-d1db1e0a67d7">
+		<Name>УдалитьСправочник_ПравилаОбменаСПодключаемымОборудованиемOffline</Name>
+		<Code/>
+		<Description>Справочник "Правила обмена с подключаемым оборудованием Offline"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2e2861a5-bcd1-4c73-a4b7-720748092005">
+		<Name>УдалитьСправочник_ПретензииКлиентов</Name>
+		<Code/>
+		<Description>Справочник "Претензии клиентов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d02a08c0-0cd4-49b4-974b-1da00e52e8a0">
+		<Name>УдалитьСправочник_Проекты</Name>
+		<Code/>
+		<Description>Справочник "Проекты"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bfbbde70-b54b-4c81-83ca-52109e96050c">
+		<Name>УдалитьСправочник_ПрочиеАктивыПассивы</Name>
+		<Code/>
+		<Description>Справочник "Прочие активы и пассивы"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f7d0cf0b-ba8b-46e1-b386-e8b99ec5b4f6">
+		<Name>УдалитьСправочник_ПрочиеРасходы</Name>
+		<Code/>
+		<Description>Справочник "Прочие расходы"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="68b3bc67-c159-44c8-863a-b334ab43e0ed">
+		<Name>УдалитьСправочник_РабочиеЦентры</Name>
+		<Code/>
+		<Description>Справочник "Рабочие центры"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="71d29b75-b0f2-4a90-a37c-fb792b1f5fd6">
+		<Name>УдалитьСправочник_РейтингиПродажНоменклатуры</Name>
+		<Code/>
+		<Description>Справочник "Рейтинги продаж номенклатуры"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a20abb94-18f1-4503-ad69-87c958a5cd7b">
+		<Name>УдалитьСправочник_РесурсныеСпецификации</Name>
+		<Code/>
+		<Description>Справочник "Ресурсные спецификации"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1050dbf5-ffec-404f-9086-f7564fe408d0">
+		<Name>УдалитьСправочник_СделкиСКлиентами</Name>
+		<Code/>
+		<Description>Справочник "Сделки с клиентами"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="923fa29e-a0a0-420e-be85-b9108822d0ae">
+		<Name>УдалитьСправочник_СегментыНоменклатуры</Name>
+		<Code/>
+		<Description>Справочник "Сегменты номенклатуры"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c3af5ef7-d567-4bee-9408-e95bbef8ed9e">
+		<Name>УдалитьСправочник_СегментыПартнеров</Name>
+		<Code/>
+		<Description>Справочник "Сегменты партнеров"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8d15d1b9-7a08-462e-81d3-e12e804e537f">
+		<Name>УдалитьСправочник_СертификатыНоменклатуры</Name>
+		<Code/>
+		<Description>Справочник "Сертификаты номенклатуры"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7b0edc42-7f74-458e-b44a-d617fb6a6426">
+		<Name>УдалитьСправочник_СкидкиНаценки</Name>
+		<Code/>
+		<Description>Справочник "Скидки (наценки)"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7bb20254-b1d3-4836-a8a8-5908f00079d7">
+		<Name>УдалитьСправочник_СкладскиеПомещения</Name>
+		<Code/>
+		<Description>Справочник "Складские помещения"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="74be137b-cfb0-4885-98a0-4648b5eeda7e">
+		<Name>УдалитьСправочник_СкладскиеЯчейки</Name>
+		<Code/>
+		<Description>Справочник "Складские ячейки"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9d9d6eb8-da2b-445d-8866-0fb06c89b3d5">
+		<Name>УдалитьСправочник_Склады</Name>
+		<Code/>
+		<Description>Справочник "Склады"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="de303af5-4722-4233-8e15-729e97fa8194">
+		<Name>УдалитьСправочник_СоглашенияСКлиентами</Name>
+		<Code/>
+		<Description>Справочник "Соглашения с клиентами"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fec09067-33e8-4d1b-8e8d-8f54a932a06a">
+		<Name>УдалитьСправочник_СоглашенияСПоставщиками</Name>
+		<Code/>
+		<Description>Справочник "Соглашения с поставщиками"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8081823d-0ad5-4cdd-800c-aa5f72b7b65b">
+		<Name>УдалитьСправочник_СтатьиДвиженияДенежныхСредств</Name>
+		<Code/>
+		<Description>Справочник "Статьи движения денежных средств"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7b2517ff-ba74-426f-9206-ae2d458a70c6">
+		<Name>УдалитьСправочник_СтатьиКалькуляции</Name>
+		<Code/>
+		<Description>Справочник "Статьи калькуляции"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="58f919f3-8da4-4300-b32c-af2e4af515d2">
+		<Name>УдалитьСправочник_СтруктураПредприятия</Name>
+		<Code/>
+		<Description>Справочник "Структура предприятия"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ac80a2a6-14b3-44fa-871b-9501fc77b844">
+		<Name>УдалитьСправочник_СтруктураЦелей</Name>
+		<Code/>
+		<Description>Справочник "Структура целей"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cebb3bfb-eec0-4277-bfbb-c7b79e7f3295">
+		<Name>УдалитьСправочник_СценарииОбменовДанными</Name>
+		<Code/>
+		<Description>Справочник "Сценарии обменов данными"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9ff1eaf2-8532-4160-a0c1-b429447f5eee">
+		<Name>УдалитьСправочник_ТехнологическиеОперации</Name>
+		<Code/>
+		<Description>Справочник "Технологические операции"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="61fef8df-71a2-4cad-bdc9-3e6848dd85c3">
+		<Name>УдалитьСправочник_ТоварныеКатегории</Name>
+		<Code/>
+		<Description>Справочник "Товарные категории"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a6dd3cff-e89e-4da1-9848-ce8b6ccb22df">
+		<Name>УдалитьСправочник_УчетныеПолитикиОрганизаций</Name>
+		<Code/>
+		<Description>Справочник "Учетные политики организаций"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2d2b33bd-26d1-4d4c-b776-481114819aa2">
+		<Name>УдалитьСправочник_ФизическиеЛица</Name>
+		<Code/>
+		<Description>Справочник "Физические лица"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="730ee247-5957-4bd8-b095-4f8842b0e4b9">
+		<Name>УдалитьСправочник_ФорматыМагазинов</Name>
+		<Code/>
+		<Description>Справочник "Форматы магазинов"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7aa66d43-812b-478d-aed6-2489c1fc3018">
+		<Name>УдалитьСправочник_ШаблоныЭтикетокИЦенников</Name>
+		<Code/>
+		<Description>Справочник "Шаблоны этикеток и ценников"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7f8b9197-5492-417a-8ec0-447f253e3427">
+		<Name>УдалитьСправочник_ЭквайринговыеТерминалы</Name>
+		<Code/>
+		<Description>Справочник "Эквайринговые терминалы"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

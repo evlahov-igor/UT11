@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Ставки НДС номенклатуры</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<InputField name="Период" id="85">
+					<DataPath>Период</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Действуют на</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПериодКонтекстноеМеню" id="86"/>
+					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="87"/>
+					<Events>
+						<Event name="OnChange">ПериодПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="Страна" id="82">
+					<DataPath>Страна</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>В стране</v8:content>
+						</v8:item>
+					</Title>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>20</MaxWidth>
+					<ContextMenu name="СтранаКонтекстноеМеню" id="83"/>
+					<ExtendedTooltip name="СтранаРасширеннаяПодсказка" id="84"/>
+					<Events>
+						<Event name="OnChange">СтранаПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<LabelField name="ИнформацияПоСтавкам" id="143">
+			<DataPath>ИнформацияПоСтавкам</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="ИнформацияПоСтавкамКонтекстноеМеню" id="144"/>
+			<ExtendedTooltip name="ИнформацияПоСтавкамРасширеннаяПодсказка" id="145"/>
+		</LabelField>
+		<UsualGroup name="ГруппаНоменклатура" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНоменклатураРасширеннаяПодсказка" id="6"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаНастройкиСпискаНоменклатуры" id="135">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа настройки списка номенклатуры</v8:content>
+						</v8:item>
+					</Title>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНастройкиСпискаНоменклатурыРасширеннаяПодсказка" id="136"/>
+				</UsualGroup>
+				<Table name="СписокНоменклатуры" id="7">
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<DataPath>СписокНоменклатуры</DataPath>
+					<RowPictureDataPath>СписокНоменклатуры.DefaultPicture</RowPictureDataPath>
+					<AutoRefresh>false</AutoRefresh>
+					<AutoRefreshPeriod>60</AutoRefreshPeriod>
+					<Period>
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</Period>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<RestoreCurrentRow>false</RestoreCurrentRow>
+					<TopLevelParent xsi:nil="true"/>
+					<ShowRoot>true</ShowRoot>
+					<AllowRootChoice>false</AllowRootChoice>
+					<UpdateOnDataChange>Auto</UpdateOnDataChange>
+					<UserSettingsGroup>ГруппаНастройкиСпискаНоменклатуры</UserSettingsGroup>
+					<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+					<ContextMenu name="СписокНоменклатурыКонтекстноеМеню" id="9"/>
+					<AutoCommandBar name="СписокНоменклатурыКоманднаяПанель" id="8">
+						<ChildItems>
+							<ButtonGroup name="СписокНоменклатурыГруппаКомандыФормы" id="88">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Список номенклатуры группа команды формы</v8:content>
+									</v8:item>
+								</Title>
+								<CommandSource>Form</CommandSource>
+								<ExtendedTooltip name="СписокНоменклатурыГруппаКомандыФормыРасширеннаяПодсказка" id="89"/>
+							</ButtonGroup>
+							<Popup name="СписокНоменклатурыПодменюУстановитьСтавкуНДС" id="137">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Установить ставку НДС</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Список номенклатуры подменю установить ставку НДС</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ExtendedTooltip name="СписокНоменклатурыПодменюУстановитьСтавкуНДСРасширеннаяПодсказка" id="138"/>
+								<ChildItems>
+									<Button name="СписокНоменклатурыУстановитьСтавкуНДСНоменклатурыПоВыделеннымСтрокам" id="139">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.УстановитьСтавкуНДСНоменклатурыПоВыделеннымСтрокам</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>По выделенным строкам списка</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="СписокНоменклатурыУстановитьСтавкуНДСНоменклатурыПоВыделеннымСтрокамРасширеннаяПодсказка" id="140"/>
+									</Button>
+									<Button name="СписокНоменклатурыУстановитьСтавкуНДСНоменклатурыПоТекущемуОтбору" id="141">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.УстановитьСтавкуНДСНоменклатурыПоТекущемуОтбору</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>По всем строкам списка</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="СписокНоменклатурыУстановитьСтавкуНДСНоменклатурыПоТекущемуОтборуРасширеннаяПодсказка" id="142"/>
+									</Button>
+								</ChildItems>
+							</Popup>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="СписокНоменклатурыРасширеннаяПодсказка" id="10"/>
+					<SearchStringAddition name="СписокНоменклатурыСтрокаПоиска" id="11">
+						<AdditionSource>
+							<Item>СписокНоменклатуры</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокНоменклатурыСтрокаПоискаКонтекстноеМеню" id="12"/>
+						<ExtendedTooltip name="СписокНоменклатурыСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="СписокНоменклатурыСостояниеПросмотра" id="17">
+						<AdditionSource>
+							<Item>СписокНоменклатуры</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="18"/>
+						<ExtendedTooltip name="СписокНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="СписокНоменклатурыУправлениеПоиском" id="14">
+						<AdditionSource>
+							<Item>СписокНоменклатуры</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокНоменклатурыУправлениеПоискомКонтекстноеМеню" id="15"/>
+						<ExtendedTooltip name="СписокНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="16"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="СписокНоменклатурыНоменклатура" id="146">
+							<DataPath>СписокНоменклатуры.Номенклатура</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Номенклатура</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="СписокНоменклатурыНоменклатураКонтекстноеМеню" id="147"/>
+							<ExtendedTooltip name="СписокНоменклатурыНоменклатураРасширеннаяПодсказка" id="148"/>
+						</LabelField>
+						<InputField name="СписокНоменклатурыСтавкаНДС" id="68">
+							<DataPath>СписокНоменклатуры.СтавкаНДС</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ставка НДС</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="СписокНоменклатурыСтавкаНДСКонтекстноеМеню" id="69"/>
+							<ExtendedTooltip name="СписокНоменклатурыСтавкаНДСРасширеннаяПодсказка" id="70"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Страна" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страна</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.СтраныМира</v8:Type>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьМногострановойУчет</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="Период" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+		</Attribute>
+		<Attribute name="СписокНоменклатуры" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список номенклатуры</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>~СписокНоменклатуры.Ссылка</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	СправочникНоменклатура.Ссылка КАК Номенклатура,
+	СправочникНоменклатура.ПометкаУдаления КАК ПометкаУдаления,
+	СправочникНоменклатура.Родитель КАК Родитель,
+	СправочникНоменклатура.ЭтоГруппа КАК ЭтоГруппа,
+	СправочникНоменклатура.Код КАК Код,
+	СправочникНоменклатура.Наименование КАК Наименование,
+	СправочникНоменклатура.ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+	СправочникНоменклатура.Артикул КАК Артикул,
+	СправочникНоменклатура.ВидНоменклатуры КАК ВидНоменклатуры,
+	СправочникНоменклатура.НаименованиеПолное КАК НаименованиеПолное,
+	СправочникНоменклатура.Качество КАК Качество,
+	СправочникНоменклатура.Марка КАК Марка,
+	СправочникНоменклатура.ГруппаФинансовогоУчета КАК ГруппаФинансовогоУчета,
+	СправочникНоменклатура.Описание КАК Описание,
+	СправочникНоменклатура.ПодакцизныйТовар КАК ПодакцизныйТовар,
+	СправочникНоменклатура.Производитель КАК Производитель,
+	ВЫБОР
+		КОГДА СправочникНоменклатура.ЭтоГруппа
+			ТОГДА ЗНАЧЕНИЕ(Справочник.СтавкиНДС.ПустаяСсылка)
+		ИНАЧЕ ЕСТЬNULL(СтавкиНДСНоменклатуры.СтавкаНДС, ЕСТЬNULL(ОсновныеСтавкиНДС.СтавкаНДС, ЗНАЧЕНИЕ(Справочник.СтавкиНДС.ПустаяСсылка)))
+	КОНЕЦ КАК СтавкаНДС,
+	СправочникНоменклатура.ТипНоменклатуры КАК ТипНоменклатуры,
+	СправочникНоменклатура.ТоварнаяКатегория КАК ТоварнаяКатегория
+ИЗ
+	Справочник.Номенклатура КАК СправочникНоменклатура
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СтавкиНДСНоменклатуры.СрезПоследних(&amp;Период, Страна = &amp;Страна) КАК СтавкиНДСНоменклатуры
+		ПО СправочникНоменклатура.Ссылка = СтавкиНДСНоменклатуры.Номенклатура
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ОсновныеСтавкиНДС.СрезПоследних(&amp;Период, Страна = &amp;Страна) КАК ОсновныеСтавкиНДС
+		ПО (ИСТИНА)</QueryText>
+				<MainTable>Catalog.Номенклатура</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:left xsi:type="dcscor:Field">СтавкаНДС</dcsset:left>
+							<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+							<dcsset:presentation xsi:type="xs:string">Ставка НДС не указана</dcsset:presentation>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>c2783b7b-06cf-4afc-ae60-b44575cd6981</dcsset:userSettingID>
+							<dcsset:userSettingPresentation xsi:type="xs:string">Ставка НДС не указана</dcsset:userSettingPresentation>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>453b8219-85db-4f15-96f0-266888f8b25a</dcsset:userSettingID>
+						<dcsset:userSettingPresentation xsi:type="xs:string">Отбор</dcsset:userSettingPresentation>
+					</dcsset:filter>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ТекущаяДатаСеанса" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущая дата сеанса</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИнформацияПоСтавкам" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация по ставкам</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8ui:FormattedString</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СписокВыделенныхСтрок" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список выделенных строк</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription"/>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="УстановитьСтавкуНДСНоменклатурыПоВыделеннымСтрокам" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить ставку НДС номенклатуры по выделенным строкам</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить ставку НДС по выделенным строкам списка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьСтавкуНДСНоменклатурыПоВыделеннымСтрокам</Action>
+		</Command>
+		<Command name="УстановитьСтавкуНДСНоменклатурыПоТекущемуОтбору" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить ставку НДС номенклатуры по текущему отбору</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить ставку НДС по текущему отбору списка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьСтавкуНДСНоменклатурыПоТекущемуОтбору</Action>
+		</Command>
+	</Commands>
+</Form>

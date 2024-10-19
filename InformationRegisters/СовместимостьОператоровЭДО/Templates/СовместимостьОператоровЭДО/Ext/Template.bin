@@ -1,0 +1,527 @@
+{
+"lastChangeDate": "2020-11-06T13:40:00+03:00",
+"servicesCompatibilities": [
+{
+"operatorId1": "2AL",
+"operatorId2": "2AE",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AL",
+"operatorId2": "2BA",
+"isAutomaticConnection": false,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AL",
+"operatorId2": "2BE",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "optional",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": "Письмо о выборе оператора является обязательным в случае, если Ваша организация ранее вела обмен электронными документами в системе СБИС оператора Тензор"
+},
+{
+"operatorId1": "2AL",
+"operatorId2": "2BK",
+"isAutomaticConnection": false,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AL",
+"operatorId2": "2BM",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "optional",
+"operatorChoiceLetterNeedForFirstConnection": true,
+"textRecommendation": "Письмо о выборе оператора является обязательным в случае, если Ваша организация ранее не выполняла обмен электронными документами с использованием выбранной учетной записи 1С Такском с пользователями оператора документооборота СКБ Контур"
+},
+{
+"operatorId1": "2AL",
+"operatorId2": "2HU",
+"isAutomaticConnection": false,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AL",
+"operatorId2": "2HX",
+"isAutomaticConnection": false,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AL",
+"operatorId2": "2IG",
+"isAutomaticConnection": false,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AL",
+"operatorId2": "2JD",
+"isAutomaticConnection": false,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": "Электронный документооборот с абонентами выбранного оператора ограничивается Универсальным передаточным документом (функция СЧФ) и Универсальным корректировочным документом (функция КСЧФ)"
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2AL",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2LG",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2LH",
+"isAutomaticConnection": false,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2LD",
+"isAutomaticConnection": false,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2AD",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2JM",
+"isAutomaticConnection": false,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2BE",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2BN",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2LB",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2BM",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "optional",
+"operatorChoiceLetterNeedForFirstConnection": true,
+"textRecommendation": "Письмо о выборе оператора является обязательным в случае, если Ваша организация ранее не выполняла обмен электронными документами с использованием выбранной учетной записи 1С Калуга Астрал с пользователями оператора документооборота СКБ Контур, а также для настройки связи с некоторыми абонентами данного оператора"
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2LJ",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2JD",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": "Электронный документооборот с абонентами выбранного оператора ограничивается Универсальным передаточным документом (функция СЧФ) и Универсальным корректировочным документом (функция КСЧФ)"
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2IG",
+"isAutomaticConnection": false,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2BE",
+"operatorId2": "2AE",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2BE",
+"operatorId2": "2BN",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2BE",
+"operatorId2": "2LB",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2BN",
+"operatorId2": "2AE",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2BN",
+"operatorId2": "2BE",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2BN",
+"operatorId2": "2LB",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2LB",
+"operatorId2": "2AE",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2LB",
+"operatorId2": "2BE",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2LB",
+"operatorId2": "2BN",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2GS",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2GS",
+"operatorId2": "2AE",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2GS",
+"operatorId2": "2BE",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2GS",
+"operatorId2": "2BN",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2GS",
+"operatorId2": "2LB",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2LB",
+"operatorId2": "2GS",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2BN",
+"operatorId2": "2GS",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2BE",
+"operatorId2": "2GS",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AL",
+"operatorId2": "2LH",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AL",
+"operatorId2": "2AH",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2BK",
+"isAutomaticConnection": false,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "need",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2VO",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "optional",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AK",
+"operatorId2": "2AE",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AK",
+"operatorId2": "2BN",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AK",
+"operatorId2": "2AL",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AK",
+"operatorId2": "2BE",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AK",
+"operatorId2": "2LB",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AK",
+"operatorId2": "2GS",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2AK",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2BN",
+"operatorId2": "2AK",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AL",
+"operatorId2": "2AK",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2BE",
+"operatorId2": "2AK",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2LB",
+"operatorId2": "2AK",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2GS",
+"operatorId2": "2AK",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": true,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AL",
+"operatorId2": "2LT",
+"isAutomaticConnection": false,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AE",
+"operatorId2": "2LT",
+"isAutomaticConnection": false,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+},
+{
+"operatorId1": "2AL",
+"operatorId2": "2KL",
+"isAutomaticConnection": true,
+"broadcastInvitesSupport": false,
+"operatorChoiceLetterNeed": "notNeed",
+"operatorChoiceLetterNeedForFirstConnection": false,
+"textRecommendation": ""
+}
+]
+}
